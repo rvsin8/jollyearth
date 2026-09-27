@@ -5,42 +5,84 @@
 <title>Earthbound — A living field atlas</title>
 <meta name="description" content="Interactive biodiversity field atlas">
 <style>
-:root{font-family:Inter,system-ui,sans-serif;color:#111318;background:#f7f4ea}*{box-sizing:border-box}body{margin:0}a{color:inherit}button,input{font:inherit}.top{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;padding:18px 5vw;background:#f7f4eaf2;border-bottom:2px solid #111}.brand{font-weight:900;font-size:1.35rem}.nav{display:flex;gap:18px}.nav a{text-decoration:none;font-weight:700}.hero{display:grid;grid-template-columns:1.5fr .7fr;gap:30px;padding:70px 5vw;background:#f2b84b;border-bottom:2px solid #111}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;font-weight:900}.hero h1,.section h2{font-family:Georgia,serif;font-size:clamp(2.8rem,6vw,6rem);line-height:.95;margin:.2em 0}.hero p{max-width:62ch;line-height:1.6}.heroCard{align-self:end;background:#7e75d9;border:2px solid #111;padding:22px;box-shadow:8px 8px 0 #111}.explore{display:grid;grid-template-columns:260px minmax(400px,1fr) 360px;min-height:680px}.side,.detail{padding:26px}.side{background:#fff;border-right:2px solid #111}.detail{background:#f46f5f;border-left:2px solid #111}.filters,.list{display:grid;gap:8px}.filters button,.spot{border:1px solid #111;background:#fff;text-align:left;padding:10px;cursor:pointer}.filters button.active{background:#111;color:#fff}.spot.selected{border-left:5px solid #2446c7;background:#e9ecff}.map{position:relative;min-height:620px;background:#172c31;overflow:hidden;display:grid;place-items:center}.globe{position:relative;width:min(68vw,560px);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 30% 25%,#6fa9a0,#315d65 45%,#173138 72%);box-shadow:inset -40px -30px 70px #102226,0 0 0 2px #8fd3b855}.globe:before,.globe:after{content:"";position:absolute;inset:8%;border-radius:50%;border:1px solid #b7f0cf44}.globe:after{inset:20% 4%;border-left:0;border-right:0}.marker{position:absolute;width:18px;height:18px;border-radius:50%;border:2px solid #fff;background:#f46f5f;transform:translate(-50%,-50%);cursor:pointer;box-shadow:0 0 0 5px #f46f5f33}.marker.active{background:#ffbf49;scale:1.25}.detail h2{font-family:Georgia,serif;font-size:2.5rem;margin:.25em 0}.traits{border-top:2px solid #111}.trait{display:flex;justify-content:space-between;gap:15px;padding:11px 0;border-bottom:1px solid #1115}.chips{display:flex;flex-wrap:wrap;gap:7px}.chips span{background:#fff;border:1px solid #111;padding:6px 9px}.section{padding:70px 5vw;background:#8197e8;border-top:2px solid #111}.notes{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:2px solid #111;padding:20px;box-shadow:6px 6px 0 #111}.card h3{font-family:Georgia,serif;font-size:1.5rem}.tag{display:inline-block;background:#111;color:#fff;padding:4px 7px;font-size:.7rem;text-transform:uppercase;letter-spacing:.1em}.sources{padding:60px 5vw;background:#fff}.sources p{max-width:75ch;line-height:1.65}footer{padding:30px 5vw;font-family:Georgia,serif;font-style:italic}@media(max-width:980px){.hero,.explore{grid-template-columns:1fr}.side,.detail{border:0;border-bottom:2px solid #111}.map{min-height:480px}.notes{grid-template-columns:1fr 1fr}}@media(max-width:620px){.notes{grid-template-columns:1fr}.nav{font-size:.85rem;gap:8px}.globe{width:86vw}}@media(prefers-reduced-motion:no-preference){.globe{animation:float 14s ease-in-out infinite alternate}@keyframes float{to{transform:rotate(3deg) translateY(-6px)}}}
+:root{--ink:#1b1c24;--paper:#fbf8f3;--yellow:#ffc83d;--lav:#aba8ea;--line:#22242b;--blue:#2b4ccc;--muted:#5f6270;--sage:#c8cfbd;--sand:#c4aa79;--rust:#bb7c62}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+button,select{font:inherit;color:inherit}a{color:inherit;text-decoration:none}
+.topbar{height:100px;padding:0 32px;display:flex;align-items:center;justify-content:space-between;background:var(--yellow);border-bottom:2px solid var(--line)}
+.wordmark{display:flex;align-items:center;gap:13px;font-family:Georgia,serif;font-size:38px;font-weight:700;letter-spacing:-.03em}
+.logo{width:34px;height:34px;border:3px solid var(--ink);border-radius:50%;display:grid;place-items:center;font-family:system-ui;font-size:20px}
+.biome-select{border:1.5px solid var(--ink);border-radius:10px;padding:12px 18px;background:transparent;min-width:174px;font-size:18px}
+.tabs{height:88px;padding:0 22px;display:flex;align-items:center;gap:10px;border-bottom:2px solid var(--line);background:#fffdf9;overflow-x:auto}
+.tabs button{border:0;background:transparent;padding:15px 18px;border-radius:0;white-space:nowrap;font-size:18px;cursor:pointer}.tabs button.active{background:var(--ink);color:white}
+.strip{background:var(--lav);padding:32px 36px 28px;border-bottom:2px solid var(--line)}
+.strip-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:26px}.eyebrow{font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#3d3f4a}.meet{font-size:16px}
+.places{display:grid;grid-template-columns:repeat(5,minmax(150px,1fr));gap:16px}
+.place-card{display:flex;align-items:center;gap:10px;padding:11px;background:transparent;border:1.5px solid transparent;min-height:84px;cursor:pointer}.place-card.active{background:var(--paper);border-color:var(--line)}
+.thumb{width:58px;height:58px;border:1.5px solid var(--line);flex:none;background:linear-gradient(145deg,#8aa676,#d4bc8c)}
+.place-card:nth-child(2) .thumb{background:linear-gradient(145deg,#ff8a50,#263b61 62%,#d49a5d)}
+.place-card:nth-child(3) .thumb{background:linear-gradient(145deg,#8dc6d5,#426c3d 60%,#c6dba9)}
+.place-card:nth-child(4) .thumb{background:linear-gradient(145deg,#6d8646,#2b5a35 58%,#d8ba78)}
+.place-card:nth-child(5) .thumb{background:linear-gradient(145deg,#d7b267,#c9d58e 48%,#70875f)}
+.place-copy strong{display:block;font-size:17px;margin-bottom:6px}.place-copy span{color:#4d4f59;letter-spacing:.05em}
+.atlas{display:grid;grid-template-columns:64% 36%;min-height:680px;border-bottom:2px solid var(--line)}
+.map-panel{position:relative;padding:52px 36px 28px;border-right:2px solid var(--line);overflow:hidden}
+.map-panel h1{font-family:Georgia,serif;font-size:52px;font-weight:500;line-height:1.05;margin:0 0 26px;letter-spacing:-.03em}
+.map-panel .eyebrow{margin-bottom:24px}
+.globe-wrap{display:grid;place-items:center;min-height:480px}
+.globe{position:relative;width:min(46vw,500px);aspect-ratio:1;border-radius:50%;border:2px solid #aeb6a3;background:
+radial-gradient(circle at 35% 30%,#eef1e8 0 26%,transparent 27%),
+radial-gradient(circle at 63% 32%,#d5dbc8 0 20%,transparent 21%),
+radial-gradient(circle at 40% 60%,#cbd3c3 0 17%,transparent 18%),
+radial-gradient(circle at 68% 67%,#d3d8ca 0 15%,transparent 16%),
+#e7eadf;box-shadow:inset -28px -16px 50px #b7c0ae55}
+.globe:before{content:"";position:absolute;inset:8%;border-radius:50%;background:
+radial-gradient(ellipse at 35% 40%,var(--rust) 0 4%,transparent 4.5%),
+radial-gradient(ellipse at 52% 29%,var(--rust) 0 6%,transparent 6.5%),
+radial-gradient(ellipse at 72% 33%,var(--sand) 0 6%,transparent 6.5%),
+radial-gradient(ellipse at 63% 53%,var(--rust) 0 5%,transparent 5.5%),
+radial-gradient(ellipse at 34% 67%,var(--sand) 0 7%,transparent 7.5%);
+opacity:.95}
+.globe:after{content:"";position:absolute;inset:-6%;border-radius:50%;background:
+repeating-radial-gradient(circle at center,transparent 0 42px,#aeb6a355 43px 44px,transparent 45px 85px);
+mask:radial-gradient(circle,#000 0 48%,transparent 49%);opacity:.75}
+.globe-grid{position:absolute;inset:0;border-radius:50%;overflow:hidden}.globe-grid:before,.globe-grid:after{content:"";position:absolute;inset:4%;border-radius:50%;border:1px solid #aeb6a377}.globe-grid:after{inset:23% 4%;border-left:0;border-right:0}
+.pin{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--blue);border:3px solid white;box-shadow:0 0 0 1.5px var(--ink);transform:translate(-50%,-50%)}
+.pin.one{left:63%;top:56%}.pin.two{left:41%;top:38%}.pin.three{left:72%;top:33%}.pin.four{left:32%;top:58%}.pin.five{left:54%;top:74%}
+.map-controls{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);display:flex;gap:18px;align-items:center;border:2px solid var(--line);border-radius:8px;padding:12px 18px;background:#fffdf9;font-size:18px}
+.side-tools{position:absolute;left:22px;bottom:78px;border:2px solid var(--line);border-radius:8px;background:#fffdf9;overflow:hidden}.side-tools button{display:block;width:58px;height:58px;border:0;border-bottom:1px solid var(--line);background:transparent;font-size:20px}.side-tools button:first-child{background:var(--yellow)}
+.detail{padding:48px 40px 34px}.detail .tiny{font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#3d3f4a}.detail h2{font-family:Georgia,serif;font-weight:500;font-size:48px;line-height:1.05;margin:24px 0 14px}.detail .sub{font-family:Georgia,serif;font-style:italic;font-size:24px;color:#555867;margin-bottom:26px}.tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}.tag{border:1.5px solid var(--line);padding:7px 10px;border-radius:6px;background:#fff}.detail p{font-size:20px;line-height:1.62;color:#3f414d}
+.notes{padding:70px 36px;background:#fffdf9}.notes h3{font-family:Georgia,serif;font-size:42px;font-weight:500;margin:0 0 26px}.note-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.note{border:1.5px solid var(--line);padding:22px;background:var(--paper)}.note b{font-family:Georgia,serif;font-size:24px}.note p{line-height:1.55;color:#4b4d56}.note .label{font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px;color:#55596a}
+footer{padding:28px 36px;color:#5c5e67}
+@media(max-width:1050px){.places{grid-template-columns:repeat(3,1fr)}.atlas{grid-template-columns:1fr}.map-panel{border-right:0;border-bottom:2px solid var(--line)}.globe{width:min(76vw,520px)}}
+@media(max-width:700px){.topbar{height:auto;padding:18px}.wordmark{font-size:30px}.biome-select{min-width:auto}.tabs{height:auto;padding:12px;gap:4px}.tabs button{font-size:15px;padding:11px}.strip{padding:24px 18px}.places{display:flex;overflow-x:auto}.place-card{min-width:220px}.map-panel,.detail{padding:34px 20px}.map-panel h1{font-size:40px}.detail h2{font-size:42px}.note-grid{grid-template-columns:1fr}.side-tools{display:none}}
 </style>
 </head>
 <body>
-<header class="top"><div class="brand">earthbound.</div><nav class="nav"><a href="#explore">Explore</a><a href="#notes">Field notes</a><a href="#sources">Sources</a></nav></header>
-<section class="hero"><div><div class="eyebrow">Living biodiversity field atlas</div><h1>See the planet as a network of living places</h1><p>Explore biomes, biodiversity hotspots, species at risk, and conservation tradeoffs through an interactive classroom-safe map.</p></div><div class="heroCard"><b>Built for exploration</b><p>6 starter hotspots<br>No accounts · no trackers<br>Keyboard-accessible list</p></div></section>
-<section id="explore" class="explore">
-<aside class="side"><div class="eyebrow">Browse biomes</div><div id="filters" class="filters"></div><h3>Hotspot list</h3><div id="list" class="list"></div></aside>
-<div class="map"><div id="globe" class="globe" aria-label="Interactive hotspot globe"></div></div>
-<article class="detail"><div class="eyebrow">Selected place</div><h2 id="name"></h2><p id="summary"></p><div id="traits" class="traits"></div><h3>Species to know</h3><div id="species" class="chips"></div><h3>Pressures</h3><div id="threats" class="chips"></div></article>
+<header class="topbar"><div class="wordmark"><span class="logo">◎</span>earthbound.</div><select class="biome-select" id="biome"><option>Grassland</option><option>Tropical forest</option><option>Coral reef</option><option>Mangrove</option><option>Shrubland</option></select></header>
+<nav class="tabs"><button class="active">Explore</button><button>At Risk</button><button>Jersey City</button><button>Field Notes</button><button>Hotspot list</button><button>Compare</button><button>Sources</button></nav>
+<section class="strip">
+<div class="strip-head"><div class="eyebrow">Places of extraordinary life</div><div class="meet">Meet the species →</div></div>
+<div class="places" id="places">
+<div class="place-card active" data-name="Coastal Plain"><span class="thumb"></span><div class="place-copy"><strong>Coastal Plain</strong><span>REFUGE</span></div></div>
+<div class="place-card" data-name="Madagascar"><span class="thumb"></span><div class="place-copy"><strong>Madagascar</strong><span>REFUGE</span></div></div>
+<div class="place-card" data-name="Tropical Andes"><span class="thumb"></span><div class="place-copy"><strong>Tropical Andes</strong><span>FRONTIER</span></div></div>
+<div class="place-card" data-name="Atlantic Forest"><span class="thumb"></span><div class="place-copy"><strong>Atlantic Forest</strong><span>REMNANT</span></div></div>
+<div class="place-card" data-name="Indo–Burma"><span class="thumb"></span><div class="place-copy"><strong>Indo–Burma</strong><span>REFUGE</span></div></div>
+</div></section>
+<section class="atlas">
+<div class="map-panel"><div class="eyebrow">The biodiversity atlas</div><h1>Explore a changing planet.</h1><div class="globe-wrap"><div class="globe"><div class="globe-grid"></div><i class="pin one"></i><i class="pin two"></i><i class="pin three"></i><i class="pin four"></i><i class="pin five"></i></div></div><div class="side-tools"><button>◈</button><button>⌗</button><button>⌁</button></div><div class="map-controls"><span>←</span><span>↶</span><span>360°</span><span>Ⅱ</span><span>→</span></div></div>
+<aside class="detail"><div class="tiny">● Grassland</div><h2 id="placeName">Coastal Plain</h2><div class="sub" id="region">Southeastern North America</div><div class="tags"><span class="tag">Grassland</span><span class="tag">Biodiversity hotspot</span><span class="tag">Habitat loss</span></div><p id="bodyCopy">Longleaf pine savannas, wetlands and coastal landscapes hold a rich native flora. Fire and water sustain the region’s distinctive ecological patterns.</p><p id="bodyCopy2">Development and the loss of natural fire regimes reshape these habitats. Conservation includes restoring processes alongside protecting land.</p></aside>
 </section>
-<section id="notes" class="section"><div class="eyebrow">Field notes</div><h2>Stories that complicate the map</h2><div id="noteGrid" class="notes"></div></section>
-<section id="sources" class="sources"><div class="eyebrow">Sources & data</div><h2>Credibility is part of the interface</h2><p>This reconstructed public build ships with a compact starter dataset so the site works immediately. Replace starter summaries with verified primary-source figures and working citations before classroom publication. Recommended sources include IUCN Red List, GBIF, NOAA, USGS, wildlife agencies, and peer-reviewed conservation research.</p></section>
-<footer>Stay curious. Tread lightly.</footer>
+<section class="notes"><h3>Field notes</h3><div class="note-grid"><article class="note"><div class="label">Turning point</div><b>The forest that needs to burn</b><p>Longleaf pine systems are shaped by frequent low-intensity fire. Restoration requires recovering ecological process, not only acreage.</p></article><article class="note"><div class="label">Happening now</div><b>Connecting isolated habitat</b><p>Corridors and prescribed fire are increasingly used together so species can move while ecosystems retain their historic structure.</p></article><article class="note"><div class="label">Setback</div><b>Protection alone is not enough</b><p>Climate pressure and altered disturbance regimes can undermine gains even inside formally protected places.</p></article></div></section>
+<footer>earthbound. — reconstructed public build from the original project design</footer>
 <script>
-const data=[
-{id:'coastal',name:'North American Coastal Plain',biome:'Grassland',x:28,y:38,summary:'Longleaf pine savannas, wetlands, and coastal habitats shaped by fire and seasonal water.',species:['Gopher tortoise','Red-cockaded woodpecker','Eastern indigo snake'],threats:['Habitat conversion','Fire suppression','Fragmentation'],traits:[['Biome','Grassland / savanna'],['Key process','Frequent fire'],['Focus','Longleaf pine recovery']],note:['Turning point','The forest that needs to burn','Longleaf pine ecosystems depend on recurring low-intensity fire. Conservation must restore ecological process, not just acreage.']},
-{id:'atlantic',name:'Atlantic Forest',biome:'Tropical forest',x:39,y:66,summary:'A highly endemic forest mosaic along Brazil’s Atlantic coast, surrounded by dense human settlement.',species:['Golden lion tamarin','Southern muriqui','Red-billed curassow'],threats:['Urban expansion','Agriculture','Fragmentation'],traits:[['Biome','Tropical forest'],['Pattern','High endemism'],['Challenge','Small fragments']],note:['Happening now','Connecting the fragments','Restoration projects link isolated forest patches into corridors so wildlife can move and breed.']},
-{id:'coral',name:'Coral Triangle',biome:'Coral reef',x:78,y:51,summary:'The global center of coral reef diversity across Southeast Asia and the western Pacific.',species:['Green sea turtle','Whale shark','Humphead wrasse'],threats:['Ocean warming','Overfishing','Coastal development'],traits:[['Biome','Coral reef'],['Strength','Marine diversity'],['Pressure','Thermal stress']],note:['Setback','Heat arrives faster than reefs can move','Local protection helps, but marine reserves cannot block ocean warming.']},
-{id:'sundarbans',name:'Sundarbans',biome:'Mangrove',x:68,y:39,summary:'A vast tidal mangrove forest spanning Bangladesh and India where rivers meet the Bay of Bengal.',species:['Bengal tiger','Fishing cat','Irrawaddy dolphin'],threats:['Sea-level rise','Cyclones','Salinity change'],traits:[['Biome','Mangrove'],['Service','Storm buffering'],['Dynamic','Tides + sediment']],note:['Happening now','A forest that moves with water','Adaptation increasingly protects room for mangroves to migrate inland as shorelines change.']},
-{id:'madagascar',name:'Madagascar',biome:'Tropical forest',x:59,y:69,summary:'An island biodiversity laboratory where long isolation produced extraordinary endemism.',species:['Indri','Aye-aye','Radiated tortoise'],threats:['Forest loss','Wildlife trade','Fire'],traits:[['Biome','Tropical forest'],['Pattern','Island endemism'],['Priority','Community protection']],note:['Turning point','Species found nowhere else','On islands, local habitat loss can erase an entire global population.']},
-{id:'cape',name:'Cape Floristic Region',biome:'Shrubland',x:53,y:79,summary:'A compact South African region with exceptional plant diversity and fire-adapted fynbos.',species:['Cape sugarbird','Geometric tortoise','Protea species'],threats:['Invasive species','Urban growth','Altered fire regimes'],traits:[['Biome','Shrubland'],['Signature','Fynbos'],['Process','Fire regeneration']],note:['Setback','Too much fire can be as harmful as too little','Repeated burns before plants mature can collapse populations.']}
-];
-let biome='All',selected=data[0].id;
-const biomes=['All',...new Set(data.map(d=>d.biome))];
-function render(){
- const filtered=biome==='All'?data:data.filter(d=>d.biome===biome);
- if(!filtered.some(d=>d.id===selected)) selected=filtered[0].id;
- document.getElementById('filters').innerHTML=biomes.map(b=>'<button class="'+(b===biome?'active':'')+'" onclick="setBiome(\''+b+'\')">'+b+'</button>').join('');
- document.getElementById('list').innerHTML=filtered.map(d=>'<button class="spot '+(d.id===selected?'selected':'')+'" onclick="selectSpot(\''+d.id+'\')"><b>'+d.name+'</b><br><small>'+d.biome+'</small></button>').join('');
- document.getElementById('globe').innerHTML=filtered.map(d=>'<button class="marker '+(d.id===selected?'active':'')+'" style="left:'+d.x+'%;top:'+d.y+'%" aria-label="'+d.name+'" onclick="selectSpot(\''+d.id+'\')"></button>').join('');
- const d=data.find(x=>x.id===selected); document.getElementById('name').textContent=d.name;document.getElementById('summary').textContent=d.summary;
- document.getElementById('traits').innerHTML=d.traits.map(t=>'<div class="trait"><span>'+t[0]+'</span><b>'+t[1]+'</b></div>').join('');
- document.getElementById('species').innerHTML=d.species.map(x=>'<span>'+x+'</span>').join('');document.getElementById('threats').innerHTML=d.threats.map(x=>'<span>'+x+'</span>').join('');
- document.getElementById('noteGrid').innerHTML=data.map(x=>'<article class="card"><span class="tag">'+x.note[0]+'</span><h3>'+x.note[1]+'</h3><p>'+x.note[2]+'</p><small>'+x.name+'</small></article>').join('');
-}
-function setBiome(b){biome=b;render()} function selectSpot(id){selected=id;render()} render();
+const placeData={
+"Coastal Plain":["Southeastern North America","Longleaf pine savannas, wetlands and coastal landscapes hold a rich native flora. Fire and water sustain the region’s distinctive ecological patterns.","Development and the loss of natural fire regimes reshape these habitats. Conservation includes restoring processes alongside protecting land."],
+"Madagascar":["Western Indian Ocean","Isolation produced extraordinary endemism across Madagascar’s forests, drylands and highlands.","Deforestation, fire and fragmented habitat put pressure on species that exist nowhere else on Earth."],
+"Tropical Andes":["Northern and western South America","Steep elevation gradients compress remarkable ecological variety into a narrow mountain chain.","Roads, agriculture and warming climates change the way species move between elevations."],
+"Atlantic Forest":["Eastern South America","A fragmented but exceptionally rich forest belt runs along Brazil’s Atlantic side.","Restoration focuses on reconnecting remnants so wildlife can move between surviving patches."],
+"Indo–Burma":["Mainland Southeast Asia","Rivers, forests and karst landscapes support striking biological diversity across a heavily populated region.","Infrastructure, land conversion and wildlife trade create overlapping conservation pressures."]
+};
+document.querySelectorAll(".place-card").forEach(card=>card.addEventListener("click",()=>{document.querySelectorAll(".place-card").forEach(c=>c.classList.remove("active"));card.classList.add("active");const d=placeData[card.dataset.name];document.getElementById("placeName").textContent=card.dataset.name;document.getElementById("region").textContent=d[0];document.getElementById("bodyCopy").textContent=d[1];document.getElementById("bodyCopy2").textContent=d[2]}));
 </script>
 </body></html>
