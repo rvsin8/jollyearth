@@ -1,22 +1,22 @@
 # jollyearth
 
-Earthbound is an interactive global biodiversity field atlas for exploring biomes, biodiversity hotspots, species at risk, and conservation stories.
+Earthbound is an interactive global biodiversity field atlas for exploring biomes, conservation hotspots, species, and environmental change.
 
 ## Live site
 
-GitHub Pages: https://rvsin8.github.io/jollyearth/
+https://rvsin8.github.io/jollyearth/
 
-## Local development
+## What is in this repo
 
-```bash
-npm install
-npm run dev
-```
+- Deployable static site in `index.html`
+- Interactive biome filters and hotspot map
+- Biodiversity hotspot detail panel
+- Species, threat, and field-note content
+- Responsive layout
+- GitHub Pages deployment workflow
 
-## Build
+Every push to `main` deploys through `.github/workflows/deploy.yml`.
 
-```bash
-npm run build
-```
+## Source note
 
-The `main` branch deploys automatically to GitHub Pages through GitHub Actions.
+This is a reconstructed, deployable source version based on the Earthbound project specification and deployed prototype. The original generated source archive was not available for direct export, so this is not represented as a byte-for-byte copy.
