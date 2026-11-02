@@ -1,0 +1,103 @@
+{
+  "Float": [
+    {
+      "source_frame": 0,
+      "max_bound_error_m": 8.940696716308594e-08
+    },
+    {
+      "source_frame": 45,
+      "max_bound_error_m": 5.21540641784668e-08
+    },
+    {
+      "source_frame": 90,
+      "max_bound_error_m": 8.940696716308594e-08
+    },
+    {
+      "source_frame": 135,
+      "max_bound_error_m": 7.450580596923828e-08
+    },
+    {
+      "source_frame": 180,
+      "max_bound_error_m": 8.940696716308594e-08
+    }
+  ],
+  "Swim": [
+    {
+      "source_frame": 0,
+      "max_bound_error_m": 8.940696716308594e-08
+    },
+    {
+      "source_frame": 38,
+      "max_bound_error_m": 0.0005172789096832275
+    },
+    {
+      "source_frame": 77,
+      "max_bound_error_m": 1.043081283569336e-07
+    },
+    {
+      "source_frame": 115,
+      "max_bound_error_m": 0.0007656961679458618
+    },
+    {
+      "source_frame": 154,
+      "max_bound_error_m": 8.940696716308594e-08
+    }
+  ],
+  "Glide": [
+    {
+      "source_frame": 0,
+      "max_bound_error_m": 6.73830509185791e-05
+    },
+    {
+      "source_frame": 37,
+      "max_bound_error_m": 6.823241710662842e-05
+    },
+    {
+      "source_frame": 75,
+      "max_bound_error_m": 6.73830509185791e-05
+    },
+    {
+      "source_frame": 112,
+      "max_bound_error_m": 6.669759750366211e-05
+    },
+    {
+      "source_frame": 150,
+      "max_bound_error_m": 6.73830509185791e-05
+    }
+  ],
+  "Turn": [
+    {
+      "source_frame": 0,
+      "max_bound_error_m": 5.8516860008239746e-05
+    },
+    {
+      "source_frame": 45,
+      "max_bound_error_m": 0.00041453540325164795
+    },
+    {
+      "source_frame": 90,
+      "max_bound_error_m": 3.0040740966796875e-05
+    },
+    {
+      "source_frame": 135,
+      "max_bound_error_m": 0.0001493394374847412
+    },
+    {
+      "source_frame": 180,
+      "max_bound_error_m": 5.8516860008239746e-05
+    }
+  ],
+  "unplayed_bind_pose": {
+    "min": [
+      -0.11083782464265823,
+      -0.19763842225074768,
+      0.021594010293483734
+    ],
+    "max": [
+      0.11177799105644226,
+      0.15643088519573212,
+      0.1901906281709671
+    ]
+  },
+  "max_pose_error_m": 0.0007656961679458618
+}

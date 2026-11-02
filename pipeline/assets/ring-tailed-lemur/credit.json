@@ -1,0 +1,15 @@
+{
+  "creator": "Earthbound",
+  "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/",
+  "license": "CC0 1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/?exhibit=ring-tailed-lemur",
+  "changes": "Original Blender-authored continuous sculpted torso, limbs, narrow head, recessed eye sockets and surface-painted masks; original 2048px coat atlases, directionally groomed short-fur mesh cards, 27-bone skeleton and four in-place animation clips. No purchased or imported animal geometry or image textures.",
+  "animationNote": "Original educational artist interpretation, not a scan, motion capture, photorealistic asset or clinical reconstruction. Climb is an unsupported in-place educational motion, not a contact-simulated branch climb. Fur uses original textured surfaces and an economical mesh-card groom.",
+  "references": [
+    {
+      "url": "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/",
+      "purpose": "Anatomical and coloration reference only; no reference image content or geometry is redistributed."
+    }
+  ]
+}

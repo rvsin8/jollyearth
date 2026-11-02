@@ -1,0 +1,25 @@
+{
+  "retrieved": "2026-09-21",
+  "coordinateSystem": "WGS84 (EPSG:4326)",
+  "generalization": "Requested maxAllowableOffset 0.00002 degrees and 5 decimal places. Attribute subset for display; original metadata retained.",
+  "files": [
+    "flood-query.json",
+    "water-query.json",
+    "parks-query.json",
+    "boundary.json",
+    "flood.json",
+    "land-search.json",
+    "cso.json",
+    "coast.json",
+    "roads.json",
+    "roads-search.json",
+    "water.json",
+    "parks.json",
+    "parks-search.json",
+    "cso-query.json",
+    "boundary-query.json",
+    "roads-query.json",
+    "coast-query.json"
+  ],
+  "licensing": "NJDEP data are supplied as-is, require source acknowledgment and accompanying metadata. See source item metadata."
+}

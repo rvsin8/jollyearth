@@ -1,0 +1,24 @@
+{
+  "id": "bison-arithmetic",
+  "brief_number": 5,
+  "headline": "The bison arithmetic",
+  "biome": [
+    "Grassland"
+  ],
+  "hotspot": [],
+  "species": [],
+  "type": "turning-point",
+  "pullout_number": null,
+  "pullout_label": null,
+  "body": "",
+  "why_it_matters": "",
+  "sources": [],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "needs-research",
+  "review_notes": "Separate commercial herds from conservation herds. Need original dated counts and a defensible historical minimum; no 500,000 recovery total yet.",
+  "read_alongside": [],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

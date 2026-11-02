@@ -1,0 +1,17 @@
+{
+  "triangles": 19608,
+  "bodyDecimationRatio": 0.3,
+  "headDecimationRatio": 0.42,
+  "coat": "Approved desktop atlas sampled into linear COLOR_0 before reduction; no collapsed atlas UV lookup",
+  "tail": "Full ring mesh and band material boundaries retained",
+  "tailTriangles": 5036,
+  "textureMax": 256,
+  "silhouetteExtremaRetained": true,
+  "clips": [
+    "Climb",
+    "Idle",
+    "Leap",
+    "Walk"
+  ],
+  "desktopSourceUnchanged": true
+}

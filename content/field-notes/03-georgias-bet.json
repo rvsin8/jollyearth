@@ -1,0 +1,38 @@
+{
+  "id": "georgias-bet",
+  "brief_number": 3,
+  "headline": "Georgia’s bet",
+  "biome": [
+    "Grassland"
+  ],
+  "hotspot": [
+    "north-american-coastal-plain"
+  ],
+  "species": [
+    "gopher-tortoise"
+  ],
+  "type": "happening-now",
+  "pullout_number": "65 populations",
+  "pullout_label": "Permanently protected viable populations reported in September 2025",
+  "body": "In September 2025, Georgia announced that its Gopher Tortoise Conservation Initiative had reached a goal: permanently protecting sixty-five viable tortoise populations. The final addition was a conservation easement, a legal agreement that limits how land can be used while allowing it to remain privately owned.\n\nThe initiative brought together agencies, conservation groups, businesses, foundations, and landowners. Its purpose included keeping tortoises off the federal endangered-species list. Georgia’s announcement explicitly connected that outcome with avoiding potential economic impacts. Wildlife protection and economic interests were part of the same negotiation.\n\nThat makes this a useful story to question. Which restrictions did landowners accept? Who helped pay? And how will protected land continue to support tortoises as conditions change? Reaching a population target is evidence of progress, but it does not answer every question about habitat quality.\n\nThe state also stressed that conservation does not end with land protection. Prescribed burning and restoration remain ongoing responsibilities. The agreement secures a place for the work; it does not replace the work itself. A successful policy needs both a durable promise and the capacity to keep it.",
+  "why_it_matters": "Conservation outcomes often depend on agreements that connect ecological and economic interests.",
+  "sources": [
+    {
+      "id": "georgia",
+      "title": "Georgia DNR — Conservation goal reached, 24 September 2025",
+      "url": "https://georgiawildlife.com/georgia-initiative-reaches-gopher-tortoise-conservation-goal",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "draft",
+  "review_notes": "65 target verified. 100,000 acres was a stated goal; do not equate it with independently audited outcome. Human review required.",
+  "read_alongside": [
+    "tortoise-burrows",
+    "longleaf-funding"
+  ],
+  "author": "Earthbound editorial draft",
+  "event_date": "2025-09-24"
+}

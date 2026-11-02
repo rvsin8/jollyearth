@@ -1,0 +1,44 @@
+{
+  "id": "forest-needs-fire",
+  "brief_number": 1,
+  "headline": "The forest that needs to burn",
+  "biome": [
+    "Grassland"
+  ],
+  "hotspot": [
+    "north-american-coastal-plain"
+  ],
+  "species": [
+    "gopher-tortoise",
+    "longleaf-pine"
+  ],
+  "type": "turning-point",
+  "pullout_number": "90 million+ acres",
+  "pullout_label": "Estimated historical extent of the longleaf ecosystem",
+  "body": "A longleaf pine landscape can look surprisingly open. Sunlight reaches grasses and flowers beneath widely spaced trees. Fire helped make that structure possible. Frequent, low-intensity surface fires shaped this ecosystem, and longleaf developed ways to survive them. Thick bark protects older trees, while dense needles help shelter the growth bud of a seedling in its grass stage.\n\nNFWF describes an ecosystem that once covered more than ninety million acres across the southeastern United States, with less than five percent of its original acreage remaining. That overview is a broad historical comparison, not a newly measured forest inventory. It should not be turned into a precise current acreage by multiplying rounded figures.\n\nRestoration therefore means more than planting trees. It also means managing the conditions that allow the whole community to persist. Carefully planned prescribed burning is one tool used by trained practitioners. Longleaf is fire-resistant, not fire-proof: weather, tree age, and fire conditions still matter.\n\nThe difficult lesson is that protection can require repeated intervention. A restored landscape needs continued care, expertise, and funding after the planting day is over.",
+  "why_it_matters": "Protecting a habitat sometimes means restoring the disturbance that shaped it.",
+  "sources": [
+    {
+      "id": "longleaf",
+      "title": "NFWF — Longleaf Landscape Stewardship Fund",
+      "url": "https://www.nfwf.org/programs/longleaf-landscape-stewardship-fund",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "fire",
+      "title": "The Longleaf Alliance — Built by Fire",
+      "url": "https://longleafalliance.org/what-is-longleaf/the-ecosystem/built-by-fire/",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "draft",
+  "review_notes": "Replaced 90M → 3M: no verified current 3M estimate. Primary program overview supports historical extent and <5%, but lacks inventory date. Human review required.",
+  "read_alongside": [
+    "longleaf-funding"
+  ],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

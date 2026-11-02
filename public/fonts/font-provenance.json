@@ -1,0 +1,40 @@
+{
+  "license": "SIL Open Font License 1.1",
+  "retrieved": "2026-10-04",
+  "notes": "Upstream native WOFF2 assets. No conversion or subsetting. Bluu Next provides bold and bold italic, not a 400 regular. Original Bluu license is UTF-16; UTF8 convenience copy also included. WOFF2 signatures and declared byte lengths checked.",
+  "fonts": [
+    {
+      "file": "InterVariable.woff2",
+      "style": "normal",
+      "weight": "100 900",
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3",
+      "format": "woff2",
+      "bytes": 352240,
+      "source_url": "https://raw.githubusercontent.com/rsms/inter/master/docs/font-files/InterVariable.woff2",
+      "license_file": "Inter-LICENSE.txt",
+      "official_repository": "https://github.com/rsms/inter"
+    },
+    {
+      "file": "BluuNext-Bold.woff2",
+      "style": "normal",
+      "weight": 700,
+      "sha256": "32f387a4a1f7d77d4d89a9019344806ccc60f48ce0b15df62c014c661ceffcd1",
+      "format": "woff2",
+      "bytes": 30652,
+      "source_url": "https://raw.githubusercontent.com/velvetyne/BluuNext/master/Fonts/webfonts/bluunext-bold-webfont.woff2",
+      "license_file": "BluuNext-LICENSE-UTF8.txt",
+      "official_repository": "https://github.com/velvetyne/BluuNext"
+    },
+    {
+      "file": "BluuNext-BoldItalic.woff2",
+      "style": "italic",
+      "weight": 700,
+      "sha256": "d060c02435e78317729fc572e22b115015610865d5f0f823a93c4755ebfb4e78",
+      "format": "woff2",
+      "bytes": 12764,
+      "source_url": "https://raw.githubusercontent.com/velvetyne/BluuNext/master/Fonts/webfonts/bluunext-bolditalic-webfont.woff2",
+      "license_file": "BluuNext-LICENSE-UTF8.txt",
+      "official_repository": "https://github.com/velvetyne/BluuNext"
+    }
+  ]
+}

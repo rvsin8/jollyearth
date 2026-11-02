@@ -1,0 +1,33 @@
+{
+  "match": {
+    "usageKey": 5212956,
+    "scientificName": "Anguilla rostrata (Lesueur, 1817)",
+    "canonicalName": "Anguilla rostrata",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "confidence": 99,
+    "matchType": "EXACT",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "order": "Anguilliformes",
+    "family": "Anguillidae",
+    "genus": "Anguilla",
+    "species": "Anguilla rostrata",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "orderKey": 495,
+    "familyKey": 2949,
+    "genusKey": 2403092,
+    "speciesKey": 5212956
+  },
+  "category": {
+    "category": "ENDANGERED",
+    "usageKey": 176691112,
+    "scientificName": "Anguilla rostrata (Lesueur, 1817)",
+    "taxonomicStatus": "ACCEPTED",
+    "iucnTaxonID": "191108",
+    "code": "EN"
+  },
+  "url": "https://api.gbif.org/v1/species/5212956/iucnRedListCategory",
+  "accessed": "2026-09-21"
+}

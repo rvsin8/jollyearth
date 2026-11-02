@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-09-21",
+  "matchUrl": "https://api.gbif.org/v1/species/match?name=Lemur%20catta",
+  "match": {
+    "usageKey": 2436412,
+    "scientificName": "Lemur catta Linnaeus, 1758",
+    "canonicalName": "Lemur catta",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "confidence": 99,
+    "matchType": "EXACT",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "order": "Primates",
+    "family": "Lemuridae",
+    "genus": "Lemur",
+    "species": "Lemur catta",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "classKey": 359,
+    "orderKey": 798,
+    "familyKey": 5485,
+    "genusKey": 2436411,
+    "speciesKey": 2436412,
+    "class": "Mammalia"
+  },
+  "categoryUrl": "https://api.gbif.org/v1/species/2436412/iucnRedListCategory",
+  "category": {
+    "category": "ENDANGERED",
+    "usageKey": 176666008,
+    "scientificName": "Lemur catta Linnaeus, 1758",
+    "taxonomicStatus": "ACCEPTED",
+    "iucnTaxonID": "11496",
+    "code": "EN"
+  }
+}

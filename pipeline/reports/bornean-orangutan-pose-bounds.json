@@ -1,0 +1,130 @@
+[
+  {
+    "clip": "Idle",
+    "frame": 0,
+    "lowest_mesh_z": -1.866368615210945e-09,
+    "barefoot_z": -1.866368615210945e-09,
+    "highest_mesh_z": 1.4448531866073608,
+    "below_ground": []
+  },
+  {
+    "clip": "Idle",
+    "frame": 30,
+    "lowest_mesh_z": -1.866368615210945e-09,
+    "barefoot_z": -1.866368615210945e-09,
+    "highest_mesh_z": 1.4431636333465576,
+    "below_ground": []
+  },
+  {
+    "clip": "Idle",
+    "frame": 60,
+    "lowest_mesh_z": -1.866368615210945e-09,
+    "barefoot_z": -1.866368615210945e-09,
+    "highest_mesh_z": 1.4448531866073608,
+    "below_ground": []
+  },
+  {
+    "clip": "Idle",
+    "frame": 90,
+    "lowest_mesh_z": -1.866368615210945e-09,
+    "barefoot_z": -1.866368615210945e-09,
+    "highest_mesh_z": 1.4463640451431274,
+    "below_ground": []
+  },
+  {
+    "clip": "Walk",
+    "frame": 0,
+    "lowest_mesh_z": 2.2351741790771484e-08,
+    "barefoot_z": 2.2351741790771484e-08,
+    "highest_mesh_z": 1.215782642364502,
+    "below_ground": []
+  },
+  {
+    "clip": "Walk",
+    "frame": 30,
+    "lowest_mesh_z": 2.60770320892334e-08,
+    "barefoot_z": 2.60770320892334e-08,
+    "highest_mesh_z": 1.2157186269760132,
+    "below_ground": []
+  },
+  {
+    "clip": "Walk",
+    "frame": 60,
+    "lowest_mesh_z": 3.3527612686157227e-08,
+    "barefoot_z": 3.3527612686157227e-08,
+    "highest_mesh_z": 1.21555495262146,
+    "below_ground": []
+  },
+  {
+    "clip": "Walk",
+    "frame": 90,
+    "lowest_mesh_z": 1.862645149230957e-08,
+    "barefoot_z": 1.862645149230957e-08,
+    "highest_mesh_z": 1.2157665491104126,
+    "below_ground": []
+  },
+  {
+    "clip": "Climb",
+    "frame": 0,
+    "lowest_mesh_z": -1.4901161193847656e-08,
+    "barefoot_z": -1.4901161193847656e-08,
+    "highest_mesh_z": 1.778295636177063,
+    "below_ground": []
+  },
+  {
+    "clip": "Climb",
+    "frame": 37,
+    "lowest_mesh_z": -3.3527612686157227e-08,
+    "barefoot_z": -3.3527612686157227e-08,
+    "highest_mesh_z": 1.778501272201538,
+    "below_ground": []
+  },
+  {
+    "clip": "Climb",
+    "frame": 75,
+    "lowest_mesh_z": 0.0013171881437301636,
+    "barefoot_z": 0.0013171881437301636,
+    "highest_mesh_z": 1.7783126831054688,
+    "below_ground": []
+  },
+  {
+    "clip": "Climb",
+    "frame": 112,
+    "lowest_mesh_z": 1.862645149230957e-08,
+    "barefoot_z": 1.862645149230957e-08,
+    "highest_mesh_z": 1.7780520915985107,
+    "below_ground": []
+  },
+  {
+    "clip": "Reach",
+    "frame": 0,
+    "lowest_mesh_z": -1.866368615210945e-09,
+    "barefoot_z": -1.866368615210945e-09,
+    "highest_mesh_z": 1.4448531866073608,
+    "below_ground": []
+  },
+  {
+    "clip": "Reach",
+    "frame": 30,
+    "lowest_mesh_z": -1.866368615210945e-09,
+    "barefoot_z": -1.866368615210945e-09,
+    "highest_mesh_z": 1.4462848901748657,
+    "below_ground": []
+  },
+  {
+    "clip": "Reach",
+    "frame": 60,
+    "lowest_mesh_z": -1.866368615210945e-09,
+    "barefoot_z": -1.866368615210945e-09,
+    "highest_mesh_z": 1.6501178741455078,
+    "below_ground": []
+  },
+  {
+    "clip": "Reach",
+    "frame": 90,
+    "lowest_mesh_z": -1.866368615210945e-09,
+    "barefoot_z": -1.866368615210945e-09,
+    "highest_mesh_z": 1.44813072681427,
+    "below_ground": []
+  }
+]

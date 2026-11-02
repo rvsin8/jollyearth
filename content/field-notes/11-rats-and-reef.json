@@ -1,0 +1,24 @@
+{
+  "id": "rats-and-reef",
+  "brief_number": 11,
+  "headline": "The rats and the reef",
+  "biome": [
+    "Coral reef"
+  ],
+  "hotspot": [],
+  "species": [],
+  "type": "happening-now",
+  "pullout_number": null,
+  "pullout_label": null,
+  "body": "",
+  "why_it_matters": "",
+  "sources": [],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "needs-research",
+  "review_notes": "Need original study establishing island identity, rat-removal date, nutrient mechanism and measured reef response. Do not conflate seabird return with full reef recovery.",
+  "read_alongside": [],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

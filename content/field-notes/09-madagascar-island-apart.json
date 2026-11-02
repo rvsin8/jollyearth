@@ -1,0 +1,35 @@
+{
+  "id": "madagascar-island-apart",
+  "brief_number": 9,
+  "headline": "Madagascar: an island apart",
+  "biome": [
+    "Tropical forest"
+  ],
+  "hotspot": [
+    "madagascar"
+  ],
+  "species": [
+    "lemur"
+  ],
+  "type": "setback",
+  "pullout_number": "98%",
+  "pullout_label": "Lemur species threatened in IUCN’s 2020 assessment",
+  "body": "Madagascar’s lemurs are often pictured as symbols of an extraordinary island. An assessment can reveal a less comfortable story behind that image. In July 2020, IUCN reported that ninety-eight percent of lemur species were threatened with extinction. The figure describes the share of assessed species in threatened categories. It does not mean ninety-eight percent of individual lemurs had disappeared.\n\nIUCN identified habitat destruction and hunting among the pressures behind the crisis. A species can remain familiar in photographs or zoos while its wild populations face serious risks. Visibility is not the same thing as security.\n\nThe date matters too. This is a historical assessment, not a live count or a new survey of forest cover. It gives a documented point in time from which to ask what has changed and what evidence would demonstrate improvement.\n\nA responsible recovery story would need more than hopeful language. It would need observations of habitat, population trends, and the effectiveness of protection. Until that evidence is assembled, the island’s distinctiveness is a reason for careful attention, not a reason to assume its wildlife will endure.",
+  "why_it_matters": "A percentage of threatened species is not a percentage of animals lost.",
+  "sources": [
+    {
+      "id": "lemurs",
+      "title": "IUCN — Lemur assessment, 9 July 2020",
+      "url": "https://iucn.org/news/species/202007/almost-a-third-lemurs-and-north-atlantic-right-whale-now-critically-endangered-iucn-red-list",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "draft",
+  "review_notes": "2020 assessment explicitly dated; current forest-cover number remains unverified and excluded. This is a setback, not an unsupported recovery narrative. Human review required.",
+  "read_alongside": [],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

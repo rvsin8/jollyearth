@@ -1,0 +1,12 @@
+Model 72B - Juvenile Green Sea Turtle
+Creator: DigitalLife3D; reconstructed with Blender by Johnson Martin.
+Species: Chelonia mydas, live juvenile, straight minimum carapace length 27.5 cm, mass 3.0 kg.
+Original: https://sketchfab.com/3d-models/model-72b-juvenile-green-sea-turtle-c90a930f8b2a4cc8bc516742a0df01d9
+License: Creative Commons Attribution-NonCommercial 4.0 International
+https://creativecommons.org/licenses/by-nc/4.0/
+Download distribution: Allen Institute for AI, Objaverse public dataset
+https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-084/c90a930f8b2a4cc8bc516742a0df01d9.glb
+Metadata embedded in the GLB independently confirms title, author, source, and CC-BY-NC-4.0.
+Use is restricted to noncommercial projects. Changes/adaptations must be identified with attribution.
+source.glb is unmodified from the public distribution.
+Earthbound derived green-sea-turtle.blend and pipeline/work/green-sea-turtle.glb retain the source skin and textures, restore metre scale, rebase the bind skeleton to horizontal, resample Swim, and add authored Float, Glide and Turn.

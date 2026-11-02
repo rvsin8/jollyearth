@@ -1,0 +1,33 @@
+{
+  "author": "Earthbound",
+  "refinement": "Continuous SDF torso/limbs and sculpted narrow head, carved eye sockets, baked surface masks, groomed short coat, black tail tip",
+  "license": "CC0-1.0",
+  "basis": "Original Blender-authored educational animal study with a simplified textured short coat; not scanned, photorealistic or expert-validated.",
+  "triangles": 55047,
+  "bones": 27,
+  "clips": [
+    "Idle",
+    "Walk",
+    "Leap",
+    "Climb"
+  ],
+  "limitations": [
+    "Simplified original textured short-coat finish, not scanned or photorealistic.",
+    "Animations are educational in-place artist interpretations, not motion capture.",
+    "Climb is an unsupported in-place educational motion, not a contact-simulated branch climb."
+  ],
+  "reviewChanges": [
+    "Continuous sculpted torso, limb roots, tapered neck and narrow head",
+    "Recessed small amber irises and integrated black surface pigmentation",
+    "Reduced standing limb height and smoother haunch line",
+    "Neutral gray dorsal coat, white belly/face and value-matched short mesh-card groom",
+    "Long raised ringed tail terminating in black"
+  ],
+  "reference": "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/",
+  "textures": {
+    "desktopMaxDimension": 2048,
+    "mobileMaxDimension": 1024,
+    "source": "Original authored pigmentation and fine UV coat strokes; no imported imagery"
+  },
+  "motionCorrection": "Climb root raised 65mm to clear the review ground throughout sampled cycle."
+}

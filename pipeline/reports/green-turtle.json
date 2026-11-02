@@ -1,0 +1,244 @@
+{
+  "slug": "green-turtle",
+  "exhibitSlug": "green-sea-turtle",
+  "checkedAt": "2026-10-17T01:54:24.740Z",
+  "status": "passed",
+  "models": [
+    {
+      "file": "public/models/animals/green-sea-turtle.glb",
+      "variant": "desktop",
+      "sha256": "72d289bd1ca61515cd53a83968f8e8d96d06347062c5b51e26d6703ba082e053",
+      "bytes": 270060,
+      "vertices": 11099,
+      "triangles": 19812,
+      "lengthM": 0.6200081756720368,
+      "dimensionsM": [
+        0.7360000429813688,
+        0.13365054653106878,
+        0.6200081756720368
+      ],
+      "skins": 7,
+      "clips": [
+        "Float",
+        "Swim",
+        "Glide",
+        "Turn"
+      ],
+      "textureSizes": [
+        {
+          "name": "turtle_original_plastron_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "turtle_original_carapace_normal",
+          "mime": "image/webp",
+          "size": [
+            1536,
+            960
+          ]
+        },
+        {
+          "name": "turtle_original_carapace_albedo",
+          "mime": "image/webp",
+          "size": [
+            1536,
+            960
+          ]
+        },
+        {
+          "name": "turtle_original_skin_normal",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "turtle_original_skin_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 3,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 1536x960.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 1536x960.",
+            "severity": 2,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "errors": []
+    },
+    {
+      "file": "public/models/animals/green-sea-turtle.mobile.glb",
+      "variant": "mobile",
+      "sha256": "d9a232783faca93b8891161d4111257e4af5ddff13ccf8ba7627ec560d691862",
+      "bytes": 253260,
+      "vertices": 10669,
+      "triangles": 18996,
+      "lengthM": 0.6200081756720368,
+      "dimensionsM": [
+        0.7360000429813688,
+        0.13365054653106878,
+        0.6200081756720368
+      ],
+      "skins": 7,
+      "clips": [
+        "Float",
+        "Swim",
+        "Glide",
+        "Turn"
+      ],
+      "textureSizes": [
+        {
+          "name": "turtle_original_plastron_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "turtle_original_carapace_normal",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            640
+          ]
+        },
+        {
+          "name": "turtle_original_carapace_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            640
+          ]
+        },
+        {
+          "name": "turtle_original_skin_normal",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "turtle_original_skin_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 3,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 1024x640.",
+            "severity": 2,
+            "pointer": "/images/1"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 1024x640.",
+            "severity": 2,
+            "pointer": "/images/2"
+          }
+        ],
+        "truncated": false
+      },
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "visualReview": {
+    "status": "reviewed",
+    "views": {
+      "front": "pipeline/assets/green-sea-turtle/green-sea-turtle-front-qa.png",
+      "side": "pipeline/assets/green-sea-turtle/green-sea-turtle-side-qa.png",
+      "rear": "pipeline/assets/green-sea-turtle/green-sea-turtle-rear-qa.png",
+      "three-quarter": "pipeline/assets/green-sea-turtle/green-sea-turtle-three-quarter-qa.png"
+    },
+    "renders": [
+      "pipeline/assets/green-sea-turtle/green-sea-turtle-front-qa.png",
+      "pipeline/assets/green-sea-turtle/green-sea-turtle-side-qa.png",
+      "pipeline/assets/green-sea-turtle/green-sea-turtle-rear-qa.png",
+      "pipeline/assets/green-sea-turtle/green-sea-turtle-three-quarter-qa.png",
+      "pipeline/reports/green-sea-turtle-authored-views.png",
+      "pipeline/reports/green-sea-turtle-authored-poses.png",
+      "pipeline/reports/green-sea-turtle-desktop-runtime.png",
+      "pipeline/reports/green-sea-turtle-mobile-runtime.png"
+    ],
+    "clipsReviewed": [
+      "Float",
+      "Swim",
+      "Glide",
+      "Turn"
+    ],
+    "reviewMethod": "Root inspected all four neutral Blender views and sixteen quarter-cycle poses. Source audit and actual Three.js GLTFLoader CPU roundtrip verified optimized geometry and all clips, within 0.879 mm of source bounds. This is not browser or GPU verification.",
+    "notes": [
+      "Final four neutral views opened and inspected. Earlier pale pigment, long neck, exposed bead eyes, snout cap UV pinching and sharp folded rear tips were corrected.",
+      "All sixteen final pose samples opened together in labeled contact sheet. Shoulder roots remain visually seated and front strokes stay marine; no leg stepping.",
+      "Swim has paired shoulder downstroke and restrained distal flex; Float and Glide remain subtle; Turn uses asymmetric fin action, yaw and mild bank.",
+      "Authored educational anatomical interpretation, not photogrammetry or a museum scan. Generated scale pigment does not reproduce an individual turtle.",
+      "Shell, plastron, soft tissue and eyes are intersecting anatomical surfaces, not one watertight sculpt. Deforming roots use explicit blended weights.",
+      "Four views and quarter-cycle samples are visual evidence, not exhaustive continuous collision analysis.",
+      "Neutral review background has a visible distant studio floor edge at the bottom in low-angle views; studio helpers are excluded from GLB.",
+      "Optimized runtime artifact review belongs to the integration owner; this report covers the stable Blender source and raw export.",
+      "Decoded optimized desktop GLB was reimported into Blender and rendered: geometry, skin and compressed material pixels inspected. Decompression changed no vertex/animation data; WebP pixels were losslessly converted to PNG solely for Blender review. This is not a browser screenshot.",
+      "Root also inspected the decoded optimized mobile export in a neutral Blender render: anatomy, pigment and shell/flipper or limb boundaries remain coherent. This is not a browser screenshot."
+    ],
+    "sourceSha256": "0a2cc06705dac804437cc3b2ecb96d49019996fb95ba08947076a8f11c91e9dd",
+    "blendSha256": "77ff21366f98a73d927ced7d6d9e20b29d8f27f9e8742397bd10a5a0676d479a",
+    "exportSha256": {
+      "desktop": "72d289bd1ca61515cd53a83968f8e8d96d06347062c5b51e26d6703ba082e053",
+      "mobile": "d9a232783faca93b8891161d4111257e4af5ddff13ccf8ba7627ec560d691862"
+    },
+    "biologicalReferences": [
+      "https://www.fisheries.noaa.gov/species/green-turtle",
+      "https://www.aoml.noaa.gov/general/graphics/lib/turtles.htm"
+    ],
+    "evidence": [
+      "pipeline/reports/green-sea-turtle-authored-visual.json",
+      "pipeline/reports/green-sea-turtle-source-audit.json",
+      "pipeline/reports/green-sea-turtle-roundtrip.json"
+    ]
+  }
+}

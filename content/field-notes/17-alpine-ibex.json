@@ -1,0 +1,24 @@
+{
+  "id": "alpine-ibex",
+  "brief_number": 17,
+  "headline": "The ibex’s narrow escape",
+  "biome": [
+    "Alpine"
+  ],
+  "hotspot": [],
+  "species": [],
+  "type": "turning-point",
+  "pullout_number": null,
+  "pullout_label": null,
+  "body": "",
+  "why_it_matters": "",
+  "sources": [],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "needs-research",
+  "review_notes": "Need Gran Paradiso or original census source for historical bottleneck and current range. Do not invent the population estimate.",
+  "read_alongside": [],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

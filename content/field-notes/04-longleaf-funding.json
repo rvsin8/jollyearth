@@ -1,0 +1,39 @@
+{
+  "id": "longleaf-funding",
+  "brief_number": 4,
+  "headline": "What $20 million sets in motion",
+  "biome": [
+    "Grassland"
+  ],
+  "hotspot": [
+    "north-american-coastal-plain"
+  ],
+  "species": [
+    "gopher-tortoise",
+    "longleaf-pine",
+    "red-cockaded-woodpecker"
+  ],
+  "type": "happening-now",
+  "pullout_number": "$20 million",
+  "pullout_label": "NFWF’s 2026 longleaf awards",
+  "body": "In June 2026, NFWF published a new grant slate for longleaf conservation. It reported twenty-three new grants and two amendments to an existing grant, together totaling twenty million dollars. That distinction matters: twenty-five awards are not necessarily twenty-five separate new projects.\n\nThe slate describes work across the longleaf landscape, including planting, prescribed burning, invasive-plant control, monitoring, and assistance for private landowners. Some projects prepare habitat for future wildlife reintroductions. Others improve the condition of forests that already exist. Conservation spending supports both rebuilding and continued care.\n\nThese are funded plans, not a certificate that every promised result has already happened. To judge the program later, students would need follow-up reports showing what was completed, where it occurred, and how the habitat responded. An award amount measures a financial commitment. It does not directly measure the number of animals recovered.\n\nThe projects also reveal work that is less visible than planting a seedling: coordination, training, surveys, and management planning. Those tasks can determine whether restoration lasts. A useful next question is therefore not just how much money was announced, but which ecological changes the funding makes possible over time.",
+  "why_it_matters": "A funding announcement is a starting point for accountability, not a finished ecological result.",
+  "sources": [
+    {
+      "id": "grants",
+      "title": "NFWF — 2026 grant slate, June 2026",
+      "url": "https://www.nfwf.org/sites/default/files/2026-06/nfwf-longleaf-grant-slate.pdf",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "draft",
+  "review_notes": "Verified $20M and 23 grants + 2 amendments. Requested 350k/30k/380k aggregate acreage not verified in retrieved primary slate; omitted instead of inferring ratio. Human review required.",
+  "read_alongside": [
+    "forest-needs-fire"
+  ],
+  "author": "Earthbound editorial draft",
+  "event_date": "2026-06-17"
+}

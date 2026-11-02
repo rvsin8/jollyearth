@@ -1,0 +1,14 @@
+{
+  "creator": "Earthbound",
+  "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+  "changes": "Original Earthbound model from custom anatomical vertex surfaces: individually constructed carapace scutes, fitted relief limb scales, generated UV albedo/normal/roughness textures, a 12-bone skeletal rig, and original keyframed animation. No external model or texture was used. Morphological references: U.S. Fish & Wildlife Service and Naturalis; their photographs were studied as reference only.",
+  "animationNote": "Original in-place Idle, Walk, Turn, and Dig clips. Walk uses a slow stance phase and lifted recovery; Dig alternates forelimb scraping. These are interpretive motions for an educational exhibit, not motion-captured locomotion.",
+  "biologicalReferences": [
+    "https://www.fws.gov/project/gopher-tortoise",
+    "https://www.fws.gov/species/gopher-tortoise-gopherus-polyphemus",
+    "https://turtles.linnaeus.naturalis.nl/linnaeus_ng/app/views/highertaxa/taxon.php?epi=11&id=7898"
+  ]
+}

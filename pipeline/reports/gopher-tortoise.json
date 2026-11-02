@@ -1,0 +1,414 @@
+{
+  "slug": "gopher-tortoise",
+  "exhibitSlug": "gopher-tortoise",
+  "checkedAt": "2026-10-17T01:54:24.409Z",
+  "status": "passed",
+  "models": [
+    {
+      "file": "public/models/animals/gopher-tortoise.glb",
+      "variant": "desktop",
+      "sha256": "8675b1e6b7c425696c10d8a7634bb868ccd0b9d7c304d60410e12cd52cd6867f",
+      "bytes": 805528,
+      "vertices": 20860,
+      "triangles": 37278,
+      "lengthM": 0.4000009884535389,
+      "dimensionsM": [
+        0.29821906399767184,
+        0.1513939099740458,
+        0.4000009884535389
+      ],
+      "skins": 8,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Turn",
+        "Dig"
+      ],
+      "textureSizes": [
+        {
+          "name": "gopher_skin_albedo_normal",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "gopher_skin_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "gopher_skin_roughness",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "gopher_carapace_albedo_normal",
+          "mime": "image/webp",
+          "size": [
+            2044,
+            1752
+          ]
+        },
+        {
+          "name": "gopher_carapace_albedo",
+          "mime": "image/webp",
+          "size": [
+            2044,
+            1752
+          ]
+        },
+        {
+          "name": "gopher_carapace_roughness",
+          "mime": "image/webp",
+          "size": [
+            2044,
+            1752
+          ]
+        },
+        {
+          "name": "gopher_armor_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "gopher_plastron_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 8,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/12"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/13"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/14"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/15"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/16"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/17"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/18"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/19"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 2044x1752.",
+            "severity": 2,
+            "pointer": "/images/3"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 2044x1752.",
+            "severity": 2,
+            "pointer": "/images/4"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 2044x1752.",
+            "severity": 2,
+            "pointer": "/images/5"
+          }
+        ],
+        "truncated": false
+      },
+      "errors": []
+    },
+    {
+      "file": "public/models/animals/gopher-tortoise.mobile.glb",
+      "variant": "mobile",
+      "sha256": "639f073be81bf3806e8c55ff372fff501c6a3179e01a59a7c8f4953ac89b3a69",
+      "bytes": 473268,
+      "vertices": 11796,
+      "triangles": 19911,
+      "lengthM": 0.4000009884535389,
+      "dimensionsM": [
+        0.29821906399767184,
+        0.15140914034126354,
+        0.4000009884535389
+      ],
+      "skins": 8,
+      "clips": [
+        "Idle",
+        "Walk",
+        "Turn",
+        "Dig"
+      ],
+      "textureSizes": [
+        {
+          "name": "gopher_skin_albedo_normal",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "gopher_skin_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "gopher_skin_roughness",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "gopher_carapace_albedo_normal",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            877
+          ]
+        },
+        {
+          "name": "gopher_carapace_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            877
+          ]
+        },
+        {
+          "name": "gopher_carapace_roughness",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            877
+          ]
+        },
+        {
+          "name": "gopher_armor_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "gopher_plastron_albedo",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 8,
+        "numInfos": 4,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/12"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/13"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/14"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/15"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/16"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/17"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/18"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/19"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 1024x877.",
+            "severity": 2,
+            "pointer": "/images/3"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 1024x877.",
+            "severity": 2,
+            "pointer": "/images/4"
+          },
+          {
+            "code": "IMAGE_NPOT_DIMENSIONS",
+            "message": "Image has non-power-of-two dimensions: 1024x877.",
+            "severity": 2,
+            "pointer": "/images/5"
+          }
+        ],
+        "truncated": false
+      },
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "visualReview": {
+    "status": "reviewed",
+    "views": {
+      "front": "pipeline/assets/gopher-tortoise/gopher-tortoise-front-qa.png",
+      "side": "pipeline/assets/gopher-tortoise/gopher-tortoise-side-qa.png",
+      "rear": "pipeline/assets/gopher-tortoise/gopher-tortoise-rear-qa.png",
+      "three-quarter": "pipeline/assets/gopher-tortoise/gopher-tortoise-three-quarter-qa.png"
+    },
+    "renders": [
+      "pipeline/assets/gopher-tortoise/gopher-tortoise-front-qa.png",
+      "pipeline/assets/gopher-tortoise/gopher-tortoise-side-qa.png",
+      "pipeline/assets/gopher-tortoise/gopher-tortoise-rear-qa.png",
+      "pipeline/assets/gopher-tortoise/gopher-tortoise-three-quarter-qa.png",
+      "pipeline/reports/gopher-tortoise-four-view-review.png",
+      "pipeline/reports/gopher-tortoise-motion-review.png",
+      "pipeline/reports/gopher-tortoise-idle-review.png",
+      "pipeline/reports/gopher-tortoise-walk-review.png",
+      "pipeline/reports/gopher-tortoise-turn-review.png",
+      "pipeline/reports/gopher-tortoise-dig-review.png",
+      "pipeline/reports/gopher-tortoise-glb-reimport.png",
+      "pipeline/reports/gopher-tortoise-glb-walk-25.png",
+      "pipeline/reports/gopher-tortoise-glb-walk-75.png",
+      "pipeline/reports/gopher-tortoise-glb-dig-25.png",
+      "pipeline/reports/gopher-tortoise-glb-dig-75.png",
+      "pipeline/reports/gopher-tortoise-desktop-runtime.png",
+      "pipeline/reports/gopher-tortoise-mobile-runtime.png"
+    ],
+    "clipsReviewed": [
+      "Idle",
+      "Walk",
+      "Turn",
+      "Dig"
+    ],
+    "reviewMethod": "Inspected four neutral Cycles 32-sample views and eight rendered phase poses for each clip. Checked every source animation frame for stance-claw ground height, root translation and exact loop endpoint equality. Inspected a fresh raw-GLB reimport render for portable geometry and materials. The source skin audit samples nine poses per clip; the separate Three.js GLTFLoader CPU roundtrip audit compares both optimized variants against source bounds.",
+    "notes": [
+      "Original reference-guided educational model, authored from custom vertex surfaces, not assembled Blender primitives or imported models.",
+      "The shell pigment, keratin growth marks, skin cells and relief scales are procedurally authored interpretations, visibly simplified rather than photogrammetric or photoreal scanned detail.",
+      "Front, side, rear and three-quarter views show grounded forefeet, tapered forearm shoulders, short broad head, club-like hindlimbs and a projecting yellow-brown plastron.",
+      "All four clips are original in-place interpretations, not motion capture or a biomechanical simulation. Walk uses alternating slow stance and lifted recovery; Turn pivots roughly 24 degrees and returns; Dig alternates short forelimb scrapes. These are treadmill-style clips, not world-locked IK locomotion.",
+      "Every-frame stance claw height is approximately 0 to 0.76 mm; Idle breathing adds at most 0.50 mm. No visible ground penetration or separated scales/joints was observed in reviewed poses. All root translations are zero and loop endpoint bone matrices match exactly.",
+      "Eight glTF inherited skin-transform warnings arise from the common grounding translation. The Three.js GLTFLoader CPU roundtrip audit found no gross grounding/deformation mismatch; warnings are retained transparently.",
+      "The legacy gopher-tortoise-qa.png alias has been replaced by the final three-quarter render.",
+      "Fresh Blender raw-GLB animation reimport matched source evaluated bounds across nine phases per clip within 0.000000075 m. Four additional reimported Walk/Dig phase renders were inspected without deformation or material defects.",
+      "Decoded optimized desktop GLB was reimported into Blender and rendered: geometry, skin and compressed material pixels inspected. Decompression changed no vertex/animation data; WebP pixels were losslessly converted to PNG solely for Blender review. This is not a browser screenshot.",
+      "Root also inspected the decoded optimized mobile export in a neutral Blender render: anatomy, pigment and shell/flipper or limb boundaries remain coherent. This is not a browser screenshot."
+    ],
+    "sourceTriangles": 37278,
+    "sourceBones": 12,
+    "sourceSha256": "743681e514908428bb651ae50d5892699387cc3b551c556b182b6062f9648b67",
+    "blendSha256": "955cb6a95fed202f0798617710f8c85c6e2e30e6e83d308fec99241607e83f08",
+    "exportSha256": {
+      "desktop": "8675b1e6b7c425696c10d8a7634bb868ccd0b9d7c304d60410e12cd52cd6867f",
+      "mobile": "639f073be81bf3806e8c55ff372fff501c6a3179e01a59a7c8f4953ac89b3a69"
+    },
+    "biologicalReferences": [
+      "https://www.fws.gov/project/gopher-tortoise",
+      "https://www.fws.gov/species/gopher-tortoise-gopherus-polyphemus",
+      "https://turtles.linnaeus.naturalis.nl/linnaeus_ng/app/views/highertaxa/taxon.php?epi=11&id=7898"
+    ],
+    "evidence": [
+      "pipeline/reports/gopher-tortoise-authored.json",
+      "pipeline/reports/gopher-tortoise-source-audit.json",
+      "pipeline/reports/gopher-tortoise-animation-check.json",
+      "pipeline/reports/gopher-tortoise-roundtrip.json",
+      "pipeline/reports/gopher-tortoise-raw-roundtrip.json"
+    ]
+  }
+}

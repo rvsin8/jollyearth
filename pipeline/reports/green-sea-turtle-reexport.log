@@ -1,0 +1,21 @@
+20:50:30 | INFO: Starting glTF 2.0 export
+20:50:30 | INFO: Extracting primitive: Continuous low streamlined carapace
+20:50:30 | INFO: Primitives created: 1
+20:50:30 | INFO: Extracting primitive: Continuous cream plastron and bridge
+20:50:30 | INFO: Primitives created: 1
+20:50:30 | INFO: Extracting primitive: Subtle beak mouth seam
+20:50:30 | INFO: Primitives created: 1
+20:50:30 | INFO: Extracting primitive: Vertebral 1
+20:50:31 | INFO: Primitives created: 1
+20:50:31 | INFO: Extracting primitive: Continuous tapered neck and blunt skull
+20:50:31 | INFO: Primitives created: 1
+20:50:31 | INFO: Extracting primitive: Single foreflipper claw R
+20:50:31 | INFO: Primitives created: 1
+20:50:31 | INFO: Extracting primitive: Embedded dark eye
+20:50:31 | INFO: Primitives created: 1
+20:50:31 | INFO: Finished glTF 2.0 export in 0.8023586273193359 s
+INFO Draco mesh compression is available, use library at /tmp/earthbound-blender/blender-4.2.0-linux-x64/4.2/python/lib/python3.11/site-packages/libextern_draco.so
+
+RESULT GREEN_TURTLE_REEXPORTED_ZERO_BASED
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:27:02)
+Read blend: "/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle.blend"

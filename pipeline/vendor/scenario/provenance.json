@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/scenario-labs/skills",
+  "revision": "dc592af7139ffacfe8fdae7dc7efa80f4dd09be3",
+  "sourcePath": "skills/dcc/blender/scenario-blender-sculpting/scripts/bx_sculpt.py",
+  "sha256": "3921f0a2fde493be94ae0c454d3e5cafc1433e0dc5be08adc6763d78a3d4f603",
+  "license": "MIT",
+  "modified": false,
+  "purpose": "Headless sculpting helper; no model geometry, texture or animation data."
+}

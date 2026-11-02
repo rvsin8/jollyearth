@@ -1,0 +1,50 @@
+[
+  {
+    "id": "liberty-meadow",
+    "name": "Liberty State Park meadow",
+    "sun": [
+      "sun"
+    ],
+    "moisture": [
+      "dry",
+      "medium"
+    ],
+    "salt": "high",
+    "flood": "low",
+    "width": 32,
+    "depth": 24,
+    "source": "https://dep.nj.gov/revitalizelsp/"
+  },
+  {
+    "id": "berry-lane-rain-garden",
+    "name": "Berry Lane Park rain garden",
+    "sun": [
+      "sun",
+      "part shade"
+    ],
+    "moisture": [
+      "wet"
+    ],
+    "salt": "low",
+    "flood": "high",
+    "width": 24,
+    "depth": 16,
+    "source": "https://www.jerseycitynj.gov/cityhall/recreation/parks"
+  },
+  {
+    "id": "schoolyard-strip",
+    "name": "Schoolyard strip",
+    "sun": [
+      "part shade"
+    ],
+    "moisture": [
+      "medium",
+      "dry"
+    ],
+    "salt": "low",
+    "flood": "low",
+    "width": 24,
+    "depth": 8,
+    "source": null
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "result": "PASS",
+  "models": [
+    {
+      "variant": "desktop",
+      "bytes": 1028664,
+      "triangles": 55644,
+      "measuredLengthM": 1.0509907688253493,
+      "cpuParseMs": 28,
+      "clips": [
+        {
+          "name": "Idle",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.05024369409786388,
+          "loopSeamM": 0.000004254337259923524
+        },
+        {
+          "name": "Run",
+          "durationSeconds": 0.800000011920929,
+          "maxSampleDisplacementM": 0.2065195977953105,
+          "loopSeamM": 0.000004254337259923524
+        },
+        {
+          "name": "Trot",
+          "durationSeconds": 1,
+          "maxSampleDisplacementM": 0.13516547228355497,
+          "loopSeamM": 0.000005479338040431658
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 1.600000023841858,
+          "maxSampleDisplacementM": 0.10142786220787285,
+          "loopSeamM": 0.000009224838236267241
+        }
+      ],
+      "resourcesDisposed": 6,
+      "glTFErrors": 0,
+      "glTFWarnings": 4
+    },
+    {
+      "variant": "mobile",
+      "bytes": 792676,
+      "triangles": 19598,
+      "measuredLengthM": 1.0509907783690833,
+      "cpuParseMs": 14,
+      "clips": [
+        {
+          "name": "Idle",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.05011986681998998,
+          "loopSeamM": 0.000004303253335058432
+        },
+        {
+          "name": "Run",
+          "durationSeconds": 0.800000011920929,
+          "maxSampleDisplacementM": 0.20805358273906532,
+          "loopSeamM": 0.000004303253335058432
+        },
+        {
+          "name": "Trot",
+          "durationSeconds": 1,
+          "maxSampleDisplacementM": 0.13414252953503453,
+          "loopSeamM": 0.000005549285575029428
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 1.600000023841858,
+          "maxSampleDisplacementM": 0.10168122723984066,
+          "loopSeamM": 0.000009016565332815862
+        }
+      ],
+      "resourcesDisposed": 6,
+      "glTFErrors": 0,
+      "glTFWarnings": 4
+    }
+  ],
+  "originalIllustrationsUnchanged": 38,
+  "verification": "Blender render review and CPU GLTFLoader/AnimationMixer checks; browser, touchscreen, GPU contexts and network load timing not measured"
+}

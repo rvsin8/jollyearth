@@ -1,0 +1,155 @@
+"""Prepare DigitalLife3D Chelonia mydas with the original anatomy, skin and swim.
+Run Blender 4.2 from repository root. Source is CC BY-NC 4.0, not commercial.
+New Float, Glide and Turn motions are authored illustrations, not measured trials.
+"""
+import bpy, math, json, struct
+from pathlib import Path
+from mathutils import Vector, Quaternion, Matrix
+ROOT=Path(__file__).resolve().parents[2]
+ASSET=ROOT/'pipeline/assets/green-sea-turtle';WORK=ROOT/'pipeline/work';REPORT=ROOT/'pipeline/reports'
+WORK.mkdir(exist_ok=True,parents=True)
+bpy.ops.wm.read_factory_settings(use_empty=True)
+bpy.ops.import_scene.gltf(filepath=str(ASSET/'source.glb'))
+# The source GLB has anonymous embedded PNGs. Explicit extraction works around
+# Blender 4.2's empty-image import for these buffers without changing a pixel.
+raw=(ASSET/'source.glb').read_bytes();json_len=struct.unpack_from('<I',raw,12)[0]
+source_json=json.loads(raw[20:20+json_len]);binary=raw[28+json_len:]
+for i,entry in enumerate(source_json['images']):
+ view=source_json['bufferViews'][entry['bufferView']];offset=view.get('byteOffset',0)
+ path=ASSET/f'texture-{i}.png';path.write_bytes(binary[offset:offset+view['byteLength']])
+ image=bpy.data.images.get(f'Image_{i}')
+ if image:
+  image.source='FILE';image.filepath=str(path);image.reload();image.pack()
+
+scene=bpy.context.scene;rig=next(o for o in scene.objects if o.type=='ARMATURE')
+meshes=[o for o in scene.objects if o.type=='MESH' and any(m.type=='ARMATURE' for m in o.modifiers)]
+for o in list(bpy.data.objects):
+ if o.type=='MESH' and o not in meshes:bpy.data.objects.remove(o,do_unlink=True)
+source=rig.animation_data.action
+start,end=source.frame_range
+# Sample the source before changing fps, then bake onto the original deform rig.
+poses=[];spans=[]
+for i in range(156):
+ frame=start+(end-start)*i/155;scene.frame_set(int(frame),subframe=frame%1);bpy.context.view_layer.update()
+ poses.append({b.name:(b.location.copy(),b.rotation_quaternion.copy(),b.scale.copy()) for b in rig.pose.bones})
+ dep=bpy.context.evaluated_depsgraph_get();pts=[o.evaluated_get(dep).matrix_world@v.co for o in meshes for v in o.evaluated_get(dep).data.vertices]
+ spans.append(max(p.x for p in pts)-min(p.x for p in pts))
+wide=max(range(156),key=lambda i:spans[i]);gliding=poses[wide];relaxed=poses[0]
+# Preserve source transform stack. Its import unit multiplier was 7.5164676.
+# Cancelling it restores the photographed juvenile's source anatomical metre scale.
+roots=[o for o in scene.objects if o.parent is None]
+anchor=bpy.data.objects.new('Green_turtle_world',None);scene.collection.objects.link(anchor)
+for o in roots:o.parent=anchor
+anchor.scale=(1/7.5164676,)*3
+anchor.location=(0,0,.10)
+rig.name='Green_sea_turtle_rig';rig.data.name='Chelonia_mydas_skeleton'
+rig['species']='Chelonia mydas';rig['source_carapace_length_m']=.275
+rig['license']='CC-BY-NC-4.0';rig['author']='DigitalLife3D; Johnson Martin'
+rig['attribution']='Model 72B - Juvenile Green Sea Turtle by DigitalLife3D, reconstructed by Johnson Martin; Earthbound Float/Glide/Turn adaptation.'
+rig['source']='https://sketchfab.com/3d-models/model-72b-juvenile-green-sea-turtle-c90a930f8b2a4cc8bc516742a0df01d9'
+rig['restriction']='Noncommercial use only; retain credit and identify adaptations.'
+for o in meshes:
+ for p in o.data.polygons:p.use_smooth=True
+# Preserve the original mapped surface and eye layers unchanged.
+for image in bpy.data.images:
+ if image.type=='IMAGE':image.pack()
+rig.animation_data_clear()
+for a in list(bpy.data.actions):bpy.data.actions.remove(a)
+rig.animation_data_create();scene.render.fps=30
+rootbone=rig.pose.bones['_rootJoint']
+def sample(t):
+ x=(t%1)*155;i=int(x);j=min(155,i+1);f=x-i
+ return {n:(poses[i][n][0].lerp(poses[j][n][0],f),poses[i][n][1].slerp(poses[j][n][1],f),poses[i][n][2].lerp(poses[j][n][2],f)) for n in poses[i]}
+clip_frames={'Float':180,'Swim':154,'Glide':150,'Turn':180}
+for name,duration in clip_frames.items():
+ action=bpy.data.actions.new(name);action.use_fake_user=True;rig.animation_data.action=action
+ action['motion_note']=('Original DigitalLife3D swim cycle resampled, in-place.' if name=='Swim' else 'Earthbound authored illustrative marine motion on original skeleton.')
+ for f in range(duration+1):
+  t=f/duration;phase=math.tau*t
+  if name in ['Swim','Turn']:pose=sample(t if f<duration else 0)
+  else:pose=gliding if name=='Glide' else relaxed
+  for b in rig.pose.bones:
+   loc,q,scale=pose[b.name];b.location=loc;b.rotation_mode='QUATERNION';b.rotation_quaternion=q;b.scale=scale
+   # Turns use reduced stroke excursion and asymmetric rear-flipper rudder trim.
+   if name=='Turn' and ('Flipper' in b.name or 'Hind' in b.name):
+    b.rotation_quaternion=gliding[b.name][1].slerp(q,.70 if '_L.' in b.name else .90)
+   if name in ['Float','Glide'] and 'Flipper' in b.name and '.002_' in b.name:
+    b.rotation_quaternion=q@Quaternion((1,0,0),(.030 if name=='Float' else .012)*math.sin(phase))
+   if name in ['Float','Glide'] and b.name=='Head.003_02':
+    b.rotation_quaternion=q@Quaternion((0,0,1),.012*math.sin(phase))
+   if name=='Turn' and 'Hind_' in b.name and '.002_' in b.name:
+    b.rotation_quaternion=b.rotation_quaternion@Quaternion((0,1,0),(.09 if '_L.' in b.name else -.05)*math.sin(phase))
+  bpy.context.view_layer.update()
+  # Apply subtle buoyancy and reversible yaw/bank to the root in world space.
+  # No foot stepping or mammalian gait; shell remains rigid throughout.
+  yaw=.24*math.sin(phase) if name=='Turn' else 0
+  bank=.07*math.sin(phase) if name=='Turn' else (.012*math.sin(phase) if name=='Float' else .005*math.sin(phase))
+  bob=(.003 if name=='Float' else .0015)*math.sin(phase)
+  center=rig.matrix_world@rootbone.head
+  delta=Matrix.Translation(Vector((0,0,bob)))@Matrix.Translation(center)@Quaternion((0,0,1),yaw).to_matrix().to_4x4()@Quaternion((0,1,0),bank).to_matrix().to_4x4()@Matrix.Translation(-center)
+  rootbone.matrix=rig.matrix_world.inverted()@delta@rig.matrix_world@rootbone.matrix
+  bpy.context.view_layer.update()
+  for b in rig.pose.bones:
+   for channel in ['location','rotation_quaternion','scale']:b.keyframe_insert(channel,frame=f,group=b.name)
+ for fc in action.fcurves:
+  for k in fc.keyframe_points:k.interpolation='LINEAR'
+rig.animation_data.action=bpy.data.actions['Float'];scene.frame_set(0)
+# Rebase the imported upright bind skeleton to horizontal Float frame zero.
+# Source animation posed it horizontally, but glTF's unplayed bind pose must
+# itself obey the +Z-forward/+Y-up contract. Preserve every sampled pose matrix.
+pose_cache={}
+for label,duration in clip_frames.items():
+ rig.animation_data.action=bpy.data.actions[label];frames=[]
+ for f in range(duration+1):
+  scene.frame_set(f);bpy.context.view_layer.update();frames.append({b.name:b.matrix.copy() for b in rig.pose.bones})
+ pose_cache[label]=frames
+rig.animation_data.action=bpy.data.actions['Float'];scene.frame_set(0);bpy.context.view_layer.update()
+for obj in meshes:
+ bpy.ops.object.select_all(action='DESELECT');obj.select_set(True);bpy.context.view_layer.objects.active=obj
+ for mod in list(obj.modifiers):
+  if mod.type=='ARMATURE':bpy.ops.object.modifier_apply(modifier=mod.name)
+rig.animation_data_clear()
+bpy.ops.object.select_all(action='DESELECT');rig.select_set(True);bpy.context.view_layer.objects.active=rig
+bpy.ops.object.mode_set(mode='POSE');bpy.ops.pose.armature_apply(selected=False);bpy.ops.object.mode_set(mode='OBJECT')
+for obj in meshes:
+ mod=obj.modifiers.new('Preserved source skin','ARMATURE');mod.object=rig
+for act in list(bpy.data.actions):bpy.data.actions.remove(act)
+rig.animation_data_create()
+for label,frames in pose_cache.items():
+ action=bpy.data.actions.new(label);action.use_fake_user=True;rig.animation_data.action=action
+ for f,matrices in enumerate(frames):
+  for bone in rig.pose.bones:
+   bone.matrix=matrices[bone.name];bone.rotation_mode='QUATERNION';bpy.context.view_layer.update()
+   for channel in ['location','rotation_quaternion','scale']:bone.keyframe_insert(channel,frame=f,group=bone.name)
+ for fc in action.fcurves:
+  for key in fc.keyframe_points:key.interpolation='LINEAR'
+rig.animation_data.action=bpy.data.actions['Float'];scene.frame_set(0);bpy.context.view_layer.update()
+
+scene.unit_settings.system='METRIC';scene['motion_disclosure']='Swim retains recorded-source animation; Float, Glide and Turn are authored, biologically informed illustrations, not measured kinematics.'
+scene['license']='CC-BY-NC-4.0';scene['source_species']='Chelonia mydas'
+bpy.ops.wm.save_as_mainfile(filepath=str(ASSET/'green-sea-turtle.blend'))
+bpy.ops.export_scene.gltf(filepath=str(WORK/'green-sea-turtle.glb'),export_format='GLB',export_yup=True,export_animations=True,export_animation_mode='ACTIONS',export_force_sampling=True,export_skins=True,export_extras=True,export_cameras=False,export_lights=False,export_copyright='Model 72B by DigitalLife3D / Johnson Martin. CC BY-NC 4.0. Noncommercial only. Earthbound adaptation: Float, Glide, Turn; resampled original Swim. https://creativecommons.org/licenses/by-nc/4.0/')
+# Technical checks across every clip at five phases.
+report={'species':'Chelonia mydas','license':'CC-BY-NC-4.0','noncommercial_only':True,'original_joints':len(rig.data.bones),'source_vertices':sum(len(o.data.vertices) for o in meshes),'original_glide_sample':wide,'source_carapace_length_m':.275,'axes':'Blender -Y forward / +Z up; exported glTF +Z forward / +Y up','clips':{}}
+for name,duration in clip_frames.items():
+ rig.animation_data.action=bpy.data.actions[name];bounds=[]
+ for f in [0,duration//4,duration//2,3*duration//4,duration]:
+  scene.frame_set(f);bpy.context.view_layer.update();dep=bpy.context.evaluated_depsgraph_get();pts=[o.evaluated_get(dep).matrix_world@v.co for o in meshes for v in o.evaluated_get(dep).data.vertices]
+  bounds.append({'frame':f,'min':[min(p[i] for p in pts) for i in range(3)],'max':[max(p[i] for p in pts) for i in range(3)]})
+ report['clips'][name]={'duration_seconds':duration/30,'frames':duration,'bounds':bounds}
+(REPORT/'green-sea-turtle-technical.json').write_text(json.dumps(report,indent=2))
+# Render actual textured model in four orientations and representative clip poses.
+scene.render.engine='CYCLES';scene.cycles.samples=16;scene.cycles.use_denoising=True
+scene.render.resolution_x=1000;scene.render.resolution_y=800;scene.render.resolution_percentage=100
+scene.world=bpy.data.worlds.new('Neutral review');scene.world.use_nodes=True
+scene.world.node_tree.nodes['Background'].inputs[0].default_value=(.72,.70,.66,1)
+scene.world.node_tree.nodes['Background'].inputs[1].default_value=.45
+scene.view_settings.view_transform='Standard';scene.view_settings.look='None';scene.view_settings.exposure=0
+for label,pos,power,size in [('Key',(.5,-.6,.8),3,.7),('Fill',(-.5,-.1,.5),2,.6),('Rim',(0,.5,.6),3,.5),('Under',(0,0,-.4),2,.5)]:
+ data=bpy.data.lights.new(label,'AREA');data.energy=power;data.size=size;obj=bpy.data.objects.new(label,data);scene.collection.objects.link(obj);obj.location=pos;obj.rotation_euler=(Vector((0,0,.13))-obj.location).to_track_quat('-Z','Y').to_euler()
+data=bpy.data.cameras.new('QA camera');cam=bpy.data.objects.new('QA camera',data);scene.collection.objects.link(cam);scene.camera=cam;data.type='ORTHO';data.ortho_scale=.48
+shots=[('Float',0,'three-quarter',(.45,-.6,.40)),('Glide',0,'dorsal',(0,0,.9)),('Float',0,'lateral',(.7,0,.18)),('Glide',0,'ventral',(0,0,-.6)),('Swim',38,'swim-quarter',(.45,-.6,.4)),('Swim',77,'swim-half',(.45,-.6,.4)),('Turn',45,'turn',(.45,-.6,.4))]
+for name,f,label,pos in shots:
+ rig.animation_data.action=bpy.data.actions[name];scene.frame_set(f);cam.location=pos;cam.rotation_euler=(Vector((0,-.015,.13))-cam.location).to_track_quat('-Z','Y').to_euler();scene.render.filepath=str(REPORT/'green-sea-turtle-render'/f'{label}.png');bpy.ops.render.render(write_still=True)
+
+print('EARTHBOUND GREEN TURTLE COMPLETE',json.dumps({k:v['duration_seconds'] for k,v in report['clips'].items()}))

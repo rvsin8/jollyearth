@@ -1,0 +1,10 @@
+Earthbound original Gopher tortoise model
+Creator: Earthbound
+License: CC0 1.0 Universal (CC0-1.0)
+https://creativecommons.org/publicdomain/zero/1.0/
+
+The mesh, generated textures, skeletal rig, animation, and authoring script are original Earthbound work and are dedicated to the public domain under CC0 1.0.
+
+Biological morphology reference (not a model or texture source):
+U.S. Fish & Wildlife Service, Gopher Tortoise
+https://www.fws.gov/project/gopher-tortoise

@@ -1,0 +1,12 @@
+{
+  "slug": "red-fox",
+  "status": "ready",
+  "input": "pipeline/assets/red-fox.blend",
+  "desktop": "public/models/animals/red-fox.glb",
+  "mobile": "public/models/animals/red-fox.mobile.glb",
+  "requiredAnimations": [
+    "Idle"
+  ],
+  "pipeline": "pipeline/README.md",
+  "illustrationExpected": "public/icons/species/red-fox.svg"
+}

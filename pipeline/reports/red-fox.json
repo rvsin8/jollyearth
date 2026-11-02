@@ -1,0 +1,196 @@
+{
+  "slug": "red-fox",
+  "checkedAt": "2026-10-16T23:00:50.839Z",
+  "status": "passed",
+  "models": [
+    {
+      "file": "public/models/animals/red-fox.glb",
+      "variant": "desktop",
+      "sha256": "ebaac6c5fc971a1b6c5b863bd51dd7b2a587aa31146e65063355d94bebd69708",
+      "bytes": 1028664,
+      "vertices": 29832,
+      "triangles": 55644,
+      "lengthM": 1.0509907688253493,
+      "clips": [
+        "Idle",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "textureSizes": [
+        {
+          "name": "Fox_normal",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "Fox_base_color",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "Fox_metallic_roughness",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 4,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+            "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+            "severity": 1,
+            "pointer": "/meshes/0/primitives/0/material"
+          },
+          {
+            "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+            "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+            "severity": 1,
+            "pointer": "/meshes/1/primitives/0/material"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/40"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/41"
+          }
+        ],
+        "truncated": false
+      },
+      "errors": []
+    },
+    {
+      "file": "public/models/animals/red-fox.mobile.glb",
+      "variant": "mobile",
+      "sha256": "555f874492c85ee8a90a46e856656b09164d2dbb9d6bab8ad9018f9437884b59",
+      "bytes": 792676,
+      "vertices": 11333,
+      "triangles": 19598,
+      "lengthM": 1.0509907783690833,
+      "clips": [
+        "Idle",
+        "Run",
+        "Trot",
+        "Walk"
+      ],
+      "textureSizes": [
+        {
+          "name": "Fox_normal",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "Fox_base_color",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "Fox_metallic_roughness",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        }
+      ],
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 4,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          },
+          {
+            "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+            "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+            "severity": 1,
+            "pointer": "/meshes/0/primitives/0/material"
+          },
+          {
+            "code": "MESH_PRIMITIVE_GENERATED_TANGENT_SPACE",
+            "message": "Material requires a tangent space but the mesh primitive does not provide it. Runtime-generated tangent space may be non-portable across implementations.",
+            "severity": 1,
+            "pointer": "/meshes/1/primitives/0/material"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/40"
+          },
+          {
+            "code": "NODE_SKINNED_MESH_LOCAL_TRANSFORMS",
+            "message": "Local transforms will not affect a skinned mesh.",
+            "severity": 1,
+            "pointer": "/nodes/41"
+          }
+        ],
+        "truncated": false
+      },
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "manualReview": [
+    {
+      "text": "**Ears:** tall and pointed. Backs are black and insides white-furred.",
+      "checked": false
+    },
+    {
+      "text": "**Eyes:** amber, slanted, with vertical slit pupils.",
+      "checked": false
+    },
+    {
+      "text": "**Muzzle:** black nose and lip line, white upper lip and cheeks.",
+      "checked": false
+    },
+    {
+      "text": "**Bib:** white chin, throat and chest. The belly is white to ash-grey.",
+      "checked": false
+    },
+    {
+      "text": "**Legs:** black \"stockings\" on the lower legs, highest on the front of the forelegs. Hind legs are black from the hock down.",
+      "checked": false
+    },
+    {
+      "text": "**Tail tip:** white. A black tip reads as a grey fox.",
+      "checked": false
+    }
+  ]
+}

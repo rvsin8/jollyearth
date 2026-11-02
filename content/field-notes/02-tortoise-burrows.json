@@ -1,0 +1,37 @@
+{
+  "id": "tortoise-burrows",
+  "brief_number": 2,
+  "headline": "The tortoise that digs for everyone else",
+  "biome": [
+    "Grassland"
+  ],
+  "hotspot": [
+    "north-american-coastal-plain"
+  ],
+  "species": [
+    "gopher-tortoise"
+  ],
+  "type": "turning-point",
+  "pullout_number": "2022",
+  "pullout_label": "Year the federal eastern-population finding changed the story",
+  "body": "A gopher tortoise does more than occupy its habitat. With strong forelimbs, it digs a burrow that other animals can also use. Protecting the tortoise therefore begins with understanding the larger community around it, including the open pine landscape where it feeds and shelters.\n\nIts conservation story changes across its range. The U.S. Fish and Wildlife Service recognizes eastern and western distinct population segments. The western segment is federally threatened. In its 2022 review, the agency determined that listing the eastern segment was not warranted. Describing eastern tortoises as a current federal listing candidate would repeat an outdated status.\n\nThat decision did not make habitat management unnecessary. The agency explains that dense tree cover can reduce the sunlight and grassy groundcover tortoises need. Prescribed burning and thinning can help maintain suitable conditions, with professional planning and the required permissions.\n\nA legal status answers a specific question about protection under a law. It does not describe every local population, and it is not interchangeable with a global IUCN category. Reading those labels together gives students a more useful picture than calling the entire species either saved or lost.",
+  "why_it_matters": "A legal decision and a species’ ecological needs are different kinds of evidence.",
+  "sources": [
+    {
+      "id": "gopher",
+      "title": "USFWS — Gopher Tortoise conservation and 2022 finding",
+      "url": "https://www.fws.gov/project/gopher-tortoise",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "draft",
+  "review_notes": "Unverified 80% decline removed. Federal candidate claim corrected; global GBIF category remains separately sourced. Human review required.",
+  "read_alongside": [
+    "georgias-bet"
+  ],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

@@ -1,0 +1,6 @@
+'use client';
+import {ExternalLink} from "./external-link";
+import {models,findModel} from './model-records';
+export {findModel};
+export function ModelCredit({slug,scientificName}: {slug:string;scientificName?:string}){const m=findModel(slug,scientificName);return m?<p className="model-credit">Model by <ExternalLink href={m.creatorUrl}>{m.creator}</ExternalLink> · <ExternalLink href={m.licenseUrl}>{m.license}</ExternalLink></p>:null}
+export function ModelSources(){return <section id="models"><h2>3D models</h2>{models.map(m=><div className="source-entry" key={m.slug}><h3>{m.commonName}</h3><p><i>{m.scientificName}</i></p><ModelCredit slug={m.slug}/>{m.changes&&<p>{m.changes}</p>}{m.animationNote&&<p>{m.animationNote}</p>}<ExternalLink href={m.sourceUrl}>Original model source</ExternalLink></div>)}<p>Model files are checked for technical integrity and reviewed visually. Their individual credits distinguish original educational models from specimens reconstructed with photogrammetry; animations are educational interpretations. Animal exhibits with missing assets retain their original illustrations. Plant lab uses procedural botanical geometry; its sources and method are separate.</p></section>}

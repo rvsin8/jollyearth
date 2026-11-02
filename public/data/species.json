@@ -1,0 +1,1170 @@
+{
+  "refreshedAt": "2026-09-21",
+  "refreshFailed": false,
+  "species": [
+    {
+      "id": "gopher-tortoise",
+      "name": "Gopher tortoise",
+      "scientific": "Gopherus polyphemus",
+      "color": "#a59c7e",
+      "role": "Native",
+      "image": "/images/gopher-tortoise.webp",
+      "alt": "Juvenile gopher tortoise eating greens in a care enclosure",
+      "biomes": [
+        "Grassland",
+        "Tropical forest",
+        "Mangrove"
+      ],
+      "hotspots": [
+        "north-american-coastal-plain"
+      ],
+      "range": "Southeastern United States",
+      "traits": "A terrestrial tortoise with strong digging forelimbs; its burrows shelter other wildlife.",
+      "threats": [
+        "Habitat conversion",
+        "Fire suppression"
+      ],
+      "action": "Ask a local nature centre about a supervised native-habitat volunteer day.",
+      "trend": "unknown",
+      "sources": [
+        {
+          "id": "species-profile",
+          "title": "Species ecology and conservation profile",
+          "url": "https://www.fws.gov/project/gopher-tortoise",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "photo-gopher-tortoise",
+          "title": "Gopher tortoise photograph · Emmet Guy/USFWS",
+          "url": "https://www.fws.gov/media/gopher-tortoise-0",
+          "note": "Public Domain · Cropped for display.",
+          "licenseUrl": "https://www.fws.gov/media/gopher-tortoise-0",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "gbif-status",
+          "title": "GBIF · cached global IUCN category",
+          "url": "https://api.gbif.org/v1/species/2441812/iucnRedListCategory",
+          "accessed": "2026-09-21",
+          "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+        }
+      ],
+      "status": "CR",
+      "dataAsOf": "2026-09-21",
+      "statusSource": "https://api.gbif.org/v1/species/2441812/iucnRedListCategory",
+      "stale": false
+    },
+    {
+      "id": "lemur",
+      "name": "Ring-tailed lemur",
+      "scientific": "Lemur catta",
+      "color": "#a3a391",
+      "role": "Endemic",
+      "image": "/images/lemur.webp",
+      "alt": "Ring-tailed lemur in its habitat",
+      "biomes": [
+        "Tropical forest",
+        "Mangrove",
+        "Coastal & reef",
+        "Grassland",
+        "Desert"
+      ],
+      "hotspots": [
+        "madagascar"
+      ],
+      "range": "Southern Madagascar",
+      "traits": "A social primate with a black-and-white ringed tail.",
+      "threats": [
+        "Habitat loss",
+        "Hunting"
+      ],
+      "action": "Make a classroom display explaining why wild lemurs should never be pets.",
+      "trend": "unknown",
+      "sources": [
+        {
+          "id": "species-profile",
+          "title": "Species ecology and conservation profile",
+          "url": "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "photo-lemur",
+          "title": "lemur photograph · Francis C. Franklin",
+          "url": "https://commons.wikimedia.org/wiki/File:Ring_tailed_lemur_portrait.jpg",
+          "note": "CC BY-SA 3.0 · Cropped for display.",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "id": "gbif-status",
+          "title": "GBIF · cached global IUCN category",
+          "url": "https://api.gbif.org/v1/species/2436412/iucnRedListCategory",
+          "accessed": "2026-09-21",
+          "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+        }
+      ],
+      "status": "EN",
+      "dataAsOf": "2026-09-21",
+      "statusSource": "https://api.gbif.org/v1/species/2436412/iucnRedListCategory",
+      "stale": false
+    },
+    {
+      "id": "orangutan",
+      "name": "Bornean orangutan",
+      "scientific": "Pongo pygmaeus",
+      "color": "#a88560",
+      "role": "Endemic",
+      "image": "/images/orangutan.webp",
+      "alt": "Bornean orangutan in its habitat",
+      "biomes": [
+        "Tropical forest",
+        "Mangrove",
+        "Coastal & reef"
+      ],
+      "hotspots": [
+        "sundaland"
+      ],
+      "range": "Borneo",
+      "traits": "A tree-dwelling great ape that disperses seeds.",
+      "threats": [
+        "Forest conversion",
+        "Hunting"
+      ],
+      "action": "Audit one classroom snack supply chain and ask its producer for evidence of deforestation-free sourcing.",
+      "trend": "unknown",
+      "sources": [
+        {
+          "id": "species-profile",
+          "title": "Species ecology and conservation profile",
+          "url": "https://nationalzoo.si.edu/animals/orangutan",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "photo-orangutan",
+          "title": "orangutan photograph · Nanosanchez",
+          "url": "https://commons.wikimedia.org/wiki/File:Tanjung_Puting30477.jpg",
+          "note": "CC BY-SA 4.0 · Resized and cropped for display.",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "id": "gbif-status",
+          "title": "GBIF · cached global IUCN category",
+          "url": "https://api.gbif.org/v1/species/5219532/iucnRedListCategory",
+          "accessed": "2026-09-21",
+          "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+        }
+      ],
+      "status": "CR",
+      "dataAsOf": "2026-09-21",
+      "statusSource": "https://api.gbif.org/v1/species/5219532/iucnRedListCategory",
+      "stale": false
+    },
+    {
+      "id": "green-turtle",
+      "name": "Green sea turtle",
+      "scientific": "Chelonia mydas",
+      "color": "#8b9270",
+      "role": "Coastal",
+      "image": "/images/green-turtle.webp",
+      "alt": "Green sea turtle in its habitat",
+      "biomes": [
+        "Tropical forest",
+        "Mangrove",
+        "Coastal & reef",
+        "Grassland",
+        "Alpine"
+      ],
+      "hotspots": [
+        "sundaland",
+        "indo-burma",
+        "caribbean-islands",
+        "coastal-forests-of-eastern-africa",
+        "east-melanesian-islands",
+        "japan",
+        "mesoamerica",
+        "new-caledonia",
+        "philippines",
+        "polynesia-micronesia",
+        "wallacea"
+      ],
+      "range": "Tropical and subtropical seas worldwide",
+      "traits": "An air-breathing marine reptile; adults often feed in seagrass habitats.",
+      "threats": [
+        "Fishing bycatch",
+        "Habitat loss",
+        "Marine debris"
+      ],
+      "action": "Join a teacher-supervised beach or river clean-up and record the types of litter collected.",
+      "trend": "unknown",
+      "sources": [
+        {
+          "id": "species-profile",
+          "title": "Species ecology and conservation profile",
+          "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "photo-green-turtle",
+          "title": "green turtle photograph · Charles J. Sharp",
+          "url": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+          "note": "CC BY-SA 4.0 · Resized and cropped for display.",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "id": "gbif-status",
+          "title": "GBIF · cached global IUCN category",
+          "url": "https://api.gbif.org/v1/species/2442225/iucnRedListCategory",
+          "accessed": "2026-09-21",
+          "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+        }
+      ],
+      "status": "LC",
+      "dataAsOf": "2026-09-21",
+      "statusSource": "https://api.gbif.org/v1/species/2442225/iucnRedListCategory",
+      "stale": false
+    },
+    {
+      "id": "red-panda",
+      "name": "Red panda",
+      "scientific": "Ailurus fulgens",
+      "color": "#a67e5b",
+      "role": "Native",
+      "image": "/images/red-panda.webp",
+      "alt": "Red panda in its habitat",
+      "biomes": [
+        "Alpine",
+        "Tropical forest",
+        "Grassland"
+      ],
+      "hotspots": [
+        "himalaya",
+        "mountains-of-southwest-china"
+      ],
+      "range": "Forests of the eastern Himalaya and southwestern China",
+      "traits": "A forest mammal that feeds mainly on bamboo.",
+      "threats": [
+        "Habitat loss",
+        "Fragmentation"
+      ],
+      "action": "Create a school exhibit connecting paper use with responsible forest management.",
+      "trend": "unknown",
+      "sources": [
+        {
+          "id": "species-profile",
+          "title": "Species ecology and conservation profile",
+          "url": "https://nationalzoo.si.edu/animals/red-panda",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "photo-red-panda",
+          "title": "red panda photograph · Sunuwargr",
+          "url": "https://commons.wikimedia.org/wiki/File:Red_Panda%2C_Gentle_Tree-Dweller_of_the_Himalayas.jpg",
+          "note": "CC BY-SA 4.0 · Resized and cropped for display.",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "id": "gbif-status",
+          "title": "GBIF · cached global IUCN category",
+          "url": "https://api.gbif.org/v1/species/5219446/iucnRedListCategory",
+          "accessed": "2026-09-21",
+          "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+        }
+      ],
+      "status": "EN",
+      "dataAsOf": "2026-09-21",
+      "statusSource": "https://api.gbif.org/v1/species/5219446/iucnRedListCategory",
+      "stale": false
+    },
+    {
+      "id": "condor",
+      "name": "Andean condor",
+      "scientific": "Vultur gryphus",
+      "color": "#727665",
+      "role": "Native",
+      "image": "/images/condor.webp",
+      "alt": "Andean condor in its habitat",
+      "biomes": [
+        "Tropical forest",
+        "Alpine",
+        "Grassland"
+      ],
+      "hotspots": [
+        "tropical-andes",
+        "chilean-winter-rainfall-and-valdivian-forests"
+      ],
+      "range": "Andes and adjoining South American landscapes",
+      "traits": "A large soaring scavenger that feeds on carrion.",
+      "threats": [
+        "Poisoning",
+        "Persecution"
+      ],
+      "action": "Make an evidence-based poster about the ecological role of scavengers.",
+      "trend": "unknown",
+      "sources": [
+        {
+          "id": "species-profile",
+          "title": "Species ecology and conservation profile",
+          "url": "https://animals.sandiegozoo.org/animals/andean-condor",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "photo-condor",
+          "title": "condor photograph · Greg Hume",
+          "url": "https://commons.wikimedia.org/wiki/File:AndeanCondorMale.jpg",
+          "note": "CC BY-SA 3.0 · Resized and cropped for display.",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "id": "gbif-status",
+          "title": "GBIF · cached global IUCN category",
+          "url": "https://api.gbif.org/v1/species/2481907/iucnRedListCategory",
+          "accessed": "2026-09-21",
+          "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+        }
+      ],
+      "status": "VU",
+      "dataAsOf": "2026-09-21",
+      "statusSource": "https://api.gbif.org/v1/species/2481907/iucnRedListCategory",
+      "stale": false
+    },
+    {
+      "id": "red-cockaded-woodpecker",
+      "name": "Red-cockaded woodpecker",
+      "scientific": "Dryobates borealis",
+      "color": "#171821",
+      "role": "Native",
+      "image": "/images/red-cockaded-woodpecker.webp",
+      "alt": "Red-cockaded woodpecker clinging to a pine trunk",
+      "biomes": [
+        "Grassland"
+      ],
+      "hotspots": [
+        "north-american-coastal-plain"
+      ],
+      "range": "Pine forests of the southeastern United States",
+      "traits": "A social woodpecker associated with mature, fire-maintained pine forests.",
+      "threats": [
+        "Loss of mature pine forest",
+        "Fire suppression"
+      ],
+      "action": "Ask a local wildlife refuge how your class can support habitat stewardship without disturbing nesting birds.",
+      "trend": "unknown",
+      "sources": [
+        {
+          "id": "species-profile",
+          "title": "NFWF · Red-cockaded woodpecker habitat",
+          "url": "https://www.nfwf.org/programs/longleaf-landscape-stewardship-fund",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "photo-red-cockaded-woodpecker",
+          "title": "Red-cockaded woodpecker photograph · Renee Bodine/USFWS",
+          "url": "https://www.fws.gov/media/red-cockaded-woodpecker-tree",
+          "note": "Public Domain · Cropped for display.",
+          "licenseUrl": "https://www.fws.gov/media/red-cockaded-woodpecker-tree",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "gbif-status",
+          "title": "GBIF · cached global IUCN category",
+          "url": "https://api.gbif.org/v1/species/9046711/iucnRedListCategory",
+          "accessed": "2026-09-21",
+          "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+        }
+      ],
+      "status": "NT",
+      "dataAsOf": "2026-09-21",
+      "statusSource": "https://api.gbif.org/v1/species/9046711/iucnRedListCategory",
+      "stale": false
+    },
+    {
+      "id": "longleaf-pine",
+      "name": "Longleaf pine",
+      "scientific": "Pinus palustris",
+      "image": "/images/longleaf-pine-habitat.webp",
+      "alt": "Longleaf pine habitat at Camp Blanding in Florida",
+      "biomes": [
+        "Grassland"
+      ],
+      "hotspots": [
+        "north-american-coastal-plain"
+      ],
+      "range": "Southeastern United States",
+      "traits": "A pine adapted to frequent low-intensity fires; thick bark protects mature trees.",
+      "threats": [
+        "Land conversion",
+        "Fire exclusion"
+      ],
+      "action": "Ask your teacher to arrange a ranger-led discussion about prescribed fire and native habitat restoration.",
+      "trend": "unknown",
+      "sources": [
+        {
+          "id": "species-profile",
+          "title": "The Longleaf Alliance · Built by Fire",
+          "url": "https://longleafalliance.org/what-is-longleaf/the-ecosystem/built-by-fire/",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "photo-longleaf-pine-habitat",
+          "title": "Longleaf pine habitat photograph · Leo Miranda/USFWS",
+          "url": "https://commons.wikimedia.org/wiki/File:Longleaf_pine_habitat_(33748135511).jpg",
+          "note": "CC BY 2.0 (also marked US federal public domain) · Cropped for display.",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+          "accessed": "2026-09-21"
+        },
+        {
+          "id": "gbif-status",
+          "title": "GBIF · cached global IUCN category",
+          "url": "https://api.gbif.org/v1/species/5285816/iucnRedListCategory",
+          "accessed": "2026-09-21",
+          "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+        }
+      ],
+      "status": "EN",
+      "dataAsOf": "2026-09-21",
+      "statusSource": "https://api.gbif.org/v1/species/5285816/iucnRedListCategory",
+      "stale": false
+    },
+    {
+      "id": "tamarin",
+      "name": "Golden lion tamarin",
+      "scientific": "Leontopithecus rosalia",
+      "color": "#bb925c",
+      "image": "/images/tamarin.webp",
+      "alt": "Golden lion tamarin photographic reference",
+      "biomes": [
+        "Tropical forest"
+      ],
+      "hotspots": [
+        "atlantic-forest"
+      ],
+      "range": "Lowland Atlantic Forest of Rio de Janeiro state, Brazil",
+      "traits": "Reintroduction and forest protection helped this golden-maned monkey recover from near extinction. Yellow fever brought a serious setback; conservation teams report renewed recovery, showing why long-term protection still matters.",
+      "description": "Reintroduction and forest protection helped this golden-maned monkey recover from near extinction. Yellow fever brought a serious setback; conservation teams report renewed recovery, showing why long-term protection still matters.",
+      "threats": [
+        "Forest fragmentation",
+        "Yellow fever",
+        "Introduced primates"
+      ],
+      "action": "Build a classroom habitat-corridor model using Save the Golden Lion Tamarin’s forest restoration work as a case study.",
+      "actionUrl": "https://www.savetheliontamarin.org/",
+      "trend": "decreasing",
+      "trendNote": "The Red List assessment records a decreasing trend. The conservation programme’s later recovery reports do not replace that dated assessment.",
+      "status": "EN",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2015,
+      "assessmentPublication": "2019; amended 2021",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/11506/192327291",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-tamarin",
+          "title": "IUCN Red List · Leontopithecus rosalia · 2019; amended 2021",
+          "url": "https://www.iucnredlist.org/species/11506/192327291",
+          "note": "Global species assessment; assessed 2015. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-tamarin",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2021-1.RLTS.T11506A192327291.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "recovery-tamarin",
+          "title": "Save the Golden Lion Tamarin · Recovery and forest protection",
+          "url": "https://www.savetheliontamarin.org/",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "assessment-text-tamarin",
+          "title": "IUCN assessment · Golden lion tamarin (2019 edition)",
+          "url": "https://bichodomatoip.org/wp-content/uploads/2020/03/Ruiz-Miranda-et-al.-2019.-Leontopithecus-rosalia-IUCN-2019.pdf",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-tamarin",
+          "title": "Learn more and help · Golden lion tamarin",
+          "url": "https://www.savetheliontamarin.org/",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-tamarin",
+          "title": "tamarin photograph · Daderot",
+          "url": "https://commons.wikimedia.org/wiki/File:Leontopithecus_rosalia_-_Copenhagen_Zoo_-_DSC09082.JPG",
+          "note": "CC0 1.0 · Resized and cropped for display.",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ]
+    },
+    {
+      "id": "mountain-gorilla",
+      "name": "Mountain gorilla",
+      "scientific": "Gorilla beringei beringei",
+      "color": "#7a8070",
+      "image": "/images/gorilla-beringei-beringei.webp",
+      "alt": "Mountain gorilla photographic reference",
+      "biomes": [
+        "Tropical forest",
+        "Alpine"
+      ],
+      "hotspots": [
+        "eastern-afromontane"
+      ],
+      "range": "Montane forests of the Virunga region and Bwindi–Sarambwe",
+      "traits": "Protection, veterinary care and work with nearby communities helped mountain gorillas increase and move from Critically endangered to Endangered in 2018. This status applies to the mountain gorilla subspecies, not all eastern gorillas.",
+      "description": "Protection, veterinary care and work with nearby communities helped mountain gorillas increase and move from Critically endangered to Endangered in 2018. This status applies to the mountain gorilla subspecies, not all eastern gorillas.",
+      "threats": [
+        "Habitat loss",
+        "Human-transmitted disease",
+        "Snares"
+      ],
+      "action": "If visiting gorilla habitat, follow official viewing-distance and health rules; share why disease prevention protects great apes.",
+      "actionUrl": "https://iucn.org/news/species/201811/fin-whale-mountain-gorilla-recovering-thanks-conservation-action-iucn-red-list",
+      "trend": "increasing",
+      "trendNote": "",
+      "status": "EN",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2018,
+      "assessmentPublication": "2018; amended 2020",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/39999/176396749",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-mountain-gorilla",
+          "title": "IUCN Red List · Gorilla beringei beringei · 2018; amended 2020",
+          "url": "https://www.iucnredlist.org/species/39999/176396749",
+          "note": "Global subspecies assessment; assessed 2018. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-mountain-gorilla",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T39999A176396749.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "recovery-mountain-gorilla",
+          "title": "IUCN · Mountain gorilla recovery",
+          "url": "https://iucn.org/news/species/201811/fin-whale-mountain-gorilla-recovering-thanks-conservation-action-iucn-red-list",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-mountain-gorilla",
+          "title": "Learn more and help · Mountain gorilla",
+          "url": "https://iucn.org/news/species/201811/fin-whale-mountain-gorilla-recovering-thanks-conservation-action-iucn-red-list",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-gorilla-beringei-beringei",
+          "title": "Photograph · Thomas Fuhrmann",
+          "url": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_%28Gorilla_beringei_beringei%29_25.jpg",
+          "note": "CC BY-SA 4.0; displayed as a species reference, not a local observation.",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "accessed": "3 October 2026"
+        }
+      ]
+    },
+    {
+      "id": "kākāpō",
+      "name": "Kākāpō",
+      "scientific": "Strigops habroptilus",
+      "color": "#97a276",
+      "image": "/images/strigops-habroptilus.webp",
+      "alt": "Kākāpō photographic reference",
+      "biomes": [
+        "Tropical forest"
+      ],
+      "hotspots": [
+        "new-zealand"
+      ],
+      "range": "Managed populations on protected New Zealand islands",
+      "traits": "This flightless, nocturnal parrot has a moss-green coat and an owl-like face. Conservation teams know birds individually by name and use transmitters to monitor them on protected islands.",
+      "description": "This flightless, nocturnal parrot has a moss-green coat and an owl-like face. Conservation teams know birds individually by name and use transmitters to monitor them on protected islands.",
+      "threats": [
+        "Introduced predators",
+        "Disease",
+        "Low genetic diversity"
+      ],
+      "action": "Follow New Zealand’s Department of Conservation kākāpō recovery updates and share how predator-free habitats help flightless birds.",
+      "actionUrl": "https://www.doc.govt.nz/our-work/kakapo-recovery/",
+      "trend": "increasing",
+      "trendNote": "",
+      "status": "CR",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2018,
+      "assessmentPublication": "2018",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/22685245/129751169",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-kākāpō",
+          "title": "IUCN Red List · Strigops habroptilus · 2018",
+          "url": "https://www.iucnredlist.org/species/22685245/129751169",
+          "note": "Global species assessment; assessed 2018. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-kākāpō",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22685245A129751169.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "assessor-kakapo",
+          "title": "BirdLife International · Kākāpō Red List assessment",
+          "url": "https://datazone.birdlife.org/species/factsheet/kakapo-strigops-habroptilus",
+          "note": "BirdLife is the IUCN Red List authority for birds.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "ecology-kakapo",
+          "title": "Department of Conservation · Individually monitored kākāpō",
+          "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-kākāpō",
+          "title": "Learn more and help · Kākāpō",
+          "url": "https://www.doc.govt.nz/our-work/kakapo-recovery/",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-strigops-habroptilus",
+          "title": "Photograph · Mnolf",
+          "url": "https://commons.wikimedia.org/wiki/File:Strigops_habroptilus_1.jpg",
+          "note": "CC BY-SA 2.0; displayed as a species reference, not a local observation.",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+          "accessed": "3 October 2026"
+        }
+      ]
+    },
+    {
+      "id": "red-wolf",
+      "name": "Red wolf",
+      "scientific": "Canis rufus",
+      "color": "#8E9D86",
+      "image": "/images/red-wolf.webp",
+      "alt": "Red wolf photographic reference",
+      "photoCaption": "Species reference photograph; not a local sighting.",
+      "biomes": [
+        "Tropical forest",
+        "Grassland"
+      ],
+      "hotspots": [
+        "north-american-coastal-plain"
+      ],
+      "range": "Reintroduced wild population in eastern North Carolina",
+      "traits": "This reddish-grey canid was returned to the wild in eastern North Carolina through a breeding and reintroduction programme. Its survival depends on safe habitat and reducing human-caused deaths.",
+      "description": "This reddish-grey canid was returned to the wild in eastern North Carolina through a breeding and reintroduction programme. Its survival depends on safe habitat and reducing human-caused deaths.",
+      "threats": [
+        "Human-caused mortality",
+        "Hybridization with coyotes",
+        "Small, isolated population"
+      ],
+      "action": "Share the US Fish and Wildlife Service’s red wolf identification and coexistence guidance with your class.",
+      "actionUrl": "https://www.fws.gov/project/red-wolf-recovery-program",
+      "trend": "decreasing",
+      "trendNote": "",
+      "status": "CR",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2018,
+      "assessmentPublication": "2018; errata 2020",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/3747/163509841",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-red-wolf",
+          "title": "IUCN Red List · Canis rufus · 2018; errata 2020",
+          "url": "https://www.iucnredlist.org/species/3747/163509841",
+          "note": "Global species assessment; assessed 2018. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-red-wolf",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T3747A163509841.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "ecology-red-wolf",
+          "title": "IUCN SSC Canid Specialist Group · Red wolf",
+          "url": "https://canids.org/species/view/PREKJI659751",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-red-wolf",
+          "title": "Learn more and help · Red wolf",
+          "url": "https://www.fws.gov/project/red-wolf-recovery-program",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-red-wolf",
+          "title": "Red wolf photograph · LaggedOnUser",
+          "url": "https://commons.wikimedia.org/wiki/File:Red_wolf_(4531335218).jpg",
+          "note": "CC BY-SA 2.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+          "accessed": "2026-10-13",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      ]
+    },
+    {
+      "id": "saola",
+      "name": "Saola",
+      "scientific": "Pseudoryx nghetinhensis",
+      "color": "#8E9D86",
+      "image": "/images/saola.webp",
+      "alt": "Saola with long horns and white facial markings",
+      "photoCaption": "Archival species reference photograph; not a current sighting.",
+      "biomes": [
+        "Tropical forest"
+      ],
+      "hotspots": [
+        "indo-burma"
+      ],
+      "range": "Annamite Mountains of Laos and Vietnam",
+      "traits": "Long, nearly parallel horns and white facial markings distinguish this elusive forest bovid of the Annamite Mountains. Saola have been photographed by camera traps in the wild, but reliable records are exceptionally scarce.",
+      "description": "Long, nearly parallel horns and white facial markings distinguish this elusive forest bovid of the Annamite Mountains. Saola have been photographed by camera traps in the wild, but reliable records are exceptionally scarce.",
+      "threats": [
+        "Wire snares",
+        "Forest loss",
+        "Habitat fragmentation"
+      ],
+      "action": "Make a classroom display explaining how snares set for other wildlife also threaten saola, using the Saola Working Group’s resources.",
+      "actionUrl": "https://www.savethesaola.org/",
+      "trend": "decreasing",
+      "trendNote": "",
+      "status": "CR",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2016,
+      "assessmentPublication": "2016; amended 2020",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/18597/166485696",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-saola",
+          "title": "IUCN Red List · Pseudoryx nghetinhensis · 2016; amended 2020",
+          "url": "https://www.iucnredlist.org/species/18597/166485696",
+          "note": "Global species assessment; assessed 2016. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-saola",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18597A166485696.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "ecology-saola",
+          "title": "IUCN · Experts urge action to find saola",
+          "url": "https://iucn.org/news/species-survival-commission/202108/iucn-ssc-experts-urge-immediate-action-find-saola-its-too-late",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "camera-saola",
+          "title": "Saola Working Group · Camera-trap records",
+          "url": "https://www.savethesaola.org/zoos-worldwide-answer-call-to-help-save-asian-unicorn/",
+          "note": "Wild camera-trap photographs exist; the species is not known only from captive photographs.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-saola",
+          "title": "Learn more and help · Saola",
+          "url": "https://www.savethesaola.org/",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-saola",
+          "title": "Saola photograph · The original uploader was Silviculture at Vietnamese Wikipedia.",
+          "url": "https://commons.wikimedia.org/wiki/File:Pseudoryx_nghetinhensis,_b.PNG",
+          "note": "CC BY-SA 3.0 · Resized and converted to WebP. Archival species reference photograph; not a current sighting.",
+          "accessed": "2026-10-13",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    {
+      "id": "javan-rhinoceros",
+      "name": "Javan rhinoceros",
+      "scientific": "Rhinoceros sondaicus",
+      "color": "#8E9D86",
+      "image": "/images/javan-rhinoceros.webp",
+      "alt": "Historical photograph of a Javan rhinoceros at London Zoo",
+      "photoCaption": "Historical zoo photograph; this is not a current wild sighting.",
+      "biomes": [
+        "Tropical forest"
+      ],
+      "hotspots": [
+        "sundaland"
+      ],
+      "range": "Ujung Kulon National Park, western Java",
+      "traits": "This forest browser has folded grey skin and a single horn in males. Its only remaining population lives in Ujung Kulon, Java, leaving the species exposed to threats concentrated in one place.",
+      "description": "This forest browser has folded grey skin and a single horn in males. Its only remaining population lives in Ujung Kulon, Java, leaving the species exposed to threats concentrated in one place.",
+      "threats": [
+        "Poaching",
+        "Restricted habitat",
+        "Disease and natural disasters"
+      ],
+      "action": "Use the International Rhino Foundation’s resources to explain why rhino horn trade threatens wild populations.",
+      "actionUrl": "https://rhinos.org/about-rhinos/rhino-species/javan-rhino/",
+      "trend": "stable",
+      "trendNote": "Stable is the trend recorded in the 2019 assessment. It is not a claim that the population is stable today.",
+      "status": "CR",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2019,
+      "assessmentPublication": "2020",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/19495/18493900",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-javan-rhinoceros",
+          "title": "IUCN Red List · Rhinoceros sondaicus · 2020",
+          "url": "https://www.iucnredlist.org/species/19495/18493900",
+          "note": "Global species assessment; assessed 2019. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-javan-rhinoceros",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T19495A18493900.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "ecology-javan-rhinoceros",
+          "title": "International Rhino Foundation · Javan rhinoceros",
+          "url": "https://rhinos.org/about-rhinos/rhino-species/javan-rhino/",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-javan-rhinoceros",
+          "title": "Learn more and help · Javan rhinoceros",
+          "url": "https://rhinos.org/about-rhinos/rhino-species/javan-rhino/",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-javan-rhinoceros",
+          "title": "Javan rhinoceros photograph · T.Dixon. The Zoological Society of London",
+          "url": "https://commons.wikimedia.org/wiki/File:Rhinoceros_sondaicus_in_London_Zoo.jpg",
+          "note": "Public domain · Resized and converted to WebP. Historical zoo photograph; this is not a current wild sighting.",
+          "accessed": "2026-10-13",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+        }
+      ]
+    },
+    {
+      "id": "philippine-eagle",
+      "name": "Philippine eagle",
+      "scientific": "Pithecophaga jefferyi",
+      "color": "#8E9D86",
+      "image": "/images/philippine-eagle.webp",
+      "alt": "Young Philippine eagle Pamarayeg III perched in a tree",
+      "photoCaption": "Pamarayeg III, a young Philippine eagle.",
+      "biomes": [
+        "Tropical forest"
+      ],
+      "hotspots": [
+        "philippines"
+      ],
+      "range": "Forests of the Philippines",
+      "traits": "A shaggy crest and a deep, hooked bill distinguish this forest eagle. Found only in the Philippines, it depends on large forest territories that are increasingly broken apart.",
+      "description": "A shaggy crest and a deep, hooked bill distinguish this forest eagle. Found only in the Philippines, it depends on large forest territories that are increasingly broken apart.",
+      "threats": [
+        "Deforestation",
+        "Hunting",
+        "Habitat fragmentation"
+      ],
+      "action": "Use Philippine Eagle Foundation learning resources to explain how protecting an eagle also protects its forest.",
+      "actionUrl": "https://www.philippineeaglefoundation.org/education",
+      "trend": "decreasing",
+      "trendNote": "",
+      "status": "CR",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2025,
+      "assessmentPublication": "2025",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/22696012/273773083",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-philippine-eagle",
+          "title": "IUCN Red List · Pithecophaga jefferyi · 2025",
+          "url": "https://www.iucnredlist.org/species/22696012/273773083",
+          "note": "Global species assessment; assessed 2025. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-philippine-eagle",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T22696012A273773083.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "ecology-philippine-eagle",
+          "title": "BirdLife International · Philippine eagle",
+          "url": "https://datazone.birdlife.org/species/factsheet/philippine-eagle-pithecophaga-jefferyi",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-philippine-eagle",
+          "title": "Learn more and help · Philippine eagle",
+          "url": "https://www.philippineeaglefoundation.org/education",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-philippine-eagle",
+          "title": "Philippine eagle photograph · Aimee Valencia",
+          "url": "https://commons.wikimedia.org/wiki/File:Pamarayeg_IIIx2_(cropped).jpg",
+          "note": "CC BY 4.0 · Resized and converted to WebP. Pamarayeg III, a young Philippine eagle.",
+          "accessed": "2026-10-13",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    {
+      "id": "ethiopian-wolf",
+      "name": "Ethiopian wolf",
+      "scientific": "Canis simensis",
+      "color": "#8E9D86",
+      "image": "/images/ethiopian-wolf.webp",
+      "alt": "Ethiopian wolf photographic reference",
+      "photoCaption": "Species reference photograph; not a local sighting.",
+      "biomes": [
+        "Alpine",
+        "Grassland"
+      ],
+      "hotspots": [
+        "eastern-afromontane"
+      ],
+      "range": "Afroalpine highlands of Ethiopia",
+      "traits": "This slender, russet wolf hunts rodents in Ethiopia’s high mountain grasslands. Disease prevention and protection of remaining Afroalpine habitat are central to its conservation.",
+      "description": "This slender, russet wolf hunts rodents in Ethiopia’s high mountain grasslands. Disease prevention and protection of remaining Afroalpine habitat are central to its conservation.",
+      "threats": [
+        "Habitat conversion",
+        "Rabies",
+        "Canine distemper"
+      ],
+      "action": "Share how the Ethiopian Wolf Conservation Programme vaccinates dogs and wolves to reduce disease transmission.",
+      "actionUrl": "https://www.ethiopianwolf.org/projects/one-health",
+      "trend": "decreasing",
+      "trendNote": "",
+      "status": "EN",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2011,
+      "assessmentPublication": "2011",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/3748/10051312",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-ethiopian-wolf",
+          "title": "IUCN Red List · Canis simensis · 2011",
+          "url": "https://www.iucnredlist.org/species/3748/10051312",
+          "note": "Global species assessment; assessed 2011. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-ethiopian-wolf",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2011-1.RLTS.T3748A10051312.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "ecology-ethiopian-wolf",
+          "title": "IUCN SSC Canid Specialist Group · Ethiopian wolf",
+          "url": "https://www.canids.org/species/view/PREKNL433181",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-ethiopian-wolf",
+          "title": "Learn more and help · Ethiopian wolf",
+          "url": "https://www.ethiopianwolf.org/projects/one-health",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-ethiopian-wolf",
+          "title": "Ethiopian wolf photograph · Charles J. Sharp",
+          "url": "https://commons.wikimedia.org/wiki/File:Ethiopian_wolf_(Canis_simensis_citernii).jpg",
+          "note": "CC BY-SA 4.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+          "accessed": "2026-10-13",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "iberian-lynx",
+      "name": "Iberian lynx",
+      "scientific": "Lynx pardinus",
+      "color": "#8E9D86",
+      "image": "/images/iberian-lynx.webp",
+      "alt": "Iberian lynx photographic reference",
+      "photoCaption": "Species reference photograph; not a local sighting.",
+      "biomes": [
+        "Grassland"
+      ],
+      "hotspots": [
+        "mediterranean-basin"
+      ],
+      "range": "Mediterranean landscapes of Spain and Portugal",
+      "traits": "Ear tufts and a spotted coat mark this rabbit specialist of Spain and Portugal. Habitat work, prey recovery and reintroductions helped it move from Critically endangered through Endangered to Vulnerable.",
+      "description": "Ear tufts and a spotted coat mark this rabbit specialist of Spain and Portugal. Habitat work, prey recovery and reintroductions helped it move from Critically endangered through Endangered to Vulnerable.",
+      "threats": [
+        "Loss of rabbit prey",
+        "Road collisions",
+        "Poaching",
+        "Climate-driven habitat change"
+      ],
+      "action": "Create a class case study of how habitat restoration, rabbit recovery and wildlife crossings support lynx recovery.",
+      "actionUrl": "https://iucn.org/press-release/202406/iberian-lynx-rebounding-thanks-conservation-action-iucn-red-list",
+      "trend": "increasing",
+      "trendNote": "",
+      "status": "VU",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2023,
+      "assessmentPublication": "2024",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/12520/218695618",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-iberian-lynx",
+          "title": "IUCN Red List · Lynx pardinus · 2024",
+          "url": "https://www.iucnredlist.org/species/12520/218695618",
+          "note": "Global species assessment; assessed 2023. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-iberian-lynx",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2024-1.RLTS.T12520A218695618.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "recovery-iberian-lynx",
+          "title": "IUCN · Iberian lynx recovery",
+          "url": "https://iucn.org/press-release/202406/iberian-lynx-rebounding-thanks-conservation-action-iucn-red-list",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-iberian-lynx",
+          "title": "Learn more and help · Iberian lynx",
+          "url": "https://iucn.org/press-release/202406/iberian-lynx-rebounding-thanks-conservation-action-iucn-red-list",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-iberian-lynx",
+          "title": "Iberian lynx photograph · Diego Delso",
+          "url": "https://commons.wikimedia.org/wiki/File:Lince_ib%C3%A9rico_(Lynx_pardinus),_Almuradiel,_Ciudad_Real,_Espa%C3%B1a,_2021-12-19,_DD_07.jpg",
+          "note": "CC BY-SA 4.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+          "accessed": "2026-10-13",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    },
+    {
+      "id": "hirola",
+      "name": "Hirola",
+      "scientific": "Beatragus hunteri",
+      "color": "#8E9D86",
+      "image": "/images/hirola.webp",
+      "alt": "Hirola photographic reference",
+      "photoCaption": "Species reference photograph; not a local sighting.",
+      "biomes": [
+        "Grassland"
+      ],
+      "hotspots": [
+        "coastal-forests-of-eastern-africa"
+      ],
+      "range": "Open grasslands of eastern Kenya and southern Somalia",
+      "traits": "Pale eye markings and curved horns distinguish this antelope of open grasslands in eastern Kenya and southern Somalia. Community-led work restores the grassland it needs; the hotspot link describes the wider coastal region, not a forest habitat.",
+      "description": "Pale eye markings and curved horns distinguish this antelope of open grasslands in eastern Kenya and southern Somalia. Community-led work restores the grassland it needs; the hotspot link describes the wider coastal region, not a forest habitat.",
+      "threats": [
+        "Grassland loss and woody encroachment",
+        "Drought",
+        "Poaching",
+        "Disease"
+      ],
+      "action": "Use the Hirola Conservation Programme’s reports to explain how restoring grassland helps both wildlife and local livelihoods.",
+      "actionUrl": "https://www.hirolaconservation.org/",
+      "trend": "decreasing",
+      "trendNote": "",
+      "status": "CR",
+      "statusProvider": "IUCN Red List",
+      "assessmentYear": 2016,
+      "assessmentPublication": "2017",
+      "dataAsOf": "2026-10-13",
+      "statusSource": "https://www.iucnredlist.org/species/6234/50185297",
+      "stale": false,
+      "sources": [
+        {
+          "id": "iucn-hirola",
+          "title": "IUCN Red List · Beatragus hunteri · 2017",
+          "url": "https://www.iucnredlist.org/species/6234/50185297",
+          "note": "Global species assessment; assessed 2016. The population trend belongs to this dated assessment, not a live count.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "iucn-doi-hirola",
+          "title": "IUCN assessment DOI",
+          "url": "https://doi.org/10.2305/IUCN.UK.2017-2.RLTS.T6234A50185297.en",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "ecology-hirola",
+          "title": "Hirola Conservation Programme · Annual report 2023–2024",
+          "url": "https://www.hirolaconservation.org/wp-content/files/hcp-Annual-Report-2023_2024.pdf",
+          "note": "",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "action-hirola",
+          "title": "Learn more and help · Hirola",
+          "url": "https://www.hirolaconservation.org/",
+          "note": "Student action is an editorial suggestion based on this conservation programme.",
+          "accessed": "2026-10-13"
+        },
+        {
+          "id": "photo-hirola",
+          "title": "Hirola photograph · Jan Ebr",
+          "url": "https://commons.wikimedia.org/wiki/File:Beatragus_hunteri_176040791.jpg",
+          "note": "CC BY 4.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+          "accessed": "2026-10-13",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    }
+  ]
+}

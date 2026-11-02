@@ -1,0 +1,7 @@
+{
+  "measurement": "Authored wrist against a virtual stationary support target. No tree or collision geometry is present.",
+  "frames": 151,
+  "maximumWristTargetErrorM": 0.000792300618724567,
+  "maximumSupportErrorM": 1.068824674887583e-05,
+  "status": "passed"
+}

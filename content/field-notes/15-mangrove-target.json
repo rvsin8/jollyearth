@@ -1,0 +1,34 @@
+{
+  "id": "mangrove-target",
+  "brief_number": 15,
+  "headline": "A target is not an outcome",
+  "biome": [
+    "Mangrove"
+  ],
+  "hotspot": [],
+  "species": [],
+  "type": "happening-now",
+  "pullout_number": "$4 billion",
+  "pullout_label": "Funding ambition linked to a 2030 mangrove target",
+  "body": "The Mangrove Breakthrough states a large ambition: mobilize four billion dollars to secure the future of fifteen million hectares of mangroves by 2030. Both the amount and the area are targets. Reading them as money already spent or habitat already restored would turn a promise into a result.\n\nThe initiative describes work on finance, policy, project development, science, and community leadership. Those pieces matter because restoring a coastal ecosystem requires more than an announcement. Plans must become locally appropriate projects, and projects need support that lasts beyond a short funding cycle.\n\nFor students, the target offers a way to practice asking precise questions. What counts as securing a hectare? How much funding is committed, and how much has reached work on the ground? Who decides what local success looks like? An area figure alone cannot answer those questions.\n\nThe useful comparison is between ambition and documented delivery over time. A target can coordinate people and resources, but its value depends on what follows. Keep the goal visible while checking the evidence behind each claim of progress.",
+  "why_it_matters": "Clear labels let us distinguish an ambitious promise from a measured result.",
+  "sources": [
+    {
+      "id": "mangrove",
+      "title": "Mangrove Breakthrough — 2030 mission",
+      "url": "https://www.mangrovebreakthrough.com/",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "draft",
+  "review_notes": "Target verified on initiative mission page, accessed September 2026; not a newly announced 2026 result. Reviewer should confirm event framing before publication.",
+  "read_alongside": [
+    "costa-rica-mangroves",
+    "kenya-blue-carbon"
+  ],
+  "author": "Earthbound editorial draft",
+  "event_date": "2026-09-21"
+}

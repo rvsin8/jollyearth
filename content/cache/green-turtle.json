@@ -1,0 +1,34 @@
+{
+  "retrieved": "2026-09-21",
+  "matchUrl": "https://api.gbif.org/v1/species/match?name=Chelonia%20mydas",
+  "match": {
+    "usageKey": 2442225,
+    "scientificName": "Chelonia mydas (Linnaeus, 1758)",
+    "canonicalName": "Chelonia mydas",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "confidence": 97,
+    "matchType": "EXACT",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "family": "Cheloniidae",
+    "genus": "Chelonia",
+    "species": "Chelonia mydas",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "classKey": 11418114,
+    "familyKey": 9413,
+    "genusKey": 2441864,
+    "speciesKey": 2442225,
+    "class": "Testudines"
+  },
+  "categoryUrl": "https://api.gbif.org/v1/species/2442225/iucnRedListCategory",
+  "category": {
+    "category": "LEAST_CONCERN",
+    "usageKey": 176714675,
+    "scientificName": "Chelonia mydas (Linnaeus, 1758)",
+    "taxonomicStatus": "ACCEPTED",
+    "iucnTaxonID": "4615",
+    "code": "LC"
+  }
+}

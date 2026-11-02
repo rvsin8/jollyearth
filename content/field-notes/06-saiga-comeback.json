@@ -1,0 +1,35 @@
+{
+  "id": "saiga-comeback",
+  "brief_number": 6,
+  "headline": "Saiga: recovery with conditions",
+  "biome": [
+    "Grassland"
+  ],
+  "hotspot": [],
+  "species": [
+    "saiga"
+  ],
+  "type": "turning-point",
+  "pullout_number": "2023",
+  "pullout_label": "Year IUCN moved saiga from Critically Endangered to Near Threatened",
+  "body": "The saiga’s unusual nose makes it memorable, but its conservation story is about something less visible: the systems that keep animals alive. In December 2023, IUCN changed the species from Critically Endangered to Near Threatened. Anti-poaching work, education, enforcement at borders, and action against illegal trade had helped make that change possible.\n\nRecovery did not remove every threat. Saiga are vulnerable to disease outbreaks, and IUCN described repeated mass-mortality events. Weather conditions and contact with domestic livestock can affect that risk. A population can increase strongly and still face dangers capable of reversing its progress.\n\nThis is why a lower-risk category is best read as a change in evidence, not permission to stop conservation. The assessment itself links the improvement to continued protection and trade controls.\n\nFor a student, the important question is what would happen if those supports disappeared. The comeback depended on people maintaining rules and institutions across a wide landscape. Counting animals is essential, but understanding the work behind the count helps explain why recovery can remain fragile even after an encouraging announcement.",
+  "why_it_matters": "Recovery remains conditional when the pressures that caused decline can return.",
+  "sources": [
+    {
+      "id": "iucn2023",
+      "title": "IUCN — Red List update, 11 December 2023",
+      "url": "https://iucn.org/press-release/202312/freshwater-fish-highlight-escalating-climate-impacts-species-iucn-red-list",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "draft",
+  "review_notes": "No fastest-ever claim. 2006/2025 figures withheld pending original surveys. Confirm chronology and student readability in human review.",
+  "read_alongside": [
+    "oryx-return"
+  ],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

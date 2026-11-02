@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-09-21",
+  "matchUrl": "https://api.gbif.org/v1/species/match?name=Pinus%20palustris",
+  "match": {
+    "usageKey": 5285816,
+    "scientificName": "Pinus palustris Mill.",
+    "canonicalName": "Pinus palustris",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "confidence": 99,
+    "matchType": "EXACT",
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "order": "Pinales",
+    "family": "Pinaceae",
+    "genus": "Pinus",
+    "species": "Pinus palustris",
+    "kingdomKey": 6,
+    "phylumKey": 7707728,
+    "classKey": 194,
+    "orderKey": 640,
+    "familyKey": 3925,
+    "genusKey": 2684241,
+    "speciesKey": 5285816,
+    "class": "Pinopsida"
+  },
+  "categoryUrl": "https://api.gbif.org/v1/species/5285816/iucnRedListCategory",
+  "category": {
+    "category": "ENDANGERED",
+    "usageKey": 176755399,
+    "scientificName": "Pinus palustris Mill.",
+    "taxonomicStatus": "ACCEPTED",
+    "iucnTaxonID": "39068",
+    "code": "EN"
+  }
+}

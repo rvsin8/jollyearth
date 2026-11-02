@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "Mobile asset selection",
+    "Gesture pause",
+    "Immediate explicit Play",
+    "Immediate clip selection",
+    "Hidden-tab suspension",
+    "Failed-renderer cleanup",
+    "No restart after failure",
+    "Idempotent close cleanup",
+    "Legacy fox timing",
+    "Camera preset positions, framing and reset",
+    "Playback speed changes real mixer time",
+    "Reduced-motion controls and frozen pose",
+    "New controls absent from fox"
+  ],
+  "scope": "Actual component handlers with real Three camera/animation math and mocked DOM/WebGL. Not browser interaction, visual rendering, GPU, or touch validation."
+}

@@ -1,0 +1,85 @@
+{
+  "species": "Gopherus polyphemus",
+  "author": "Earthbound",
+  "license": "CC0-1.0",
+  "source": "Original vertex-authored mesh and generated textures; no imported model",
+  "reference": "https://www.fws.gov/project/gopher-tortoise",
+  "triangles": 37278,
+  "vertices": 20450,
+  "bones": 12,
+  "animations": [
+    {
+      "name": "Dig",
+      "frames": [
+        1.0,
+        96.0
+      ]
+    },
+    {
+      "name": "Idle",
+      "frames": [
+        1.0,
+        144.0
+      ]
+    },
+    {
+      "name": "Turn",
+      "frames": [
+        1.0,
+        144.0
+      ]
+    },
+    {
+      "name": "Walk",
+      "frames": [
+        1.0,
+        144.0
+      ]
+    }
+  ],
+  "texture_dimensions": [
+    [
+      "gopher_carapace_albedo",
+      2044,
+      1752
+    ],
+    [
+      "gopher_skin_albedo",
+      1024,
+      1024
+    ],
+    [
+      "gopher_armor_albedo",
+      1024,
+      1024
+    ],
+    [
+      "gopher_plastron_albedo",
+      1024,
+      1024
+    ],
+    [
+      "gopher_carapace_albedo_normal",
+      2044,
+      1752
+    ],
+    [
+      "gopher_skin_albedo_normal",
+      1024,
+      1024
+    ],
+    [
+      "gopher_carapace_roughness",
+      2044,
+      1752
+    ],
+    [
+      "gopher_skin_roughness",
+      1024,
+      1024
+    ]
+  ],
+  "units": "meters",
+  "qa": "Four grounded Cycles 32-sample neutral studio views; front, side, rear, three-quarter",
+  "sourceGroundOffsetM": 0.010599999688565731
+}

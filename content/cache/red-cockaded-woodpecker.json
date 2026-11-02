@@ -1,0 +1,37 @@
+{
+  "retrieved": "2026-09-21",
+  "matchUrl": "https://api.gbif.org/v1/species/match?name=Dryobates%20borealis",
+  "match": {
+    "usageKey": 10742338,
+    "acceptedUsageKey": 9046711,
+    "scientificName": "Dryobates borealis (Vieillot, 1809)",
+    "canonicalName": "Dryobates borealis",
+    "rank": "SPECIES",
+    "status": "SYNONYM",
+    "confidence": 98,
+    "matchType": "EXACT",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "order": "Piciformes",
+    "family": "Picidae",
+    "genus": "Leuconotopicus",
+    "species": "Leuconotopicus borealis",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "classKey": 212,
+    "orderKey": 724,
+    "familyKey": 9333,
+    "genusKey": 4845041,
+    "speciesKey": 9046711,
+    "class": "Aves"
+  },
+  "categoryUrl": "https://api.gbif.org/v1/species/9046711/iucnRedListCategory",
+  "category": {
+    "category": "NEAR_THREATENED",
+    "usageKey": 176617255,
+    "scientificName": "Leuconotopicus borealis (Vieillot, 1809)",
+    "taxonomicStatus": "ACCEPTED",
+    "iucnTaxonID": "22681158",
+    "code": "NT"
+  }
+}

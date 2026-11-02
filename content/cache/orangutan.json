@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-09-21",
+  "matchUrl": "https://api.gbif.org/v1/species/match?name=Pongo%20pygmaeus",
+  "match": {
+    "usageKey": 5219532,
+    "scientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+    "canonicalName": "Pongo pygmaeus",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "confidence": 99,
+    "matchType": "EXACT",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "order": "Primates",
+    "family": "Hominidae",
+    "genus": "Pongo",
+    "species": "Pongo pygmaeus",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "classKey": 359,
+    "orderKey": 798,
+    "familyKey": 5483,
+    "genusKey": 5219531,
+    "speciesKey": 5219532,
+    "class": "Mammalia"
+  },
+  "categoryUrl": "https://api.gbif.org/v1/species/5219532/iucnRedListCategory",
+  "category": {
+    "category": "CRITICALLY_ENDANGERED",
+    "usageKey": 176665146,
+    "scientificName": "Pongo pygmaeus (Linnaeus, 1760)",
+    "taxonomicStatus": "ACCEPTED",
+    "iucnTaxonID": "17975",
+    "code": "CR"
+  }
+}

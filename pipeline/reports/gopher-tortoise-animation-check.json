@@ -1,0 +1,70 @@
+{
+  "Idle": {
+    "frames": [
+      1,
+      19,
+      37,
+      55,
+      72,
+      90,
+      108,
+      126
+    ],
+    "durationSeconds": 5.958333333333333,
+    "rootTranslationMaxM": 0,
+    "stanceClawMinimumM": -1.6763806343078613e-08,
+    "stanceClawMaximumM": 0.0004999479278922081,
+    "endpointMatrixMaxDelta": 0.0
+  },
+  "Walk": {
+    "frames": [
+      1,
+      19,
+      37,
+      55,
+      72,
+      90,
+      108,
+      126
+    ],
+    "durationSeconds": 5.958333333333333,
+    "rootTranslationMaxM": 0,
+    "stanceClawMinimumM": -1.6763806343078613e-08,
+    "stanceClawMaximumM": 0.0005622375756502151,
+    "endpointMatrixMaxDelta": 0.0
+  },
+  "Turn": {
+    "frames": [
+      1,
+      19,
+      37,
+      55,
+      72,
+      90,
+      108,
+      126
+    ],
+    "durationSeconds": 5.958333333333333,
+    "rootTranslationMaxM": 0,
+    "stanceClawMinimumM": -1.6763806343078613e-08,
+    "stanceClawMaximumM": 0.0005622375756502151,
+    "endpointMatrixMaxDelta": 0.0
+  },
+  "Dig": {
+    "frames": [
+      1,
+      13,
+      25,
+      37,
+      48,
+      60,
+      72,
+      84
+    ],
+    "durationSeconds": 3.9583333333333335,
+    "rootTranslationMaxM": 0,
+    "stanceClawMinimumM": -1.6763806343078613e-08,
+    "stanceClawMaximumM": 0.0007552262395620346,
+    "endpointMatrixMaxDelta": 0.0
+  }
+}

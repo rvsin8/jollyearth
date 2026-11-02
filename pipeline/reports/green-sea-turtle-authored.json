@@ -1,0 +1,90 @@
+{
+  "species": "Chelonia mydas",
+  "author": "Earthbound",
+  "license": "CC0-1.0",
+  "triangles": 19812,
+  "vertices": 10719,
+  "bones": 12,
+  "clips": [
+    {
+      "name": "Float",
+      "frames": [
+        1.0,
+        121.0
+      ]
+    },
+    {
+      "name": "Glide",
+      "frames": [
+        1.0,
+        121.0
+      ]
+    },
+    {
+      "name": "Swim",
+      "frames": [
+        1.0,
+        73.0
+      ]
+    },
+    {
+      "name": "Turn",
+      "frames": [
+        1.0,
+        97.0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "turtle_original_carapace_albedo",
+      "dimensions": [
+        1536,
+        960
+      ],
+      "packed": true,
+      "colorSpace": "sRGB"
+    },
+    {
+      "name": "turtle_original_carapace_normal",
+      "dimensions": [
+        1536,
+        960
+      ],
+      "packed": true,
+      "colorSpace": "Non-Color"
+    },
+    {
+      "name": "turtle_original_skin_albedo",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "colorSpace": "sRGB"
+    },
+    {
+      "name": "turtle_original_skin_normal",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "colorSpace": "Non-Color"
+    },
+    {
+      "name": "turtle_original_plastron_albedo",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "colorSpace": "sRGB"
+    }
+  ],
+  "source": "Entirely original authored geometry/textures; archived imported predecessor never opened",
+  "limitations": [
+    "Procedural hand-authored anatomical interpretation, not a scan. Skin scale pigment is generated; dorsal prefrontal pair explicitly authored.",
+    "Separate overlapping anatomical surfaces at shell/soft tissue junctions, weighted together; no continuous watertight whole-animal union."
+  ]
+}

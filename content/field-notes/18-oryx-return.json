@@ -1,0 +1,31 @@
+{
+  "id": "oryx-return",
+  "brief_number": 18,
+  "headline": "Extinct in the wild is not the end",
+  "biome": [
+    "Desert"
+  ],
+  "hotspot": [],
+  "species": [],
+  "type": "turning-point",
+  "pullout_number": null,
+  "pullout_label": null,
+  "body": "",
+  "why_it_matters": "",
+  "sources": [
+    {
+      "id": "iucn2023",
+      "title": "IUCN — Red List update, 11 December 2023",
+      "url": "https://iucn.org/press-release/202312/freshwater-fish-highlight-escalating-climate-impacts-species-iucn-red-list",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "needs-research",
+  "review_notes": "IUCN primary December 2023 release verifies EW to EN for scimitar-horned oryx. Need dedicated restoration source for a full narrative. Do not date downlisting to 2026 or claim seven CMS improvements without original update.",
+  "read_alongside": [],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

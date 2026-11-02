@@ -1,0 +1,24 @@
+{
+  "id": "one-whale-one-calf",
+  "brief_number": 25,
+  "headline": "One whale, one calf",
+  "biome": [
+    "Coral reef"
+  ],
+  "hotspot": [],
+  "species": [],
+  "type": "happening-now",
+  "pullout_number": null,
+  "pullout_label": null,
+  "body": "",
+  "why_it_matters": "",
+  "sources": [],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "needs-research",
+  "review_notes": "Need NOAA or survey-team 2026 calving report. Sightings are repeat observations, not unique individuals. Confirm mother identity and age without publishing an unsupported anecdote.",
+  "read_alongside": [],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

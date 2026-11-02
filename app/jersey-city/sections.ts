@@ -1,0 +1,1 @@
+export const localSections=[['','Where we are'],['/wildlife','Who lives here'],['/places','Where to go'],['/challenges','Challenges & responses'],['/sightings','Recent sightings'],['/field-station','Student field station']];

@@ -1,0 +1,870 @@
+{
+  "status": "passed",
+  "verification": "CPU projection of every vertex at nine clip phases using the existing default camera, three stage aspect ratios and both variants. Not browser responsive-layout verification.",
+  "reports": [
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Idle",
+      "maxX": 0.5553683697827709,
+      "maxY": 0.2296633940723286,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Walk",
+      "maxX": 0.5732431859107141,
+      "maxY": 0.2343530735286665,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Turn",
+      "maxX": 0.5492527325625917,
+      "maxY": 0.23175915822886414,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Dig",
+      "maxX": 0.5836635716135551,
+      "maxY": 0.2371902377420038,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Idle",
+      "maxX": 0.5574656188710375,
+      "maxY": 0.40991692037696076,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Walk",
+      "maxX": 0.5768364191161043,
+      "maxY": 0.4195741323044301,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Turn",
+      "maxX": 0.553738732279725,
+      "maxY": 0.4142252870973479,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Dig",
+      "maxX": 0.5880810140286961,
+      "maxY": 0.4254454764041388,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Idle",
+      "maxX": 0.559578767772518,
+      "maxY": 0.6176874761507744,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Walk",
+      "maxX": 0.5804749830541895,
+      "maxY": 0.6344894190090226,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Turn",
+      "maxX": 0.5582986138705057,
+      "maxY": 0.6251685726212052,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Dig",
+      "maxX": 0.5925658329751835,
+      "maxY": 0.6447631902192321,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Idle",
+      "maxX": 0.5552534856789386,
+      "maxY": 0.22922673700670657,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Walk",
+      "maxX": 0.5731274018919624,
+      "maxY": 0.23391544207466364,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Turn",
+      "maxX": 0.5491286416461556,
+      "maxY": 0.23132206501594554,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Dig",
+      "maxX": 0.5835494336129466,
+      "maxY": 0.23675201954330172,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Idle",
+      "maxX": 0.5573686067415006,
+      "maxY": 0.40918749211512506,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Walk",
+      "maxX": 0.5767388762768457,
+      "maxY": 0.4188422991882854,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Turn",
+      "maxX": 0.5536315022920067,
+      "maxY": 0.41349478132598516,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Dig",
+      "maxX": 0.5879856139435462,
+      "maxY": 0.4247121994612803,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Idle",
+      "maxX": 0.5594999036377977,
+      "maxY": 0.6166750987642022,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Walk",
+      "maxX": 0.580396153585239,
+      "maxY": 0.6334734304590752,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Turn",
+      "maxX": 0.5582088205001079,
+      "maxY": 0.6241545689926729,
+      "insideViewport": true
+    },
+    {
+      "species": "gopher-tortoise",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Dig",
+      "maxX": 0.5924897592043696,
+      "maxY": 0.6437450667172324,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Float",
+      "maxX": 0.5161193764010931,
+      "maxY": 0.14094306761935302,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Swim",
+      "maxX": 0.5155283299780109,
+      "maxY": 0.21768992033318327,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Glide",
+      "maxX": 0.5150745583943329,
+      "maxY": 0.1368832738656168,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Turn",
+      "maxX": 0.6155190749684614,
+      "maxY": 0.1496712913564654,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Float",
+      "maxX": 0.5344084962972597,
+      "maxY": 0.24461079948761796,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Swim",
+      "maxX": 0.5366251477752593,
+      "maxY": 0.3711420995482434,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Glide",
+      "maxX": 0.5330306880844297,
+      "maxY": 0.23768922083061528,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Turn",
+      "maxX": 0.6165250363529958,
+      "maxY": 0.2652463981250127,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Float",
+      "maxX": 0.5540414152181168,
+      "maxY": 0.357214313776652,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Swim",
+      "maxX": 0.559524575565295,
+      "maxY": 0.5318022265428873,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Glide",
+      "maxX": 0.5522839839016723,
+      "maxY": 0.34730387336450014,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Turn",
+      "maxX": 0.6196479550106825,
+      "maxY": 0.396598638494169,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Float",
+      "maxX": 0.5161193764010931,
+      "maxY": 0.14094306761935302,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Swim",
+      "maxX": 0.5155283299780109,
+      "maxY": 0.21768992033318327,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Glide",
+      "maxX": 0.5150745583943329,
+      "maxY": 0.1368832738656168,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Turn",
+      "maxX": 0.6155190749684614,
+      "maxY": 0.1496712913564654,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Float",
+      "maxX": 0.5344084962972597,
+      "maxY": 0.24461079948761796,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Swim",
+      "maxX": 0.5366251477752593,
+      "maxY": 0.3711420995482434,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Glide",
+      "maxX": 0.5330306880844297,
+      "maxY": 0.23768922083061528,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Turn",
+      "maxX": 0.6165250363529958,
+      "maxY": 0.2652463981250127,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Float",
+      "maxX": 0.5540414152181168,
+      "maxY": 0.357214313776652,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Swim",
+      "maxX": 0.559524575565295,
+      "maxY": 0.5318022265428873,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Glide",
+      "maxX": 0.5522839839016723,
+      "maxY": 0.34730387336450014,
+      "insideViewport": true
+    },
+    {
+      "species": "green-sea-turtle",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Turn",
+      "maxX": 0.6196479550106825,
+      "maxY": 0.396598638494169,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Climb",
+      "maxX": 0.5910021267935057,
+      "maxY": 0.3239539388600176,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Idle",
+      "maxX": 0.47002513402331636,
+      "maxY": 0.38902226966181963,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Leap",
+      "maxX": 0.5093824074958008,
+      "maxY": 0.48890921359404543,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Walk",
+      "maxX": 0.4627033758758277,
+      "maxY": 0.39492602370296087,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Climb",
+      "maxX": 0.5542705982540749,
+      "maxY": 0.5363030760595487,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Idle",
+      "maxX": 0.4992938296548742,
+      "maxY": 0.6750457807531641,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Leap",
+      "maxX": 0.5364731295736359,
+      "maxY": 0.7967079354203607,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Walk",
+      "maxX": 0.49237844917577106,
+      "maxY": 0.6891717326554112,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Climb",
+      "maxX": 0.42598530662554734,
+      "maxY": 0.5846054818573596,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Idle",
+      "maxX": 0.39478929082891273,
+      "maxY": 0.7436026080626794,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Leap",
+      "maxX": 0.42329880675652554,
+      "maxY": 0.8651110897956655,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Walk",
+      "maxX": 0.38947828513385285,
+      "maxY": 0.7601946802356834,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Climb",
+      "maxX": 0.5901827816525735,
+      "maxY": 0.32395712352482964,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Idle",
+      "maxX": 0.47092262729252654,
+      "maxY": 0.3890410428555807,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Leap",
+      "maxX": 0.5103090661832408,
+      "maxY": 0.4890809136381508,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Walk",
+      "maxX": 0.4635896409356895,
+      "maxY": 0.39494634489451547,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Climb",
+      "maxX": 0.5534523424050212,
+      "maxY": 0.5362631968452312,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Idle",
+      "maxX": 0.5002844494721539,
+      "maxY": 0.6750223922255169,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Leap",
+      "maxX": 0.5374051174357789,
+      "maxY": 0.7969212145308738,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Walk",
+      "maxX": 0.4932742847465649,
+      "maxY": 0.6891502229690912,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Climb",
+      "maxX": 0.4252248671595613,
+      "maxY": 0.5843491688804243,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Idle",
+      "maxX": 0.3954069467442568,
+      "maxY": 0.7432734955131022,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Leap",
+      "maxX": 0.4238561071295706,
+      "maxY": 0.8650426051713659,
+      "insideViewport": true
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Walk",
+      "maxX": 0.3900347231104227,
+      "maxY": 0.7598564263793848,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Climb",
+      "maxX": 0.5191618817666634,
+      "maxY": 0.5422552390990477,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Idle",
+      "maxX": 0.4296330645181974,
+      "maxY": 0.3876090120012392,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Reach",
+      "maxX": 0.4473536398327518,
+      "maxY": 0.4671518503575881,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 0.6,
+      "clip": "Walk",
+      "maxX": 0.46744989028755535,
+      "maxY": 0.4155242923675299,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Climb",
+      "maxX": 0.4391943679697529,
+      "maxY": 0.8042876212493308,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Idle",
+      "maxX": 0.3573742237502655,
+      "maxY": 0.5571039257176345,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Reach",
+      "maxX": 0.41434566457950034,
+      "maxY": 0.7299558084050742,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 1,
+      "clip": "Walk",
+      "maxX": 0.39276954566604544,
+      "maxY": 0.6066743136521056,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Climb",
+      "maxX": 0.3137102628355378,
+      "maxY": 0.8042876212493308,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Idle",
+      "maxX": 0.25526730267876113,
+      "maxY": 0.5571039257176345,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Reach",
+      "maxX": 0.29596118898535745,
+      "maxY": 0.7299558084050742,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "desktop",
+      "aspect": 1.4,
+      "clip": "Walk",
+      "maxX": 0.2805496754757468,
+      "maxY": 0.6066743136521056,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Climb",
+      "maxX": 0.5197037712726895,
+      "maxY": 0.5421578525168632,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Idle",
+      "maxX": 0.42911011730198456,
+      "maxY": 0.3872231840351685,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Reach",
+      "maxX": 0.442884382661735,
+      "maxY": 0.46684372596553725,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 0.6,
+      "clip": "Walk",
+      "maxX": 0.46838873495565503,
+      "maxY": 0.4149376155563068,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Climb",
+      "maxX": 0.43964260921832937,
+      "maxY": 0.8039363917344611,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Idle",
+      "maxX": 0.35693360936419677,
+      "maxY": 0.5564464590588376,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Reach",
+      "maxX": 0.414452539743556,
+      "maxY": 0.729397178172603,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 1,
+      "clip": "Walk",
+      "maxX": 0.393407842971519,
+      "maxY": 0.6071956992657159,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Climb",
+      "maxX": 0.3140304351559496,
+      "maxY": 0.8039363917344611,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Idle",
+      "maxX": 0.2549525781172834,
+      "maxY": 0.5564464590588376,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Reach",
+      "maxX": 0.2960375283882543,
+      "maxY": 0.729397178172603,
+      "insideViewport": true
+    },
+    {
+      "species": "bornean-orangutan",
+      "variant": "mobile",
+      "aspect": 1.4,
+      "clip": "Walk",
+      "maxX": 0.2810056021225136,
+      "maxY": 0.6071956992657159,
+      "insideViewport": true
+    }
+  ]
+}

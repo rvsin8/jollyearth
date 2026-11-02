@@ -1,0 +1,13 @@
+{
+  "creator": "DigitalLife3D; model reconstruction by Johnson Martin",
+  "creatorUrl": "https://sketchfab.com/DigitalLife3D",
+  "license": "CC-BY-NC-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "sourceUrl": "https://sketchfab.com/3d-models/model-72b-juvenile-green-sea-turtle-c90a930f8b2a4cc8bc516742a0df01d9",
+  "changes": "Earthbound: restored source metre scale; packed original textures; retained original anatomy and skin weights; resampled source Swim; authored Float, Glide and reversible Turn actions. Noncommercial use only. Rebased upright source bind pose to horizontal Float pose while preserving sampled animation matrices.",
+  "animationNote": "Swim preserves the DigitalLife3D source swim cycle. Float, Glide and Turn are new illustrative animations derived from source poses and retained anatomical rig; they are not measured biological kinematics.",
+  "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-084/c90a930f8b2a4cc8bc516742a0df01d9.glb",
+  "species": "Chelonia mydas",
+  "specimen": "Juvenile photographed alive, 27.5 cm straight minimum carapace length and 3.0 kg; released in healthy condition.",
+  "noncommercialOnly": true
+}

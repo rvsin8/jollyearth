@@ -1,0 +1,24 @@
+{
+  "id": "freshwater-collapse",
+  "brief_number": 21,
+  "headline": "The freshwater collapse",
+  "biome": [
+    "Mangrove"
+  ],
+  "hotspot": [],
+  "species": [],
+  "type": "setback",
+  "pullout_number": null,
+  "pullout_label": null,
+  "body": "",
+  "why_it_matters": "",
+  "sources": [],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "needs-research",
+  "review_notes": "Need WWF Living Planet Report methodology and Ramsar Global Wetland Outlook. A population-index trend is not the fraction of animals or species lost. Wetland extent has a different denominator and period.",
+  "read_alongside": [],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

@@ -1,0 +1,9 @@
+{
+  "file": "/models/animals/eastern-oyster.glb",
+  "sha256": "278b9c4084787f5ca0ead8f5878ba654176c0d8e327cbebd1968fc788c06e4fa",
+  "bytes": 7191756,
+  "original": true,
+  "source": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/resources/Crassostrea_virginica-150k-4096_std.glb",
+  "retrieved": "2026-09-22",
+  "license": "Smithsonian Open Access (CC0)"
+}

@@ -1,0 +1,22 @@
+{
+  "creator": "Earthbound",
+  "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+  "changes": "Original Blender-authored female Bornean orangutan. Custom lofted anatomical surfaces voxel-unified into a continuous body; continuous Scenario Clay head sculpt with inset eyes, painted skin/coat UV atlas, original russet directional texture, and hand-authored area-sampled draped hair cards. Original curved digits, bowed legs, long arms and grasping feet. No purchased, imported or third-party animal geometry. Phase 2.5: shorter region-specific draped groom, reduced strand contrast, shallow eyelid/nasolabial/forehead pigment detail and adjusted nasal/brow contours. Mobile uses one-triangle strands to retain half the groom within its original budget.",
+  "animationNote": "Original 38-bone educational in-place Idle, four-second support/recovery Walk, five-second alternating-grasp Climb, and Reach. Climb wrists use stationary virtual reference points during support; no tree collision or traversal simulation is present. Hand-authored timing, not motion capture or expert-validated biomechanics.",
+  "anatomyReferences": [
+    {
+      "title": "Animal Diversity Web: Pongo pygmaeus",
+      "url": "https://animaldiversity.org/accounts/Pongo_pygmaeus/",
+      "use": "Long arms, orange-red coarse coat, grasping hands and feet, female without mature male flanges, fist-supported terrestrial locomotion."
+    },
+    {
+      "title": "San Diego Zoo Wildlife Alliance: Orangutan",
+      "url": "https://animals.sandiegozoo.org/animals/orangutan",
+      "use": "Gray bare face, stocky body, bowed legs, long fingers, russet coat and female Bornean facial-hair distinction."
+    }
+  ],
+  "tooling": "Scenario bx_sculpt.py is MIT-licensed procedural sculpting tooling, vendored with attribution. It is not animal geometry."
+}

@@ -1,0 +1,88 @@
+{
+  "desktop": {
+    "triangles": 59598,
+    "bones": 38,
+    "mesh_objects": 31,
+    "unweighted_vertices": 0,
+    "vertices_over4weights": 0,
+    "max_weight_sum_error": 1.1624069884419441e-07,
+    "texture_max_dimension": 2048,
+    "clips": {
+      "Idle": {
+        "frames": [
+          0.0,
+          120.0
+        ],
+        "duration_seconds": 4.0,
+        "max_channel_loop_seam": 0.0
+      },
+      "Walk": {
+        "frames": [
+          0.0,
+          120.0
+        ],
+        "duration_seconds": 4.0,
+        "max_channel_loop_seam": 0.0
+      },
+      "Climb": {
+        "frames": [
+          0.0,
+          150.0
+        ],
+        "duration_seconds": 5.0,
+        "max_channel_loop_seam": 0.0
+      },
+      "Reach": {
+        "frames": [
+          0.0,
+          120.0
+        ],
+        "duration_seconds": 4.0,
+        "max_channel_loop_seam": 0.0
+      }
+    }
+  },
+  "mobile": {
+    "triangles": 18128,
+    "bones": 38,
+    "mesh_objects": 31,
+    "unweighted_vertices": 0,
+    "vertices_over4weights": 0,
+    "max_weight_sum_error": 1.1624069884419441e-07,
+    "texture_max_dimension": 1024,
+    "clips": {
+      "Idle": {
+        "frames": [
+          0.0,
+          120.0
+        ],
+        "duration_seconds": 4.0,
+        "max_channel_loop_seam": 0.0
+      },
+      "Walk": {
+        "frames": [
+          0.0,
+          120.0
+        ],
+        "duration_seconds": 4.0,
+        "max_channel_loop_seam": 0.0
+      },
+      "Climb": {
+        "frames": [
+          0.0,
+          150.0
+        ],
+        "duration_seconds": 5.0,
+        "max_channel_loop_seam": 0.0
+      },
+      "Reach": {
+        "frames": [
+          0.0,
+          120.0
+        ],
+        "duration_seconds": 4.0,
+        "max_channel_loop_seam": 0.0
+      }
+    }
+  }
+}

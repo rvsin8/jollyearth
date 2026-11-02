@@ -1,0 +1,13 @@
+{
+  "originalSvgSha256": "770e476cae929b89b261cea53d0eb23e35df90025482f81b325978c628e6d498",
+  "publishedSvgSha256": "b830b4312bd111f4513bb12c06d14154896df2123c6739a50480a1df6d58acbe",
+  "pngSha256": "7424b42e1f3b941468f9b0dbf3c51b5b204cd40be09faf171612a457de380883",
+  "onlySvgChange": "Removed the ground-shadow group, explicitly permitted by v21; no outline, shape, color or optimization changes",
+  "originalIllustrationsUnchanged": 38,
+  "placements": [
+    "Jersey City wildlife species list",
+    "Grassland species list",
+    "Red fox exhibit"
+  ],
+  "modelStatus": "pending"
+}

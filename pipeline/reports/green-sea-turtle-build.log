@@ -1,0 +1,1115 @@
+20:47:41 | INFO: Starting glTF 2.0 export
+20:47:41 | INFO: Extracting primitive: Continuous low streamlined carapace
+20:47:41 | INFO: Primitives created: 1
+20:47:41 | INFO: Extracting primitive: Continuous cream plastron and bridge
+20:47:41 | INFO: Primitives created: 1
+20:47:41 | INFO: Extracting primitive: Subtle beak mouth seam
+20:47:41 | INFO: Primitives created: 1
+20:47:41 | INFO: Extracting primitive: Vertebral 1
+20:47:41 | INFO: Primitives created: 1
+20:47:41 | INFO: Extracting primitive: Continuous tapered neck and blunt skull
+20:47:42 | INFO: Primitives created: 1
+20:47:42 | INFO: Extracting primitive: Single foreflipper claw R
+20:47:42 | INFO: Primitives created: 1
+20:47:42 | INFO: Extracting primitive: Embedded dark eye
+20:47:42 | INFO: Primitives created: 1
+20:47:42 | INFO: Finished glTF 2.0 export in 0.8131780624389648 s
+Blender 4.2.0 (hash a51f293548ad built 2024-07-16 06:27:02)
+Info: Total files 5 | Changed 5 | Failed 0
+Warning: No mesh data to join
+Warning: No mesh data to join
+INFO Draco mesh compression is available, use library at /tmp/earthbound-blender/blender-4.2.0-linux-x64/4.2/python/lib/python3.11/site-packages/libextern_draco.so
+
+Info: Saved "green-sea-turtle.blend"
+SOURCE_STABLE {"species": "Chelonia mydas", "author": "Earthbound", "license": "CC0-1.0", "triangles": 19812, "vertices": 10719, "bones": 12, "clips": [{"name": "Float", "frames": [1.0, 121.0]}, {"name": "Glide", "frames": [1.0, 121.0]}, {"name": "Swim", "frames": [1.0, 73.0]}, {"name": "Turn", "frames": [1.0, 97.0]}], "textures": [{"name": "turtle_original_carapace_albedo", "dimensions": [1536, 960], "packed": true, "colorSpace": "sRGB"}, {"name": "turtle_original_carapace_normal", "dimensions": [1536, 960], "packed": true, "colorSpace": "Non-Color"}, {"name": "turtle_original_skin_albedo", "dimensions": [1024, 1024], "packed": true, "colorSpace": "sRGB"}, {"name": "turtle_original_skin_normal", "dimensions": [1024, 1024], "packed": true, "colorSpace": "Non-Color"}, {"name": "turtle_original_plastron_albedo", "dimensions": [1024, 1024], "packed": true, "colorSpace": "sRGB"}], "source": "Entirely original authored geometry/textures; archived imported predecessor never opened", "limitations": ["Procedural hand-authored anatomical interpretation, not a scan. Skin scale pigment is generated; dorsal prefrontal pair explicitly authored.", "Separate overlapping anatomical surfaces at shell/soft tissue junctions, weighted together; no continuous watertight whole-animal union."]}
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivory cream plastron
+Fra:1 Mem:137.04M (Peak 137.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:1 Mem:137.50M (Peak 137.50M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:1 Mem:137.53M (Peak 137.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:1 Mem:137.84M (Peak 137.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:1 Mem:137.90M (Peak 137.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:1 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:1 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:1 Mem:276.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:1 Mem:229.63M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:230.03M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:304.27M (Peak 304.27M) | Time:00:00.53 | Remaining:00:15.46 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:334.79M (Peak 380.56M) | Time:00:21.30 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:334.79M (Peak 380.56M) | Time:00:21.30 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-three-quarter-qa.png'
+Time: 00:21.47 (Saving: 00:00.16)
+
+RENDER_READY three-quarter
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive brown sunburst carapace
+Fra:1 Mem:136.86M (Peak 136.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:1 Mem:137.09M (Peak 137.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:1 Mem:137.23M (Peak 137.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:1 Mem:137.77M (Peak 137.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:1 Mem:137.80M (Peak 137.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:1 Mem:139.27M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:1 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:1 Mem:237.77M (Peak 292.26M) | Time:00:00.01 | Mem:22.50M, Peak:22.50M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:1 Mem:229.63M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:229.64M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:229.64M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:229.64M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:230.03M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:304.27M (Peak 304.27M) | Time:00:00.54 | Remaining:00:15.84 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:334.79M (Peak 380.56M) | Time:00:20.98 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:334.79M (Peak 380.56M) | Time:00:20.98 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-front-qa.png'
+Time: 00:21.10 (Saving: 00:00.11)
+
+RENDER_READY front
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive brown sunburst carapace
+Fra:1 Mem:137.07M (Peak 137.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivory cream plastron
+Fra:1 Mem:137.12M (Peak 137.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:1 Mem:137.48M (Peak 137.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:1 Mem:137.62M (Peak 137.62M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:1 Mem:137.77M (Peak 137.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:1 Mem:137.98M (Peak 137.98M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:1 Mem:139.27M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:138.26M (Peak 139.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:1 Mem:154.26M (Peak 154.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:1 Mem:199.26M (Peak 199.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:1 Mem:199.26M (Peak 199.26M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:1 Mem:237.77M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:1 Mem:229.63M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:229.64M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:229.64M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:229.64M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:230.03M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:231.06M (Peak 292.26M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:304.27M (Peak 304.27M) | Time:00:00.44 | Remaining:00:12.85 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:334.79M (Peak 380.56M) | Time:00:18.84 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:334.79M (Peak 380.56M) | Time:00:18.84 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-side-qa.png'
+Time: 00:18.97 (Saving: 00:00.12)
+
+RENDER_READY side
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:1 Mem:137.07M (Peak 137.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:1 Mem:137.14M (Peak 137.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:1 Mem:137.60M (Peak 137.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:1 Mem:137.96M (Peak 137.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:1 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:1 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:1 Mem:276.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:1 Mem:229.63M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:230.03M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:304.27M (Peak 308.27M) | Time:00:00.48 | Remaining:00:14.08 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:334.79M (Peak 380.56M) | Time:00:19.26 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:334.79M (Peak 380.56M) | Time:00:19.26 | Mem:168.59M, Peak:168.59M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-rear-qa.png'
+Time: 00:19.38 (Saving: 00:00.11)
+
+RENDER_READY rear
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:1 Mem:136.86M (Peak 136.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:1 Mem:136.87M (Peak 136.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:1 Mem:137.58M (Peak 137.58M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:1 Mem:137.84M (Peak 137.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:1 Mem:139.27M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:1 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:1 Mem:276.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:1 Mem:229.63M (Peak 308.27M) | Time:00:00.04 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:229.64M (Peak 308.27M) | Time:00:00.04 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:229.64M (Peak 308.27M) | Time:00:00.04 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:229.64M (Peak 308.27M) | Time:00:00.04 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:230.03M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.04 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.04 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.04 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.04 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.05 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.05 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.05 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:1 Mem:249.91M (Peak 308.27M) | Time:00:00.19 | Remaining:00:02.76 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:1 Mem:257.54M (Peak 308.27M) | Time:00:03.92 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:1 Mem:257.54M (Peak 308.27M) | Time:00:03.92 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Float-pose-0.png'
+Time: 00:03.95 (Saving: 00:00.02)
+
+Fra:31 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:31 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivory cream plastron
+Fra:31 Mem:137.04M (Peak 137.04M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:31 Mem:137.14M (Peak 137.14M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:31 Mem:137.23M (Peak 137.23M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:31 Mem:137.53M (Peak 137.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:31 Mem:137.89M (Peak 137.89M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:31 Mem:139.27M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:31 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:31 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:31 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:31 Mem:260.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:31 Mem:229.63M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:31 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:31 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:31 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:31 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:31 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:31 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:31 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:31 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:31 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:31 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:31 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:31 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:31 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:31 Mem:230.03M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:31 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:31 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:31 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:31 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:31 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:31 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:31 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:31 Mem:249.91M (Peak 292.27M) | Time:00:00.15 | Remaining:00:02.38 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:31 Mem:257.54M (Peak 292.27M) | Time:00:03.84 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:31 Mem:257.54M (Peak 292.27M) | Time:00:03.84 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Float-pose-1.png'
+Time: 00:03.87 (Saving: 00:00.02)
+
+Fra:61 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:61 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive brown sunburst carapace
+Fra:61 Mem:136.86M (Peak 136.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:61 Mem:137.10M (Peak 137.10M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:61 Mem:137.45M (Peak 137.45M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:61 Mem:137.76M (Peak 137.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:61 Mem:137.77M (Peak 137.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:61 Mem:139.27M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:61 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:61 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:61 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:61 Mem:260.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:61 Mem:229.63M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:61 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:61 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:61 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:61 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:61 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:61 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:61 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:61 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:61 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:61 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:61 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:61 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:61 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:61 Mem:230.03M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:61 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:61 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:61 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:61 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:61 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:61 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:61 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:61 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:61 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:61 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:61 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:61 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:61 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:61 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:61 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:61 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:61 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:61 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:61 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:61 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:61 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:61 Mem:249.91M (Peak 292.27M) | Time:00:00.15 | Remaining:00:02.33 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:61 Mem:257.54M (Peak 292.27M) | Time:00:04.02 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:61 Mem:257.54M (Peak 292.27M) | Time:00:04.02 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Float-pose-2.png'
+Time: 00:04.06 (Saving: 00:00.03)
+
+Fra:91 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:91 Mem:136.86M (Peak 136.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive brown sunburst carapace
+Fra:91 Mem:137.00M (Peak 137.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:91 Mem:137.12M (Peak 137.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:91 Mem:137.35M (Peak 137.35M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivory cream plastron
+Fra:91 Mem:137.43M (Peak 137.43M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:91 Mem:137.70M (Peak 137.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:91 Mem:137.87M (Peak 137.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:91 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:91 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:91 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:91 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:91 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:91 Mem:276.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:91 Mem:229.63M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:91 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:91 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:91 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:91 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:91 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:91 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:91 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:91 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:91 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:91 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:91 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:91 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:91 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:91 Mem:230.03M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:91 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:91 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:91 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:91 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:91 Mem:231.06M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:91 Mem:231.06M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:91 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:91 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:91 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:91 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:91 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:91 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:91 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:91 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:91 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:91 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:91 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:91 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:91 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:91 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:91 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:91 Mem:249.91M (Peak 308.27M) | Time:00:00.16 | Remaining:00:02.49 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:91 Mem:257.54M (Peak 308.27M) | Time:00:04.00 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:91 Mem:257.54M (Peak 308.27M) | Time:00:04.00 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Float-pose-3.png'
+Time: 00:04.03 (Saving: 00:00.02)
+
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivory cream plastron
+Fra:1 Mem:136.86M (Peak 136.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:1 Mem:137.12M (Peak 137.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:1 Mem:137.40M (Peak 137.40M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:1 Mem:137.70M (Peak 137.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:1 Mem:137.86M (Peak 137.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:1 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:1 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:1 Mem:276.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:1 Mem:229.63M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:230.03M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:231.06M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:1 Mem:249.91M (Peak 308.27M) | Time:00:00.17 | Remaining:00:02.65 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:1 Mem:257.54M (Peak 308.27M) | Time:00:04.07 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:1 Mem:257.54M (Peak 308.27M) | Time:00:04.07 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Swim-pose-0.png'
+Time: 00:04.10 (Saving: 00:00.03)
+
+Fra:19 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:19 Mem:136.93M (Peak 136.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:19 Mem:137.46M (Peak 137.46M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:19 Mem:137.51M (Peak 137.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:19 Mem:137.70M (Peak 137.70M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:19 Mem:137.91M (Peak 137.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:19 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:19 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:19 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:19 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:19 Mem:276.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:19 Mem:229.63M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:19 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:19 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:19 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:19 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:19 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:19 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:19 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:19 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:19 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:19 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:19 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:19 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:19 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:19 Mem:230.03M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:19 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:19 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:19 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:19 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:19 Mem:231.06M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:19 Mem:231.06M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:19 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:19 Mem:249.91M (Peak 308.27M) | Time:00:00.17 | Remaining:00:02.76 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:19 Mem:257.54M (Peak 308.27M) | Time:00:03.93 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:19 Mem:257.54M (Peak 308.27M) | Time:00:03.93 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Swim-pose-1.png'
+Time: 00:03.96 (Saving: 00:00.02)
+
+Fra:37 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:37 Mem:136.86M (Peak 136.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivory cream plastron
+Fra:37 Mem:136.94M (Peak 136.94M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:37 Mem:137.12M (Peak 137.12M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:37 Mem:137.20M (Peak 137.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:37 Mem:137.77M (Peak 137.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:37 Mem:137.93M (Peak 137.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:37 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:37 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:37 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:37 Mem:176.76M (Peak 176.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:37 Mem:260.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:37 Mem:229.63M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:37 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:37 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:37 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:37 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:37 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:37 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:37 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:37 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:37 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:37 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:37 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:37 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:37 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:37 Mem:230.03M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:37 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:37 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:37 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:37 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:37 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:37 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:37 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:37 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:37 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:37 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:37 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:37 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:37 Mem:231.76M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:37 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:37 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:37 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:37 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:37 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:37 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:37 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:37 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:37 Mem:249.91M (Peak 292.27M) | Time:00:00.15 | Remaining:00:02.35 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:37 Mem:257.54M (Peak 292.27M) | Time:00:03.89 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:37 Mem:257.54M (Peak 292.27M) | Time:00:03.89 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Swim-pose-2.png'
+Time: 00:03.92 (Saving: 00:00.03)
+
+Fra:55 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:55 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivory cream plastron
+Fra:55 Mem:137.07M (Peak 137.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:55 Mem:137.19M (Peak 137.19M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:55 Mem:137.45M (Peak 137.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:55 Mem:137.80M (Peak 137.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:55 Mem:137.83M (Peak 137.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:55 Mem:139.27M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:55 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:55 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:55 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:55 Mem:260.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:55 Mem:229.63M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:55 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:55 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:55 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:55 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:55 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:55 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:55 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:55 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:55 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:55 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:55 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:55 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:55 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:55 Mem:230.03M (Peak 292.27M) | Time:00:00.03 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:55 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:55 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:55 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:55 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:55 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:55 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:55 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:55 Mem:249.91M (Peak 292.27M) | Time:00:00.18 | Remaining:00:02.79 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:55 Mem:257.54M (Peak 292.27M) | Time:00:04.06 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:55 Mem:257.54M (Peak 292.27M) | Time:00:04.06 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Swim-pose-3.png'
+Time: 00:04.09 (Saving: 00:00.02)
+
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivory cream plastron
+Fra:1 Mem:137.07M (Peak 137.07M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:1 Mem:137.51M (Peak 137.51M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:1 Mem:137.63M (Peak 137.63M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:1 Mem:137.84M (Peak 137.84M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:1 Mem:137.88M (Peak 137.88M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:1 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:1 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:1 Mem:260.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:1 Mem:229.63M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:230.03M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:1 Mem:249.91M (Peak 292.27M) | Time:00:00.15 | Remaining:00:02.34 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:1 Mem:257.54M (Peak 292.27M) | Time:00:03.88 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:1 Mem:257.54M (Peak 292.27M) | Time:00:03.88 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Glide-pose-0.png'
+Time: 00:03.91 (Saving: 00:00.02)
+
+Fra:31 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:31 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:31 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:31 Mem:136.96M (Peak 136.96M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:31 Mem:137.69M (Peak 137.69M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:31 Mem:137.90M (Peak 137.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:31 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:31 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:31 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:31 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:31 Mem:276.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:31 Mem:229.63M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:31 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:31 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:31 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:31 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:31 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:31 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:31 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:31 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:31 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:31 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:31 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:31 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:31 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:31 Mem:230.03M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:31 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:31 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:31 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:31 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:31 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:31 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:31 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:31 Mem:249.91M (Peak 308.27M) | Time:00:00.16 | Remaining:00:02.50 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:31 Mem:257.54M (Peak 308.27M) | Time:00:03.90 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:31 Mem:257.54M (Peak 308.27M) | Time:00:03.90 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Glide-pose-1.png'
+Time: 00:03.93 (Saving: 00:00.02)
+
+Fra:61 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:61 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:61 Mem:137.00M (Peak 137.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:61 Mem:137.20M (Peak 137.20M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:61 Mem:137.87M (Peak 137.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:61 Mem:137.83M (Peak 137.87M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:61 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:61 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:61 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:61 Mem:176.76M (Peak 176.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:61 Mem:199.26M (Peak 199.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:61 Mem:276.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:61 Mem:229.63M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:61 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:61 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:61 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:61 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:61 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:61 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:61 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:61 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:61 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:61 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:61 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:61 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:61 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:61 Mem:230.03M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:61 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:61 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:61 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:61 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:61 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:61 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:61 Mem:231.77M (Peak 308.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:61 Mem:249.91M (Peak 308.27M) | Time:00:00.16 | Remaining:00:02.64 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:61 Mem:257.54M (Peak 308.27M) | Time:00:03.81 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:61 Mem:257.54M (Peak 308.27M) | Time:00:03.81 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Glide-pose-2.png'
+Time: 00:03.84 (Saving: 00:00.02)
+
+Fra:91 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:91 Mem:136.86M (Peak 136.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:91 Mem:137.44M (Peak 137.44M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:91 Mem:137.72M (Peak 137.72M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:91 Mem:137.77M (Peak 137.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:91 Mem:137.90M (Peak 137.90M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:91 Mem:139.27M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:91 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:91 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:91 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:91 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:91 Mem:260.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:91 Mem:229.63M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:91 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:91 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:91 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:91 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:91 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:91 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:91 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:91 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:91 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:91 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:91 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:91 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:91 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:91 Mem:230.03M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:91 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:91 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:91 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:91 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:91 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:91 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:91 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:91 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:91 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:91 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:91 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:91 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:91 Mem:231.76M (Peak 292.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:91 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:91 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:91 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:91 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:91 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:91 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:91 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:91 Mem:231.77M (Peak 292.27M) | Time:00:00.02 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:91 Mem:249.91M (Peak 292.27M) | Time:00:00.15 | Remaining:00:02.36 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:91 Mem:257.54M (Peak 292.27M) | Time:00:03.84 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:91 Mem:257.54M (Peak 292.27M) | Time:00:03.84 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Glide-pose-3.png'
+Time: 00:03.87 (Saving: 00:00.02)
+
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:1 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive brown sunburst carapace
+Fra:1 Mem:136.86M (Peak 136.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:1 Mem:137.09M (Peak 137.09M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:1 Mem:137.21M (Peak 137.21M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:1 Mem:137.77M (Peak 137.77M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:1 Mem:137.82M (Peak 137.82M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:1 Mem:139.27M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:1 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:1 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:1 Mem:260.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:1 Mem:229.63M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:230.03M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:1 Mem:249.91M (Peak 292.27M) | Time:00:00.17 | Remaining:00:02.67 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:1 Mem:257.54M (Peak 292.27M) | Time:00:04.14 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:1 Mem:257.54M (Peak 292.27M) | Time:00:04.14 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Turn-pose-0.png'
+Time: 00:04.17 (Saving: 00:00.03)
+
+Fra:25 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:25 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:25 Mem:137.02M (Peak 137.02M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:25 Mem:137.22M (Peak 137.22M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:25 Mem:137.74M (Peak 137.74M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:25 Mem:137.91M (Peak 137.91M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:25 Mem:139.27M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:25 Mem:138.26M (Peak 139.68M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:25 Mem:154.26M (Peak 154.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:25 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:25 Mem:170.26M (Peak 170.26M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:25 Mem:260.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:25 Mem:229.63M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:25 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:25 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:25 Mem:229.64M (Peak 292.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:25 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:25 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:25 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:25 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:25 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:25 Mem:229.72M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:25 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:25 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:25 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:25 Mem:229.73M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:25 Mem:230.03M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:25 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:25 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:25 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:25 Mem:231.06M (Peak 292.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:25 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:25 Mem:231.06M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:25 Mem:231.77M (Peak 292.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:25 Mem:249.91M (Peak 292.27M) | Time:00:00.15 | Remaining:00:02.43 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:25 Mem:257.54M (Peak 292.27M) | Time:00:03.92 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:25 Mem:257.54M (Peak 292.27M) | Time:00:03.92 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Turn-pose-1.png'
+Time: 00:03.95 (Saving: 00:00.02)
+
+Fra:49 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fine dark olive scute sutures
+Fra:49 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:49 Mem:137.00M (Peak 137.00M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:49 Mem:137.13M (Peak 137.13M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:49 Mem:137.60M (Peak 137.60M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:49 Mem:137.86M (Peak 137.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:49 Mem:139.27M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:49 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:49 Mem:138.26M (Peak 139.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:49 Mem:160.76M (Peak 160.76M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:49 Mem:237.77M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:49 Mem:229.63M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:49 Mem:229.64M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:49 Mem:229.64M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:49 Mem:229.64M (Peak 292.26M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:49 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:49 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:49 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:49 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:49 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:49 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:49 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:49 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:49 Mem:229.72M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:49 Mem:229.73M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:49 Mem:230.03M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:49 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:49 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:49 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:49 Mem:231.06M (Peak 292.26M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:49 Mem:231.06M (Peak 292.26M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:49 Mem:231.06M (Peak 292.26M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:49 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:49 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:49 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:49 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:49 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:49 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:49 Mem:231.76M (Peak 292.26M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:49 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:49 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:49 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:49 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:49 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:49 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:49 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:49 Mem:231.77M (Peak 292.26M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:49 Mem:249.91M (Peak 292.26M) | Time:00:00.15 | Remaining:00:02.39 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:49 Mem:257.54M (Peak 292.26M) | Time:00:03.89 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:49 Mem:257.54M (Peak 292.26M) | Time:00:03.89 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Turn-pose-2.png'
+Time: 00:03.92 (Saving: 00:00.03)
+
+Fra:73 Mem:136.83M (Peak 136.83M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive brown sunburst carapace
+Fra:73 Mem:136.93M (Peak 136.93M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivory cream plastron
+Fra:73 Mem:136.97M (Peak 136.97M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | QA ground
+Fra:73 Mem:137.48M (Peak 137.48M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pale horn beak
+Fra:73 Mem:137.53M (Peak 137.53M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Small dark amber eyes
+Fra:73 Mem:137.80M (Peak 137.80M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Olive scales with cream sutures
+Fra:73 Mem:137.86M (Peak 137.86M) | Time:00:00.00 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mouth and nostril recess
+Fra:73 Mem:139.27M (Peak 139.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:73 Mem:138.26M (Peak 139.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_normal
+Fra:73 Mem:138.26M (Peak 139.48M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_albedo
+Fra:73 Mem:176.76M (Peak 176.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_carapace_normal
+Fra:73 Mem:192.76M (Peak 192.76M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_plastron_albedo
+Fra:73 Mem:276.27M (Peak 292.26M) | Time:00:00.01 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Images | Loading turtle_original_skin_albedo
+Fra:73 Mem:229.63M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Waiting for render to start
+Fra:73 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:73 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Scene
+Fra:73 Mem:229.64M (Peak 308.27M) | Time:00:00.02 | Mem:93.00M, Peak:93.00M | Scene, ViewLayer | Updating Shaders
+Fra:73 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Procedurals
+Fra:73 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Background
+Fra:73 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Camera
+Fra:73 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:73 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects
+Fra:73 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:73 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:73 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems
+Fra:73 Mem:229.72M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:73 Mem:229.73M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Meshes
+Fra:73 Mem:230.03M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:73 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:93.01M, Peak:93.01M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:73 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:73 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.04M, Peak:94.04M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:73 Mem:231.06M (Peak 308.27M) | Time:00:00.02 | Mem:94.65M, Peak:94.65M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:73 Mem:231.06M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:73 Mem:231.06M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:73 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:95.31M, Peak:95.91M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:73 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Objects Flags
+Fra:73 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:73 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Images
+Fra:73 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Camera Volume
+Fra:73 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.01M | Scene, ViewLayer | Updating Lookup Tables
+Fra:73 Mem:231.76M (Peak 308.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights
+Fra:73 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.09M, Peak:96.09M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:73 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Integrator
+Fra:73 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Film
+Fra:73 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.01M, Peak:96.10M | Scene, ViewLayer | Updating Lookup Tables
+Fra:73 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Baking
+Fra:73 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:73 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:73 Mem:231.77M (Peak 308.27M) | Time:00:00.03 | Mem:96.10M, Peak:96.10M | Scene, ViewLayer | Sample 0/20
+Fra:73 Mem:249.91M (Peak 308.27M) | Time:00:00.15 | Remaining:00:02.39 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 1/20
+Fra:73 Mem:257.54M (Peak 308.27M) | Time:00:03.88 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Sample 20/20
+Fra:73 Mem:257.54M (Peak 308.27M) | Time:00:03.88 | Mem:114.23M, Peak:114.23M | Scene, ViewLayer | Finished
+Saved: '/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-Turn-pose-3.png'
+Time: 00:03.91 (Saving: 00:00.02)
+
+RESULT GREEN_TURTLE_COMPLETE {"species": "Chelonia mydas", "author": "Earthbound", "license": "CC0-1.0", "triangles": 19812, "vertices": 10719, "bones": 12, "clips": [{"name": "Float", "frames": [1.0, 121.0]}, {"name": "Glide", "frames": [1.0, 121.0]}, {"name": "Swim", "frames": [1.0, 73.0]}, {"name": "Turn", "frames": [1.0, 97.0]}], "textures": [{"name": "turtle_original_carapace_albedo", "dimensions": [1536, 960], "packed": true, "colorSpace": "sRGB"}, {"name": "turtle_original_carapace_normal", "dimensions": [1536, 960], "packed": true, "colorSpace": "Non-Color"}, {"name": "turtle_original_skin_albedo", "dimensions": [1024, 1024], "packed": true, "colorSpace": "sRGB"}, {"name": "turtle_original_skin_normal", "dimensions": [1024, 1024], "packed": true, "colorSpace": "Non-Color"}, {"name": "turtle_original_plastron_albedo", "dimensions": [1024, 1024], "packed": true, "colorSpace": "sRGB"}], "source": "Entirely original authored geometry/textures; archived imported predecessor never opened", "limitations": ["Procedural hand-authored anatomical interpretation, not a scan. Skin scale pigment is generated; dorsal prefrontal pair explicitly authored.", "Separate overlapping anatomical surfaces at shell/soft tissue junctions, weighted together; no continuous watertight whole-animal union."]}
+
+Blender quit

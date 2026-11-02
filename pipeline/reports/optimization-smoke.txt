@@ -1,0 +1,27 @@
+❯ dedup
+✔ dedup                3ms
+❯ instance
+warn: instance: Instancing is not currently supported for animated models.
+✔ instance             1ms
+❯ palette
+✔ palette              0ms
+❯ flatten
+✔ flatten              1ms
+❯ join
+✔ join                 1ms
+❯ weld
+✔ weld                 2ms
+❯ simplify
+✔ simplify             2ms
+❯ resample
+✔ resample             1ms
+❯ prune
+✔ prune                1ms
+❯ sparse
+✔ sparse               0ms
+❯ textureCompress
+✔ textureCompress      0ms
+❯ meshopt
+✔ meshopt              4ms
+
+info: animated-test.glb (2.87 KB) → fixture.meshopt.glb (4.38 KB)

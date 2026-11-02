@@ -1,0 +1,37 @@
+● [ ] **Ears:** tall and pointed. Backs are black and insides white-furred.
+● [ ] **Eyes:** amber, slanted, with vertical slit pupils.
+● [ ] **Muzzle:** black nose and lip line, white upper lip and cheeks.
+● [ ] **Bib:** white chin, throat and chest. The belly is white to ash-grey.
+● [ ] **Legs:** black "stockings" on the lower legs, highest on the front of the forelegs. Hind legs are black from the hock down.
+● [ ] **Tail tip:** white. A black tip reads as a grey fox.
+● [ ] Anatomical silhouette, source orientation, foot contact and all in-place clips reviewed against the supplied fidelity sheet
+{
+  "result": "PASS",
+  "illustrationsUnchanged": 38,
+  "privateFidelityRecords": 45,
+  "fixture": {
+    "bones": 2,
+    "clips": [
+      "Idle",
+      "Walk"
+    ],
+    "validatorErrors": 0,
+    "validatorWarnings": 0
+  },
+  "gateTests": [
+    "missing files",
+    "missing credit",
+    "low vertex count",
+    "primitive mesh name",
+    "noncanonical clip",
+    "missing Idle",
+    "invalid length",
+    "no mutation on failure"
+  ],
+  "browser": "NOT VERIFIED: Chromium download failed",
+  "missingInputs": [
+    "five mockups",
+    "source fox model",
+    "real model credit"
+  ]
+}

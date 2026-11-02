@@ -1,0 +1,44 @@
+● [ ] **Ears:** tall and pointed. Backs are black and insides white-furred.
+● [ ] **Eyes:** amber, slanted, with vertical slit pupils.
+● [ ] **Muzzle:** black nose and lip line, white upper lip and cheeks.
+● [ ] **Bib:** white chin, throat and chest. The belly is white to ash-grey.
+● [ ] **Legs:** black "stockings" on the lower legs, highest on the front of the forelegs. Hind legs are black from the hock down.
+● [ ] **Tail tip:** white. A black tip reads as a grey fox.
+● [ ] Anatomical silhouette, source orientation, foot contact and all in-place clips reviewed against the supplied fidelity sheet
+{
+  "slug": "red-fox",
+  "checkedAt": "2026-10-16T20:37:00.897Z",
+  "status": "failed",
+  "models": [],
+  "errors": [
+    "desktop: ENOENT: no such file or directory, open 'public/models/animals/red-fox.glb'",
+    "mobile: ENOENT: no such file or directory, open 'public/models/animals/red-fox.mobile.glb'",
+    "Credit: ENOENT: no such file or directory, open 'pipeline/credit.json'"
+  ],
+  "manualReview": [
+    {
+      "text": "**Ears:** tall and pointed. Backs are black and insides white-furred.",
+      "checked": false
+    },
+    {
+      "text": "**Eyes:** amber, slanted, with vertical slit pupils.",
+      "checked": false
+    },
+    {
+      "text": "**Muzzle:** black nose and lip line, white upper lip and cheeks.",
+      "checked": false
+    },
+    {
+      "text": "**Bib:** white chin, throat and chest. The belly is white to ash-grey.",
+      "checked": false
+    },
+    {
+      "text": "**Legs:** black \"stockings\" on the lower legs, highest on the front of the forelegs. Hind legs are black from the hock down.",
+      "checked": false
+    },
+    {
+      "text": "**Tail tip:** white. A black tip reads as a grey fox.",
+      "checked": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-09-21",
+  "matchUrl": "https://api.gbif.org/v1/species/match?name=Ailurus%20fulgens",
+  "match": {
+    "usageKey": 5219446,
+    "scientificName": "Ailurus fulgens F.G.Cuvier, 1825",
+    "canonicalName": "Ailurus fulgens",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "confidence": 99,
+    "matchType": "EXACT",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "order": "Carnivora",
+    "family": "Ailuridae",
+    "genus": "Ailurus",
+    "species": "Ailurus fulgens",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "classKey": 359,
+    "orderKey": 732,
+    "familyKey": 9673,
+    "genusKey": 3240045,
+    "speciesKey": 5219446,
+    "class": "Mammalia"
+  },
+  "categoryUrl": "https://api.gbif.org/v1/species/5219446/iucnRedListCategory",
+  "category": {
+    "category": "ENDANGERED",
+    "usageKey": 176683616,
+    "scientificName": "Ailurus fulgens F.G. Cuvier, 1825",
+    "taxonomicStatus": "ACCEPTED",
+    "iucnTaxonID": "714",
+    "code": "EN"
+  }
+}

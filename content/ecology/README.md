@@ -1,0 +1,1 @@
+Ecology records were checked on 2026-10-03 against the source URLs in public/data/ecology.json. Numeric ranges are species-wide, not hotspot-specific surveys. Unknown ranges and unverified links remain unplotted. Historical habitat data from Myers et al. (2000) are single baselines and must not be extrapolated into a trend.

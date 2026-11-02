@@ -1,0 +1,9 @@
+{
+  "creator": "Alexei Ostapenko",
+  "creatorUrl": "https://sketchfab.com/alexanders823",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "sourceUrl": "https://sketchfab.com/3d-models/fox-4e37c303f8a241aaa2511bd9f3019273",
+  "changes": "Adapted for Earthbound in Blender: standing bind pose, extended white-tipped tail, smooth surface, new in-place Idle, Walk, Trot and Run clips, compressed desktop and mobile exports. Original mesh, textures and skin weights by Alexei Ostapenko; source conversion distributed by AiZity.",
+  "animationNote": "Adapted for Earthbound · Illustrative animations, not motion capture"
+}

@@ -1,0 +1,36 @@
+{
+  "retrieved": "2026-09-21",
+  "matchUrl": "https://api.gbif.org/v1/species/match?name=Vultur%20gryphus",
+  "match": {
+    "usageKey": 2481907,
+    "scientificName": "Vultur gryphus Linnaeus, 1758",
+    "canonicalName": "Vultur gryphus",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "confidence": 99,
+    "matchType": "EXACT",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "order": "Accipitriformes",
+    "family": "Cathartidae",
+    "genus": "Vultur",
+    "species": "Vultur gryphus",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "classKey": 212,
+    "orderKey": 7191147,
+    "familyKey": 3242141,
+    "genusKey": 2481906,
+    "speciesKey": 2481907,
+    "class": "Aves"
+  },
+  "categoryUrl": "https://api.gbif.org/v1/species/2481907/iucnRedListCategory",
+  "category": {
+    "category": "VULNERABLE",
+    "usageKey": 176605646,
+    "scientificName": "Vultur gryphus Linnaeus, 1758",
+    "taxonomicStatus": "ACCEPTED",
+    "iucnTaxonID": "22697641",
+    "code": "VU"
+  }
+}

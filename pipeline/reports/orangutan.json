@@ -1,0 +1,184 @@
+{
+  "slug": "orangutan",
+  "exhibitSlug": "bornean-orangutan",
+  "checkedAt": "2026-10-18T14:06:53.044Z",
+  "status": "passed",
+  "models": [
+    {
+      "file": "public/models/animals/bornean-orangutan.glb",
+      "variant": "desktop",
+      "sha256": "c2ac9c5c2f098c0456b138239cfa6813dba344530df9455b87b0e79b7c5319c9",
+      "bytes": 1184096,
+      "vertices": 88984,
+      "triangles": 52664,
+      "lengthM": 0.41530392632326035,
+      "dimensionsM": [
+        1.252867776290608,
+        1.4448538125594703,
+        0.41530392632326035
+      ],
+      "skins": 31,
+      "clips": [
+        "Climb",
+        "Idle",
+        "Reach",
+        "Walk"
+      ],
+      "textureSizes": [
+        {
+          "name": "female-face-atlas",
+          "mime": "image/webp",
+          "size": [
+            2048,
+            2048
+          ]
+        },
+        {
+          "name": "russet-coat",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "PaletteBaseColor",
+          "mime": "image/webp",
+          "size": [
+            64,
+            4
+          ]
+        }
+      ],
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          }
+        ],
+        "truncated": false
+      },
+      "errors": []
+    },
+    {
+      "file": "public/models/animals/bornean-orangutan.mobile.glb",
+      "variant": "mobile",
+      "sha256": "1c8f5f57f0066bf84457d3c180e6c53be41a542f812b23a87917f453ee48b336",
+      "bytes": 688588,
+      "vertices": 44136,
+      "triangles": 18128,
+      "lengthM": 0.41440955952482894,
+      "dimensionsM": [
+        1.2528657015511622,
+        1.444586992637041,
+        0.41440955952482894
+      ],
+      "skins": 31,
+      "clips": [
+        "Climb",
+        "Idle",
+        "Reach",
+        "Walk"
+      ],
+      "textureSizes": [
+        {
+          "name": "female-face-atlas",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "russet-coat",
+          "mime": "image/webp",
+          "size": [
+            1024,
+            1024
+          ]
+        },
+        {
+          "name": "PaletteBaseColor",
+          "mime": "image/webp",
+          "size": [
+            64,
+            4
+          ]
+        }
+      ],
+      "validator": {
+        "numErrors": 0,
+        "numWarnings": 0,
+        "numInfos": 1,
+        "numHints": 0,
+        "messages": [
+          {
+            "code": "UNSUPPORTED_EXTENSION",
+            "message": "Cannot validate an extension as it is not supported by the validator: 'EXT_meshopt_compression'.",
+            "severity": 2,
+            "pointer": "/extensionsUsed/0"
+          }
+        ],
+        "truncated": false
+      },
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "visualReview": {
+    "status": "reviewed",
+    "views": {
+      "front": "pipeline/reports/bornean-orangutan-render/front-final.png",
+      "side": "pipeline/reports/bornean-orangutan-render/side-final.png",
+      "rear": "pipeline/reports/bornean-orangutan-render/rear-final.png",
+      "three-quarter": "pipeline/reports/bornean-orangutan-render/three-quarter-final.png"
+    },
+    "renders": [
+      "pipeline/reports/bornean-orangutan-render/front-final.png",
+      "pipeline/reports/bornean-orangutan-render/side-final.png",
+      "pipeline/reports/bornean-orangutan-render/rear-final.png",
+      "pipeline/reports/bornean-orangutan-render/three-quarter-final.png",
+      "pipeline/reports/bornean-orangutan-render/all-clips-contact-sheet.png",
+      "pipeline/reports/bornean-orangutan-desktop-runtime.png",
+      "pipeline/reports/bornean-orangutan-mobile-runtime.png",
+      "pipeline/reports/bornean-orangutan-render/face-detail.png",
+      "pipeline/reports/phase25-orangutan-views.png"
+    ],
+    "clipsReviewed": [
+      "Idle",
+      "Walk",
+      "Climb",
+      "Reach"
+    ],
+    "reviewMethod": "Phase 2.5: inspected four neutral angles, face close-up, 16 desktop clip samples, and exact optimized desktop/mobile GLBs decoded and rendered in Blender. Mobile pose review and software checks reported separately. No browser validation is implied.",
+    "notes": [
+      "Female Bornean educational model remains simplified, without cheek flanges; no imported animal geometry, new species, layout or viewer-control changes.",
+      "Shorter surface-following groom reduces stray hair; face has subtle exported pigment folds and revised nasal/brow contours. Mobile preserves half of the groom with one triangle per ordinary strand.",
+      "Walk separates 64% support and 36% recovery phases. Climb uses fixed virtual wrist targets; source contact test over 151 frames measures maximum target error under 0.8mm. This does not validate contact with a real branch or anatomical biomechanics.",
+      "All 16 desktop pose samples have no vertices below ground beyond 5mm. Four views and optimized exports retain separated limbs and fingers. Appearance is stylized, not photorealistic.",
+      "The browser rendering, touchscreen, clipboard, Close/Back and GPU performance tests remain unavailable and unverified."
+    ],
+    "sourceSha256": "e507c75fe1e087d65abf9fddb32a394762dd57ecd25a0520977fd6272cf097aa",
+    "blendSha256": "7419b3a27264667dcb183c7034627307fd2d8c644b0e62a1ad499db3778eb8bb",
+    "exportSha256": {
+      "desktop": "c2ac9c5c2f098c0456b138239cfa6813dba344530df9455b87b0e79b7c5319c9",
+      "mobile": "1c8f5f57f0066bf84457d3c180e6c53be41a542f812b23a87917f453ee48b336"
+    },
+    "evidence": [
+      "pipeline/reports/bornean-orangutan-authored-audit.json",
+      "pipeline/reports/bornean-orangutan-pose-bounds.json",
+      "pipeline/reports/phase25-orangutan-contact.json"
+    ],
+    "biologicalReferences": [
+      "https://animaldiversity.org/accounts/Pongo_pygmaeus/",
+      "https://animals.sandiegozoo.org/animals/orangutan"
+    ]
+  }
+}

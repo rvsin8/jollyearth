@@ -1,0 +1,214 @@
+{
+  "checkedAt": "2026-10-17T19:52:11.272709+00:00",
+  "origin": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+  "verification": "HTTP only; no JavaScript, WebGL, browser console or touch execution",
+  "results": [
+    {
+      "path": "/?intro=0&exhibit=gopher-tortoise",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 28273,
+      "requestMs": 6944
+    },
+    {
+      "path": "/?intro=0&exhibit=green-sea-turtle",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 28275,
+      "requestMs": 6658
+    },
+    {
+      "path": "/?intro=0&exhibit=ring-tailed-lemur",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 28277,
+      "requestMs": 6792
+    },
+    {
+      "path": "/?intro=0&exhibit=bornean-orangutan",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 28277,
+      "requestMs": 6864
+    },
+    {
+      "path": "/?intro=0&exhibit=red-fox",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 28257,
+      "requestMs": 6675
+    },
+    {
+      "path": "/at-risk",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 52969,
+      "requestMs": 3711
+    },
+    {
+      "path": "/data/animal-exhibits.json",
+      "status": 200,
+      "contentType": "application/json",
+      "bytes": 108958,
+      "requestMs": 3886,
+      "sha256": "250762a624f3e8ae18f475fad49058661159d727fe21e9bec352770f82afaf4e",
+      "matchesSource": true,
+      "validJson": true
+    },
+    {
+      "path": "/data/models.json",
+      "status": 200,
+      "contentType": "application/json",
+      "bytes": 68390,
+      "requestMs": 3655,
+      "sha256": "d0408ed048ef92ac86db33ebbffff586a0ebbe62f76905f68fe2f8ab22388280",
+      "matchesSource": true,
+      "validJson": true
+    },
+    {
+      "path": "/icons/species/gopher-tortoise.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 1229,
+      "requestMs": 3580,
+      "sha256": "7660b4ecd0ef088dec9c4a47c9f4bcf54bb3f0d0144d0990c42edda62a0e18b9",
+      "matchesSource": true
+    },
+    {
+      "path": "/models/animals/gopher-tortoise.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 805528,
+      "requestMs": 3549,
+      "sha256": "8675b1e6b7c425696c10d8a7634bb868ccd0b9d7c304d60410e12cd52cd6867f",
+      "matchesSource": true,
+      "glbMagic": true
+    },
+    {
+      "path": "/models/animals/gopher-tortoise.mobile.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 473268,
+      "requestMs": 6324,
+      "sha256": "639f073be81bf3806e8c55ff372fff501c6a3179e01a59a7c8f4953ac89b3a69",
+      "matchesSource": true,
+      "glbMagic": true
+    },
+    {
+      "path": "/icons/species/lemur.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 2325,
+      "requestMs": 6164,
+      "sha256": "a4e1ae49b253af1434bca4bb48ce65eb4b434963c9ed21eef30742d73ccd6f62",
+      "matchesSource": true
+    },
+    {
+      "path": "/models/animals/ring-tailed-lemur.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 1878972,
+      "requestMs": 6449,
+      "sha256": "48fa62c1d4a6c9ff22e15edb1b8d570651e55f042699c1c576dda2849628c381",
+      "matchesSource": true,
+      "glbMagic": true
+    },
+    {
+      "path": "/models/animals/ring-tailed-lemur.mobile.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 561108,
+      "requestMs": 6228,
+      "sha256": "62f4c605a531235684df6d6ce951d0b7752641cc5cf1274d0782d04eb1d07fe5",
+      "matchesSource": true,
+      "glbMagic": true
+    },
+    {
+      "path": "/icons/species/orangutan.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 1164,
+      "requestMs": 6107,
+      "sha256": "a17fc129e3d63a2ebea1aa37f540e596e83eb15645a3b6e2f4e466ffd7814f15",
+      "matchesSource": true
+    },
+    {
+      "path": "/models/animals/bornean-orangutan.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 1208524,
+      "requestMs": 7826,
+      "sha256": "2c8ed9563d185b901a5a7aa4f4be7795f9dab154fe5e077f7a9893ef7754e3ed",
+      "matchesSource": true,
+      "glbMagic": true
+    },
+    {
+      "path": "/models/animals/bornean-orangutan.mobile.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 671216,
+      "requestMs": 7601,
+      "sha256": "04eca00d50b475b936d0c68b2098f4f725c9d5bc5d3544202163b73dfe0b0d00",
+      "matchesSource": true,
+      "glbMagic": true
+    },
+    {
+      "path": "/icons/species/green-turtle.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 1305,
+      "requestMs": 7621,
+      "sha256": "2d01b6c52bece43315d0c083af5af4612602052cda9754d39a3050dc54450a0d",
+      "matchesSource": true
+    },
+    {
+      "path": "/models/animals/green-sea-turtle.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 270060,
+      "requestMs": 7768,
+      "sha256": "72d289bd1ca61515cd53a83968f8e8d96d06347062c5b51e26d6703ba082e053",
+      "matchesSource": true,
+      "glbMagic": true
+    },
+    {
+      "path": "/models/animals/green-sea-turtle.mobile.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 253260,
+      "requestMs": 7595,
+      "sha256": "d9a232783faca93b8891161d4111257e4af5ddff13ccf8ba7627ec560d691862",
+      "matchesSource": true,
+      "glbMagic": true
+    },
+    {
+      "path": "/icons/species/red-fox.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 348086,
+      "requestMs": 4229,
+      "sha256": "b830b4312bd111f4513bb12c06d14154896df2123c6739a50480a1df6d58acbe",
+      "matchesSource": true
+    },
+    {
+      "path": "/models/animals/red-fox.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 1028664,
+      "requestMs": 4677,
+      "sha256": "ebaac6c5fc971a1b6c5b863bd51dd7b2a587aa31146e65063355d94bebd69708",
+      "matchesSource": true,
+      "glbMagic": true
+    },
+    {
+      "path": "/models/animals/red-fox.mobile.glb",
+      "status": 200,
+      "contentType": "application/octet-stream",
+      "bytes": 792676,
+      "requestMs": 4324,
+      "sha256": "555f874492c85ee8a90a46e856656b09164d2dbb9d6bab8ad9018f9437884b59",
+      "matchesSource": true,
+      "glbMagic": true
+    }
+  ]
+}

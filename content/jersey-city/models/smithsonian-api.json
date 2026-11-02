@@ -1,0 +1,634 @@
+{
+  "rows": [
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Thumb",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/Crassostrea_virginica-20k-thumb.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "High",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/Crassostrea_virginica-150k-4096-high.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Medium",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/Crassostrea_virginica-150k-2048-medium.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Low",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/Crassostrea_virginica-150k-1024-low.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/Crassostrea_virginica-100k-ar.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "App3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/Crassostrea_virginica-100k-2048_std_draco.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "iOSApp3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/Crassostrea_virginica-100k-2048_std.usdz",
+        "file_type": "usdz",
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/resources/Crassostrea_virginica-150k-4096_std.glb",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "glb",
+        "file_type": "glb",
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/resources/Crassostrea_virginica-100k-2048_std_draco.glb",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "glb",
+        "file_type": "glb",
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/resources/Crassostrea_virginica-100k-2048_std.usdz",
+        "quality": "iOS_AR_model",
+        "usage": "Download3D",
+        "model_type": "usdz",
+        "file_type": "usdz",
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/resources/Crassostrea_virginica-full_resolution-obj_std.zip",
+        "quality": "Full_resolution",
+        "usage": "Download3D",
+        "model_type": "obj",
+        "file_type": "zip",
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/resources/Crassostrea_virginica-150k-4096-gltf_std.zip",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "gltf",
+        "file_type": "zip",
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de/resources/Crassostrea_virginica-150k-4096-obj_std.zip",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "obj",
+        "file_type": "zip",
+        "model_url": "3d_package:77be1e89-fef1-4774-a9e2-8e5b0c46d1de"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Thumb",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/Crassostrea_virginica-20k-thumb.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "High",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/Crassostrea_virginica-150k-4096-high.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Medium",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/Crassostrea_virginica-150k-2048-medium.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Low",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/Crassostrea_virginica-150k-1024-low.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/Crassostrea_virginica-100k-ar.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "App3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/Crassostrea_virginica-100k-2048_std_draco.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "iOSApp3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/Crassostrea_virginica-100k-2048_std.usdz",
+        "file_type": "usdz",
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/resources/Crassostrea_virginica-150k-4096_std.glb",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "glb",
+        "file_type": "glb",
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/resources/Crassostrea_virginica-100k-2048_std_draco.glb",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "glb",
+        "file_type": "glb",
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/resources/Crassostrea_virginica-100k-2048_std.usdz",
+        "quality": "iOS_AR_model",
+        "usage": "Download3D",
+        "model_type": "usdz",
+        "file_type": "usdz",
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/resources/Crassostrea_virginica-full_resolution-obj_std.zip",
+        "quality": "Full_resolution",
+        "usage": "Download3D",
+        "model_type": "obj",
+        "file_type": "zip",
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/resources/Crassostrea_virginica-150k-4096-gltf_std.zip",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "gltf",
+        "file_type": "zip",
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4/resources/Crassostrea_virginica-150k-4096-obj_std.zip",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "obj",
+        "file_type": "zip",
+        "model_url": "3d_package:587a17cc-572f-4012-82c4-bc1d3a9199d4"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Thumb",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/Crassostrea_virginica-20k-thumb.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "High",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/Crassostrea_virginica-150k-4096-high.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Medium",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/Crassostrea_virginica-150k-2048-medium.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Low",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/Crassostrea_virginica-150k-1024-low.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/Crassostrea_virginica-100k-ar.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "App3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/Crassostrea_virginica-100k-2048_std_draco.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "iOSApp3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/Crassostrea_virginica-100k-2048_std.usdz",
+        "file_type": "usdz",
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/resources/Crassostrea_virginica-150k-4096_std.glb",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "glb",
+        "file_type": "glb",
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/resources/Crassostrea_virginica-100k-2048_std_draco.glb",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "glb",
+        "file_type": "glb",
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/resources/Crassostrea_virginica-100k-2048_std.usdz",
+        "quality": "iOS_AR_model",
+        "usage": "Download3D",
+        "model_type": "usdz",
+        "file_type": "usdz",
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/resources/Crassostrea_virginica-full_resolution-obj_std.zip",
+        "quality": "Full_resolution",
+        "usage": "Download3D",
+        "model_type": "obj",
+        "file_type": "zip",
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/resources/Crassostrea_virginica-150k-4096-gltf_std.zip",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "gltf",
+        "file_type": "zip",
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596/resources/Crassostrea_virginica-150k-4096-obj_std.zip",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "obj",
+        "file_type": "zip",
+        "model_url": "3d_package:daa6f93d-9ea1-4e25-b3ee-faf8b06e3596"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Thumb",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/Crassostrea_virginica-20k-thumb.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "High",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/Crassostrea_virginica-150k-4096-high.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Low",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/Crassostrea_virginica-150k-1024-low.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/Crassostrea_virginica-100k-ar.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "App3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/Crassostrea_virginica-100k-2048_std_draco.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "iOSApp3D",
+        "quality": "AR",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/Crassostrea_virginica-100k-2048_std.usdz",
+        "file_type": "usdz",
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/resources/Crassostrea_virginica-150k-4096_std.glb",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "glb",
+        "file_type": "glb",
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/resources/Crassostrea_virginica-100k-2048_std_draco.glb",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "glb",
+        "file_type": "glb",
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/resources/Crassostrea_virginica-100k-2048_std.usdz",
+        "quality": "iOS_AR_model",
+        "usage": "Download3D",
+        "model_type": "usdz",
+        "file_type": "usdz",
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/resources/Crassostrea_virginica-full_resolution-obj_std.zip",
+        "quality": "Full_resolution",
+        "usage": "Download3D",
+        "model_type": "obj",
+        "file_type": "zip",
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/resources/Crassostrea_virginica-150k-4096-gltf_std.zip",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "gltf",
+        "file_type": "zip",
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3",
+        "gltf_orientation_compliant": true
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/resources/Crassostrea_virginica-150k-4096-obj_std.zip",
+        "quality": "Low_resolution",
+        "usage": "Download3D",
+        "model_type": "obj",
+        "file_type": "zip",
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3"
+      }
+    },
+    {
+      "title": "Crassostrea virginica",
+      "content": {
+        "usage": "Web3D",
+        "quality": "Medium",
+        "uri": "https://3d-api.si.edu/content/document/3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3/Crassostrea_virginica-150k-2048-medium.glb",
+        "file_type": "glb",
+        "model_type": "glb",
+        "draco_compressed": true,
+        "model_url": "3d_package:880122a1-fe5c-43e6-b05b-e43e243f22a3",
+        "gltf_orientation_compliant": true
+      }
+    }
+  ],
+  "rowCount": 52,
+  "message": "content found"
+}

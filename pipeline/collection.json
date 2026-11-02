@@ -1,0 +1,58 @@
+[
+  {
+    "registrySlug": "gopher-tortoise",
+    "exhibitSlug": "gopher-tortoise",
+    "clips": [
+      "Idle",
+      "Walk",
+      "Turn",
+      "Dig"
+    ],
+    "lengthRange": [
+      0.2,
+      0.7
+    ]
+  },
+  {
+    "registrySlug": "green-turtle",
+    "exhibitSlug": "green-sea-turtle",
+    "clips": [
+      "Float",
+      "Swim",
+      "Glide",
+      "Turn"
+    ],
+    "lengthRange": [
+      0.15,
+      1
+    ]
+  },
+  {
+    "registrySlug": "lemur",
+    "exhibitSlug": "ring-tailed-lemur",
+    "clips": [
+      "Idle",
+      "Walk",
+      "Leap",
+      "Climb"
+    ],
+    "lengthRange": [
+      0.25,
+      2
+    ]
+  },
+  {
+    "registrySlug": "orangutan",
+    "exhibitSlug": "bornean-orangutan",
+    "clips": [
+      "Idle",
+      "Walk",
+      "Climb",
+      "Reach"
+    ],
+    "lengthRange": [
+      0.2,
+      3
+    ]
+  }
+]

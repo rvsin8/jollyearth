@@ -1,0 +1,2794 @@
+[
+  {
+    "slug": "eastern-oyster",
+    "commonName": "Eastern oyster",
+    "scientificName": "Crassostrea virginica",
+    "aliases": [
+      "eastern-oyster"
+    ],
+    "illustration": "/icons/species/eastern-oyster.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Eastern oyster — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/jersey-city/eastern-oyster.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "New York Harbor is a focus of oyster-reef restoration.",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "Restoration focus",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "Oysters filter suspended material and their reefs provide structure for other organisms. Restoration oysters are not for eating."
+    ],
+    "threats": [
+      "Habitat loss",
+      "Water-quality stress"
+    ],
+    "action": "Explore Billion Oyster Project’s organized volunteering and school programs.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "oyster",
+        "title": "Billion Oyster Project · Restoration",
+        "url": "https://www.billionoysterproject.org/restoration",
+        "note": "Restoring oyster reefs and educating students in New York Harbor.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-eastern-oyster",
+        "title": "Eastern oyster reef and harvesting · NOAA Photo Library",
+        "url": "https://commons.wikimedia.org/wiki/File:Nerr0327_-_Flickr_-_NOAA_Photo_Library.jpg",
+        "note": "Person harvesting American/eastern oysters in intertidal reef, North Inlet–Winyah Bay National Estuarine Research Reserve, South Carolina. Not New York Harbor. 2010-10-25 (source metadata) · CC BY 2.0",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      {
+        "id": "oyster-model",
+        "title": "Smithsonian · Crassostrea virginica 3D specimen",
+        "url": "https://3d-api.si.edu/api/v1.0/content/file/search?model_url=77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+        "note": "Downloaded original textured GLB. Display is centered and uniformly scaled; geometry and textures are unchanged. Collection locality and specimen date are not asserted here.",
+        "accessed": "2026-09-22"
+      },
+      {
+        "id": "si-open-access",
+        "title": "Smithsonian · Open Access 3D API",
+        "url": "https://3d-api.si.edu/api-docs/",
+        "note": "The API documents that all returned files belong to the Smithsonian Open Access initiative.",
+        "accessed": "2026-09-22"
+      }
+    ]
+  },
+  {
+    "slug": "gopher-tortoise",
+    "commonName": "Gopher tortoise",
+    "scientificName": "Gopherus polyphemus",
+    "aliases": [
+      "gopher-tortoise"
+    ],
+    "illustration": "/icons/species/gopher-tortoise.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Gopher tortoise — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/gopher-tortoise.webp",
+    "habitat": "Open pine woodland, scrub and grassland with well-drained, sandy soil for burrows.",
+    "diet": "Grasses and other low-growing plants, plus seeds and fruit.",
+    "distribution": "The southeastern United States, from southern South Carolina to eastern Louisiana and Florida.",
+    "size": "Adults are generally 10–15 in long and weigh 9–13 lb.",
+    "populationTrend": null,
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/gopher-tortoise.glb",
+      "mobileFile": "/models/animals/gopher-tortoise.mobile.glb",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Turn",
+        "Dig"
+      ],
+      "credit": {
+        "creator": "Earthbound",
+        "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+        "changes": "Original Earthbound model from custom anatomical vertex surfaces: individually constructed carapace scutes, fitted relief limb scales, generated UV albedo/normal/roughness textures, a 12-bone skeletal rig, and original keyframed animation. No external model or texture was used. Morphological references: U.S. Fish & Wildlife Service and Naturalis; their photographs were studied as reference only.",
+        "animationNote": "Original in-place Idle, Walk, Turn, and Dig clips. Walk uses a slow stance phase and lifted recovery; Dig alternates forelimb scraping. These are interpretive motions for an educational exhibit, not motion-captured locomotion.",
+        "biologicalReferences": [
+          "https://www.fws.gov/project/gopher-tortoise",
+          "https://www.fws.gov/species/gopher-tortoise-gopherus-polyphemus",
+          "https://turtles.linnaeus.naturalis.nl/linnaeus_ng/app/views/highertaxa/taxon.php?epi=11&id=7898"
+        ]
+      }
+    },
+    "status": "CR",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2026,
+    "dataAsOf": "2026-09-21",
+    "facts": [
+      "Broad, flattened forefeet dig burrows that shelter many other animals. Keeping sunny, open habitat allows the plants it eats to grow.",
+      "The 2026 global IUCN assessment is Critically Endangered. U.S. legal listing applies differently across its range."
+    ],
+    "threats": [
+      "Habitat conversion",
+      "Fire suppression"
+    ],
+    "action": "Ask a local nature centre about a supervised native-habitat volunteer day.",
+    "regions": [
+      {
+        "id": "north-american-coastal-plain",
+        "name": "Coastal Plain"
+      }
+    ],
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://www.fws.gov/project/gopher-tortoise",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "gopher-tortoise-status",
+        "title": "IUCN assessment authors — Gopher tortoise, 2026 reassessment",
+        "url": "https://biologicaldiversity.org/w/news/press-releases/international-assessment-finds-gopher-tortoise-is-critically-endangered-2026-07-10/email_view/",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "gopher-tortoise-assessment",
+        "title": "IUCN Red List — Gopherus polyphemus",
+        "url": "https://www.iucnredlist.org/species/9403/3151418",
+        "accessed": "2026-10-16",
+        "note": "Assessment linked for reference; category corroborated by the cited IUCN or assessment-author publication. Population trend omitted."
+      },
+      {
+        "id": "photo-gopher-tortoise",
+        "title": "Gopher tortoise photograph · Emmet Guy/USFWS",
+        "url": "https://www.fws.gov/media/gopher-tortoise-0",
+        "note": "Public Domain · Cropped for display.",
+        "licenseUrl": "https://www.fws.gov/media/gopher-tortoise-0",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "gbif-status",
+        "title": "GBIF · cached global IUCN category",
+        "url": "https://api.gbif.org/v1/species/2441812/iucnRedListCategory",
+        "accessed": "2026-09-21",
+        "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+      },
+      {
+        "id": "ecology-gopher-tortoise",
+        "title": "Gopher tortoise · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Gopherus_polyphemus/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "ring-tailed-lemur",
+    "commonName": "Ring-tailed lemur",
+    "scientificName": "Lemur catta",
+    "aliases": [
+      "lemur"
+    ],
+    "illustration": "/icons/species/lemur.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Ring-tailed lemur — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/lemur.webp",
+    "habitat": "Dry forest, river-edge forest, thickets and spiny scrub, with some populations in other forest types.",
+    "diet": "Fruit, leaves, flowers and other plant parts, with occasional insects and small vertebrates.",
+    "distribution": "Mainly southern and southwestern Madagascar, with some highland and southeastern populations.",
+    "size": "Adults weigh about 2.2–2.7 kg.",
+    "populationTrend": null,
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/ring-tailed-lemur.glb",
+      "mobileFile": "/models/animals/ring-tailed-lemur.mobile.glb",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Leap",
+        "Climb"
+      ],
+      "credit": {
+        "creator": "Earthbound",
+        "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/?exhibit=ring-tailed-lemur",
+        "changes": "Original Blender-authored continuous sculpted torso, limbs, narrow head, recessed eye sockets and surface-painted masks; original 2048px coat atlases, directionally groomed short-fur mesh cards, 27-bone skeleton and four in-place animation clips. No purchased or imported animal geometry or image textures.",
+        "animationNote": "Original educational artist interpretation, not a scan, motion capture, photorealistic asset or clinical reconstruction. Climb is an unsupported in-place educational motion, not a contact-simulated branch climb. Fur uses original textured surfaces and an economical mesh-card groom.",
+        "references": [
+          {
+            "url": "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/",
+            "purpose": "Anatomical and coloration reference only; no reference image content or geometry is redistributed."
+          }
+        ]
+      }
+    },
+    "status": "EN",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2018,
+    "dataAsOf": "2026-09-21",
+    "facts": [
+      "Females dominate social groups. During “stink fights,” males rub scent onto their tails and wave them toward rivals. The ringed tail does not grip branches."
+    ],
+    "threats": [
+      "Habitat loss",
+      "Hunting"
+    ],
+    "action": "Make a classroom display explaining why wild lemurs should never be pets.",
+    "regions": [
+      {
+        "id": "madagascar",
+        "name": "Madagascar"
+      }
+    ],
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "lemur-status",
+        "title": "IUCN — Ring-tailed lemur, Endangered",
+        "url": "https://iucn.org/news/eastern-and-southern-africa/202007/almost-a-third-lemurs-now-critically-endangered-iucn-red-list",
+        "accessed": "2026-10-16",
+        "note": "2018 assessment, published in the 2020 IUCN update."
+      },
+      {
+        "id": "lemur-assessment",
+        "title": "IUCN Red List — Lemur catta",
+        "url": "https://www.iucnredlist.org/species/11496/115565760",
+        "accessed": "2026-10-16",
+        "note": "Assessment linked for reference; category corroborated by the cited IUCN or assessment-author publication. Population trend omitted."
+      },
+      {
+        "id": "photo-lemur",
+        "title": "lemur photograph · Francis C. Franklin",
+        "url": "https://commons.wikimedia.org/wiki/File:Ring_tailed_lemur_portrait.jpg",
+        "note": "CC BY-SA 3.0 · Cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "id": "gbif-status",
+        "title": "GBIF · cached global IUCN category",
+        "url": "https://api.gbif.org/v1/species/2436412/iucnRedListCategory",
+        "accessed": "2026-09-21",
+        "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+      },
+      {
+        "id": "ecology-lemur",
+        "title": "Ring-tailed lemur · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Lemur_catta/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "bornean-orangutan",
+    "commonName": "Bornean orangutan",
+    "scientificName": "Pongo pygmaeus",
+    "aliases": [
+      "orangutan"
+    ],
+    "illustration": "/icons/species/orangutan.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Bornean orangutan — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/orangutan.webp",
+    "habitat": "Lowland tropical rainforest, including peat-swamp and floodplain forests.",
+    "diet": "Mostly fruit, with leaves, shoots, bark and insects.",
+    "distribution": "The island of Borneo, in Indonesia and Malaysia.",
+    "size": "Adult body mass averages about 37 kg in females and 87 kg in males.",
+    "populationTrend": null,
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/bornean-orangutan.glb",
+      "mobileFile": "/models/animals/bornean-orangutan.mobile.glb",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Climb",
+        "Reach"
+      ],
+      "credit": {
+        "creator": "Earthbound",
+        "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+        "changes": "Original Blender-authored female Bornean orangutan. Custom lofted anatomical surfaces voxel-unified into a continuous body; continuous Scenario Clay head sculpt with inset eyes, painted skin/coat UV atlas, original russet directional texture, and hand-authored area-sampled draped hair cards. Original curved digits, bowed legs, long arms and grasping feet. No purchased, imported or third-party animal geometry. Phase 2.5: shorter region-specific draped groom, reduced strand contrast, shallow eyelid/nasolabial/forehead pigment detail and adjusted nasal/brow contours. Mobile uses one-triangle strands to retain half the groom within its original budget.",
+        "animationNote": "Original 38-bone educational in-place Idle, four-second support/recovery Walk, five-second alternating-grasp Climb, and Reach. Climb wrists use stationary virtual reference points during support; no tree collision or traversal simulation is present. Hand-authored timing, not motion capture or expert-validated biomechanics.",
+        "anatomyReferences": [
+          {
+            "title": "Animal Diversity Web: Pongo pygmaeus",
+            "url": "https://animaldiversity.org/accounts/Pongo_pygmaeus/",
+            "use": "Long arms, orange-red coarse coat, grasping hands and feet, female without mature male flanges, fist-supported terrestrial locomotion."
+          },
+          {
+            "title": "San Diego Zoo Wildlife Alliance: Orangutan",
+            "url": "https://animals.sandiegozoo.org/animals/orangutan",
+            "use": "Gray bare face, stocky body, bowed legs, long fingers, russet coat and female Bornean facial-hair distinction."
+          }
+        ],
+        "tooling": "Scenario bx_sculpt.py is MIT-licensed procedural sculpting tooling, vendored with attribution. It is not animal geometry."
+      }
+    },
+    "status": "CR",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2016,
+    "dataAsOf": "2026-09-21",
+    "facts": [
+      "Orangutans build sleeping platforms from branches and leaves. Youngsters spend years learning forest skills from their mothers."
+    ],
+    "threats": [
+      "Forest conversion",
+      "Hunting"
+    ],
+    "action": "Audit one classroom snack supply chain and ask its producer for evidence of deforestation-free sourcing.",
+    "regions": [
+      {
+        "id": "sundaland",
+        "name": "Sundaland"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-orangutan",
+        "title": "Bornean orangutan · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Pongo_pygmaeus/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      },
+      {
+        "id": "orangutan-status",
+        "title": "IUCN — Bornean orangutan, Critically Endangered",
+        "url": "https://iucn.org/news/secretariat/201607/whale-sharks-winghead-sharks-and-bornean-orangutans-slide-towards-extinction",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "orangutan-assessment",
+        "title": "IUCN Red List — Pongo pygmaeus",
+        "url": "https://www.iucnredlist.org/species/17975/123809220",
+        "accessed": "2026-10-16",
+        "note": "Assessment linked for reference; category corroborated by the cited IUCN or assessment-author publication. Population trend omitted."
+      },
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://nationalzoo.si.edu/animals/orangutan",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-orangutan",
+        "title": "orangutan photograph · Nanosanchez",
+        "url": "https://commons.wikimedia.org/wiki/File:Tanjung_Puting30477.jpg",
+        "note": "CC BY-SA 4.0 · Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "id": "gbif-status",
+        "title": "GBIF · cached global IUCN category",
+        "url": "https://api.gbif.org/v1/species/5219532/iucnRedListCategory",
+        "accessed": "2026-09-21",
+        "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+      }
+    ]
+  },
+  {
+    "slug": "green-sea-turtle",
+    "commonName": "Green sea turtle",
+    "scientificName": "Chelonia mydas",
+    "aliases": [
+      "green-turtle"
+    ],
+    "illustration": "/icons/species/green-turtle.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Green sea turtle — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/green-turtle.webp",
+    "habitat": "Shallow coastal feeding grounds and sandy nesting beaches; young turtles also use the open ocean.",
+    "diet": "Adults mainly graze seagrasses and algae; some also eat small animals.",
+    "distribution": "Atlantic, Pacific and Indian oceans, and the Mediterranean Sea.",
+    "size": "Adults are typically 3–4 ft long and weigh 250–400 lb.",
+    "populationTrend": null,
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/green-sea-turtle.glb",
+      "mobileFile": "/models/animals/green-sea-turtle.mobile.glb",
+      "clips": [
+        "Float",
+        "Swim",
+        "Glide",
+        "Turn"
+      ],
+      "credit": {
+        "title": "Original Earthbound green sea turtle",
+        "creator": "Earthbound",
+        "scientificName": "Chelonia mydas",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "Original custom vertex-authored anatomical mesh, UV textures, skeleton and animation. No third-party geometry, texture or rig.",
+        "biologicalReferences": [
+          "https://www.fisheries.noaa.gov/species/green-turtle",
+          "https://www.aoml.noaa.gov/general/graphics/lib/turtles.htm"
+        ],
+        "referenceUse": "Anatomical observation only; no image incorporated into delivered textures.",
+        "archivedPredecessor": "archived-external-predecessor is provenance only and excluded from authored/exported assets.",
+        "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+        "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+        "changes": "Original custom vertex-authored anatomical mesh, UV textures, skeleton and animation. No third-party geometry, texture or rig.",
+        "animationNote": "Original Float, Swim, Glide and Turn loops; shoulder-driven marine strokes and restrained distal flex. Educational authored interpretation, not motion capture."
+      }
+    },
+    "status": "LC",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2025,
+    "dataAsOf": "2026-09-21",
+    "facts": [
+      "The name refers to greenish body fat, not a green shell. Females return to the region where they hatched to nest.",
+      "The 2025 global IUCN category is Least Concern. Regional populations have different assessments, and legal protections remain important."
+    ],
+    "threats": [
+      "Fishing bycatch",
+      "Habitat loss",
+      "Marine debris"
+    ],
+    "action": "Join a teacher-supervised beach or river clean-up and record the types of litter collected.",
+    "regions": [
+      {
+        "id": "sundaland",
+        "name": "Sundaland"
+      },
+      {
+        "id": "indo-burma",
+        "name": "Indo-Burma"
+      },
+      {
+        "id": "caribbean-islands",
+        "name": "Caribbean Islands"
+      },
+      {
+        "id": "coastal-forests-of-eastern-africa",
+        "name": "East African coast"
+      },
+      {
+        "id": "east-melanesian-islands",
+        "name": "East Melanesia"
+      },
+      {
+        "id": "japan",
+        "name": "Japan"
+      },
+      {
+        "id": "mesoamerica",
+        "name": "Mesoamerica"
+      },
+      {
+        "id": "new-caledonia",
+        "name": "New Caledonia"
+      },
+      {
+        "id": "philippines",
+        "name": "Philippines"
+      },
+      {
+        "id": "polynesia-micronesia",
+        "name": "Polynesia–Micronesia"
+      },
+      {
+        "id": "wallacea",
+        "name": "Wallacea"
+      }
+    ],
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "green-turtle-status",
+        "title": "IUCN Marine Turtle Specialist Group — 2025 global and regional assessments",
+        "url": "https://www.iucn-mtsg.org/statuses",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "green-turtle-assessment",
+        "title": "IUCN Red List — Chelonia mydas",
+        "url": "https://www.iucnredlist.org/species/4615/285108125",
+        "accessed": "2026-10-16",
+        "note": "Assessment linked for reference; category corroborated by the cited IUCN or assessment-author publication. Population trend omitted."
+      },
+      {
+        "id": "photo-green-turtle",
+        "title": "green turtle photograph · Charles J. Sharp",
+        "url": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+        "note": "CC BY-SA 4.0 · Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "id": "gbif-status",
+        "title": "GBIF · cached global IUCN category",
+        "url": "https://api.gbif.org/v1/species/2442225/iucnRedListCategory",
+        "accessed": "2026-09-21",
+        "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+      },
+      {
+        "id": "ecology-green-turtle",
+        "title": "Green sea turtle · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Chelonia_mydas/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "red-panda",
+    "commonName": "Red panda",
+    "scientificName": "Ailurus fulgens",
+    "aliases": [
+      "red-panda"
+    ],
+    "illustration": "/icons/species/red-panda.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Red panda — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/red-panda.webp",
+    "habitat": "Mountain forest with bamboo",
+    "diet": "Selected foods documented in this guide: Bamboo leaves. This is not a complete diet.",
+    "distribution": "Forests of the eastern Himalaya and southwestern China",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "EN",
+    "statusProvider": "GBIF cached IUCN category",
+    "assessmentYear": null,
+    "dataAsOf": "2026-09-21",
+    "facts": [
+      "A forest mammal that feeds mainly on bamboo."
+    ],
+    "threats": [
+      "Habitat loss",
+      "Fragmentation"
+    ],
+    "action": "Create a school exhibit connecting paper use with responsible forest management.",
+    "regions": [
+      {
+        "id": "himalaya",
+        "name": "Himalaya"
+      },
+      {
+        "id": "mountains-of-southwest-china",
+        "name": "Southwest China"
+      }
+    ],
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://nationalzoo.si.edu/animals/red-panda",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-red-panda",
+        "title": "red panda photograph · Sunuwargr",
+        "url": "https://commons.wikimedia.org/wiki/File:Red_Panda%2C_Gentle_Tree-Dweller_of_the_Himalayas.jpg",
+        "note": "CC BY-SA 4.0 · Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      {
+        "id": "gbif-status",
+        "title": "GBIF · cached global IUCN category",
+        "url": "https://api.gbif.org/v1/species/5219446/iucnRedListCategory",
+        "accessed": "2026-09-21",
+        "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+      },
+      {
+        "id": "ecology-red-panda",
+        "title": "Red panda · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Ailurus_fulgens/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "condor",
+    "commonName": "Andean condor",
+    "scientificName": "Vultur gryphus",
+    "aliases": [
+      "condor"
+    ],
+    "illustration": "/icons/species/condor.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Andean condor — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/condor.webp",
+    "habitat": null,
+    "diet": "Selected foods documented in this guide: Carrion. This is not a complete diet.",
+    "distribution": "Andes and adjoining South American landscapes",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "VU",
+    "statusProvider": "GBIF cached IUCN category",
+    "assessmentYear": null,
+    "dataAsOf": "2026-09-21",
+    "facts": [
+      "A large soaring scavenger that feeds on carrion."
+    ],
+    "threats": [
+      "Poisoning",
+      "Persecution"
+    ],
+    "action": "Make an evidence-based poster about the ecological role of scavengers.",
+    "regions": [
+      {
+        "id": "tropical-andes",
+        "name": "Tropical Andes"
+      },
+      {
+        "id": "chilean-winter-rainfall-and-valdivian-forests",
+        "name": "Valdivian forests"
+      }
+    ],
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://animals.sandiegozoo.org/animals/andean-condor",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-condor",
+        "title": "condor photograph · Greg Hume",
+        "url": "https://commons.wikimedia.org/wiki/File:AndeanCondorMale.jpg",
+        "note": "CC BY-SA 3.0 · Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "id": "gbif-status",
+        "title": "GBIF · cached global IUCN category",
+        "url": "https://api.gbif.org/v1/species/2481907/iucnRedListCategory",
+        "accessed": "2026-09-21",
+        "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+      },
+      {
+        "id": "ecology-condor",
+        "title": "Andean condor · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Vultur_gryphus/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "red-cockaded-woodpecker",
+    "commonName": "Red-cockaded woodpecker",
+    "scientificName": "Dryobates borealis",
+    "aliases": [
+      "red-cockaded-woodpecker"
+    ],
+    "illustration": "/icons/species/red-cockaded-woodpecker.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Red-cockaded woodpecker — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/red-cockaded-woodpecker.webp",
+    "habitat": null,
+    "diet": "Selected foods documented in this guide: Invertebrates, Fruit, Seeds and nuts. This is not a complete diet.",
+    "distribution": "Pine forests of the southeastern United States",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "NT",
+    "statusProvider": "GBIF cached IUCN category",
+    "assessmentYear": null,
+    "dataAsOf": "2026-09-21",
+    "facts": [
+      "A social woodpecker associated with mature, fire-maintained pine forests."
+    ],
+    "threats": [
+      "Loss of mature pine forest",
+      "Fire suppression"
+    ],
+    "action": "Ask a local wildlife refuge how your class can support habitat stewardship without disturbing nesting birds.",
+    "regions": [
+      {
+        "id": "north-american-coastal-plain",
+        "name": "Coastal Plain"
+      }
+    ],
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "NFWF · Red-cockaded woodpecker habitat",
+        "url": "https://www.nfwf.org/programs/longleaf-landscape-stewardship-fund",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-red-cockaded-woodpecker",
+        "title": "Red-cockaded woodpecker photograph · Renee Bodine/USFWS",
+        "url": "https://www.fws.gov/media/red-cockaded-woodpecker-tree",
+        "note": "Public Domain · Cropped for display.",
+        "licenseUrl": "https://www.fws.gov/media/red-cockaded-woodpecker-tree",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "gbif-status",
+        "title": "GBIF · cached global IUCN category",
+        "url": "https://api.gbif.org/v1/species/9046711/iucnRedListCategory",
+        "accessed": "2026-09-21",
+        "note": "Global category as returned by GBIF. Retrieval date is not assessment date."
+      },
+      {
+        "id": "ecology-red-cockaded-woodpecker",
+        "title": "Red-cockaded woodpecker · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Picoides_borealis/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "chameleon",
+    "commonName": "Panther chameleon",
+    "scientificName": "Furcifer pardalis",
+    "aliases": [
+      "chameleon"
+    ],
+    "illustration": "/icons/species/chameleon.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Panther chameleon — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/chameleon.webp",
+    "habitat": "Lowland forest",
+    "diet": "Selected foods documented in this guide: Invertebrates. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "madagascar",
+        "name": "Madagascar"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-chameleon",
+        "title": "Panther chameleon · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Furcifer_pardalis/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "tomato-frog",
+    "commonName": "Tomato frog",
+    "scientificName": "Dyscophus antongilii",
+    "aliases": [
+      "tomato-frog"
+    ],
+    "illustration": "/icons/species/tomato-frog.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Tomato frog — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/tomato-frog.webp",
+    "habitat": null,
+    "diet": "Selected foods documented in this guide: Invertebrates. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "madagascar",
+        "name": "Madagascar"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-tomato-frog",
+        "title": "Tomato frog · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Dyscophus_antongilii/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "day-gecko",
+    "commonName": "Madagascar day gecko",
+    "scientificName": "Phelsuma madagascariensis",
+    "aliases": [
+      "day-gecko"
+    ],
+    "illustration": "/icons/species/day-gecko.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Madagascar day gecko — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/day-gecko.webp",
+    "habitat": null,
+    "diet": "Selected foods documented in this guide: Invertebrates, Fruit, Nectar. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "madagascar",
+        "name": "Madagascar"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-day-gecko",
+        "title": "Madagascar day gecko · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Phelsuma_madagascariensis/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "comet-moth",
+    "commonName": "Comet moth",
+    "scientificName": "Argema mittrei",
+    "aliases": [
+      "comet-moth"
+    ],
+    "illustration": "/icons/species/comet-moth.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Comet moth — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/comet-moth.webp",
+    "habitat": "Forest habitat; elevation unquantified",
+    "diet": "Selected foods documented in this guide: Leaves (larvae). This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "madagascar",
+        "name": "Madagascar"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-comet-moth",
+        "title": "Comet moth · Ecology reference",
+        "url": "https://www.wildlifemadagascar.org/animals/comet-moth/",
+        "note": "Larvae eat leaves. Adults rely on energy stored during larval development.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "tamarin",
+    "commonName": "Golden lion tamarin",
+    "scientificName": "Leontopithecus rosalia",
+    "aliases": [
+      "tamarin"
+    ],
+    "illustration": "/icons/species/tamarin.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Golden lion tamarin — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/tamarin.webp",
+    "habitat": "Forest canopy; 10–30 m above ground, not elevation",
+    "diet": "Selected foods documented in this guide: Fruit, Invertebrates. This is not a complete diet.",
+    "distribution": "Lowland Atlantic Forest of Rio de Janeiro state, Brazil",
+    "size": null,
+    "populationTrend": "decreasing",
+    "model": null,
+    "status": "EN",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2015,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "Reintroduction and forest protection helped this golden-maned monkey recover from near extinction. Yellow fever brought a serious setback; conservation teams report renewed recovery, showing why long-term protection still matters."
+    ],
+    "threats": [
+      "Forest fragmentation",
+      "Yellow fever",
+      "Introduced primates"
+    ],
+    "action": "Build a classroom habitat-corridor model using Save the Golden Lion Tamarin’s forest restoration work as a case study.",
+    "regions": [
+      {
+        "id": "atlantic-forest",
+        "name": "Atlantic Forest"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-tamarin",
+        "title": "IUCN Red List · Leontopithecus rosalia · 2019; amended 2021",
+        "url": "https://www.iucnredlist.org/species/11506/192327291",
+        "note": "Global species assessment; assessed 2015. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-tamarin",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2021-1.RLTS.T11506A192327291.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-tamarin",
+        "title": "Learn more and help · Golden lion tamarin",
+        "url": "https://www.savetheliontamarin.org/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "assessment-text-tamarin",
+        "title": "IUCN assessment · Golden lion tamarin (2019 edition)",
+        "url": "https://bichodomatoip.org/wp-content/uploads/2020/03/Ruiz-Miranda-et-al.-2019.-Leontopithecus-rosalia-IUCN-2019.pdf",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-tamarin",
+        "title": "tamarin photograph · Daderot",
+        "url": "https://commons.wikimedia.org/wiki/File:Leontopithecus_rosalia_-_Copenhagen_Zoo_-_DSC09082.JPG",
+        "note": "CC0 1.0 · Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      {
+        "id": "ecology-tamarin",
+        "title": "Golden lion tamarin · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Leontopithecus_rosalia/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "great-hornbill",
+    "commonName": "Great hornbill",
+    "scientificName": "Buceros bicornis",
+    "aliases": [
+      "great-hornbill"
+    ],
+    "illustration": "/icons/species/great-hornbill.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Great hornbill — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/buceros-bicornis.webp",
+    "habitat": null,
+    "diet": "Selected foods documented in this guide: Fruit, Invertebrates. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "indo-burma",
+        "name": "Indo-Burma"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-great-hornbill",
+        "title": "Great hornbill · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Buceros_bicornis/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "monarch-butterfly",
+    "commonName": "Monarch butterfly",
+    "scientificName": "Danaus plexippus",
+    "aliases": [
+      "monarch-butterfly"
+    ],
+    "illustration": "/icons/species/monarch-butterfly.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Monarch butterfly — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/danaus-plexippus.webp",
+    "habitat": "Open country and overwintering groves",
+    "diet": "Selected foods documented in this guide: Milkweed leaves, Nectar. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "Late-summer monarchs belong to an eastern population that overwinters in central Mexico."
+    ],
+    "threats": [
+      "Loss of milkweed and nectar habitat along the journey, and forest loss and severe weather at Mexican wintering sites."
+    ],
+    "action": null,
+    "regions": [
+      {
+        "id": "california-floristic-province",
+        "name": "California"
+      }
+    ],
+    "sources": [
+      {
+        "id": "monarch-local",
+        "title": "NJDEP — Monarch Magic at Liberty State Park",
+        "url": "https://dep.nj.gov/event/monarch-magic-2/",
+        "note": "Park program documents monarch observation in late summer; a sighting does not establish an individual migration route.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "monarch-meadow",
+        "title": "Journey North — Liberty State Park milkweed observations",
+        "url": "https://archive.journeynorth.org/monarchs/news/fall-2025/092425-roost-reports-reach-kansas-and-oklahoma-still-quiet-east-coast.html",
+        "note": "First-party citizen-science compilation records monarch eggs at Liberty State Park in September. Not an individual tracking record.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "monarch-range",
+        "title": "USFWS — Save the monarch",
+        "url": "https://www.fws.gov/our-work/pollinators/save-monarch",
+        "note": "Eastern monarchs migrate to forested overwintering grounds in central Mexico.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "monarch-threat",
+        "title": "USFWS — International collaboration",
+        "url": "https://www.fws.gov/initiative/pollinators/monarchs/international",
+        "note": "Threats at wintering grounds and cross-border conservation response.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "migration-method",
+        "title": "Earthbound — migration map methods",
+        "url": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources#migration-method",
+        "note": "Approximate park/region centers chosen for teaching, not sightings or tracking fixes. Distances use the great-circle angle between those centers, Earth radius 6,371 km, rounded to the nearest 100 km. They are straight-line separations, not distances flown. Hotspot membership checked against the local 2016.1 CI polygons.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-monarch-butterfly",
+        "title": "Monarch butterfly · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Danaus_plexippus/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "bee-eater",
+    "commonName": "European bee-eater",
+    "scientificName": "Merops apiaster",
+    "aliases": [
+      "bee-eater"
+    ],
+    "illustration": "/icons/species/bee-eater.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "European bee-eater — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/bee-eater.webp",
+    "habitat": "Open habitats near water",
+    "diet": "Selected foods documented in this guide: Flying insects. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "cape-floristic-region",
+        "name": "Cape Floristic Region"
+      },
+      {
+        "id": "caucasus",
+        "name": "Caucasus"
+      },
+      {
+        "id": "irano-anatolian",
+        "name": "Irano-Anatolian"
+      },
+      {
+        "id": "maputaland-pondoland-albany",
+        "name": "Maputaland–Albany"
+      },
+      {
+        "id": "mediterranean-basin",
+        "name": "Mediterranean Basin"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-bee-eater",
+        "title": "European bee-eater · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Merops_apiaster/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "blue-and-yellow-macaw",
+    "commonName": "Blue-and-yellow macaw",
+    "scientificName": "Ara ararauna",
+    "aliases": [
+      "blue-and-yellow-macaw"
+    ],
+    "illustration": "/icons/species/blue-and-yellow-macaw.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Blue-and-yellow macaw — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/ara-ararauna.webp",
+    "habitat": "Riverine and swamp forests",
+    "diet": "Selected foods documented in this guide: Fruit, Seeds and nuts. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "cerrado",
+        "name": "Cerrado"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-blue-and-yellow-macaw",
+        "title": "Blue-and-yellow macaw · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Ara_ararauna/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "mountain-gorilla",
+    "commonName": "Mountain gorilla",
+    "scientificName": "Gorilla beringei beringei",
+    "aliases": [
+      "mountain-gorilla"
+    ],
+    "illustration": "/icons/species/mountain-gorilla.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Mountain gorilla — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/gorilla-beringei-beringei.webp",
+    "habitat": "Montane forest; records up to 4,000 m",
+    "diet": "Selected foods documented in this guide: Leaves, Stems and roots. This is not a complete diet.",
+    "distribution": "Montane forests of the Virunga region and Bwindi–Sarambwe",
+    "size": null,
+    "populationTrend": "increasing",
+    "model": null,
+    "status": "EN",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2018,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "Protection, veterinary care and work with nearby communities helped mountain gorillas increase and move from Critically endangered to Endangered in 2018. This status applies to the mountain gorilla subspecies, not all eastern gorillas."
+    ],
+    "threats": [
+      "Habitat loss",
+      "Human-transmitted disease",
+      "Snares"
+    ],
+    "action": "If visiting gorilla habitat, follow official viewing-distance and health rules; share why disease prevention protects great apes.",
+    "regions": [
+      {
+        "id": "eastern-afromontane",
+        "name": "Eastern Afromontane"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-mountain-gorilla",
+        "title": "IUCN Red List · Gorilla beringei beringei · 2018; amended 2020",
+        "url": "https://www.iucnredlist.org/species/39999/176396749",
+        "note": "Global subspecies assessment; assessed 2018. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-mountain-gorilla",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T39999A176396749.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-mountain-gorilla",
+        "title": "Learn more and help · Mountain gorilla",
+        "url": "https://iucn.org/news/species/201811/fin-whale-mountain-gorilla-recovering-thanks-conservation-action-iucn-red-list",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-gorilla-beringei-beringei",
+        "title": "Photograph · Thomas Fuhrmann",
+        "url": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_%28Gorilla_beringei_beringei%29_25.jpg",
+        "note": "CC BY-SA 4.0; displayed as a species reference, not a local observation.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "accessed": "3 October 2026"
+      },
+      {
+        "id": "ecology-mountain-gorilla",
+        "title": "Mountain gorilla · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Gorilla_beringei/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "diana-monkey",
+    "commonName": "Diana monkey",
+    "scientificName": "Cercopithecus diana",
+    "aliases": [
+      "diana-monkey"
+    ],
+    "illustration": "/icons/species/diana-monkey.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Diana monkey — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/cercopithecus-diana.webp",
+    "habitat": "Upper forest canopy",
+    "diet": "Selected foods documented in this guide: Fruit, Invertebrates, Leaves. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "guinean-forests-of-west-africa",
+        "name": "Guinean forests"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-diana-monkey",
+        "title": "Diana monkey · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Cercopithecus_diana/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "beira-antelope",
+    "commonName": "Beira antelope",
+    "scientificName": "Dorcatragus megalotis",
+    "aliases": [
+      "beira-antelope"
+    ],
+    "illustration": "/icons/species/beira-antelope.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Beira antelope — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": null,
+    "habitat": "Elevation unquantified in the cited record",
+    "diet": "Selected foods documented in this guide: Broadleaf plants. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "horn-of-africa",
+        "name": "Horn of Africa"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-beira-antelope",
+        "title": "Beira antelope · Ecology reference",
+        "url": "https://www.jzar.org/jzar/article/view/194",
+        "note": "Digestive anatomy and a wild fecal sample support a browser diet; detailed wild diet proportions are not established.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "elegant-trogon",
+    "commonName": "Elegant trogon",
+    "scientificName": "Trogon elegans",
+    "aliases": [
+      "elegant-trogon"
+    ],
+    "illustration": "/icons/species/elegant-trogon.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Elegant trogon — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/trogon-elegans.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "madrean-pine-oak-woodlands",
+        "name": "Madrean woodlands"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "snow-leopard",
+    "commonName": "Snow leopard",
+    "scientificName": "Panthera uncia",
+    "aliases": [
+      "snow-leopard"
+    ],
+    "illustration": "/icons/species/snow-leopard.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Snow leopard — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/panthera-uncia.webp",
+    "habitat": null,
+    "diet": "Selected foods documented in this guide: Wild ungulates, Small mammals. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "mountains-of-central-asia",
+        "name": "Central Asian mountains"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-snow-leopard",
+        "title": "Snow leopard · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Uncia_uncia/",
+        "note": "Species-wide range. Typical habitat is 3,000–4,500 m; seasonal excursions extend lower.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "kākāpō",
+    "commonName": "Kākāpō",
+    "scientificName": "Strigops habroptilus",
+    "aliases": [
+      "kākāpō"
+    ],
+    "illustration": "/icons/species/kakapo.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Kākāpō — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/strigops-habroptilus.webp",
+    "habitat": "Habitat band not quantified in the cited record",
+    "diet": "Selected foods documented in this guide: Fruit, Leaves, Seeds and nuts. This is not a complete diet.",
+    "distribution": "Managed populations on protected New Zealand islands",
+    "size": null,
+    "populationTrend": "increasing",
+    "model": null,
+    "status": "CR",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2018,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "This flightless, nocturnal parrot has a moss-green coat and an owl-like face. Conservation teams know birds individually by name and use transmitters to monitor them on protected islands."
+    ],
+    "threats": [
+      "Introduced predators",
+      "Disease",
+      "Low genetic diversity"
+    ],
+    "action": "Follow New Zealand’s Department of Conservation kākāpō recovery updates and share how predator-free habitats help flightless birds.",
+    "regions": [
+      {
+        "id": "new-zealand",
+        "name": "New Zealand"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-kākāpō",
+        "title": "IUCN Red List · Strigops habroptilus · 2018",
+        "url": "https://www.iucnredlist.org/species/22685245/129751169",
+        "note": "Global species assessment; assessed 2018. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-kākāpō",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22685245A129751169.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "assessor-kakapo",
+        "title": "BirdLife International · Kākāpō Red List assessment",
+        "url": "https://datazone.birdlife.org/species/factsheet/kakapo-strigops-habroptilus",
+        "note": "BirdLife is the IUCN Red List authority for birds.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-kakapo",
+        "title": "Department of Conservation · Individually monitored kākāpō",
+        "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-kākāpō",
+        "title": "Learn more and help · Kākāpō",
+        "url": "https://www.doc.govt.nz/our-work/kakapo-recovery/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-strigops-habroptilus",
+        "title": "Photograph · Mnolf",
+        "url": "https://commons.wikimedia.org/wiki/File:Strigops_habroptilus_1.jpg",
+        "note": "CC BY-SA 2.0; displayed as a species reference, not a local observation.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "accessed": "3 October 2026"
+      },
+      {
+        "id": "ecology-kākāpō",
+        "title": "Kākāpō · Ecology reference",
+        "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kakapo/behaviour/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "carnaby’s-black-cockatoo",
+    "commonName": "Carnaby’s black cockatoo",
+    "scientificName": "Zanda latirostris",
+    "aliases": [
+      "carnaby’s-black-cockatoo"
+    ],
+    "illustration": "/icons/species/carnabys-black-cockatoo.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Carnaby’s black cockatoo — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/zanda-latirostris.webp",
+    "habitat": "Woodland and shrubland; elevation unquantified",
+    "diet": "Selected foods documented in this guide: Seeds and nuts. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "southwest-australia",
+        "name": "Southwest Australia"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-carnaby’s-black-cockatoo",
+        "title": "Carnaby’s black cockatoo · Ecology reference",
+        "url": "https://birdlife.org.au/bird-profiles/carnabys-black-cockatoo/",
+        "note": "Food reference; no altitude assigned.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "speckled-tortoise",
+    "commonName": "Speckled tortoise",
+    "scientificName": "Chersobius signatus",
+    "aliases": [
+      "speckled-tortoise"
+    ],
+    "illustration": "/icons/species/speckled-tortoise.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Speckled tortoise — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/chersobius-signatus.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "succulent-karoo",
+        "name": "Succulent Karoo"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "golden-poison-frog",
+    "commonName": "Golden poison frog",
+    "scientificName": "Phyllobates terribilis",
+    "aliases": [
+      "golden-poison-frog"
+    ],
+    "illustration": "/icons/species/golden-poison-frog.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Golden poison frog — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/phyllobates-terribilis.webp",
+    "habitat": null,
+    "diet": "Selected foods documented in this guide: Invertebrates. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "tumbes-choco-magdalena",
+        "name": "Tumbes–Chocó"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-golden-poison-frog",
+        "title": "Golden poison frog · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Phyllobates_terribilis/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "malabar-gliding-frog",
+    "commonName": "Malabar gliding frog",
+    "scientificName": "Rhacophorus malabaricus",
+    "aliases": [
+      "malabar-gliding-frog"
+    ],
+    "illustration": "/icons/species/malabar-gliding-frog.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Malabar gliding frog — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/rhacophorus-malabaricus.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "western-ghats-and-sri-lanka",
+        "name": "Western Ghats"
+      }
+    ],
+    "sources": []
+  },
+  {
+    "slug": "regent-bowerbird",
+    "commonName": "Regent bowerbird",
+    "scientificName": "Sericulus chrysocephalus",
+    "aliases": [
+      "regent-bowerbird"
+    ],
+    "illustration": "/icons/species/regent-bowerbird.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Regent bowerbird — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/sericulus-chrysocephalus.webp",
+    "habitat": null,
+    "diet": "Selected foods documented in this guide: Fruit, Invertebrates. This is not a complete diet.",
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [],
+    "threats": [],
+    "action": null,
+    "regions": [
+      {
+        "id": "forests-of-east-australia",
+        "name": "East Australian forests"
+      }
+    ],
+    "sources": [
+      {
+        "id": "ecology-regent-bowerbird",
+        "title": "Regent bowerbird · Ecology reference",
+        "url": "https://animaldiversity.org/accounts/Sericulus_chrysocephalus/",
+        "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web.",
+        "accessed": "3 October 2026"
+      }
+    ]
+  },
+  {
+    "slug": "semipalmated-sandpiper",
+    "commonName": "Semipalmated sandpiper",
+    "scientificName": "Calidris pusilla",
+    "aliases": [
+      "semipalmated-sandpiper"
+    ],
+    "illustration": "/icons/species/semipalmated-sandpiper.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Semipalmated sandpiper — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": null,
+    "habitat": null,
+    "diet": null,
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "Passage shorebirds depend on mudflats here and wintering coasts in northern South America."
+    ],
+    "threats": [
+      "Loss and alteration of coastal wetlands, pollution, and hunting on parts of the South American range."
+    ],
+    "action": null,
+    "regions": [],
+    "sources": [
+      {
+        "id": "sandpiper-local",
+        "title": "USFWS / NOAA archive — New York–New Jersey Harbor",
+        "url": "https://www.nodc.noaa.gov/archive/arc0034/0071981/1.1/data/0-data/disc_contents/web_link/text/urb_core.htm",
+        "note": "Historical harbor habitat assessment records semipalmated sandpipers and spring/fall passage, including Hackensack staging habitat. This is occurrence evidence, not a recent sighting.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "sandpiper-caven",
+        "title": "Shayna Marchese — Caven Point field photographs",
+        "url": "https://www.shaynamarchese.com/caven-point-liberty-state-park/",
+        "note": "Firsthand 2018 photograph identifies a semipalmated sandpiper at Caven Point, Liberty State Park.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "sandpiper-range",
+        "title": "Canadian Wildlife Service / CWF — Semipalmated sandpiper",
+        "url": "https://www.hww.ca/wildlife/birds/semipalmated-sandpiper/",
+        "note": "Nonbreeding range in northern South America, especially Suriname and French Guiana.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "sandpiper-destination",
+        "title": "WHSRN — Wia Wia, Suriname",
+        "url": "https://whsrn.org/whsrn_sites/wia-wia/",
+        "note": "Conservation network documents use of Suriname mangroves and mudflats. The representative coastal endpoint is outside the terrestrial hotspot polygons.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "sandpiper-threat",
+        "title": "Cornell Lab — Semipalmated sandpiper life history",
+        "url": "https://www.allaboutbirds.org/guide/Semipalmated_Sandpiper/lifehistory",
+        "note": "Wetland alteration, environmental pollutants, and hunting are reported threats.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "migration-method",
+        "title": "Earthbound — migration map methods",
+        "url": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources#migration-method",
+        "note": "Approximate park/region centers chosen for teaching, not sightings or tracking fixes. Distances use the great-circle angle between those centers, Earth radius 6,371 km, rounded to the nearest 100 km. They are straight-line separations, not distances flown. Hotspot membership checked against the local 2016.1 CI polygons.",
+        "accessed": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "osprey",
+    "commonName": "Osprey",
+    "scientificName": "Pandion haliaetus",
+    "aliases": [
+      "osprey"
+    ],
+    "illustration": "/icons/species/osprey.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Osprey — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": null,
+    "habitat": null,
+    "diet": null,
+    "distribution": null,
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": null,
+    "statusProvider": null,
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "East Coast ospreys cross the Caribbean; many continue to Central or South America for winter."
+    ],
+    "threats": [
+      "Shoreline development removes natural nest sites; discarded fishing line and other plastic can entangle birds."
+    ],
+    "action": null,
+    "regions": [],
+    "sources": [
+      {
+        "id": "osprey-local",
+        "title": "Cornell Macaulay Library — Liberty State Park observation",
+        "url": "https://macaulaylibrary.org/asset/369908751",
+        "note": "Documented osprey with fish at Liberty State Park, 12 September 2021, eBird checklist S94548070. Used as occurrence evidence only; photograph is not reproduced.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "osprey-season",
+        "title": "National Park Service — Gateway osprey",
+        "url": "https://www.nps.gov/gate/learn/nature/osprey.htm",
+        "note": "Ospreys return to the New York/New Jersey area in mid-March and spend winter farther south.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "osprey-route",
+        "title": "USGS — Satellite telemetry of migrating ospreys",
+        "url": "https://www.usgs.gov/publications/fall-migration-routes-timing-and-wintering-sites-north-american-ospreys-determined",
+        "note": "2001 study includes southern New Jersey; East Coast birds cross the Caribbean and winter from Florida to Brazil. These are population-level connections, not a tracked Jersey City bird.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "osprey-cuba",
+        "title": "Cornell Lab — Backpacking ospreys",
+        "url": "https://www.allaboutbirds.org/news/backpacking-ospreys-following-their-migration/?pid=1877",
+        "note": "Cuba and Hispaniola are documented passage hubs. Cuba is shown as a representative Caribbean connection, not the winter destination of every local osprey.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "osprey-threat",
+        "title": "Cornell Lab — Osprey life history",
+        "url": "https://www.allaboutbirds.org/guide/Osprey/lifehistory",
+        "note": "Shoreline development and entanglement threats; conservation recovery includes nest platforms.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "migration-method",
+        "title": "Earthbound — migration map methods",
+        "url": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources#migration-method",
+        "note": "Approximate park/region centers chosen for teaching, not sightings or tracking fixes. Distances use the great-circle angle between those centers, Earth radius 6,371 km, rounded to the nearest 100 km. They are straight-line separations, not distances flown. Hotspot membership checked against the local 2016.1 CI polygons.",
+        "accessed": "2026-10-13"
+      }
+    ]
+  },
+  {
+    "slug": "red-wolf",
+    "commonName": "Red wolf",
+    "scientificName": "Canis rufus",
+    "aliases": [
+      "red-wolf"
+    ],
+    "illustration": "/icons/species/red-wolf.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Red wolf — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/red-wolf.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Reintroduced wild population in eastern North Carolina",
+    "size": null,
+    "populationTrend": "decreasing",
+    "model": null,
+    "status": "CR",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2018,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "This reddish-grey canid was returned to the wild in eastern North Carolina through a breeding and reintroduction programme. Its survival depends on safe habitat and reducing human-caused deaths."
+    ],
+    "threats": [
+      "Human-caused mortality",
+      "Hybridization with coyotes",
+      "Small, isolated population"
+    ],
+    "action": "Share the US Fish and Wildlife Service’s red wolf identification and coexistence guidance with your class.",
+    "regions": [
+      {
+        "id": "north-american-coastal-plain",
+        "name": "Coastal Plain"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-red-wolf",
+        "title": "IUCN Red List · Canis rufus · 2018; errata 2020",
+        "url": "https://www.iucnredlist.org/species/3747/163509841",
+        "note": "Global species assessment; assessed 2018. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-red-wolf",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T3747A163509841.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-red-wolf",
+        "title": "IUCN SSC Canid Specialist Group · Red wolf",
+        "url": "https://canids.org/species/view/PREKJI659751",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-red-wolf",
+        "title": "Learn more and help · Red wolf",
+        "url": "https://www.fws.gov/project/red-wolf-recovery-program",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-red-wolf",
+        "title": "Red wolf photograph · LaggedOnUser",
+        "url": "https://commons.wikimedia.org/wiki/File:Red_wolf_(4531335218).jpg",
+        "note": "CC BY-SA 2.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    ]
+  },
+  {
+    "slug": "saola",
+    "commonName": "Saola",
+    "scientificName": "Pseudoryx nghetinhensis",
+    "aliases": [
+      "saola"
+    ],
+    "illustration": "/icons/species/saola.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Saola — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/saola.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Annamite Mountains of Laos and Vietnam",
+    "size": null,
+    "populationTrend": "decreasing",
+    "model": null,
+    "status": "CR",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2016,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "Long, nearly parallel horns and white facial markings distinguish this elusive forest bovid of the Annamite Mountains. Saola have been photographed by camera traps in the wild, but reliable records are exceptionally scarce."
+    ],
+    "threats": [
+      "Wire snares",
+      "Forest loss",
+      "Habitat fragmentation"
+    ],
+    "action": "Make a classroom display explaining how snares set for other wildlife also threaten saola, using the Saola Working Group’s resources.",
+    "regions": [
+      {
+        "id": "indo-burma",
+        "name": "Indo-Burma"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-saola",
+        "title": "IUCN Red List · Pseudoryx nghetinhensis · 2016; amended 2020",
+        "url": "https://www.iucnredlist.org/species/18597/166485696",
+        "note": "Global species assessment; assessed 2016. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-saola",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18597A166485696.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-saola",
+        "title": "IUCN · Experts urge action to find saola",
+        "url": "https://iucn.org/news/species-survival-commission/202108/iucn-ssc-experts-urge-immediate-action-find-saola-its-too-late",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "camera-saola",
+        "title": "Saola Working Group · Camera-trap records",
+        "url": "https://www.savethesaola.org/zoos-worldwide-answer-call-to-help-save-asian-unicorn/",
+        "note": "Wild camera-trap photographs exist; the species is not known only from captive photographs.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-saola",
+        "title": "Learn more and help · Saola",
+        "url": "https://www.savethesaola.org/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-saola",
+        "title": "Saola photograph · The original uploader was Silviculture at Vietnamese Wikipedia.",
+        "url": "https://commons.wikimedia.org/wiki/File:Pseudoryx_nghetinhensis,_b.PNG",
+        "note": "CC BY-SA 3.0 · Resized and converted to WebP. Archival species reference photograph; not a current sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ]
+  },
+  {
+    "slug": "javan-rhinoceros",
+    "commonName": "Javan rhinoceros",
+    "scientificName": "Rhinoceros sondaicus",
+    "aliases": [
+      "javan-rhinoceros"
+    ],
+    "illustration": "/icons/species/javan-rhinoceros.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Javan rhinoceros — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/javan-rhinoceros.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Ujung Kulon National Park, western Java",
+    "size": null,
+    "populationTrend": "stable",
+    "model": null,
+    "status": "CR",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2019,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "This forest browser has folded grey skin and a single horn in males. Its only remaining population lives in Ujung Kulon, Java, leaving the species exposed to threats concentrated in one place."
+    ],
+    "threats": [
+      "Poaching",
+      "Restricted habitat",
+      "Disease and natural disasters"
+    ],
+    "action": "Use the International Rhino Foundation’s resources to explain why rhino horn trade threatens wild populations.",
+    "regions": [
+      {
+        "id": "sundaland",
+        "name": "Sundaland"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-javan-rhinoceros",
+        "title": "IUCN Red List · Rhinoceros sondaicus · 2020",
+        "url": "https://www.iucnredlist.org/species/19495/18493900",
+        "note": "Global species assessment; assessed 2019. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-javan-rhinoceros",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T19495A18493900.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-javan-rhinoceros",
+        "title": "Learn more and help · Javan rhinoceros",
+        "url": "https://rhinos.org/about-rhinos/rhino-species/javan-rhino/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-javan-rhinoceros",
+        "title": "Javan rhinoceros photograph · T.Dixon. The Zoological Society of London",
+        "url": "https://commons.wikimedia.org/wiki/File:Rhinoceros_sondaicus_in_London_Zoo.jpg",
+        "note": "Public domain · Resized and converted to WebP. Historical zoo photograph; this is not a current wild sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
+    ]
+  },
+  {
+    "slug": "philippine-eagle",
+    "commonName": "Philippine eagle",
+    "scientificName": "Pithecophaga jefferyi",
+    "aliases": [
+      "philippine-eagle"
+    ],
+    "illustration": "/icons/species/philippine-eagle.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Philippine eagle — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/philippine-eagle.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Forests of the Philippines",
+    "size": null,
+    "populationTrend": "decreasing",
+    "model": null,
+    "status": "CR",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2025,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "A shaggy crest and a deep, hooked bill distinguish this forest eagle. Found only in the Philippines, it depends on large forest territories that are increasingly broken apart."
+    ],
+    "threats": [
+      "Deforestation",
+      "Hunting",
+      "Habitat fragmentation"
+    ],
+    "action": "Use Philippine Eagle Foundation learning resources to explain how protecting an eagle also protects its forest.",
+    "regions": [
+      {
+        "id": "philippines",
+        "name": "Philippines"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-philippine-eagle",
+        "title": "IUCN Red List · Pithecophaga jefferyi · 2025",
+        "url": "https://www.iucnredlist.org/species/22696012/273773083",
+        "note": "Global species assessment; assessed 2025. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-philippine-eagle",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T22696012A273773083.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-philippine-eagle",
+        "title": "BirdLife International · Philippine eagle",
+        "url": "https://datazone.birdlife.org/species/factsheet/philippine-eagle-pithecophaga-jefferyi",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-philippine-eagle",
+        "title": "Learn more and help · Philippine eagle",
+        "url": "https://www.philippineeaglefoundation.org/education",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-philippine-eagle",
+        "title": "Philippine eagle photograph · Aimee Valencia",
+        "url": "https://commons.wikimedia.org/wiki/File:Pamarayeg_IIIx2_(cropped).jpg",
+        "note": "CC BY 4.0 · Resized and converted to WebP. Pamarayeg III, a young Philippine eagle.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ]
+  },
+  {
+    "slug": "ethiopian-wolf",
+    "commonName": "Ethiopian wolf",
+    "scientificName": "Canis simensis",
+    "aliases": [
+      "ethiopian-wolf"
+    ],
+    "illustration": "/icons/species/ethiopian-wolf.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Ethiopian wolf — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/ethiopian-wolf.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Afroalpine highlands of Ethiopia",
+    "size": null,
+    "populationTrend": "decreasing",
+    "model": null,
+    "status": "EN",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2011,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "This slender, russet wolf hunts rodents in Ethiopia’s high mountain grasslands. Disease prevention and protection of remaining Afroalpine habitat are central to its conservation."
+    ],
+    "threats": [
+      "Habitat conversion",
+      "Rabies",
+      "Canine distemper"
+    ],
+    "action": "Share how the Ethiopian Wolf Conservation Programme vaccinates dogs and wolves to reduce disease transmission.",
+    "regions": [
+      {
+        "id": "eastern-afromontane",
+        "name": "Eastern Afromontane"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-ethiopian-wolf",
+        "title": "IUCN Red List · Canis simensis · 2011",
+        "url": "https://www.iucnredlist.org/species/3748/10051312",
+        "note": "Global species assessment; assessed 2011. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-ethiopian-wolf",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2011-1.RLTS.T3748A10051312.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-ethiopian-wolf",
+        "title": "IUCN SSC Canid Specialist Group · Ethiopian wolf",
+        "url": "https://www.canids.org/species/view/PREKNL433181",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-ethiopian-wolf",
+        "title": "Learn more and help · Ethiopian wolf",
+        "url": "https://www.ethiopianwolf.org/projects/one-health",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-ethiopian-wolf",
+        "title": "Ethiopian wolf photograph · Charles J. Sharp",
+        "url": "https://commons.wikimedia.org/wiki/File:Ethiopian_wolf_(Canis_simensis_citernii).jpg",
+        "note": "CC BY-SA 4.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ]
+  },
+  {
+    "slug": "iberian-lynx",
+    "commonName": "Iberian lynx",
+    "scientificName": "Lynx pardinus",
+    "aliases": [
+      "iberian-lynx"
+    ],
+    "illustration": "/icons/species/iberian-lynx.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Iberian lynx — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/iberian-lynx.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Mediterranean landscapes of Spain and Portugal",
+    "size": null,
+    "populationTrend": "increasing",
+    "model": null,
+    "status": "VU",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2023,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "Ear tufts and a spotted coat mark this rabbit specialist of Spain and Portugal. Habitat work, prey recovery and reintroductions helped it move from Critically endangered through Endangered to Vulnerable."
+    ],
+    "threats": [
+      "Loss of rabbit prey",
+      "Road collisions",
+      "Poaching",
+      "Climate-driven habitat change"
+    ],
+    "action": "Create a class case study of how habitat restoration, rabbit recovery and wildlife crossings support lynx recovery.",
+    "regions": [
+      {
+        "id": "mediterranean-basin",
+        "name": "Mediterranean Basin"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-iberian-lynx",
+        "title": "IUCN Red List · Lynx pardinus · 2024",
+        "url": "https://www.iucnredlist.org/species/12520/218695618",
+        "note": "Global species assessment; assessed 2023. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-iberian-lynx",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2024-1.RLTS.T12520A218695618.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-iberian-lynx",
+        "title": "Learn more and help · Iberian lynx",
+        "url": "https://iucn.org/press-release/202406/iberian-lynx-rebounding-thanks-conservation-action-iucn-red-list",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-iberian-lynx",
+        "title": "Iberian lynx photograph · Diego Delso",
+        "url": "https://commons.wikimedia.org/wiki/File:Lince_ib%C3%A9rico_(Lynx_pardinus),_Almuradiel,_Ciudad_Real,_Espa%C3%B1a,_2021-12-19,_DD_07.jpg",
+        "note": "CC BY-SA 4.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ]
+  },
+  {
+    "slug": "hirola",
+    "commonName": "Hirola",
+    "scientificName": "Beatragus hunteri",
+    "aliases": [
+      "hirola"
+    ],
+    "illustration": "/icons/species/hirola.svg",
+    "illustrationFallback": null,
+    "illustrationAlt": "Hirola — flat atlas portrait",
+    "illustrationCredit": "Earthbound original vector illustration",
+    "photo": "/images/hirola.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Open grasslands of eastern Kenya and southern Somalia",
+    "size": null,
+    "populationTrend": "decreasing",
+    "model": null,
+    "status": "CR",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": 2016,
+    "dataAsOf": "2026-10-13",
+    "facts": [
+      "Pale eye markings and curved horns distinguish this antelope of open grasslands in eastern Kenya and southern Somalia. Community-led work restores the grassland it needs; the hotspot link describes the wider coastal region, not a forest habitat."
+    ],
+    "threats": [
+      "Grassland loss and woody encroachment",
+      "Drought",
+      "Poaching",
+      "Disease"
+    ],
+    "action": "Use the Hirola Conservation Programme’s reports to explain how restoring grassland helps both wildlife and local livelihoods.",
+    "regions": [
+      {
+        "id": "coastal-forests-of-eastern-africa",
+        "name": "East African coast"
+      }
+    ],
+    "sources": [
+      {
+        "id": "iucn-hirola",
+        "title": "IUCN Red List · Beatragus hunteri · 2017",
+        "url": "https://www.iucnredlist.org/species/6234/50185297",
+        "note": "Global species assessment; assessed 2016. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-hirola",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2017-2.RLTS.T6234A50185297.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-hirola",
+        "title": "Hirola Conservation Programme · Annual report 2023–2024",
+        "url": "https://www.hirolaconservation.org/wp-content/files/hcp-Annual-Report-2023_2024.pdf",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-hirola",
+        "title": "Learn more and help · Hirola",
+        "url": "https://www.hirolaconservation.org/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-hirola",
+        "title": "Hirola photograph · Jan Ebr",
+        "url": "https://commons.wikimedia.org/wiki/File:Beatragus_hunteri_176040791.jpg",
+        "note": "CC BY 4.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ]
+  },
+  {
+    "slug": "red-fox",
+    "commonName": "Red fox",
+    "scientificName": "Vulpes vulpes",
+    "aliases": [
+      "red-fox"
+    ],
+    "illustration": "/icons/species/red-fox.svg",
+    "illustrationFallback": "/images/species/red-fox.png",
+    "illustrationAlt": "Red fox — original illustration",
+    "illustrationCredit": "Illustration supplied for Earthbound",
+    "photo": null,
+    "habitat": "Forest, tundra, prairie, desert and farmland from sea level to 4,500 m — and, more and more, towns. In New Jersey it hunts lawns, parks and golf courses that border wild ground.",
+    "diet": "Mostly rodents — in New Jersey, meadow voles make up about half of what it eats for much of the year — plus rabbits, birds and eggs, insects, berries, carrion and garbage. Extra food is buried in caches and dug up later.",
+    "distribution": "Across the Northern Hemisphere, from the Arctic Circle to Central America, central Asia and North Africa. People introduced it to Australia and the Falkland Islands.",
+    "size": "Head and body 45–90 cm · tail 30–55 cm · 3–14 kg",
+    "populationTrend": null,
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/red-fox.glb",
+      "mobileFile": "/models/animals/red-fox.mobile.glb",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Trot",
+        "Run"
+      ],
+      "credit": {
+        "creator": "Alexei Ostapenko",
+        "creatorUrl": "https://sketchfab.com/alexanders823",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceUrl": "https://sketchfab.com/3d-models/fox-4e37c303f8a241aaa2511bd9f3019273",
+        "changes": "Adapted for Earthbound in Blender: standing bind pose, extended white-tipped tail, smooth surface, new in-place Idle, Walk, Trot and Run clips, compressed desktop and mobile exports. Original mesh, textures and skin weights by Alexei Ostapenko; source conversion distributed by AiZity.",
+        "animationNote": "Adapted for Earthbound · Illustrative animations, not motion capture"
+      }
+    },
+    "status": "LC",
+    "statusProvider": "IUCN Red List",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "In a Czech study of nearly 600 mouse-hunting pounces, foxes leaping roughly north-east caught their prey 73% of the time, against 18% in most other directions. One idea is that they sense Earth's magnetic field. It is still unproven."
+    ],
+    "threats": [],
+    "action": null,
+    "regions": [],
+    "sources": [
+      {
+        "id": "fox-adw",
+        "title": "Animal Diversity Web — Vulpes vulpes",
+        "url": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "fox-nj",
+        "title": "NJ Division of Fish & Wildlife — Coyote and Fox",
+        "url": "https://dep.nj.gov/njfw/hunting/coyote-and-fox/",
+        "accessed": "2026-10-16"
+      },
+      {
+        "id": "fox-pounce",
+        "title": "Červený et al. (2011) — Directional preference may enhance hunting accuracy in foraging foxes",
+        "url": "https://doi.org/10.1098/rsbl.2010.1145",
+        "accessed": "2026-10-16"
+      }
+    ]
+  },
+  {
+    "slug": "humpback-whale",
+    "commonName": "Humpback whale",
+    "scientificName": "Megaptera novaeangliae",
+    "aliases": [
+      "humpback-whale"
+    ],
+    "illustration": null,
+    "illustrationFallback": null,
+    "illustrationAlt": "Humpback whale",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/humpback-whale.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "New York Bight and, at times, harbor waters. Gotham Whale documents returning individuals; a profile is not a current sighting.",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "Marine Mammal Protection Act",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "Baleen plates strain small prey from water. Long flippers and distinct tail markings help researchers recognize individuals."
+    ],
+    "threats": [
+      "Vessel strikes",
+      "Fishing-gear entanglement"
+    ],
+    "action": "Observe at a distance and report marine wildlife to Gotham Whale.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "whale-season",
+        "title": "NYSDEC · New York Bight whale monitoring",
+        "url": "https://dec.ny.gov/nature/waterbodies/oceans-estuaries/bight-whale-monitoring-program",
+        "note": "2017–2020 aerial surveys found humpbacks in every calendar month, with highest sighting rates in summer.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "gotham",
+        "title": "Gotham Whale · Research and sighting reports",
+        "url": "https://gothamwhale.org/about",
+        "note": "New York City humpback catalog and community observations.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "humpback",
+        "title": "NOAA Fisheries · Humpback whale",
+        "url": "https://www.fisheries.noaa.gov/species/humpback-whale",
+        "note": "",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-humpback-whale",
+        "title": "Humpback whale · NOAA",
+        "url": "https://commons.wikimedia.org/wiki/File:Humpback_whale_noaa.jpg",
+        "note": "Breaching humpback; location not specified in source. Not a local sighting. 2002-03-24 (EXIF) · Public domain, NOAA",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Humpback_whale_noaa.jpg#Licensing"
+      }
+    ]
+  },
+  {
+    "slug": "harbor-seal",
+    "commonName": "Harbor seal",
+    "scientificName": "Phoca vitulina",
+    "aliases": [
+      "harbor-seal"
+    ],
+    "illustration": null,
+    "illustrationFallback": null,
+    "illustrationAlt": "Harbor seal",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/harbor-seal.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Coastal New York and New Jersey; a regional winter and spring visitor.",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "Marine Mammal Protection Act",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "A rounded head and spotted coat help distinguish this true seal. Resting on shore is normal behavior."
+    ],
+    "threats": [
+      "Disturbance at resting sites",
+      "Entanglement"
+    ],
+    "action": "Watch from a distance; keep pets away and never feed or approach a resting seal.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "seals",
+        "title": "NYSDEC · Seal season, 7 April 2025",
+        "url": "https://dec.ny.gov/news/press-releases/2025/4/dec-reminds-new-yorkers-to-avoid-close-encounters-with-seals",
+        "note": "Regional season: November–May; usual peak March–May. Not a park-specific forecast.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "harbor-seal",
+        "title": "NOAA Fisheries · Harbor seal",
+        "url": "https://www.fisheries.noaa.gov/species/harbor-seal",
+        "note": "",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-harbor-seal",
+        "title": "Harbor seal · Laura Wolf (lwolfartist)",
+        "url": "https://commons.wikimedia.org/wiki/File:Harbor_seal_Barnegat_Lighthouse_SP_3.5.22_DSC_6378.jpg",
+        "note": "Harbor seal in water at Barnegat Lighthouse State Park, New Jersey. Animal is small in frame; use focused crop. 2022-03-05 · CC BY 2.0",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    ]
+  },
+  {
+    "slug": "gray-seal",
+    "commonName": "Gray seal",
+    "scientificName": "Halichoerus grypus",
+    "aliases": [
+      "gray-seal"
+    ],
+    "illustration": null,
+    "illustrationFallback": null,
+    "illustrationAlt": "Gray seal",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/gray-seal.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "North Atlantic coasts, including regional New York waters in the colder months.",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "Marine Mammal Protection Act",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "A longer muzzle helps distinguish gray seals from harbor seals. Both use shorelines to rest."
+    ],
+    "threats": [
+      "Disturbance",
+      "Entanglement"
+    ],
+    "action": "Give hauled-out seals room to rest and let trained responders assess animals in distress.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "seals",
+        "title": "NYSDEC · Seal season, 7 April 2025",
+        "url": "https://dec.ny.gov/news/press-releases/2025/4/dec-reminds-new-yorkers-to-avoid-close-encounters-with-seals",
+        "note": "Regional season: November–May; usual peak March–May. Not a park-specific forecast.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "gray-seal",
+        "title": "NOAA Fisheries · Gray seal",
+        "url": "https://www.fisheries.noaa.gov/species/gray-seal",
+        "note": "",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-gray-seal",
+        "title": "Gray seal · Arild Vågen",
+        "url": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_June_2014_01.jpg",
+        "note": "Gray seal resting on rock in Stockholm archipelago, Sweden. Animal at 68% horizontal / 61% vertical. Not a local sighting. 2014-06-01 · CC BY-SA 3.0",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ]
+  },
+  {
+    "slug": "atlantic-sturgeon",
+    "commonName": "Atlantic sturgeon",
+    "scientificName": "Acipenser oxyrinchus oxyrinchus",
+    "aliases": [
+      "atlantic-sturgeon"
+    ],
+    "illustration": null,
+    "illustrationFallback": null,
+    "illustrationAlt": "Atlantic sturgeon",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/atlantic-sturgeon.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "The Hudson River belongs to the New York Bight distinct population segment. These fish move between rivers and coastal waters.",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "ESA Endangered · New York Bight population",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "Rows of bony plates armor the body. Adults return to rivers to spawn; the mouth is on the underside."
+    ],
+    "threats": [
+      "Bycatch",
+      "Vessel strikes",
+      "Habitat alteration"
+    ],
+    "action": "Support clean-water projects and report unusual or stranded fish to the responsible wildlife agency.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "atlantic-sturgeon",
+        "title": "NOAA Fisheries · Atlantic sturgeon",
+        "url": "https://www.fisheries.noaa.gov/species/atlantic-sturgeon",
+        "note": "New York Bight distinct population segment: federally endangered. This is an ESA designation, not a global IUCN category.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-atlantic-sturgeon",
+        "title": "Atlantic sturgeon · U.S. Fish and Wildlife Service Northeast Region",
+        "url": "https://commons.wikimedia.org/wiki/File:Atlantic_Sturgeon_(5954411380).jpg",
+        "note": "Atlantic sturgeon held by researcher at Northeast Fishery Center, part of captive broodstock project. 2011-07-12 · Public domain USFWS; also CC BY 2.0",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    ]
+  },
+  {
+    "slug": "shortnose-sturgeon",
+    "commonName": "Shortnose sturgeon",
+    "scientificName": "Acipenser brevirostrum",
+    "aliases": [
+      "shortnose-sturgeon"
+    ],
+    "illustration": null,
+    "illustrationFallback": null,
+    "illustrationAlt": "Shortnose sturgeon",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/shortnose-sturgeon.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "The Hudson is one of the rivers supporting this protected species.",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "ESA Endangered",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "A bottom-feeding fish with bony plates and a short snout. Most of its life is spent in rivers and estuaries."
+    ],
+    "threats": [
+      "Dams",
+      "Bycatch",
+      "Poor water quality"
+    ],
+    "action": "Learn the identification differences and leave protected fish undisturbed.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "shortnose-sturgeon",
+        "title": "NOAA Fisheries · Shortnose sturgeon",
+        "url": "https://www.fisheries.noaa.gov/species/shortnose-sturgeon",
+        "note": "Federally endangered; occurs in the Hudson River.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-shortnose-sturgeon",
+        "title": "Shortnose sturgeon · Cody Meshes / U.S. Fish and Wildlife Service",
+        "url": "https://commons.wikimedia.org/wiki/File:Shortnose_Sturgeon_(5543935423).jpg",
+        "note": "Multiple shortnose sturgeon viewed through water; location not specified. 2010-10-13 · Public domain USFWS; also CC BY 2.0",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    ]
+  },
+  {
+    "slug": "american-eel",
+    "commonName": "American eel",
+    "scientificName": "Anguilla rostrata",
+    "aliases": [
+      "american-eel"
+    ],
+    "illustration": null,
+    "illustrationFallback": null,
+    "illustrationAlt": "American eel",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/american-eel.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Fresh, brackish, and coastal waters connect its life cycle to the Atlantic.",
+    "size": null,
+    "populationTrend": null,
+    "model": null,
+    "status": "IUCN Endangered · cached GBIF",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "A long-bodied fish whose migration links inland waters and the ocean. The image is a USFWS scientific illustration."
+    ],
+    "threats": [
+      "Barriers to migration",
+      "Habitat loss"
+    ],
+    "action": "Support stream connectivity and local water-quality stewardship.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "eel-ecology",
+        "title": "NYSDEC · American eel",
+        "url": "https://dec.ny.gov/sites/default/files/2024-08/americaneel.pdf",
+        "note": "",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "eel-status",
+        "title": "GBIF · Cached American eel IUCN category",
+        "url": "https://api.gbif.org/v1/species/5212956/iucnRedListCategory",
+        "note": "Endangered (EN), retrieved 21 September 2026. Retrieval date is not the assessment date.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-american-eel",
+        "title": "American eel (illustration) · U.S. Fish and Wildlife Service",
+        "url": "https://commons.wikimedia.org/wiki/File:American_eel.jpg",
+        "note": "Scientific illustration, not photograph. Do not represent as a photo. 2016-01-01 (source metadata) · Public domain USFWS",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:American_eel.jpg#Licensing"
+      }
+    ]
+  }
+]

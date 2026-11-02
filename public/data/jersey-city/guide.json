@@ -1,0 +1,678 @@
+{
+  "checked": "2026-09-21",
+  "sources": [
+    {
+      "id": "lsp",
+      "title": "NJDEP · Liberty State Park visitor guide",
+      "url": "https://dep.nj.gov/parksandforests/state-park/liberty-state-park/",
+      "note": "Natural area, facilities, and park access. Check current closures before visiting.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "interior",
+      "title": "NJDEP · Park interior restoration",
+      "url": "https://dep.nj.gov/parksandforests/urban-state-parks-initiatives/liberty-state-park-revitalization-program/park-interior/",
+      "note": "230+ acres and a planned 5.6-mile trail network; plans are not evidence of completion.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "groundbreak",
+      "title": "NJDEP · Cleanup groundbreaking, 18 October 2023",
+      "url": "https://dep.nj.gov/newsrel/23_0056/",
+      "note": "The release describes approximately 235 acres; the project page uses 230+ acres.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "cleanup",
+      "title": "NJDEP · Restoration planning, 2020",
+      "url": "https://dep.nj.gov/newsrel/20_0037/",
+      "note": "Historic fill contamination and proposed habitat restoration.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "chromium",
+      "title": "NJDEP · Hudson County chromium site schedule",
+      "url": "https://nj.gov/dep/srp/siteinfo/chrome/occsites.pdf",
+      "note": "Site-specific remediation history. A listed site is not a statement about an entire neighborhood.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "sewer",
+      "title": "EPA · Sewer and drinking-water agreement, 27 January 2022",
+      "url": "https://www.epa.gov/newsreleases/jersey-city-municipal-utilities-authority-make-significant-improvements-jersey-citys",
+      "note": "Commitments announced in 2022; figures are planned work, not completion totals.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "cso",
+      "title": "NJDEP GIS · Combined sewer outfalls",
+      "url": "https://mapsdep.nj.gov/arcgis/rest/services/Features/Utilities/MapServer/0",
+      "note": "Cached public outfall points; presence does not indicate a discharge is occurring.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "flood",
+      "title": "NJDEP GIS / FEMA · National Flood Hazard Layer",
+      "url": "https://mapsdep.nj.gov/arcgis/rest/services/Features/Hydrography/MapServer/43",
+      "note": "A and V zone families only. An educational snapshot, not a forecast or a property-level determination.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "parks",
+      "title": "NJDEP Green Acres GIS · Open space",
+      "url": "https://services1.arcgis.com/QWdNfRs7lkPq4g4Q/arcgis/rest/services/Open_Space/FeatureServer/66",
+      "note": "Mapped open-space parcels. Boundaries do not guarantee public access.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "coast",
+      "title": "NJDEP GIS · Coastline, 2012",
+      "url": "https://mapsdep.nj.gov/arcgis/rest/services/Features/Land_CAFRA_coast/MapServer/8",
+      "note": "Historical shoreline reference; not a current walking route.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "roads",
+      "title": "NJ Office of GIS · Road centerlines",
+      "url": "https://maps.nj.gov/arcgis/rest/services/Framework/Transportation/MapServer/14",
+      "note": "General orientation, not route guidance.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "boundary",
+      "title": "NJ Office of GIS · Municipal boundaries",
+      "url": "https://maps.nj.gov/arcgis/rest/services/Framework/Government_Boundaries/MapServer/2",
+      "note": "Administrative boundary includes water. Not a survey.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "water",
+      "title": "NJDEP GIS · Waterbody 2020",
+      "url": "https://services1.arcgis.com/QWdNfRs7lkPq4g4Q/arcgis/rest/services/Waterbody_2020/FeatureServer/19",
+      "note": "Water polygons derived from 2020 land-cover mapping.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "seals",
+      "title": "NYSDEC · Seal season, 7 April 2025",
+      "url": "https://dec.ny.gov/news/press-releases/2025/4/dec-reminds-new-yorkers-to-avoid-close-encounters-with-seals",
+      "note": "Regional season: November–May; usual peak March–May. Not a park-specific forecast.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "whale-season",
+      "title": "NYSDEC · New York Bight whale monitoring",
+      "url": "https://dec.ny.gov/nature/waterbodies/oceans-estuaries/bight-whale-monitoring-program",
+      "note": "2017–2020 aerial surveys found humpbacks in every calendar month, with highest sighting rates in summer.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "gotham",
+      "title": "Gotham Whale · Research and sighting reports",
+      "url": "https://gothamwhale.org/about",
+      "note": "New York City humpback catalog and community observations.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "humpback",
+      "title": "NOAA Fisheries · Humpback whale",
+      "url": "https://www.fisheries.noaa.gov/species/humpback-whale",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "harbor-seal",
+      "title": "NOAA Fisheries · Harbor seal",
+      "url": "https://www.fisheries.noaa.gov/species/harbor-seal",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "gray-seal",
+      "title": "NOAA Fisheries · Gray seal",
+      "url": "https://www.fisheries.noaa.gov/species/gray-seal",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "atlantic-sturgeon",
+      "title": "NOAA Fisheries · Atlantic sturgeon",
+      "url": "https://www.fisheries.noaa.gov/species/atlantic-sturgeon",
+      "note": "New York Bight distinct population segment: federally endangered. This is an ESA designation, not a global IUCN category.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "shortnose-sturgeon",
+      "title": "NOAA Fisheries · Shortnose sturgeon",
+      "url": "https://www.fisheries.noaa.gov/species/shortnose-sturgeon",
+      "note": "Federally endangered; occurs in the Hudson River.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "water-nymph",
+      "title": "The Nature Conservancy · Hudson River water nymph",
+      "url": "https://www.nature.org/en-us/about-us/where-we-work/united-states/new-york/stories-in-new-york/eny-animals-of-the-hudson/",
+      "note": "Hudson River endemic aquatic plant. This profile does not claim a Jersey City occurrence.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "nymph-taxonomy",
+      "title": "Flora of North America · Najas guadalupensis subsp. muenscheri",
+      "url": "https://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=222000262",
+      "note": "Also known as Najas muenscheri; not Vallisneria.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "oyster",
+      "title": "Billion Oyster Project · Restoration",
+      "url": "https://www.billionoysterproject.org/restoration",
+      "note": "Restoring oyster reefs and educating students in New York Harbor.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "eel-ecology",
+      "title": "NYSDEC · American eel",
+      "url": "https://dec.ny.gov/sites/default/files/2024-08/americaneel.pdf",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "eel-status",
+      "title": "GBIF · Cached American eel IUCN category",
+      "url": "https://api.gbif.org/v1/species/5212956/iucnRedListCategory",
+      "note": "Endangered (EN), retrieved 21 September 2026. Retrieval date is not the assessment date.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "trees",
+      "title": "Jersey City · Urban forests",
+      "url": "https://www.jerseycitynj.gov/cityhall/infrastructure/division_of_sustainability/urbanforests",
+      "note": "City tree planting and stewardship programs. Older canopy estimates are not presented as current measurements.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "tree-grant",
+      "title": "Jersey City · Tree planting and urban forestry grant",
+      "url": "https://www.jerseycitynj.gov/news/mayorcommunitypartnersannounceinitiatives",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "heat",
+      "title": "NJDEP · Urban heat island and surface-temperature map",
+      "url": "https://experience.arcgis.com/experience/6fcc4aee204e4695b0c8ae25af3d8f13",
+      "note": "Surface temperature is different from air temperature and from a health outcome.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "resilience",
+      "title": "Jersey City · Resiliency planning",
+      "url": "https://www.jerseycitynj.gov/cityhall/infrastructure/division_of_sustainability/resiliencyplanning",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "resilient-region",
+      "title": "Jersey City · Regional flood reduction initiative, 2021",
+      "url": "https://www.jerseycitynj.gov/news/pressreleases2021/jcjoinsregionalcoalitionforfloodreduction",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "green-infrastructure",
+      "title": "Jersey City · Stormwater and green infrastructure, 2020",
+      "url": "https://www.jerseycitynj.gov/news/pressreleases2020/jcreducespollutionviasewageoverflowgreenbuilding",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "sustainable",
+      "title": "Sustainable Jersey City · Tree stewardship",
+      "url": "https://www.sustainablejc.org/trees-trash",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "lincoln",
+      "title": "Hudson County · Lincoln Park",
+      "url": "https://www.hcnj.us/parks/lincoln-park/",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "lincoln-restoration",
+      "title": "NJDEP · Lincoln Park West wetland restoration",
+      "url": "https://dep.nj.gov/nrr/restoration/completed-restoration-projects/lincoln-park-west-wetland-restoration-project/",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "reservoir",
+      "title": "Jersey City · Reservoir 3 reopening, 17 September 2024",
+      "url": "https://www.jerseycitynj.gov/news/mayorjoinscommunitytoreopenhistoricreservoir",
+      "note": "Reopening, perimeter path, bridge, and accessibility improvements.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "walkway",
+      "title": "Hudson River Waterfront Conservancy",
+      "url": "https://www.hudsonriverwaterfront.org/",
+      "note": "Public waterfront walkway, maps, and access updates.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "transit",
+      "title": "NJ TRANSIT · Liberty State Park station",
+      "url": "https://www.njtransit.com/station/liberty-state-park-light-rail-station",
+      "note": "",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "transit-planner",
+      "title": "NJ TRANSIT · Trip planner",
+      "url": "https://www.njtransit.com/trip-planner-to",
+      "note": "Use the park name as destination and check current service and accessibility.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "nps-transit",
+      "title": "National Park Service · Public transportation",
+      "url": "https://www.nps.gov/stli/planyourvisit/publictransportation.htm",
+      "note": "Light rail station to the Liberty State Park ferry area is approximately a one-mile walk.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "shuttle",
+      "title": "NJDEP · Park shuttle schedule",
+      "url": "https://dep.nj.gov/parksandforests/urban-state-parks-initiatives/liberty-state-park-revitalization-program/park-shuttle/",
+      "note": "Published 2026 regular season ended September 6. Do not assume off-season service.",
+      "accessed": "2026-09-21"
+    },
+    {
+      "id": "photo-humpback-whale",
+      "title": "Humpback whale · NOAA",
+      "url": "https://commons.wikimedia.org/wiki/File:Humpback_whale_noaa.jpg",
+      "note": "Breaching humpback; location not specified in source. Not a local sighting. 2002-03-24 (EXIF) · Public domain, NOAA",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Humpback_whale_noaa.jpg#Licensing"
+    },
+    {
+      "id": "photo-harbor-seal",
+      "title": "Harbor seal · Laura Wolf (lwolfartist)",
+      "url": "https://commons.wikimedia.org/wiki/File:Harbor_seal_Barnegat_Lighthouse_SP_3.5.22_DSC_6378.jpg",
+      "note": "Harbor seal in water at Barnegat Lighthouse State Park, New Jersey. Animal is small in frame; use focused crop. 2022-03-05 · CC BY 2.0",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "id": "photo-gray-seal",
+      "title": "Gray seal · Arild Vågen",
+      "url": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_June_2014_01.jpg",
+      "note": "Gray seal resting on rock in Stockholm archipelago, Sweden. Animal at 68% horizontal / 61% vertical. Not a local sighting. 2014-06-01 · CC BY-SA 3.0",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "id": "photo-atlantic-sturgeon",
+      "title": "Atlantic sturgeon · U.S. Fish and Wildlife Service Northeast Region",
+      "url": "https://commons.wikimedia.org/wiki/File:Atlantic_Sturgeon_(5954411380).jpg",
+      "note": "Atlantic sturgeon held by researcher at Northeast Fishery Center, part of captive broodstock project. 2011-07-12 · Public domain USFWS; also CC BY 2.0",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "id": "photo-shortnose-sturgeon",
+      "title": "Shortnose sturgeon · Cody Meshes / U.S. Fish and Wildlife Service",
+      "url": "https://commons.wikimedia.org/wiki/File:Shortnose_Sturgeon_(5543935423).jpg",
+      "note": "Multiple shortnose sturgeon viewed through water; location not specified. 2010-10-13 · Public domain USFWS; also CC BY 2.0",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "id": "photo-american-eel",
+      "title": "American eel (illustration) · U.S. Fish and Wildlife Service",
+      "url": "https://commons.wikimedia.org/wiki/File:American_eel.jpg",
+      "note": "Scientific illustration, not photograph. Do not represent as a photo. 2016-01-01 (source metadata) · Public domain USFWS",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:American_eel.jpg#Licensing"
+    },
+    {
+      "id": "photo-eastern-oyster",
+      "title": "Eastern oyster reef and harvesting · NOAA Photo Library",
+      "url": "https://commons.wikimedia.org/wiki/File:Nerr0327_-_Flickr_-_NOAA_Photo_Library.jpg",
+      "note": "Person harvesting American/eastern oysters in intertidal reef, North Inlet–Winyah Bay National Estuarine Research Reserve, South Carolina. Not New York Harbor. 2010-10-25 (source metadata) · CC BY 2.0",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    {
+      "id": "photo-liberty-park-1973",
+      "title": "Liberty State Park site before park creation · Gary Miller / EPA DOCUMERICA / National Archives, NAID 549781",
+      "url": "https://commons.wikimedia.org/wiki/File:A_SETTING_FOR_THE_STATUE_OF_LIBERTY_NOT_OFTEN_SEEN_BY_TOURISTS._THIS_DUMPING_AND_LANDFILL_AREA_IS_THE_SITE_OF_THE..._-_NARA_-_549781.jpg",
+      "note": "Dumping and landfill area at proposed Liberty State Park; Statue of Liberty visible. This is not an active rail yard. 1973-03 · Public domain EPA",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:A_SETTING_FOR_THE_STATUE_OF_LIBERTY_NOT_OFTEN_SEEN_BY_TOURISTS._THIS_DUMPING_AND_LANDFILL_AREA_IS_THE_SITE_OF_THE..._-_NARA_-_549781.jpg#Licensing"
+    },
+    {
+      "id": "photo-liberty-park-2016",
+      "title": "Preserved CRRNJ terminal train shed · Mobilus In Mobili",
+      "url": "https://commons.wikimedia.org/wiki/File:Liberty_State_Park_14_Oct_2016.jpg",
+      "note": "Historic station train shed interior at Liberty State Park. Not a landscape restoration image. 2016-10-14 · CC BY-SA 2.0",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+    },
+    {
+      "id": "photo-cnj-1969",
+      "title": "Central Railroad of New Jersey engine terminal · Roger Puta; scanned by Marty Bernard",
+      "url": "https://commons.wikimedia.org/wiki/File:Central_Railroad_of_New_Jersey_(CHJ)_Fairbankd_Morse_H15-44_1503_at_Commercial_Av._Engine_Terminal,_Jersey_City,_NJ_on_November_8,_1969_(24160281511).jpg",
+      "note": "Locomotive at CNJ Commercial/Communipaw Avenue Engine Terminal, Jersey City. Not same viewpoint as modern park photo. 1969-11-08 (original title; upload date is 2016) · Public domain released by heirs; verified Wikimedia VRT",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Central_Railroad_of_New_Jersey_(CHJ)_Fairbankd_Morse_H15-44_1503_at_Commercial_Av._Engine_Terminal,_Jersey_City,_NJ_on_November_8,_1969_(24160281511).jpg#Licensing"
+    },
+    {
+      "id": "photo-liberty-bridge-2025",
+      "title": "Modern connection into Liberty State Park · Jag9889",
+      "url": "https://commons.wikimedia.org/wiki/File:Liberty_State_Park_Bridge_over_the_Morris_Canal_Basin,_Jersey_City_NJ_20250511-jag9889.jpg",
+      "note": "Jersey Avenue Extension Bridge over Morris Canal Basin, connecting downtown Jersey City to Liberty State Park; bridge built 2019–2021. 2025-05-11 · CC BY-SA 4.0",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "photo-liberty-park-2013",
+      "title": "Liberty State Park landscape · King of Hearts",
+      "url": "https://commons.wikimedia.org/wiki/File:Liberty_State_Park_Jersey_City_July_2013.jpg",
+      "note": "View from northern end of Phillip Street, Jersey City; label date explicitly, not current restoration completion. 2013-07-21 · CC BY-SA 4.0",
+      "accessed": "2026-09-21",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "id": "oyster-model",
+      "title": "Smithsonian · Crassostrea virginica 3D specimen",
+      "url": "https://3d-api.si.edu/api/v1.0/content/file/search?model_url=77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+      "note": "Downloaded original textured GLB. Display is centered and uniformly scaled; geometry and textures are unchanged. Collection locality and specimen date are not asserted here.",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": "si-open-access",
+      "title": "Smithsonian · Open Access 3D API",
+      "url": "https://3d-api.si.edu/api-docs/",
+      "note": "The API documents that all returned files belong to the Smithsonian Open Access initiative.",
+      "accessed": "2026-09-22"
+    },
+    {
+      "id": "lsp-design-imagery",
+      "title": "Liberty State Park · project design imagery",
+      "url": "https://www.stevenyavanian.com/work-1/liberty-state-park",
+      "note": "Design diagram and freshwater-wetland rendering. Credit: Steven Yavanian with WRT. These are design studies, not photographs of completed restoration. No open license is asserted. Images resized and compressed for display.",
+      "accessed": "2026-11-01"
+    }
+  ],
+  "species": [
+    {
+      "id": "humpback-whale",
+      "name": "Humpback whale",
+      "scientific": "Megaptera novaeangliae",
+      "role": "Harbor return",
+      "status": "Marine Mammal Protection Act",
+      "range": "New York Bight and, at times, harbor waters. Gotham Whale documents returning individuals; a profile is not a current sighting.",
+      "traits": "Baleen plates strain small prey from water. Long flippers and distinct tail markings help researchers recognize individuals.",
+      "threats": [
+        "Vessel strikes",
+        "Fishing-gear entanglement"
+      ],
+      "action": "Observe at a distance and report marine wildlife to Gotham Whale.",
+      "sources": [
+        "humpback",
+        "gotham",
+        "whale-season",
+        "photo-humpback-whale"
+      ],
+      "image": "/images/jersey-city/humpback-whale.webp"
+    },
+    {
+      "id": "harbor-seal",
+      "name": "Harbor seal",
+      "scientific": "Phoca vitulina",
+      "role": "Seasonal visitor",
+      "status": "Marine Mammal Protection Act",
+      "range": "Coastal New York and New Jersey; a regional winter and spring visitor.",
+      "traits": "A rounded head and spotted coat help distinguish this true seal. Resting on shore is normal behavior.",
+      "threats": [
+        "Disturbance at resting sites",
+        "Entanglement"
+      ],
+      "action": "Watch from a distance; keep pets away and never feed or approach a resting seal.",
+      "sources": [
+        "harbor-seal",
+        "seals",
+        "photo-harbor-seal"
+      ],
+      "image": "/images/jersey-city/harbor-seal.webp"
+    },
+    {
+      "id": "gray-seal",
+      "name": "Gray seal",
+      "scientific": "Halichoerus grypus",
+      "role": "Seasonal visitor",
+      "status": "Marine Mammal Protection Act",
+      "range": "North Atlantic coasts, including regional New York waters in the colder months.",
+      "traits": "A longer muzzle helps distinguish gray seals from harbor seals. Both use shorelines to rest.",
+      "threats": [
+        "Disturbance",
+        "Entanglement"
+      ],
+      "action": "Give hauled-out seals room to rest and let trained responders assess animals in distress.",
+      "sources": [
+        "gray-seal",
+        "seals",
+        "photo-gray-seal"
+      ],
+      "image": "/images/jersey-city/gray-seal.webp"
+    },
+    {
+      "id": "atlantic-sturgeon",
+      "name": "Atlantic sturgeon",
+      "scientific": "Acipenser oxyrinchus oxyrinchus",
+      "role": "River migrant",
+      "status": "ESA Endangered · New York Bight population",
+      "range": "The Hudson River belongs to the New York Bight distinct population segment. These fish move between rivers and coastal waters.",
+      "traits": "Rows of bony plates armor the body. Adults return to rivers to spawn; the mouth is on the underside.",
+      "threats": [
+        "Bycatch",
+        "Vessel strikes",
+        "Habitat alteration"
+      ],
+      "action": "Support clean-water projects and report unusual or stranded fish to the responsible wildlife agency.",
+      "sources": [
+        "atlantic-sturgeon",
+        "photo-atlantic-sturgeon"
+      ],
+      "image": "/images/jersey-city/atlantic-sturgeon.webp"
+    },
+    {
+      "id": "shortnose-sturgeon",
+      "name": "Shortnose sturgeon",
+      "scientific": "Acipenser brevirostrum",
+      "role": "Estuary resident",
+      "status": "ESA Endangered",
+      "range": "The Hudson is one of the rivers supporting this protected species.",
+      "traits": "A bottom-feeding fish with bony plates and a short snout. Most of its life is spent in rivers and estuaries.",
+      "threats": [
+        "Dams",
+        "Bycatch",
+        "Poor water quality"
+      ],
+      "action": "Learn the identification differences and leave protected fish undisturbed.",
+      "sources": [
+        "shortnose-sturgeon",
+        "photo-shortnose-sturgeon"
+      ],
+      "image": "/images/jersey-city/shortnose-sturgeon.webp"
+    },
+    {
+      "id": "american-eel",
+      "name": "American eel",
+      "scientific": "Anguilla rostrata",
+      "role": "Ocean–river traveler",
+      "status": "IUCN Endangered · cached GBIF",
+      "range": "Fresh, brackish, and coastal waters connect its life cycle to the Atlantic.",
+      "traits": "A long-bodied fish whose migration links inland waters and the ocean. The image is a USFWS scientific illustration.",
+      "threats": [
+        "Barriers to migration",
+        "Habitat loss"
+      ],
+      "action": "Support stream connectivity and local water-quality stewardship.",
+      "sources": [
+        "eel-status",
+        "eel-ecology",
+        "photo-american-eel"
+      ],
+      "image": "/images/jersey-city/american-eel.webp"
+    },
+    {
+      "id": "water-nymph",
+      "name": "Hudson River water nymph",
+      "scientific": "Najas guadalupensis subsp. muenscheri",
+      "role": "Hudson watershed connection",
+      "status": "Hudson River endemic taxon",
+      "range": "Freshwater tidal habitat in the Hudson River system. No Jersey City occurrence is claimed here.",
+      "traits": "Also called Najas muenscheri. This submerged aquatic plant has fine branching stems and narrow leaves.",
+      "threats": [
+        "Loss of suitable freshwater tidal habitat"
+      ],
+      "action": "Protect aquatic habitats; leave plants in place and avoid spreading aquatic invasive species.",
+      "sources": [
+        "water-nymph",
+        "nymph-taxonomy"
+      ],
+      "image": null
+    },
+    {
+      "id": "eastern-oyster",
+      "name": "Eastern oyster",
+      "scientific": "Crassostrea virginica",
+      "role": "Reef builder",
+      "status": "Restoration focus",
+      "range": "New York Harbor is a focus of oyster-reef restoration.",
+      "traits": "Oysters filter suspended material and their reefs provide structure for other organisms. Restoration oysters are not for eating.",
+      "threats": [
+        "Habitat loss",
+        "Water-quality stress"
+      ],
+      "action": "Explore Billion Oyster Project’s organized volunteering and school programs.",
+      "sources": [
+        "oyster",
+        "photo-eastern-oyster",
+        "oyster-model",
+        "si-open-access"
+      ],
+      "image": "/images/jersey-city/eastern-oyster.webp"
+    }
+  ],
+  "places": [
+    {
+      "id": "liberty",
+      "name": "Liberty State Park",
+      "tag": "Salt marsh · waterfront",
+      "description": "The Richard J. Sullivan Natural Area protects 36 acres, mainly salt marsh. Look for tidal changes, marsh plants, and wildlife using the water’s edge. Check the Nature Center’s programs for guided observation.",
+      "transit": "Take Hudson–Bergen Light Rail to Liberty State Park station. The ferry area is approximately a one-mile walk away; other park destinations have different distances.",
+      "access": "Use the NJDEP visitor guide to choose an accessible entrance and facilities. The regular 2026 shuttle season ended September 6; check the schedule before relying on a shuttle.",
+      "sources": [
+        "lsp",
+        "transit",
+        "nps-transit",
+        "shuttle"
+      ],
+      "image": "liberty-bridge-2025"
+    },
+    {
+      "id": "walkway",
+      "name": "Hudson River Waterfront Walkway",
+      "tag": "A public river edge",
+      "description": "Follow the public waterfront to watch tides and the meeting of city and estuary. Look from the path and keep wildlife observations at waterfront level.",
+      "transit": "Exchange Place is a starting point served by PATH and Hudson–Bergen Light Rail. Choose your destination and check the trip planner before leaving.",
+      "access": "Conditions vary by section. Consult the Conservancy’s current maps and access information; do not assume a continuous, step-free route through construction areas.",
+      "sources": [
+        "walkway",
+        "transit-planner"
+      ]
+    },
+    {
+      "id": "lincoln",
+      "name": "Lincoln Park & Hackensack wetlands",
+      "tag": "Restored salt marsh",
+      "description": "Lincoln Park West includes restored native salt marsh beside the Hackensack River. Look for the contrast between tidal wetland, open water, and park habitat. Use established public paths and observation areas.",
+      "transit": "Use NJ TRANSIT’s planner with Lincoln Park, Jersey City as the destination. The western wetland is a separate walk from many bus stops; plan the park crossing.",
+      "access": "Check Hudson County’s park information for current paths and facilities. A fully step-free route to every wetland viewpoint has not been verified for this guide.",
+      "sources": [
+        "lincoln",
+        "lincoln-restoration",
+        "transit-planner"
+      ]
+    },
+    {
+      "id": "reservoir",
+      "name": "Reservoir 3",
+      "tag": "Freshwater in the Heights",
+      "description": "The city reopened the historic reservoir in September 2024. Fresh water, shoreline plants, and surrounding vegetation create a different habitat from the saltwater harbor. Observe from the public perimeter path.",
+      "transit": "Use NJ TRANSIT’s planner with Reservoir 3, Jersey City as the destination, then confirm the entrance and the walking connection.",
+      "access": "The city reports an ADA-compliant widened perimeter path and a new connecting bridge. Check current opening and access information before a class trip.",
+      "sources": [
+        "reservoir",
+        "transit-planner"
+      ]
+    }
+  ],
+  "challenges": [
+    {
+      "id": "water",
+      "title": "Water: when the pipes fill",
+      "problem": "Combined sewers carry rainwater and sewage through the same pipes. Heavy rain can exceed their capacity, sending mixed overflow into waterways. This is a design and capacity problem in shared infrastructure.",
+      "response": "EPA’s January 2022 agreement announced sewer repairs, more capacity, and climate-resilient design. It also included replacement of over 12,000 lead drinking-water pipes, a separate system being improved alongside the sewers. These are commitments, not a completed-work count.",
+      "action": "Support rain gardens and tree stewardship that help manage runoff. Keep litter out of drains and join organized cleanups.",
+      "sources": [
+        "sewer",
+        "cso",
+        "green-infrastructure",
+        "sustainable"
+      ]
+    },
+    {
+      "id": "heat",
+      "title": "Trees & summer heat",
+      "problem": "Paved surfaces absorb heat, while tree shade and vegetation help cool the city. Uneven tree cover means that people do not all experience the same summer conditions.",
+      "response": "Jersey City’s urban-forest program and urban forestry grant support planting, care, and canopy restoration. Older canopy estimates use different dates and methods; this guide does not present them as a current citywide measurement.",
+      "action": "Join supervised tree care through Sustainable Jersey City and follow the city’s guidance for street trees.",
+      "sources": [
+        "trees",
+        "tree-grant",
+        "heat",
+        "sustainable"
+      ]
+    },
+    {
+      "id": "flooding",
+      "title": "Flooding: making room for water",
+      "problem": "Coastal storms, high tides, heavy rain, and limited drainage can combine to cause flooding. A mapped flood zone is one part of that picture; flooding can occur outside it.",
+      "response": "Jersey City participates in regional resilience planning. The Liberty State Park restoration also aims to strengthen flood resilience through restored habitat and landscape design.",
+      "action": "Learn the city’s flood planning resources with your class and take part in public discussions about parks and drainage.",
+      "sources": [
+        "resilience",
+        "resilient-region",
+        "interior",
+        "flood"
+      ]
+    },
+    {
+      "id": "legacy",
+      "title": "Industrial history & soil",
+      "problem": "Historic fill and industrial uses left contamination in parts of Liberty State Park. NJDEP’s chromium program documents site-specific cleanup history in Hudson County. These records describe soil and past land uses, not the people who live nearby.",
+      "response": "NJDEP’s park program pairs remediation with habitat restoration. Work includes managing contaminated soil and clean cover as part of preparing the interior for future public use. Construction areas remain separate from visitor routes.",
+      "action": "Stay on open public paths and follow NJDEP project updates. Join stewardship activities in areas approved for public use.",
+      "sources": [
+        "cleanup",
+        "chromium",
+        "interior"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "asset": "green-sea-turtle",
+  "scientificName": "Chelonia mydas",
+  "reviewStatus": "Reviewed; ready for optimized runtime verification by integration owner",
+  "sourceBlend": "/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle.blend",
+  "rawGlb": "/workspace/sites/earthbound/pipeline/assets/green-sea-turtle/green-sea-turtle-input.glb",
+  "sourceBlendSha256": "77ff21366f98a73d927ced7d6d9e20b29d8f27f9e8742397bd10a5a0676d479a",
+  "rawGlbSha256": "0a2cc06705dac804437cc3b2ecb96d49019996fb95ba08947076a8f11c91e9dd",
+  "triangles": 19812,
+  "vertices": 10719,
+  "bones": 12,
+  "approximateNeutralDimensionsMeters": {
+    "span": 0.736,
+    "length": 0.62,
+    "height": 0.134
+  },
+  "authorship": "Original custom vertex-authored anatomy, UV pigment and normal images, skeleton and motion; no external geometry, texture or rig used. Old imported model isolated under archived-external-predecessor and never loaded by original authoring script.",
+  "anatomyReviewed": [
+    "Low streamlined oval shell with five vertebral scutes, four paired costals and 24 thin marginal scutes",
+    "Shorter neck blending into broad blunt skull, recessed small eyes with eyelid rim, non-hooked snout",
+    "Explicit single prefrontal scale pair",
+    "Long narrow flattened front blades with one short claw each; rounded small rear rudders",
+    "Cream plastron; olive-brown carapace with independent subdued sunburst patterns"
+  ],
+  "renderEvidence": {
+    "engine": "Cycles",
+    "neutralViews": {
+      "resolution": [
+        1000,
+        1000
+      ],
+      "samples": 32,
+      "views": [
+        "front",
+        "side",
+        "rear",
+        "three-quarter"
+      ]
+    },
+    "poseReview": {
+      "resolution": [
+        500,
+        500
+      ],
+      "samples": 20,
+      "clips": [
+        "Float",
+        "Swim",
+        "Glide",
+        "Turn"
+      ],
+      "phases": [
+        0,
+        0.25,
+        0.5,
+        0.75
+      ]
+    },
+    "viewSheet": "/workspace/sites/earthbound/pipeline/reports/green-sea-turtle-authored-views.png",
+    "poseSheet": "/workspace/sites/earthbound/pipeline/reports/green-sea-turtle-authored-poses.png"
+  },
+  "visualFindings": [
+    "Final four neutral views opened and inspected. Earlier pale pigment, long neck, exposed bead eyes, snout cap UV pinching and sharp folded rear tips were corrected.",
+    "All sixteen final pose samples opened together in labeled contact sheet. Shoulder roots remain visually seated and front strokes stay marine; no leg stepping.",
+    "Swim has paired shoulder downstroke and restrained distal flex; Float and Glide remain subtle; Turn uses asymmetric fin action, yaw and mild bank."
+  ],
+  "technicalEvidence": {
+    "sourceAudit": "pipeline/reports/green-sea-turtle-source-audit.json",
+    "sourceAuditErrors": [],
+    "rawTiming": "Reexported with export_anim_slide_to_zero=True; original authoring script retains option.",
+    "textures": "Five packed saved UV images; sRGB albedo and Non-Color normal data. Pixel pigment checked to avoid double gamma."
+  },
+  "limitations": [
+    "Authored educational anatomical interpretation, not photogrammetry or a museum scan. Generated scale pigment does not reproduce an individual turtle.",
+    "Shell, plastron, soft tissue and eyes are intersecting anatomical surfaces, not one watertight sculpt. Deforming roots use explicit blended weights.",
+    "Four views and quarter-cycle samples are visual evidence, not exhaustive continuous collision analysis.",
+    "Neutral review background has a visible distant studio floor edge at the bottom in low-angle views; studio helpers are excluded from GLB.",
+    "Optimized runtime artifact review belongs to the integration owner; this report covers the stable Blender source and raw export."
+  ]
+}

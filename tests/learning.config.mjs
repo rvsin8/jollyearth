@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'.',testMatch:'learning.spec.mjs',workers:1,use:{baseURL:process.env.EARTHBOUND_TEST_URL||'http://localhost:4173',screenshot:'only-on-failure'},projects:[{name:'mobile-360',use:{viewport:{width:360,height:852}}},{name:'mobile-393',use:{viewport:{width:393,height:852}}},{name:'tablet',use:{viewport:{width:768,height:1024}}},{name:'desktop',use:{viewport:{width:1440,height:1024}}}]});

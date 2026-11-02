@@ -1,0 +1,15 @@
+Fox
+===
+
+Original author : Alexei Ostapenko - https://sketchfab.com/alexanders823
+License         : CC BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+Original source : https://sketchfab.com/3d-models/fox-4e37c303f8a241aaa2511bd9f3019273
+Changes         : Cleaned up (centered, grounded, renamed), converted to GLB/FBX/OBJ/BLEND
+Distributed by  : AiZity - https://aizity.com
+
+Attribution (copy this when you use the model):
+"Fox" by Alexei Ostapenko (https://sketchfab.com/alexanders823) is licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Source: https://sketchfab.com/3d-models/fox-4e37c303f8a241aaa2511bd9f3019273. Changes: Cleaned up (centered, grounded, renamed), converted to GLB/FBX/OBJ/BLEND. Distributed by AiZity (https://aizity.com).
+
+This license lets you share and adapt the model, including commercially,
+as long as you give appropriate credit, link to the license, and indicate
+if changes were made.

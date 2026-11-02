@@ -1,0 +1,2 @@
+import {defineConfig,devices} from '@playwright/test';
+export default defineConfig({testDir:'.',testMatch:'exhibits.spec.mjs',timeout:45000,workers:1,use:{baseURL:process.env.EARTHBOUND_TEST_URL||'http://localhost:4173',screenshot:'only-on-failure',trace:'retain-on-failure'},projects:[{name:'desktop',use:{viewport:{width:1440,height:900}}},{name:'iphone-13',use:{...devices['iPhone 13'],defaultBrowserType:'chromium'}}],reporter:[['list'],['json',{outputFile:'pipeline/reports/playwright.json'}]]});

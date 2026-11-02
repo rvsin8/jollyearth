@@ -1,0 +1,29 @@
+{
+  "result": "PASS",
+  "illustrationsUnchanged": 38,
+  "privateFidelityRecords": 45,
+  "fixture": {
+    "bones": 2,
+    "clips": [
+      "Idle",
+      "Walk"
+    ],
+    "validatorErrors": 0,
+    "validatorWarnings": 0
+  },
+  "gateTests": [
+    "missing files",
+    "missing credit",
+    "low vertex count",
+    "primitive mesh name",
+    "noncanonical clip",
+    "missing Idle",
+    "invalid length",
+    "no mutation on failure"
+  ],
+  "browser": "NOT VERIFIED: Chromium download failed",
+  "missingInputs": [
+    "five mockups"
+  ],
+  "foxModel": "Ready; see fox-model-checks.json"
+}

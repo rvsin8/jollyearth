@@ -1,0 +1,16 @@
+@font-face{font-family:'Bluu Next';src:url('/fonts/BluuNext-Bold.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:'Bluu Next';src:url('/fonts/BluuNext-BoldItalic.woff2') format('woff2');font-weight:700;font-style:italic;font-display:swap}
+@font-face{font-family:'Inter';src:url('/fonts/InterVariable.woff2') format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
+:root{
+ --font-serif:'Bluu Next',serif;--font-sans:'Inter',sans-serif;
+ --text-display:72px;--leading-display:.95;
+ --text-title:40px;--leading-title:1.1;
+ --text-section:24px;--leading-section:1.25;
+ --text-body:16px;--leading-body:1.6;
+ --text-small:13px;--leading-small:1.4;
+ --text-micro:11px;--leading-micro:1.3;--tracking-micro:.12em;
+ --paper:#F6F4EF;--stage:#F6F4EF;--ink:#211d18;--line:#D8D2C4;
+ --surface:#eeebe3;--muted-foreground:#71685c;--ochre-wash:#eee3c9;--clay-wash:#eedbd1;
+ --background:var(--paper);--foreground:var(--ink);--card:var(--paper);--card-foreground:var(--ink);--popover:var(--paper);--popover-foreground:var(--ink);--primary:var(--ink);--primary-foreground:var(--paper);--secondary:var(--surface);--secondary-foreground:var(--ink);--accent:var(--surface);--accent-foreground:var(--ink);--muted:var(--surface);--border:var(--line);--input:var(--line);--ring:var(--ink);--selection:#211d18;--selection-text:#F6F4EF;
+ color-scheme:light;
+}

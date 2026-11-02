@@ -1,0 +1,2544 @@
+[
+  {
+    "slug": "eastern-oyster",
+    "commonName": "Eastern oyster",
+    "scientificName": "Crassostrea virginica",
+    "file": "/models/animals/eastern-oyster.glb",
+    "creator": "Smithsonian Institution",
+    "creatorUrl": "https://3d.si.edu/",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://3d-api.si.edu/api/v1.0/content/file/search?model_url=77be1e89-fef1-4774-a9e2-8e5b0c46d1de",
+    "hasAnimation": false,
+    "caption": "An eastern oyster museum specimen; a species reference, not a Jersey City observation.",
+    "silhouette": "shell",
+    "kind": "animal",
+    "hasLOD": false,
+    "icon": "/icons/species/eastern-oyster.svg",
+    "iconAlt": "Eastern oyster — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/eastern-oyster.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Irregular asymmetric shell outline",
+        "Pale curved growth ridges"
+      ],
+      "commonMisses": [
+        "Losing the illustrated irregular asymmetric shell outline",
+        "Losing the illustrated pale curved growth ridges"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "gopher-tortoise",
+    "commonName": "Gopher tortoise",
+    "scientificName": "Gopherus polyphemus",
+    "kind": "animal",
+    "file": "/models/animals/gopher-tortoise.glb",
+    "hasAnimation": true,
+    "hasLOD": true,
+    "icon": "/icons/species/gopher-tortoise.svg",
+    "iconAlt": "Gopher tortoise — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Gopher tortoise — *Gopherus polyphemus*\n- ● Flattened, shovel-like front legs covered in heavy scales, built for digging.\n- ● Stumpy, elephantine hind feet.\n- A domed brown-grey carapace. The front of the plastron projects forward.\n- **Clips:** `Idle`, `Walk` (slow and high-stepping).\n- **Misses:** turtle flippers, or webbed feet.\n",
+      "diagnosticFeatures": [
+        "Flattened, shovel-like front legs covered in heavy scales, built for digging.",
+        "Stumpy, elephantine hind feet."
+      ],
+      "commonMisses": [
+        " turtle flippers, or webbed feet."
+      ],
+      "reviewNote": null
+    },
+    "exhibitSlug": "gopher-tortoise",
+    "iucn": "CR",
+    "assessmentYear": 2026,
+    "size": "Adults are generally 10–15 in long and weigh 9–13 lb.",
+    "populationTrend": null,
+    "exhibit": {
+      "habitat": "Open pine woodland, scrub and grassland with well-drained, sandy soil for burrows.",
+      "diet": "Grasses and other low-growing plants, plus seeds and fruit.",
+      "distribution": "The southeastern United States, from southern South Carolina to eastern Louisiana and Florida.",
+      "facts": [
+        "Broad, flattened forefeet dig burrows that shelter many other animals. Keeping sunny, open habitat allows the plants it eats to grow.",
+        "The 2026 global IUCN assessment is Critically Endangered. U.S. legal listing applies differently across its range."
+      ],
+      "sources": [
+        {
+          "id": "gopher-tortoise-bio",
+          "title": "U.S. Fish and Wildlife Service — Gopher tortoise",
+          "url": "https://www.fws.gov/project/gopher-tortoise",
+          "accessed": "2026-10-16"
+        },
+        {
+          "id": "gopher-tortoise-status",
+          "title": "IUCN assessment authors — Gopher tortoise, 2026 reassessment",
+          "url": "https://biologicaldiversity.org/w/news/press-releases/international-assessment-finds-gopher-tortoise-is-critically-endangered-2026-07-10/email_view/",
+          "accessed": "2026-10-16"
+        },
+        {
+          "id": "gopher-tortoise-assessment",
+          "title": "IUCN Red List — Gopherus polyphemus",
+          "url": "https://www.iucnredlist.org/species/9403/3151418",
+          "accessed": "2026-10-16",
+          "note": "Assessment linked for reference; category corroborated by the cited IUCN or assessment-author publication. Population trend omitted."
+        }
+      ]
+    },
+    "exhibitView": {
+      "defaultClip": "Idle",
+      "clipOrder": [
+        "Idle",
+        "Walk",
+        "Turn",
+        "Dig"
+      ],
+      "oneShotClips": [],
+      "camera": [
+        0.8,
+        0.38,
+        0.95
+      ],
+      "contactShadow": true,
+      "controlsVersion": 2
+    },
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/gopher-tortoise.glb",
+      "mobileFile": "/models/animals/gopher-tortoise.mobile.glb",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Turn",
+        "Dig"
+      ],
+      "credit": {
+        "creator": "Earthbound",
+        "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+        "changes": "Original Earthbound model from custom anatomical vertex surfaces: individually constructed carapace scutes, fitted relief limb scales, generated UV albedo/normal/roughness textures, a 12-bone skeletal rig, and original keyframed animation. No external model or texture was used. Morphological references: U.S. Fish & Wildlife Service and Naturalis; their photographs were studied as reference only.",
+        "animationNote": "Original in-place Idle, Walk, Turn, and Dig clips. Walk uses a slow stance phase and lifted recovery; Dig alternates forelimb scraping. These are interpretive motions for an educational exhibit, not motion-captured locomotion.",
+        "biologicalReferences": [
+          "https://www.fws.gov/project/gopher-tortoise",
+          "https://www.fws.gov/species/gopher-tortoise-gopherus-polyphemus",
+          "https://turtles.linnaeus.naturalis.nl/linnaeus_ng/app/views/highertaxa/taxon.php?epi=11&id=7898"
+        ]
+      }
+    },
+    "creator": "Earthbound",
+    "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+    "changes": "Original Earthbound model from custom anatomical vertex surfaces: individually constructed carapace scutes, fitted relief limb scales, generated UV albedo/normal/roughness textures, a 12-bone skeletal rig, and original keyframed animation. No external model or texture was used. Morphological references: U.S. Fish & Wildlife Service and Naturalis; their photographs were studied as reference only.",
+    "animationNote": "Original in-place Idle, Walk, Turn, and Dig clips. Walk uses a slow stance phase and lifted recovery; Dig alternates forelimb scraping. These are interpretive motions for an educational exhibit, not motion-captured locomotion.",
+    "biologicalReferences": [
+      "https://www.fws.gov/project/gopher-tortoise",
+      "https://www.fws.gov/species/gopher-tortoise-gopherus-polyphemus",
+      "https://turtles.linnaeus.naturalis.nl/linnaeus_ng/app/views/highertaxa/taxon.php?epi=11&id=7898"
+    ]
+  },
+  {
+    "slug": "lemur",
+    "commonName": "Ring-tailed lemur",
+    "scientificName": "Lemur catta",
+    "kind": "animal",
+    "file": "/models/animals/ring-tailed-lemur.glb",
+    "hasAnimation": true,
+    "hasLOD": true,
+    "icon": "/icons/species/lemur.svg",
+    "iconAlt": "Ring-tailed lemur — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Ring-tailed lemur — *Lemur catta*\n- ● A long, bushy tail banded in alternating black and white rings, ending black. It is not prehensile.\n- ● A white face with black triangular eye patches, amber eyes, and a dark, narrow, fox-like muzzle.\n- Grey back and limbs, white underside. Hands have nails, not claws.\n- **Clips:** `Idle`, `Walk` (on all fours, tail raised high in a vertical curve), `Sit`.\n- **Misses:** a monkey face, a tail that touches the back, or rings that don't wrap fully around the tail.\n",
+      "diagnosticFeatures": [
+        "A long, bushy tail banded in alternating black and white rings, ending black. It is not prehensile.",
+        "A white face with black triangular eye patches, amber eyes, and a dark, narrow, fox-like muzzle."
+      ],
+      "commonMisses": [
+        " a monkey face, a tail that touches the back, or rings that don't wrap fully around the tail."
+      ],
+      "reviewNote": null
+    },
+    "exhibitSlug": "ring-tailed-lemur",
+    "iucn": "EN",
+    "assessmentYear": 2018,
+    "size": "Adults weigh about 2.2–2.7 kg.",
+    "populationTrend": null,
+    "exhibit": {
+      "habitat": "Dry forest, river-edge forest, thickets and spiny scrub, with some populations in other forest types.",
+      "diet": "Fruit, leaves, flowers and other plant parts, with occasional insects and small vertebrates.",
+      "distribution": "Mainly southern and southwestern Madagascar, with some highland and southeastern populations.",
+      "facts": [
+        "Females dominate social groups. During “stink fights,” males rub scent onto their tails and wave them toward rivals. The ringed tail does not grip branches."
+      ],
+      "sources": [
+        {
+          "id": "lemur-bio",
+          "title": "Duke Lemur Center — Ring-tailed lemur",
+          "url": "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/",
+          "accessed": "2026-10-16"
+        },
+        {
+          "id": "lemur-status",
+          "title": "IUCN — Ring-tailed lemur, Endangered",
+          "url": "https://iucn.org/news/eastern-and-southern-africa/202007/almost-a-third-lemurs-now-critically-endangered-iucn-red-list",
+          "accessed": "2026-10-16",
+          "note": "2018 assessment, published in the 2020 IUCN update."
+        },
+        {
+          "id": "lemur-assessment",
+          "title": "IUCN Red List — Lemur catta",
+          "url": "https://www.iucnredlist.org/species/11496/115565760",
+          "accessed": "2026-10-16",
+          "note": "Assessment linked for reference; category corroborated by the cited IUCN or assessment-author publication. Population trend omitted."
+        }
+      ]
+    },
+    "exhibitView": {
+      "defaultClip": "Idle",
+      "clipOrder": [
+        "Idle",
+        "Walk",
+        "Leap",
+        "Climb"
+      ],
+      "oneShotClips": [
+        "Leap"
+      ],
+      "camera": [
+        0.85,
+        0.22,
+        0.95
+      ],
+      "contactShadow": true,
+      "controlsVersion": 2
+    },
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/ring-tailed-lemur.glb",
+      "mobileFile": "/models/animals/ring-tailed-lemur.mobile.glb",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Leap",
+        "Climb"
+      ],
+      "credit": {
+        "creator": "Earthbound",
+        "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/?exhibit=ring-tailed-lemur",
+        "changes": "Original Blender-authored continuous sculpted torso, limbs, narrow head, recessed eye sockets and surface-painted masks; original 2048px coat atlases, directionally groomed short-fur mesh cards, 27-bone skeleton and four in-place animation clips. No purchased or imported animal geometry or image textures.",
+        "animationNote": "Original educational artist interpretation, not a scan, motion capture, photorealistic asset or clinical reconstruction. Climb is an unsupported in-place educational motion, not a contact-simulated branch climb. Fur uses original textured surfaces and an economical mesh-card groom.",
+        "references": [
+          {
+            "url": "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/",
+            "purpose": "Anatomical and coloration reference only; no reference image content or geometry is redistributed."
+          }
+        ]
+      }
+    },
+    "creator": "Earthbound",
+    "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/?exhibit=ring-tailed-lemur",
+    "changes": "Original Blender-authored continuous sculpted torso, limbs, narrow head, recessed eye sockets and surface-painted masks; original 2048px coat atlases, directionally groomed short-fur mesh cards, 27-bone skeleton and four in-place animation clips. No purchased or imported animal geometry or image textures.",
+    "animationNote": "Original educational artist interpretation, not a scan, motion capture, photorealistic asset or clinical reconstruction. Climb is an unsupported in-place educational motion, not a contact-simulated branch climb. Fur uses original textured surfaces and an economical mesh-card groom.",
+    "references": [
+      {
+        "url": "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/",
+        "purpose": "Anatomical and coloration reference only; no reference image content or geometry is redistributed."
+      }
+    ]
+  },
+  {
+    "slug": "orangutan",
+    "commonName": "Bornean orangutan",
+    "scientificName": "Pongo pygmaeus",
+    "kind": "animal",
+    "file": "/models/animals/bornean-orangutan.glb",
+    "hasAnimation": true,
+    "hasLOD": true,
+    "icon": "/icons/species/orangutan.svg",
+    "iconAlt": "Bornean orangutan — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Bornean orangutan — *Pongo pygmaeus*\n- ● Long, coarse, red-brown hair.\n- ● Arms much longer than the legs, with hook-like hands and feet.\n- Adult males have cheek flanges and a throat sac; match the illustration's sex.\n- **Clips:** `Idle`, `Climb`, `Walk` (fist-walking on the ground).\n- **Misses:** chimp proportions, or short hair.\n",
+      "diagnosticFeatures": [
+        "Long, coarse, red-brown hair.",
+        "Arms much longer than the legs, with hook-like hands and feet."
+      ],
+      "commonMisses": [
+        " chimp proportions, or short hair."
+      ],
+      "reviewNote": null
+    },
+    "exhibitSlug": "bornean-orangutan",
+    "iucn": "CR",
+    "assessmentYear": 2016,
+    "size": "Adult body mass averages about 37 kg in females and 87 kg in males.",
+    "populationTrend": null,
+    "exhibit": {
+      "habitat": "Lowland tropical rainforest, including peat-swamp and floodplain forests.",
+      "diet": "Mostly fruit, with leaves, shoots, bark and insects.",
+      "distribution": "The island of Borneo, in Indonesia and Malaysia.",
+      "facts": [
+        "Orangutans build sleeping platforms from branches and leaves. Youngsters spend years learning forest skills from their mothers."
+      ],
+      "sources": [
+        {
+          "id": "orangutan-bio",
+          "title": "Animal Diversity Web — Pongo pygmaeus",
+          "url": "https://animaldiversity.org/accounts/Pongo_pygmaeus/",
+          "accessed": "2026-10-16"
+        },
+        {
+          "id": "orangutan-status",
+          "title": "IUCN — Bornean orangutan, Critically Endangered",
+          "url": "https://iucn.org/news/secretariat/201607/whale-sharks-winghead-sharks-and-bornean-orangutans-slide-towards-extinction",
+          "accessed": "2026-10-16"
+        },
+        {
+          "id": "orangutan-assessment",
+          "title": "IUCN Red List — Pongo pygmaeus",
+          "url": "https://www.iucnredlist.org/species/17975/123809220",
+          "accessed": "2026-10-16",
+          "note": "Assessment linked for reference; category corroborated by the cited IUCN or assessment-author publication. Population trend omitted."
+        }
+      ]
+    },
+    "exhibitView": {
+      "defaultClip": "Idle",
+      "clipOrder": [
+        "Idle",
+        "Walk",
+        "Climb",
+        "Reach"
+      ],
+      "oneShotClips": [],
+      "camera": [
+        0.85,
+        0.2,
+        0.95
+      ],
+      "contactShadow": true,
+      "fitPadding": 1.4,
+      "controlsVersion": 2
+    },
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/bornean-orangutan.glb",
+      "mobileFile": "/models/animals/bornean-orangutan.mobile.glb",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Climb",
+        "Reach"
+      ],
+      "credit": {
+        "creator": "Earthbound",
+        "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+        "changes": "Original Blender-authored female Bornean orangutan. Custom lofted anatomical surfaces voxel-unified into a continuous body; continuous Scenario Clay head sculpt with inset eyes, painted skin/coat UV atlas, original russet directional texture, and hand-authored area-sampled draped hair cards. Original curved digits, bowed legs, long arms and grasping feet. No purchased, imported or third-party animal geometry. Phase 2.5: shorter region-specific draped groom, reduced strand contrast, shallow eyelid/nasolabial/forehead pigment detail and adjusted nasal/brow contours. Mobile uses one-triangle strands to retain half the groom within its original budget.",
+        "animationNote": "Original 38-bone educational in-place Idle, four-second support/recovery Walk, five-second alternating-grasp Climb, and Reach. Climb wrists use stationary virtual reference points during support; no tree collision or traversal simulation is present. Hand-authored timing, not motion capture or expert-validated biomechanics.",
+        "anatomyReferences": [
+          {
+            "title": "Animal Diversity Web: Pongo pygmaeus",
+            "url": "https://animaldiversity.org/accounts/Pongo_pygmaeus/",
+            "use": "Long arms, orange-red coarse coat, grasping hands and feet, female without mature male flanges, fist-supported terrestrial locomotion."
+          },
+          {
+            "title": "San Diego Zoo Wildlife Alliance: Orangutan",
+            "url": "https://animals.sandiegozoo.org/animals/orangutan",
+            "use": "Gray bare face, stocky body, bowed legs, long fingers, russet coat and female Bornean facial-hair distinction."
+          }
+        ],
+        "tooling": "Scenario bx_sculpt.py is MIT-licensed procedural sculpting tooling, vendored with attribution. It is not animal geometry."
+      }
+    },
+    "creator": "Earthbound",
+    "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+    "changes": "Original Blender-authored female Bornean orangutan. Custom lofted anatomical surfaces voxel-unified into a continuous body; continuous Scenario Clay head sculpt with inset eyes, painted skin/coat UV atlas, original russet directional texture, and hand-authored area-sampled draped hair cards. Original curved digits, bowed legs, long arms and grasping feet. No purchased, imported or third-party animal geometry. Phase 2.5: shorter region-specific draped groom, reduced strand contrast, shallow eyelid/nasolabial/forehead pigment detail and adjusted nasal/brow contours. Mobile uses one-triangle strands to retain half the groom within its original budget.",
+    "animationNote": "Original 38-bone educational in-place Idle, four-second support/recovery Walk, five-second alternating-grasp Climb, and Reach. Climb wrists use stationary virtual reference points during support; no tree collision or traversal simulation is present. Hand-authored timing, not motion capture or expert-validated biomechanics.",
+    "anatomyReferences": [
+      {
+        "title": "Animal Diversity Web: Pongo pygmaeus",
+        "url": "https://animaldiversity.org/accounts/Pongo_pygmaeus/",
+        "use": "Long arms, orange-red coarse coat, grasping hands and feet, female without mature male flanges, fist-supported terrestrial locomotion."
+      },
+      {
+        "title": "San Diego Zoo Wildlife Alliance: Orangutan",
+        "url": "https://animals.sandiegozoo.org/animals/orangutan",
+        "use": "Gray bare face, stocky body, bowed legs, long fingers, russet coat and female Bornean facial-hair distinction."
+      }
+    ],
+    "tooling": "Scenario bx_sculpt.py is MIT-licensed procedural sculpting tooling, vendored with attribution. It is not animal geometry."
+  },
+  {
+    "slug": "green-turtle",
+    "commonName": "Green sea turtle",
+    "scientificName": "Chelonia mydas",
+    "kind": "animal",
+    "file": "/models/animals/green-sea-turtle.glb",
+    "hasAnimation": true,
+    "hasLOD": true,
+    "icon": "/icons/species/green-turtle.svg",
+    "iconAlt": "Green sea turtle — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Green sea turtle — *Chelonia mydas*\n- ● A short, rounded snout with a single pair of prefrontal scales between the eyes.\n- ● A smooth carapace whose scutes sit edge to edge without overlapping, with four pairs of costal scutes.\n- One claw on each flipper. The carapace is olive to brown; the name comes from green body fat, not shell colour.\n- **Clips:** `Swim` (both front flippers stroking together like wings), `Idle` (slow hover).\n- **Misses:** a hawksbill beak, overlapping scutes, or a bright green shell.\n",
+      "diagnosticFeatures": [
+        "A short, rounded snout with a single pair of prefrontal scales between the eyes.",
+        "A smooth carapace whose scutes sit edge to edge without overlapping, with four pairs of costal scutes."
+      ],
+      "commonMisses": [
+        " a hawksbill beak, overlapping scutes, or a bright green shell."
+      ],
+      "reviewNote": null
+    },
+    "exhibitSlug": "green-sea-turtle",
+    "iucn": "LC",
+    "assessmentYear": 2025,
+    "size": "Adults are typically 3–4 ft long and weigh 250–400 lb.",
+    "populationTrend": null,
+    "exhibit": {
+      "habitat": "Shallow coastal feeding grounds and sandy nesting beaches; young turtles also use the open ocean.",
+      "diet": "Adults mainly graze seagrasses and algae; some also eat small animals.",
+      "distribution": "Atlantic, Pacific and Indian oceans, and the Mediterranean Sea.",
+      "facts": [
+        "The name refers to greenish body fat, not a green shell. Females return to the region where they hatched to nest.",
+        "The 2025 global IUCN category is Least Concern. Regional populations have different assessments, and legal protections remain important."
+      ],
+      "sources": [
+        {
+          "id": "green-turtle-bio",
+          "title": "NOAA Fisheries — Green turtle",
+          "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+          "accessed": "2026-10-16"
+        },
+        {
+          "id": "green-turtle-status",
+          "title": "IUCN Marine Turtle Specialist Group — 2025 global and regional assessments",
+          "url": "https://www.iucn-mtsg.org/statuses",
+          "accessed": "2026-10-16"
+        },
+        {
+          "id": "green-turtle-assessment",
+          "title": "IUCN Red List — Chelonia mydas",
+          "url": "https://www.iucnredlist.org/species/4615/285108125",
+          "accessed": "2026-10-16",
+          "note": "Assessment linked for reference; category corroborated by the cited IUCN or assessment-author publication. Population trend omitted."
+        }
+      ]
+    },
+    "exhibitView": {
+      "defaultClip": "Float",
+      "clipOrder": [
+        "Float",
+        "Swim",
+        "Glide",
+        "Turn"
+      ],
+      "oneShotClips": [],
+      "camera": [
+        0.7,
+        0.52,
+        1
+      ],
+      "contactShadow": false,
+      "fitPadding": 1,
+      "controlsVersion": 2
+    },
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/green-sea-turtle.glb",
+      "mobileFile": "/models/animals/green-sea-turtle.mobile.glb",
+      "clips": [
+        "Float",
+        "Swim",
+        "Glide",
+        "Turn"
+      ],
+      "credit": {
+        "title": "Original Earthbound green sea turtle",
+        "creator": "Earthbound",
+        "scientificName": "Chelonia mydas",
+        "license": "CC0-1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "source": "Original custom vertex-authored anatomical mesh, UV textures, skeleton and animation. No third-party geometry, texture or rig.",
+        "biologicalReferences": [
+          "https://www.fisheries.noaa.gov/species/green-turtle",
+          "https://www.aoml.noaa.gov/general/graphics/lib/turtles.htm"
+        ],
+        "referenceUse": "Anatomical observation only; no image incorporated into delivered textures.",
+        "archivedPredecessor": "archived-external-predecessor is provenance only and excluded from authored/exported assets.",
+        "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+        "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+        "changes": "Original custom vertex-authored anatomical mesh, UV textures, skeleton and animation. No third-party geometry, texture or rig.",
+        "animationNote": "Original Float, Swim, Glide and Turn loops; shoulder-driven marine strokes and restrained distal flex. Educational authored interpretation, not motion capture."
+      }
+    },
+    "creator": "Earthbound",
+    "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+    "license": "CC0-1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+    "changes": "Original custom vertex-authored anatomical mesh, UV textures, skeleton and animation. No third-party geometry, texture or rig.",
+    "animationNote": "Original Float, Swim, Glide and Turn loops; shoulder-driven marine strokes and restrained distal flex. Educational authored interpretation, not motion capture.",
+    "distributionUrl": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-084/c90a930f8b2a4cc8bc516742a0df01d9.glb",
+    "species": "Chelonia mydas",
+    "specimen": "Juvenile photographed alive, 27.5 cm straight minimum carapace length and 3.0 kg; released in healthy condition.",
+    "noncommercialOnly": true,
+    "title": "Original Earthbound green sea turtle",
+    "source": "Original custom vertex-authored anatomical mesh, UV textures, skeleton and animation. No third-party geometry, texture or rig.",
+    "biologicalReferences": [
+      "https://www.fisheries.noaa.gov/species/green-turtle",
+      "https://www.aoml.noaa.gov/general/graphics/lib/turtles.htm"
+    ],
+    "referenceUse": "Anatomical observation only; no image incorporated into delivered textures.",
+    "archivedPredecessor": "archived-external-predecessor is provenance only and excluded from authored/exported assets."
+  },
+  {
+    "slug": "red-panda",
+    "commonName": "Red panda",
+    "scientificName": "Ailurus fulgens",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/red-panda.svg",
+    "iconAlt": "Red panda — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/red-panda.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Rust-colored face with cream cheeks and muzzle",
+        "Pointed ears and dark lower chest"
+      ],
+      "commonMisses": [
+        "Losing the illustrated rust-colored face with cream cheeks and muzzle",
+        "Losing the illustrated pointed ears and dark lower chest"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "condor",
+    "commonName": "Andean condor",
+    "scientificName": "Vultur gryphus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/condor.svg",
+    "iconAlt": "Andean condor — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/condor.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Bare pink head with raised comb",
+        "Pale neck ruff against dark body"
+      ],
+      "commonMisses": [
+        "Losing the illustrated bare pink head with raised comb",
+        "Losing the illustrated pale neck ruff against dark body"
+      ],
+      "reviewNote": "The supplied California condor spec does not match this Andean condor."
+    }
+  },
+  {
+    "slug": "red-cockaded-woodpecker",
+    "commonName": "Red-cockaded woodpecker",
+    "scientificName": "Dryobates borealis",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/red-cockaded-woodpecker.svg",
+    "iconAlt": "Red-cockaded woodpecker — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/red-cockaded-woodpecker.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Black-and-white cheek stripes",
+        "Long pointed bill and small red mark"
+      ],
+      "commonMisses": [
+        "Losing the illustrated black-and-white cheek stripes",
+        "Losing the illustrated long pointed bill and small red mark"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "longleaf-pine",
+    "commonName": "Longleaf pine",
+    "scientificName": "Pinus palustris",
+    "kind": "plant",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/longleaf-pine.svg",
+    "iconAlt": "Longleaf pine — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/longleaf-pine.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Long needle clusters at branch tips",
+        "Upright trunk and open branching"
+      ],
+      "commonMisses": [
+        "Losing the illustrated long needle clusters at branch tips",
+        "Losing the illustrated upright trunk and open branching"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "chameleon",
+    "commonName": "Panther chameleon",
+    "scientificName": "Furcifer pardalis",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/chameleon.svg",
+    "iconAlt": "Panther chameleon — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Panther chameleon — *Furcifer pardalis*\n- ● Feet are zygodactyl: toes fused into two opposing bundles on each foot, never five separate toes.\n- ● Turret eyes that move independently.\n- ● A prehensile tail that coils.\n- ● A low casque. The tall helmet belongs to the veiled chameleon.\n- Males have a pale lateral stripe. Colour varies by locality, so pick one (for example Ambilobe or Nosy Be) and match the illustration.\n- **Clips:** `Idle` (slow eye roving, colour unchanged), `Walk` (a halting, rocking \"leaf-sway\" step).\n- **Misses:** a generic lizard body, or a tail that drags straight.\n",
+      "diagnosticFeatures": [
+        "Feet are zygodactyl: toes fused into two opposing bundles on each foot, never five separate toes.",
+        "Turret eyes that move independently.",
+        "A prehensile tail that coils.",
+        "A low casque. The tall helmet belongs to the veiled chameleon."
+      ],
+      "commonMisses": [
+        " a generic lizard body, or a tail that drags straight."
+      ],
+      "reviewNote": null
+    }
+  },
+  {
+    "slug": "tomato-frog",
+    "commonName": "Tomato frog",
+    "scientificName": "Dyscophus antongilii",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/tomato-frog.svg",
+    "iconAlt": "Tomato frog — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Tomato frog — *Dyscophus antongilii*\n- ● A round, plump body with smooth skin and a red-orange back. Females are larger and redder.\n- ● No toe pads. This is a ground-dwelling burrower.\n- A paler belly. It inflates its body when threatened.\n- **Clips:** `Idle` (throat pulsing), `Walk` (a short crawl-hop).\n- **Misses:** tree-frog discs on the toes, or warty toad skin.\n",
+      "diagnosticFeatures": [
+        "A round, plump body with smooth skin and a red-orange back. Females are larger and redder.",
+        "No toe pads. This is a ground-dwelling burrower."
+      ],
+      "commonMisses": [
+        " tree-frog discs on the toes, or warty toad skin."
+      ],
+      "reviewNote": null
+    }
+  },
+  {
+    "slug": "day-gecko",
+    "commonName": "Madagascar day gecko",
+    "scientificName": "Phelsuma madagascariensis",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/day-gecko.svg",
+    "iconAlt": "Madagascar day gecko — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/day-gecko.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Green flattened head and body",
+        "Red forehead and chest markings"
+      ],
+      "commonMisses": [
+        "Losing the illustrated green flattened head and body",
+        "Losing the illustrated red forehead and chest markings"
+      ],
+      "reviewNote": "The supplied Phelsuma grandis spec does not match the registry taxon Phelsuma madagascariensis."
+    }
+  },
+  {
+    "slug": "comet-moth",
+    "commonName": "Comet moth",
+    "scientificName": "Argema mittrei",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/comet-moth.svg",
+    "iconAlt": "Comet moth — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Comet moth — *Argema mittrei*\n- ● Yellow wings, each with a single eyespot.\n- ● Very long hindwing tails, longer in males, that trail and twist in flight.\n- Males have feathery antennae. Adults have no working mouthparts.\n- **Clips:** `Idle` (wings slowly opening and closing on a perch), `Fly` (slow beats with the tails trailing).\n- **Misses:** butterfly antennae with clubbed tips, or stiff tails that don't move.\n",
+      "diagnosticFeatures": [
+        "Yellow wings, each with a single eyespot.",
+        "Very long hindwing tails, longer in males, that trail and twist in flight."
+      ],
+      "commonMisses": [
+        " butterfly antennae with clubbed tips, or stiff tails that don't move."
+      ],
+      "reviewNote": null
+    }
+  },
+  {
+    "slug": "tamarin",
+    "commonName": "Golden lion tamarin",
+    "scientificName": "Leontopithecus rosalia",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/tamarin.svg",
+    "iconAlt": "Golden lion tamarin — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "atlantic-forest"
+    ],
+    "status": "EN",
+    "populationTrend": "decreasing",
+    "assessmentYear": 2015,
+    "assessmentPublication": "2019; amended 2021",
+    "statusSource": "https://www.iucnredlist.org/species/11506/192327291",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "Reintroduction and forest protection helped this golden-maned monkey recover from near extinction. Yellow fever brought a serious setback; conservation teams report renewed recovery, showing why long-term protection still matters.",
+    "primaryThreats": [
+      "Forest fragmentation",
+      "Yellow fever",
+      "Introduced primates"
+    ],
+    "action": "Build a classroom habitat-corridor model using Save the Golden Lion Tamarin’s forest restoration work as a case study.",
+    "actionUrl": "https://www.savetheliontamarin.org/",
+    "range": "Lowland Atlantic Forest of Rio de Janeiro state, Brazil",
+    "biomes": [
+      "Tropical forest"
+    ],
+    "trendNote": "The Red List assessment records a decreasing trend. The conservation programme’s later recovery reports do not replace that dated assessment.",
+    "sources": [
+      {
+        "id": "iucn-tamarin",
+        "title": "IUCN Red List · Leontopithecus rosalia · 2019; amended 2021",
+        "url": "https://www.iucnredlist.org/species/11506/192327291",
+        "note": "Global species assessment; assessed 2015. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-tamarin",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2021-1.RLTS.T11506A192327291.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "recovery-tamarin",
+        "title": "Save the Golden Lion Tamarin · Recovery and forest protection",
+        "url": "https://www.savetheliontamarin.org/",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "assessment-text-tamarin",
+        "title": "IUCN assessment · Golden lion tamarin (2019 edition)",
+        "url": "https://bichodomatoip.org/wp-content/uploads/2020/03/Ruiz-Miranda-et-al.-2019.-Leontopithecus-rosalia-IUCN-2019.pdf",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-tamarin",
+        "title": "Learn more and help · Golden lion tamarin",
+        "url": "https://www.savetheliontamarin.org/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-tamarin",
+        "title": "tamarin photograph · Daderot",
+        "url": "https://commons.wikimedia.org/wiki/File:Leontopithecus_rosalia_-_Copenhagen_Zoo_-_DSC09082.JPG",
+        "note": "CC0 1.0 · Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
+    ],
+    "image": "/images/tamarin.webp",
+    "color": "#bb925c",
+    "alt": "Golden lion tamarin photographic reference",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/tamarin.svg",
+      "specification": null,
+      "diagnosticFeatures": [],
+      "commonMisses": [],
+      "reviewNote": "No original illustration exists for this local photo-only record. Diagnostic features require a supplied illustration and review; no anatomy or scale was inferred."
+    }
+  },
+  {
+    "slug": "great-hornbill",
+    "commonName": "Great hornbill",
+    "scientificName": "Buceros bicornis",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/great-hornbill.svg",
+    "iconAlt": "Great hornbill — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Great hornbill — *Buceros bicornis*\n- ● A huge yellow bill topped by a yellow-and-black, U-shaped casque.\n- ● A black face, and a white neck often stained yellow by preen oil.\n- Black wings with white bands. A white tail with a black band.\n- Eye colour differs by sex: red in males, bluish-white in females. Pick one and match the illustration.\n- **Clips:** `Perch`, `Fly` (heavy, loud wingbeats), `Glide`.\n- **Misses:** a toucan bill, or no casque.\n",
+      "diagnosticFeatures": [
+        "A huge yellow bill topped by a yellow-and-black, U-shaped casque.",
+        "A black face, and a white neck often stained yellow by preen oil."
+      ],
+      "commonMisses": [
+        " a toucan bill, or no casque."
+      ],
+      "reviewNote": null
+    }
+  },
+  {
+    "slug": "monarch-butterfly",
+    "commonName": "Monarch butterfly",
+    "scientificName": "Danaus plexippus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/monarch-butterfly.svg",
+    "iconAlt": "Monarch butterfly — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/monarch-butterfly.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Orange paired wings with dark veins and margins",
+        "Pale spots around wing borders"
+      ],
+      "commonMisses": [
+        "Losing the illustrated orange paired wings with dark veins and margins",
+        "Losing the illustrated pale spots around wing borders"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "bee-eater",
+    "commonName": "European bee-eater",
+    "scientificName": "Merops apiaster",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/bee-eater.svg",
+    "iconAlt": "European bee-eater — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/bee-eater.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Rust crown and dark eye band",
+        "Yellow pointed throat and long bill"
+      ],
+      "commonMisses": [
+        "Losing the illustrated rust crown and dark eye band",
+        "Losing the illustrated yellow pointed throat and long bill"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "blue-and-yellow-macaw",
+    "commonName": "Blue-and-yellow macaw",
+    "scientificName": "Ara ararauna",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/blue-and-yellow-macaw.svg",
+    "iconAlt": "Blue-and-yellow macaw — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/blue-and-yellow-macaw.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Blue crown and wings around golden chest",
+        "Pale striped face and hooked dark bill"
+      ],
+      "commonMisses": [
+        "Losing the illustrated blue crown and wings around golden chest",
+        "Losing the illustrated pale striped face and hooked dark bill"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "mountain-gorilla",
+    "commonName": "Mountain gorilla",
+    "scientificName": "Gorilla beringei beringei",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/mountain-gorilla.svg",
+    "iconAlt": "Mountain gorilla — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "eastern-afromontane"
+    ],
+    "status": "EN",
+    "populationTrend": "increasing",
+    "assessmentYear": 2018,
+    "assessmentPublication": "2018; amended 2020",
+    "statusSource": "https://www.iucnredlist.org/species/39999/176396749",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "Protection, veterinary care and work with nearby communities helped mountain gorillas increase and move from Critically endangered to Endangered in 2018. This status applies to the mountain gorilla subspecies, not all eastern gorillas.",
+    "primaryThreats": [
+      "Habitat loss",
+      "Human-transmitted disease",
+      "Snares"
+    ],
+    "action": "If visiting gorilla habitat, follow official viewing-distance and health rules; share why disease prevention protects great apes.",
+    "actionUrl": "https://iucn.org/news/species/201811/fin-whale-mountain-gorilla-recovering-thanks-conservation-action-iucn-red-list",
+    "range": "Montane forests of the Virunga region and Bwindi–Sarambwe",
+    "biomes": [
+      "Tropical forest",
+      "Alpine"
+    ],
+    "trendNote": "",
+    "sources": [
+      {
+        "id": "iucn-mountain-gorilla",
+        "title": "IUCN Red List · Gorilla beringei beringei · 2018; amended 2020",
+        "url": "https://www.iucnredlist.org/species/39999/176396749",
+        "note": "Global subspecies assessment; assessed 2018. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-mountain-gorilla",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T39999A176396749.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "recovery-mountain-gorilla",
+        "title": "IUCN · Mountain gorilla recovery",
+        "url": "https://iucn.org/news/species/201811/fin-whale-mountain-gorilla-recovering-thanks-conservation-action-iucn-red-list",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-mountain-gorilla",
+        "title": "Learn more and help · Mountain gorilla",
+        "url": "https://iucn.org/news/species/201811/fin-whale-mountain-gorilla-recovering-thanks-conservation-action-iucn-red-list",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-gorilla-beringei-beringei",
+        "title": "Photograph · Thomas Fuhrmann",
+        "url": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_%28Gorilla_beringei_beringei%29_25.jpg",
+        "note": "CC BY-SA 4.0; displayed as a species reference, not a local observation.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "accessed": "3 October 2026"
+      }
+    ],
+    "image": "/images/gorilla-beringei-beringei.webp",
+    "color": "#7a8070",
+    "alt": "Mountain gorilla photographic reference",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/mountain-gorilla.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Broad dark nose and heavy brow",
+        "Dark high-crowned head and shoulders"
+      ],
+      "commonMisses": [
+        "Losing the illustrated broad dark nose and heavy brow",
+        "Losing the illustrated dark high-crowned head and shoulders"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "diana-monkey",
+    "commonName": "Diana monkey",
+    "scientificName": "Cercopithecus diana",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/diana-monkey.svg",
+    "iconAlt": "Diana monkey — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/diana-monkey.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Pale brow crescent and pointed cheek beard",
+        "Dark face and pointed head silhouette"
+      ],
+      "commonMisses": [
+        "Losing the illustrated pale brow crescent and pointed cheek beard",
+        "Losing the illustrated dark face and pointed head silhouette"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "beira-antelope",
+    "commonName": "Beira antelope",
+    "scientificName": "Dorcatragus megalotis",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/beira-antelope.svg",
+    "iconAlt": "Beira antelope — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/beira-antelope.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Very large rounded ears",
+        "Two short straight horns"
+      ],
+      "commonMisses": [
+        "Losing the illustrated very large rounded ears",
+        "Losing the illustrated two short straight horns"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "elegant-trogon",
+    "commonName": "Elegant trogon",
+    "scientificName": "Trogon elegans",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/elegant-trogon.svg",
+    "iconAlt": "Elegant trogon — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/elegant-trogon.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Green rounded head with yellow bill",
+        "Pale chest band over rust chest"
+      ],
+      "commonMisses": [
+        "Losing the illustrated green rounded head with yellow bill",
+        "Losing the illustrated pale chest band over rust chest"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "snow-leopard",
+    "commonName": "Snow leopard",
+    "scientificName": "Panthera uncia",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/snow-leopard.svg",
+    "iconAlt": "Snow leopard — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/snow-leopard.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Pale coat with dark spots",
+        "Rounded ears and broad pale muzzle"
+      ],
+      "commonMisses": [
+        "Losing the illustrated pale coat with dark spots",
+        "Losing the illustrated rounded ears and broad pale muzzle"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "kākāpō",
+    "commonName": "Kākāpō",
+    "scientificName": "Strigops habroptilus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/kakapo.svg",
+    "iconAlt": "Kākāpō — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "new-zealand"
+    ],
+    "status": "CR",
+    "populationTrend": "increasing",
+    "assessmentYear": 2018,
+    "assessmentPublication": "2018",
+    "statusSource": "https://www.iucnredlist.org/species/22685245/129751169",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "This flightless, nocturnal parrot has a moss-green coat and an owl-like face. Conservation teams know birds individually by name and use transmitters to monitor them on protected islands.",
+    "primaryThreats": [
+      "Introduced predators",
+      "Disease",
+      "Low genetic diversity"
+    ],
+    "action": "Follow New Zealand’s Department of Conservation kākāpō recovery updates and share how predator-free habitats help flightless birds.",
+    "actionUrl": "https://www.doc.govt.nz/our-work/kakapo-recovery/",
+    "range": "Managed populations on protected New Zealand islands",
+    "biomes": [
+      "Tropical forest"
+    ],
+    "trendNote": "",
+    "sources": [
+      {
+        "id": "iucn-kākāpō",
+        "title": "IUCN Red List · Strigops habroptilus · 2018",
+        "url": "https://www.iucnredlist.org/species/22685245/129751169",
+        "note": "Global species assessment; assessed 2018. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-kākāpō",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22685245A129751169.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "assessor-kakapo",
+        "title": "BirdLife International · Kākāpō Red List assessment",
+        "url": "https://datazone.birdlife.org/species/factsheet/kakapo-strigops-habroptilus",
+        "note": "BirdLife is the IUCN Red List authority for birds.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-kakapo",
+        "title": "Department of Conservation · Individually monitored kākāpō",
+        "url": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/kakapo-population-reaches-new-milestone/",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-kākāpō",
+        "title": "Learn more and help · Kākāpō",
+        "url": "https://www.doc.govt.nz/our-work/kakapo-recovery/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-strigops-habroptilus",
+        "title": "Photograph · Mnolf",
+        "url": "https://commons.wikimedia.org/wiki/File:Strigops_habroptilus_1.jpg",
+        "note": "CC BY-SA 2.0; displayed as a species reference, not a local observation.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "accessed": "3 October 2026"
+      }
+    ],
+    "image": "/images/strigops-habroptilus.webp",
+    "color": "#97a276",
+    "alt": "Kākāpō photographic reference",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Kākāpō — *Strigops habroptilus*\n- ● A flightless, heavy parrot with moss-green plumage mottled in yellow and black.\n- ● An owl-like facial disc with whisker-like feathers around the bill.\n- Short wings, strong legs, and a ground-walking stance.\n- **Clips:** `Idle`, `Walk`, `Climb`.\n- **Misses:** a flying-parrot posture, or bright parrot colours.\n",
+      "diagnosticFeatures": [
+        "A flightless, heavy parrot with moss-green plumage mottled in yellow and black.",
+        "An owl-like facial disc with whisker-like feathers around the bill."
+      ],
+      "commonMisses": [
+        " a flying-parrot posture, or bright parrot colours."
+      ],
+      "reviewNote": null
+    }
+  },
+  {
+    "slug": "carnaby’s-black-cockatoo",
+    "commonName": "Carnaby’s black cockatoo",
+    "scientificName": "Zanda latirostris",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/carnabys-black-cockatoo.svg",
+    "iconAlt": "Carnaby’s black cockatoo — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/carnabys-black-cockatoo.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Dark upright crest",
+        "Large pale cheek patches and hooked bill"
+      ],
+      "commonMisses": [
+        "Losing the illustrated dark upright crest",
+        "Losing the illustrated large pale cheek patches and hooked bill"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "speckled-tortoise",
+    "commonName": "Speckled tortoise",
+    "scientificName": "Chersobius signatus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/speckled-tortoise.svg",
+    "iconAlt": "Speckled tortoise — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/speckled-tortoise.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Domed shell with pale spots",
+        "Short blunt head and clawed feet"
+      ],
+      "commonMisses": [
+        "Losing the illustrated domed shell with pale spots",
+        "Losing the illustrated short blunt head and clawed feet"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "golden-poison-frog",
+    "commonName": "Golden poison frog",
+    "scientificName": "Phyllobates terribilis",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/golden-poison-frog.svg",
+    "iconAlt": "Golden poison frog — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/golden-poison-frog.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Golden squat body and wide head",
+        "Large dark eyes with pale rims"
+      ],
+      "commonMisses": [
+        "Losing the illustrated golden squat body and wide head",
+        "Losing the illustrated large dark eyes with pale rims"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "malabar-gliding-frog",
+    "commonName": "Malabar gliding frog",
+    "scientificName": "Rhacophorus malabaricus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/malabar-gliding-frog.svg",
+    "iconAlt": "Malabar gliding frog — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/malabar-gliding-frog.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Green wide head and body",
+        "Splayed limbs with broadened webbed feet"
+      ],
+      "commonMisses": [
+        "Losing the illustrated green wide head and body",
+        "Losing the illustrated splayed limbs with broadened webbed feet"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "regent-bowerbird",
+    "commonName": "Regent bowerbird",
+    "scientificName": "Sericulus chrysocephalus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/regent-bowerbird.svg",
+    "iconAlt": "Regent bowerbird — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/regent-bowerbird.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Golden crown surrounding dark face",
+        "Black body with golden shoulders"
+      ],
+      "commonMisses": [
+        "Losing the illustrated golden crown surrounding dark face",
+        "Losing the illustrated black body with golden shoulders"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "semipalmated-sandpiper",
+    "commonName": "Semipalmated sandpiper",
+    "scientificName": "Calidris pusilla",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/semipalmated-sandpiper.svg",
+    "iconAlt": "Semipalmated sandpiper — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/semipalmated-sandpiper.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Fine straight dark bill",
+        "Mottled brown crown with pale face stripe"
+      ],
+      "commonMisses": [
+        "Losing the illustrated fine straight dark bill",
+        "Losing the illustrated mottled brown crown with pale face stripe"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "osprey",
+    "commonName": "Osprey",
+    "scientificName": "Pandion haliaetus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/osprey.svg",
+    "iconAlt": "Osprey — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/osprey.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Pale crest and crown",
+        "Dark eye mask and hooked bill"
+      ],
+      "commonMisses": [
+        "Losing the illustrated pale crest and crown",
+        "Losing the illustrated dark eye mask and hooked bill"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "red-wolf",
+    "commonName": "Red wolf",
+    "scientificName": "Canis rufus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/red-wolf.svg",
+    "iconAlt": "Red wolf — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "north-american-coastal-plain"
+    ],
+    "status": "CR",
+    "populationTrend": "decreasing",
+    "assessmentYear": 2018,
+    "assessmentPublication": "2018; errata 2020",
+    "statusSource": "https://www.iucnredlist.org/species/3747/163509841",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "This reddish-grey canid was returned to the wild in eastern North Carolina through a breeding and reintroduction programme. Its survival depends on safe habitat and reducing human-caused deaths.",
+    "primaryThreats": [
+      "Human-caused mortality",
+      "Hybridization with coyotes",
+      "Small, isolated population"
+    ],
+    "action": "Share the US Fish and Wildlife Service’s red wolf identification and coexistence guidance with your class.",
+    "actionUrl": "https://www.fws.gov/project/red-wolf-recovery-program",
+    "range": "Reintroduced wild population in eastern North Carolina",
+    "biomes": [
+      "Tropical forest",
+      "Grassland"
+    ],
+    "trendNote": "",
+    "sources": [
+      {
+        "id": "iucn-red-wolf",
+        "title": "IUCN Red List · Canis rufus · 2018; errata 2020",
+        "url": "https://www.iucnredlist.org/species/3747/163509841",
+        "note": "Global species assessment; assessed 2018. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-red-wolf",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T3747A163509841.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-red-wolf",
+        "title": "IUCN SSC Canid Specialist Group · Red wolf",
+        "url": "https://canids.org/species/view/PREKJI659751",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-red-wolf",
+        "title": "Learn more and help · Red wolf",
+        "url": "https://www.fws.gov/project/red-wolf-recovery-program",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-red-wolf",
+        "title": "Red wolf photograph · LaggedOnUser",
+        "url": "https://commons.wikimedia.org/wiki/File:Red_wolf_(4531335218).jpg",
+        "note": "CC BY-SA 2.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      }
+    ],
+    "image": "/images/red-wolf.webp",
+    "color": "#8E9D86",
+    "alt": "Red wolf photographic reference",
+    "photoCaption": "Species reference photograph; not a local sighting.",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/red-wolf.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Tall pointed ears",
+        "Grey forehead saddle over rust cheeks and pale muzzle"
+      ],
+      "commonMisses": [
+        "Losing the illustrated tall pointed ears",
+        "Losing the illustrated grey forehead saddle over rust cheeks and pale muzzle"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "saola",
+    "commonName": "Saola",
+    "scientificName": "Pseudoryx nghetinhensis",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/saola.svg",
+    "iconAlt": "Saola — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "indo-burma"
+    ],
+    "status": "CR",
+    "populationTrend": "decreasing",
+    "assessmentYear": 2016,
+    "assessmentPublication": "2016; amended 2020",
+    "statusSource": "https://www.iucnredlist.org/species/18597/166485696",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "Long, nearly parallel horns and white facial markings distinguish this elusive forest bovid of the Annamite Mountains. Saola have been photographed by camera traps in the wild, but reliable records are exceptionally scarce.",
+    "primaryThreats": [
+      "Wire snares",
+      "Forest loss",
+      "Habitat fragmentation"
+    ],
+    "action": "Make a classroom display explaining how snares set for other wildlife also threaten saola, using the Saola Working Group’s resources.",
+    "actionUrl": "https://www.savethesaola.org/",
+    "range": "Annamite Mountains of Laos and Vietnam",
+    "biomes": [
+      "Tropical forest"
+    ],
+    "trendNote": "",
+    "sources": [
+      {
+        "id": "iucn-saola",
+        "title": "IUCN Red List · Pseudoryx nghetinhensis · 2016; amended 2020",
+        "url": "https://www.iucnredlist.org/species/18597/166485696",
+        "note": "Global species assessment; assessed 2016. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-saola",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2020-1.RLTS.T18597A166485696.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-saola",
+        "title": "IUCN · Experts urge action to find saola",
+        "url": "https://iucn.org/news/species-survival-commission/202108/iucn-ssc-experts-urge-immediate-action-find-saola-its-too-late",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "camera-saola",
+        "title": "Saola Working Group · Camera-trap records",
+        "url": "https://www.savethesaola.org/zoos-worldwide-answer-call-to-help-save-asian-unicorn/",
+        "note": "Wild camera-trap photographs exist; the species is not known only from captive photographs.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-saola",
+        "title": "Learn more and help · Saola",
+        "url": "https://www.savethesaola.org/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-saola",
+        "title": "Saola photograph · The original uploader was Silviculture at Vietnamese Wikipedia.",
+        "url": "https://commons.wikimedia.org/wiki/File:Pseudoryx_nghetinhensis,_b.PNG",
+        "note": "CC BY-SA 3.0 · Resized and converted to WebP. Archival species reference photograph; not a current sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "image": "/images/saola.webp",
+    "color": "#8E9D86",
+    "alt": "Saola with long horns and white facial markings",
+    "photoCaption": "Archival species reference photograph; not a current sighting.",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Saola — *Pseudoryx nghetinhensis*\n- ● Two long, nearly straight, parallel horns sweeping back.\n- ● White markings on the face, and large scent glands on the muzzle.\n- A chocolate-brown coat.\n- **Clips:** `Idle`, `Walk`.\n- **Misses:** curved antelope horns, or a deer face.\n",
+      "diagnosticFeatures": [
+        "Two long, nearly straight, parallel horns sweeping back.",
+        "White markings on the face, and large scent glands on the muzzle."
+      ],
+      "commonMisses": [
+        " curved antelope horns, or a deer face."
+      ],
+      "reviewNote": null
+    }
+  },
+  {
+    "slug": "javan-rhinoceros",
+    "commonName": "Javan rhinoceros",
+    "scientificName": "Rhinoceros sondaicus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/javan-rhinoceros.svg",
+    "iconAlt": "Javan rhinoceros — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "sundaland"
+    ],
+    "status": "CR",
+    "populationTrend": "stable",
+    "assessmentYear": 2019,
+    "assessmentPublication": "2020",
+    "statusSource": "https://www.iucnredlist.org/species/19495/18493900",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "This forest browser has folded grey skin and a single horn in males. Its only remaining population lives in Ujung Kulon, Java, leaving the species exposed to threats concentrated in one place.",
+    "primaryThreats": [
+      "Poaching",
+      "Restricted habitat",
+      "Disease and natural disasters"
+    ],
+    "action": "Use the International Rhino Foundation’s resources to explain why rhino horn trade threatens wild populations.",
+    "actionUrl": "https://rhinos.org/about-rhinos/rhino-species/javan-rhino/",
+    "range": "Ujung Kulon National Park, western Java",
+    "biomes": [
+      "Tropical forest"
+    ],
+    "trendNote": "Stable is the trend recorded in the 2019 assessment. It is not a claim that the population is stable today.",
+    "sources": [
+      {
+        "id": "iucn-javan-rhinoceros",
+        "title": "IUCN Red List · Rhinoceros sondaicus · 2020",
+        "url": "https://www.iucnredlist.org/species/19495/18493900",
+        "note": "Global species assessment; assessed 2019. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-javan-rhinoceros",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2020-2.RLTS.T19495A18493900.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-javan-rhinoceros",
+        "title": "International Rhino Foundation · Javan rhinoceros",
+        "url": "https://rhinos.org/about-rhinos/rhino-species/javan-rhino/",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-javan-rhinoceros",
+        "title": "Learn more and help · Javan rhinoceros",
+        "url": "https://rhinos.org/about-rhinos/rhino-species/javan-rhino/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-javan-rhinoceros",
+        "title": "Javan rhinoceros photograph · T.Dixon. The Zoological Society of London",
+        "url": "https://commons.wikimedia.org/wiki/File:Rhinoceros_sondaicus_in_London_Zoo.jpg",
+        "note": "Public domain · Resized and converted to WebP. Historical zoo photograph; this is not a current wild sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      }
+    ],
+    "image": "/images/javan-rhinoceros.webp",
+    "color": "#8E9D86",
+    "alt": "Historical photograph of a Javan rhinoceros at London Zoo",
+    "photoCaption": "Historical zoo photograph; this is not a current wild sighting.",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Javan rhinoceros — *Rhinoceros sondaicus*\n- ● One horn. It is small in males, and females may have only a knob.\n- ● Deep skin folds that look like armour plates, with a mosaic, scale-like skin texture.\n- A pointed, prehensile upper lip. Grey.\n- **Clips:** `Idle`, `Walk`.\n- **Misses:** two horns, or the large raised bumps (tubercles) of the Indian rhino.\n",
+      "diagnosticFeatures": [
+        "One horn. It is small in males, and females may have only a knob.",
+        "Deep skin folds that look like armour plates, with a mosaic, scale-like skin texture."
+      ],
+      "commonMisses": [
+        " two horns, or the large raised bumps (tubercles) of the Indian rhino."
+      ],
+      "reviewNote": null
+    }
+  },
+  {
+    "slug": "philippine-eagle",
+    "commonName": "Philippine eagle",
+    "scientificName": "Pithecophaga jefferyi",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/philippine-eagle.svg",
+    "iconAlt": "Philippine eagle — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "philippines"
+    ],
+    "status": "CR",
+    "populationTrend": "decreasing",
+    "assessmentYear": 2025,
+    "assessmentPublication": "2025",
+    "statusSource": "https://www.iucnredlist.org/species/22696012/273773083",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "A shaggy crest and a deep, hooked bill distinguish this forest eagle. Found only in the Philippines, it depends on large forest territories that are increasingly broken apart.",
+    "primaryThreats": [
+      "Deforestation",
+      "Hunting",
+      "Habitat fragmentation"
+    ],
+    "action": "Use Philippine Eagle Foundation learning resources to explain how protecting an eagle also protects its forest.",
+    "actionUrl": "https://www.philippineeaglefoundation.org/education",
+    "range": "Forests of the Philippines",
+    "biomes": [
+      "Tropical forest"
+    ],
+    "trendNote": "",
+    "sources": [
+      {
+        "id": "iucn-philippine-eagle",
+        "title": "IUCN Red List · Pithecophaga jefferyi · 2025",
+        "url": "https://www.iucnredlist.org/species/22696012/273773083",
+        "note": "Global species assessment; assessed 2025. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-philippine-eagle",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T22696012A273773083.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-philippine-eagle",
+        "title": "BirdLife International · Philippine eagle",
+        "url": "https://datazone.birdlife.org/species/factsheet/philippine-eagle-pithecophaga-jefferyi",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-philippine-eagle",
+        "title": "Learn more and help · Philippine eagle",
+        "url": "https://www.philippineeaglefoundation.org/education",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-philippine-eagle",
+        "title": "Philippine eagle photograph · Aimee Valencia",
+        "url": "https://commons.wikimedia.org/wiki/File:Pamarayeg_IIIx2_(cropped).jpg",
+        "note": "CC BY 4.0 · Resized and converted to WebP. Pamarayeg III, a young Philippine eagle.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "image": "/images/philippine-eagle.webp",
+    "color": "#8E9D86",
+    "alt": "Young Philippine eagle Pamarayeg III perched in a tree",
+    "photoCaption": "Pamarayeg III, a young Philippine eagle.",
+    "fidelity": {
+      "needsReview": false,
+      "scale": null,
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Philippine eagle — *Pithecophaga jefferyi*\n- ● A shaggy crest of long brown and cream feathers.\n- ● A deep, high-arched, blue-grey bill, and blue-grey eyes.\n- White underparts, brown back, large yellow feet.\n- **Clips:** `Perch`, `Fly`, `Glide`.\n- **Misses:** a smooth head, or a yellow bill.\n",
+      "diagnosticFeatures": [
+        "A shaggy crest of long brown and cream feathers.",
+        "A deep, high-arched, blue-grey bill, and blue-grey eyes."
+      ],
+      "commonMisses": [
+        " a smooth head, or a yellow bill."
+      ],
+      "reviewNote": null
+    }
+  },
+  {
+    "slug": "ethiopian-wolf",
+    "commonName": "Ethiopian wolf",
+    "scientificName": "Canis simensis",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/ethiopian-wolf.svg",
+    "iconAlt": "Ethiopian wolf — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "eastern-afromontane"
+    ],
+    "status": "EN",
+    "populationTrend": "decreasing",
+    "assessmentYear": 2011,
+    "assessmentPublication": "2011",
+    "statusSource": "https://www.iucnredlist.org/species/3748/10051312",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "This slender, russet wolf hunts rodents in Ethiopia’s high mountain grasslands. Disease prevention and protection of remaining Afroalpine habitat are central to its conservation.",
+    "primaryThreats": [
+      "Habitat conversion",
+      "Rabies",
+      "Canine distemper"
+    ],
+    "action": "Share how the Ethiopian Wolf Conservation Programme vaccinates dogs and wolves to reduce disease transmission.",
+    "actionUrl": "https://www.ethiopianwolf.org/projects/one-health",
+    "range": "Afroalpine highlands of Ethiopia",
+    "biomes": [
+      "Alpine",
+      "Grassland"
+    ],
+    "trendNote": "",
+    "sources": [
+      {
+        "id": "iucn-ethiopian-wolf",
+        "title": "IUCN Red List · Canis simensis · 2011",
+        "url": "https://www.iucnredlist.org/species/3748/10051312",
+        "note": "Global species assessment; assessed 2011. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-ethiopian-wolf",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2011-1.RLTS.T3748A10051312.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-ethiopian-wolf",
+        "title": "IUCN SSC Canid Specialist Group · Ethiopian wolf",
+        "url": "https://www.canids.org/species/view/PREKNL433181",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-ethiopian-wolf",
+        "title": "Learn more and help · Ethiopian wolf",
+        "url": "https://www.ethiopianwolf.org/projects/one-health",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-ethiopian-wolf",
+        "title": "Ethiopian wolf photograph · Charles J. Sharp",
+        "url": "https://commons.wikimedia.org/wiki/File:Ethiopian_wolf_(Canis_simensis_citernii).jpg",
+        "note": "CC BY-SA 4.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "image": "/images/ethiopian-wolf.webp",
+    "color": "#8E9D86",
+    "alt": "Ethiopian wolf photographic reference",
+    "photoCaption": "Species reference photograph; not a local sighting.",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/ethiopian-wolf.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Long narrow muzzle and large pointed ears",
+        "Rust face bordered by cream cheeks and throat"
+      ],
+      "commonMisses": [
+        "Losing the illustrated long narrow muzzle and large pointed ears",
+        "Losing the illustrated rust face bordered by cream cheeks and throat"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "iberian-lynx",
+    "commonName": "Iberian lynx",
+    "scientificName": "Lynx pardinus",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/iberian-lynx.svg",
+    "iconAlt": "Iberian lynx — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "mediterranean-basin"
+    ],
+    "status": "VU",
+    "populationTrend": "increasing",
+    "assessmentYear": 2023,
+    "assessmentPublication": "2024",
+    "statusSource": "https://www.iucnredlist.org/species/12520/218695618",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "Ear tufts and a spotted coat mark this rabbit specialist of Spain and Portugal. Habitat work, prey recovery and reintroductions helped it move from Critically endangered through Endangered to Vulnerable.",
+    "primaryThreats": [
+      "Loss of rabbit prey",
+      "Road collisions",
+      "Poaching",
+      "Climate-driven habitat change"
+    ],
+    "action": "Create a class case study of how habitat restoration, rabbit recovery and wildlife crossings support lynx recovery.",
+    "actionUrl": "https://iucn.org/press-release/202406/iberian-lynx-rebounding-thanks-conservation-action-iucn-red-list",
+    "range": "Mediterranean landscapes of Spain and Portugal",
+    "biomes": [
+      "Grassland"
+    ],
+    "trendNote": "",
+    "sources": [
+      {
+        "id": "iucn-iberian-lynx",
+        "title": "IUCN Red List · Lynx pardinus · 2024",
+        "url": "https://www.iucnredlist.org/species/12520/218695618",
+        "note": "Global species assessment; assessed 2023. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-iberian-lynx",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2024-1.RLTS.T12520A218695618.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "recovery-iberian-lynx",
+        "title": "IUCN · Iberian lynx recovery",
+        "url": "https://iucn.org/press-release/202406/iberian-lynx-rebounding-thanks-conservation-action-iucn-red-list",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-iberian-lynx",
+        "title": "Learn more and help · Iberian lynx",
+        "url": "https://iucn.org/press-release/202406/iberian-lynx-rebounding-thanks-conservation-action-iucn-red-list",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-iberian-lynx",
+        "title": "Iberian lynx photograph · Diego Delso",
+        "url": "https://commons.wikimedia.org/wiki/File:Lince_ib%C3%A9rico_(Lynx_pardinus),_Almuradiel,_Ciudad_Real,_Espa%C3%B1a,_2021-12-19,_DD_07.jpg",
+        "note": "CC BY-SA 4.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      }
+    ],
+    "image": "/images/iberian-lynx.webp",
+    "color": "#8E9D86",
+    "alt": "Iberian lynx photographic reference",
+    "photoCaption": "Species reference photograph; not a local sighting.",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/iberian-lynx.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Long black ear tufts",
+        "Spotted head and flared cheek ruff"
+      ],
+      "commonMisses": [
+        "Losing the illustrated long black ear tufts",
+        "Losing the illustrated spotted head and flared cheek ruff"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "hirola",
+    "commonName": "Hirola",
+    "scientificName": "Beatragus hunteri",
+    "kind": "animal",
+    "file": null,
+    "hasAnimation": false,
+    "hasLOD": false,
+    "icon": "/icons/species/hirola.svg",
+    "iconAlt": "Hirola — flat atlas portrait",
+    "iconCredit": "Earthbound original vector illustration",
+    "hotspots": [
+      "coastal-forests-of-eastern-africa"
+    ],
+    "status": "CR",
+    "populationTrend": "decreasing",
+    "assessmentYear": 2016,
+    "assessmentPublication": "2017",
+    "statusSource": "https://www.iucnredlist.org/species/6234/50185297",
+    "statusProvider": "IUCN Red List",
+    "reviewedAt": "2026-10-13",
+    "description": "Pale eye markings and curved horns distinguish this antelope of open grasslands in eastern Kenya and southern Somalia. Community-led work restores the grassland it needs; the hotspot link describes the wider coastal region, not a forest habitat.",
+    "primaryThreats": [
+      "Grassland loss and woody encroachment",
+      "Drought",
+      "Poaching",
+      "Disease"
+    ],
+    "action": "Use the Hirola Conservation Programme’s reports to explain how restoring grassland helps both wildlife and local livelihoods.",
+    "actionUrl": "https://www.hirolaconservation.org/",
+    "range": "Open grasslands of eastern Kenya and southern Somalia",
+    "biomes": [
+      "Grassland"
+    ],
+    "trendNote": "",
+    "sources": [
+      {
+        "id": "iucn-hirola",
+        "title": "IUCN Red List · Beatragus hunteri · 2017",
+        "url": "https://www.iucnredlist.org/species/6234/50185297",
+        "note": "Global species assessment; assessed 2016. The population trend belongs to this dated assessment, not a live count.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "iucn-doi-hirola",
+        "title": "IUCN assessment DOI",
+        "url": "https://doi.org/10.2305/IUCN.UK.2017-2.RLTS.T6234A50185297.en",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "ecology-hirola",
+        "title": "Hirola Conservation Programme · Annual report 2023–2024",
+        "url": "https://www.hirolaconservation.org/wp-content/files/hcp-Annual-Report-2023_2024.pdf",
+        "note": "",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "action-hirola",
+        "title": "Learn more and help · Hirola",
+        "url": "https://www.hirolaconservation.org/",
+        "note": "Student action is an editorial suggestion based on this conservation programme.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "photo-hirola",
+        "title": "Hirola photograph · Jan Ebr",
+        "url": "https://commons.wikimedia.org/wiki/File:Beatragus_hunteri_176040791.jpg",
+        "note": "CC BY 4.0 · Resized and converted to WebP. Species reference photograph; not a local sighting.",
+        "accessed": "2026-10-13",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "image": "/images/hirola.webp",
+    "color": "#8E9D86",
+    "alt": "Hirola photographic reference",
+    "photoCaption": "Species reference photograph; not a local sighting.",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": "/icons/species/hirola.svg",
+      "specification": null,
+      "diagnosticFeatures": [
+        "Two curved ridged horns",
+        "Pale eye rings joined by a pale bridge"
+      ],
+      "commonMisses": [
+        "Losing the illustrated two curved ridged horns",
+        "Losing the illustrated pale eye rings joined by a pale bridge"
+      ],
+      "reviewNote": "Draft from the existing illustration; anatomy and scale require human review."
+    }
+  },
+  {
+    "slug": "red-fox",
+    "commonName": "Red fox",
+    "scientificName": "Vulpes vulpes",
+    "kind": "animal",
+    "file": "/models/animals/red-fox.glb",
+    "hasAnimation": true,
+    "hasLOD": true,
+    "icon": "/icons/species/red-fox.svg",
+    "illustrationFile": "/icons/species/red-fox.svg",
+    "fallbackFile": "/images/species/red-fox.png",
+    "iconAlt": "Red fox — original illustration",
+    "model": {
+      "status": "ready",
+      "file": "/models/animals/red-fox.glb",
+      "mobileFile": "/models/animals/red-fox.mobile.glb",
+      "clips": [
+        "Idle",
+        "Walk",
+        "Trot",
+        "Run"
+      ],
+      "credit": {
+        "creator": "Alexei Ostapenko",
+        "creatorUrl": "https://sketchfab.com/alexanders823",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+        "sourceUrl": "https://sketchfab.com/3d-models/fox-4e37c303f8a241aaa2511bd9f3019273",
+        "changes": "Adapted for Earthbound in Blender: standing bind pose, extended white-tipped tail, smooth surface, new in-place Idle, Walk, Trot and Run clips, compressed desktop and mobile exports. Original mesh, textures and skin weights by Alexei Ostapenko; source conversion distributed by AiZity.",
+        "animationNote": "Adapted for Earthbound · Illustrative animations, not motion capture"
+      }
+    },
+    "iucn": "LC",
+    "populationTrend": null,
+    "size": "Head and body 45–90 cm · tail 30–55 cm · 3–14 kg",
+    "exhibit": {
+      "habitat": "Forest, tundra, prairie, desert and farmland from sea level to 4,500 m — and, more and more, towns. In New Jersey it hunts lawns, parks and golf courses that border wild ground.",
+      "diet": "Mostly rodents — in New Jersey, meadow voles make up about half of what it eats for much of the year — plus rabbits, birds and eggs, insects, berries, carrion and garbage. Extra food is buried in caches and dug up later.",
+      "distribution": "Across the Northern Hemisphere, from the Arctic Circle to Central America, central Asia and North Africa. People introduced it to Australia and the Falkland Islands.",
+      "facts": [
+        "In a Czech study of nearly 600 mouse-hunting pounces, foxes leaping roughly north-east caught their prey 73% of the time, against 18% in most other directions. One idea is that they sense Earth's magnetic field. It is still unproven."
+      ],
+      "sources": [
+        {
+          "id": "fox-adw",
+          "title": "Animal Diversity Web — Vulpes vulpes",
+          "url": "https://animaldiversity.org/accounts/Vulpes_vulpes/",
+          "accessed": "2026-10-16"
+        },
+        {
+          "id": "fox-nj",
+          "title": "NJ Division of Fish & Wildlife — Coyote and Fox",
+          "url": "https://dep.nj.gov/njfw/hunting/coyote-and-fox/",
+          "accessed": "2026-10-16"
+        },
+        {
+          "id": "fox-pounce",
+          "title": "Červený et al. (2011) — Directional preference may enhance hunting accuracy in foraging foxes",
+          "url": "https://doi.org/10.1098/rsbl.2010.1145",
+          "accessed": "2026-10-16"
+        }
+      ]
+    },
+    "fidelity": {
+      "needsReview": false,
+      "scale": {
+        "totalLength": 1.05,
+        "acceptedLengthM": [
+          0.75,
+          1.45
+        ],
+        "measurement": "Nose to tail tip, neutral extended pose"
+      },
+      "reference": "content/animals/earthbound-species-fidelity.md",
+      "specification": "Red fox — *Vulpes vulpes* (pilot)\n\n- **Scale:** head and body 0.45–0.90 m (target 0.65), tail 0.30–0.55 m (target 0.40), weight 3–14 kg. The tail can reach about 70% of head-and-body length. Nose to tail tip is about 1.0–1.1 m for a New Jersey adult. The validator measures this length: target 1.05 m, with anything from 0.75 to 1.45 m accepted.\n- **Build:** slender, deep-chested, long-legged; the elbow sits about halfway up the leg. Narrow skull, long narrow muzzle. Small, compact, oval paws, and it walks on its toes.\n- ● **Ears:** tall and pointed. Backs are black and insides white-furred.\n- ● **Eyes:** amber, slanted, with vertical slit pupils.\n- ● **Muzzle:** black nose and lip line, white upper lip and cheeks.\n- ● **Bib:** white chin, throat and chest. The belly is white to ash-grey.\n- ● **Legs:** black \"stockings\" on the lower legs, highest on the front of the forelegs. Hind legs are black from the hock down.\n- ● **Tail tip:** white. A black tip reads as a grey fox.\n- **Details that sell it:** a grizzled back saddle (guard hairs with pale tips), a dark spot on top of the tail near its base (the supracaudal gland), stiff carpal whiskers at the back of each wrist, and mystacial whiskers.\n- **Fur flow:** nose → tail along the back, downward on the flanks and legs, back and out on the cheek ruff. Alpha-tested fur cards on the silhouette (ruff, chest, belly, tail) over a textured body.\n- **Clips:**\n  - `Idle`: breathing, ears swivelling independently, tail hanging low.\n  - `Walk`\n  - `Trot`: the main travelling gait. The back stays level and the head low. The hind paw lands in the fore print, so the trail is nearly straight.\n  - `Run`: a gallop, with the tail streamed out for balance.\n  - `Sit`: haunches down, forelegs straight, tail around the feet.\n  - `Pounce`: freeze, ears forward, head tilted to listen, crouch, a high arcing leap, and the forepaws driving straight down. It plays once and returns to `Idle`.\n- **Common misses:**\n  - Small-dog proportions.\n  - Round pupils.\n  - Orange legs with black only on the paws.\n  - A tail that is a smooth cone or a thin cat tail.\n  - A bouncy dog walk, or a wagging tail.\n\n---\n\nThe entries below cover species already on the site. Sizes are approximate and need checking against a source before they go into `fidelity.scale`.\n",
+      "diagnosticFeatures": [
+        "**Ears:** tall and pointed. Backs are black and insides white-furred.",
+        "**Eyes:** amber, slanted, with vertical slit pupils.",
+        "**Muzzle:** black nose and lip line, white upper lip and cheeks.",
+        "**Bib:** white chin, throat and chest. The belly is white to ash-grey.",
+        "**Legs:** black \"stockings\" on the lower legs, highest on the front of the forelegs. Hind legs are black from the hock down.",
+        "**Tail tip:** white. A black tip reads as a grey fox."
+      ],
+      "commonMisses": [
+        ""
+      ],
+      "reviewNote": null
+    },
+    "iconCredit": "Illustration supplied for Earthbound",
+    "illustrationFallback": "/images/species/red-fox.png",
+    "creator": "Alexei Ostapenko",
+    "creatorUrl": "https://sketchfab.com/alexanders823",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "sourceUrl": "https://sketchfab.com/3d-models/fox-4e37c303f8a241aaa2511bd9f3019273",
+    "changes": "Adapted for Earthbound in Blender: standing bind pose, extended white-tipped tail, smooth surface, new in-place Idle, Walk, Trot and Run clips, compressed desktop and mobile exports. Original mesh, textures and skin weights by Alexei Ostapenko; source conversion distributed by AiZity.",
+    "animationNote": "Adapted for Earthbound · Illustrative animations, not motion capture"
+  },
+  {
+    "slug": "humpback-whale",
+    "commonName": "Humpback whale",
+    "scientificName": "Megaptera novaeangliae",
+    "aliases": [
+      "humpback-whale"
+    ],
+    "illustration": null,
+    "illustrationAlt": "Humpback whale",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/humpback-whale.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "New York Bight and, at times, harbor waters. Gotham Whale documents returning individuals; a profile is not a current sighting.",
+    "status": "Marine Mammal Protection Act",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "Baleen plates strain small prey from water. Long flippers and distinct tail markings help researchers recognize individuals."
+    ],
+    "threats": [
+      "Vessel strikes",
+      "Fishing-gear entanglement"
+    ],
+    "action": "Observe at a distance and report marine wildlife to Gotham Whale.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "whale-season",
+        "title": "NYSDEC · New York Bight whale monitoring",
+        "url": "https://dec.ny.gov/nature/waterbodies/oceans-estuaries/bight-whale-monitoring-program",
+        "note": "2017–2020 aerial surveys found humpbacks in every calendar month, with highest sighting rates in summer.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "gotham",
+        "title": "Gotham Whale · Research and sighting reports",
+        "url": "https://gothamwhale.org/about",
+        "note": "New York City humpback catalog and community observations.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "humpback",
+        "title": "NOAA Fisheries · Humpback whale",
+        "url": "https://www.fisheries.noaa.gov/species/humpback-whale",
+        "note": "",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-humpback-whale",
+        "title": "Humpback whale · NOAA",
+        "url": "https://commons.wikimedia.org/wiki/File:Humpback_whale_noaa.jpg",
+        "note": "Breaching humpback; location not specified in source. Not a local sighting. 2002-03-24 (EXIF) · Public domain, NOAA",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Humpback_whale_noaa.jpg#Licensing"
+      }
+    ],
+    "kind": "animal",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": null,
+      "specification": null,
+      "diagnosticFeatures": [],
+      "commonMisses": [],
+      "reviewNote": "No original illustration exists for this local photo-only record. Diagnostic features require a supplied illustration and review; no anatomy or scale was inferred."
+    }
+  },
+  {
+    "slug": "harbor-seal",
+    "commonName": "Harbor seal",
+    "scientificName": "Phoca vitulina",
+    "aliases": [
+      "harbor-seal"
+    ],
+    "illustration": null,
+    "illustrationAlt": "Harbor seal",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/harbor-seal.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Coastal New York and New Jersey; a regional winter and spring visitor.",
+    "status": "Marine Mammal Protection Act",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "A rounded head and spotted coat help distinguish this true seal. Resting on shore is normal behavior."
+    ],
+    "threats": [
+      "Disturbance at resting sites",
+      "Entanglement"
+    ],
+    "action": "Watch from a distance; keep pets away and never feed or approach a resting seal.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "seals",
+        "title": "NYSDEC · Seal season, 7 April 2025",
+        "url": "https://dec.ny.gov/news/press-releases/2025/4/dec-reminds-new-yorkers-to-avoid-close-encounters-with-seals",
+        "note": "Regional season: November–May; usual peak March–May. Not a park-specific forecast.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "harbor-seal",
+        "title": "NOAA Fisheries · Harbor seal",
+        "url": "https://www.fisheries.noaa.gov/species/harbor-seal",
+        "note": "",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-harbor-seal",
+        "title": "Harbor seal · Laura Wolf (lwolfartist)",
+        "url": "https://commons.wikimedia.org/wiki/File:Harbor_seal_Barnegat_Lighthouse_SP_3.5.22_DSC_6378.jpg",
+        "note": "Harbor seal in water at Barnegat Lighthouse State Park, New Jersey. Animal is small in frame; use focused crop. 2022-03-05 · CC BY 2.0",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    ],
+    "kind": "animal",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": null,
+      "specification": null,
+      "diagnosticFeatures": [],
+      "commonMisses": [],
+      "reviewNote": "No original illustration exists for this local photo-only record. Diagnostic features require a supplied illustration and review; no anatomy or scale was inferred."
+    }
+  },
+  {
+    "slug": "gray-seal",
+    "commonName": "Gray seal",
+    "scientificName": "Halichoerus grypus",
+    "aliases": [
+      "gray-seal"
+    ],
+    "illustration": null,
+    "illustrationAlt": "Gray seal",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/gray-seal.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "North Atlantic coasts, including regional New York waters in the colder months.",
+    "status": "Marine Mammal Protection Act",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "A longer muzzle helps distinguish gray seals from harbor seals. Both use shorelines to rest."
+    ],
+    "threats": [
+      "Disturbance",
+      "Entanglement"
+    ],
+    "action": "Give hauled-out seals room to rest and let trained responders assess animals in distress.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "seals",
+        "title": "NYSDEC · Seal season, 7 April 2025",
+        "url": "https://dec.ny.gov/news/press-releases/2025/4/dec-reminds-new-yorkers-to-avoid-close-encounters-with-seals",
+        "note": "Regional season: November–May; usual peak March–May. Not a park-specific forecast.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "gray-seal",
+        "title": "NOAA Fisheries · Gray seal",
+        "url": "https://www.fisheries.noaa.gov/species/gray-seal",
+        "note": "",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-gray-seal",
+        "title": "Gray seal · Arild Vågen",
+        "url": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_June_2014_01.jpg",
+        "note": "Gray seal resting on rock in Stockholm archipelago, Sweden. Animal at 68% horizontal / 61% vertical. Not a local sighting. 2014-06-01 · CC BY-SA 3.0",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ],
+    "kind": "animal",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": null,
+      "specification": null,
+      "diagnosticFeatures": [],
+      "commonMisses": [],
+      "reviewNote": "No original illustration exists for this local photo-only record. Diagnostic features require a supplied illustration and review; no anatomy or scale was inferred."
+    }
+  },
+  {
+    "slug": "atlantic-sturgeon",
+    "commonName": "Atlantic sturgeon",
+    "scientificName": "Acipenser oxyrinchus oxyrinchus",
+    "aliases": [
+      "atlantic-sturgeon"
+    ],
+    "illustration": null,
+    "illustrationAlt": "Atlantic sturgeon",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/atlantic-sturgeon.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "The Hudson River belongs to the New York Bight distinct population segment. These fish move between rivers and coastal waters.",
+    "status": "ESA Endangered · New York Bight population",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "Rows of bony plates armor the body. Adults return to rivers to spawn; the mouth is on the underside."
+    ],
+    "threats": [
+      "Bycatch",
+      "Vessel strikes",
+      "Habitat alteration"
+    ],
+    "action": "Support clean-water projects and report unusual or stranded fish to the responsible wildlife agency.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "atlantic-sturgeon",
+        "title": "NOAA Fisheries · Atlantic sturgeon",
+        "url": "https://www.fisheries.noaa.gov/species/atlantic-sturgeon",
+        "note": "New York Bight distinct population segment: federally endangered. This is an ESA designation, not a global IUCN category.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-atlantic-sturgeon",
+        "title": "Atlantic sturgeon · U.S. Fish and Wildlife Service Northeast Region",
+        "url": "https://commons.wikimedia.org/wiki/File:Atlantic_Sturgeon_(5954411380).jpg",
+        "note": "Atlantic sturgeon held by researcher at Northeast Fishery Center, part of captive broodstock project. 2011-07-12 · Public domain USFWS; also CC BY 2.0",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    ],
+    "kind": "animal",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": null,
+      "specification": null,
+      "diagnosticFeatures": [],
+      "commonMisses": [],
+      "reviewNote": "No original illustration exists for this local photo-only record. Diagnostic features require a supplied illustration and review; no anatomy or scale was inferred."
+    }
+  },
+  {
+    "slug": "shortnose-sturgeon",
+    "commonName": "Shortnose sturgeon",
+    "scientificName": "Acipenser brevirostrum",
+    "aliases": [
+      "shortnose-sturgeon"
+    ],
+    "illustration": null,
+    "illustrationAlt": "Shortnose sturgeon",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/shortnose-sturgeon.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "The Hudson is one of the rivers supporting this protected species.",
+    "status": "ESA Endangered",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "A bottom-feeding fish with bony plates and a short snout. Most of its life is spent in rivers and estuaries."
+    ],
+    "threats": [
+      "Dams",
+      "Bycatch",
+      "Poor water quality"
+    ],
+    "action": "Learn the identification differences and leave protected fish undisturbed.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "shortnose-sturgeon",
+        "title": "NOAA Fisheries · Shortnose sturgeon",
+        "url": "https://www.fisheries.noaa.gov/species/shortnose-sturgeon",
+        "note": "Federally endangered; occurs in the Hudson River.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-shortnose-sturgeon",
+        "title": "Shortnose sturgeon · Cody Meshes / U.S. Fish and Wildlife Service",
+        "url": "https://commons.wikimedia.org/wiki/File:Shortnose_Sturgeon_(5543935423).jpg",
+        "note": "Multiple shortnose sturgeon viewed through water; location not specified. 2010-10-13 · Public domain USFWS; also CC BY 2.0",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    ],
+    "kind": "animal",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": null,
+      "specification": null,
+      "diagnosticFeatures": [],
+      "commonMisses": [],
+      "reviewNote": "No original illustration exists for this local photo-only record. Diagnostic features require a supplied illustration and review; no anatomy or scale was inferred."
+    }
+  },
+  {
+    "slug": "american-eel",
+    "commonName": "American eel",
+    "scientificName": "Anguilla rostrata",
+    "aliases": [
+      "american-eel"
+    ],
+    "illustration": null,
+    "illustrationAlt": "American eel",
+    "illustrationCredit": null,
+    "photo": "/images/jersey-city/american-eel.webp",
+    "habitat": null,
+    "diet": null,
+    "distribution": "Fresh, brackish, and coastal waters connect its life cycle to the Atlantic.",
+    "status": "IUCN Endangered · cached GBIF",
+    "statusProvider": "Local protection context",
+    "assessmentYear": null,
+    "dataAsOf": null,
+    "facts": [
+      "A long-bodied fish whose migration links inland waters and the ocean. The image is a USFWS scientific illustration."
+    ],
+    "threats": [
+      "Barriers to migration",
+      "Habitat loss"
+    ],
+    "action": "Support stream connectivity and local water-quality stewardship.",
+    "regions": [],
+    "sources": [
+      {
+        "id": "eel-ecology",
+        "title": "NYSDEC · American eel",
+        "url": "https://dec.ny.gov/sites/default/files/2024-08/americaneel.pdf",
+        "note": "",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "eel-status",
+        "title": "GBIF · Cached American eel IUCN category",
+        "url": "https://api.gbif.org/v1/species/5212956/iucnRedListCategory",
+        "note": "Endangered (EN), retrieved 21 September 2026. Retrieval date is not the assessment date.",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-american-eel",
+        "title": "American eel (illustration) · U.S. Fish and Wildlife Service",
+        "url": "https://commons.wikimedia.org/wiki/File:American_eel.jpg",
+        "note": "Scientific illustration, not photograph. Do not represent as a photo. 2016-01-01 (source metadata) · Public domain USFWS",
+        "accessed": "2026-09-21",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:American_eel.jpg#Licensing"
+      }
+    ],
+    "kind": "animal",
+    "fidelity": {
+      "needsReview": true,
+      "scale": null,
+      "reference": null,
+      "specification": null,
+      "diagnosticFeatures": [],
+      "commonMisses": [],
+      "reviewNote": "No original illustration exists for this local photo-only record. Diagnostic features require a supplied illustration and review; no anatomy or scale was inferred."
+    }
+  }
+]

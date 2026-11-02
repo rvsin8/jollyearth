@@ -1,0 +1,99 @@
+[
+  {
+    "species": "quercus bicolor",
+    "path": "/workspace/scratch/plant-assets/quercus-bicolor.jpg",
+    "creator": "Bruce Kirchoff",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0/legalcode",
+    "source_url": "https://plants.ces.ncsu.edu/plants/quercus-bicolor/",
+    "image_url": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/20161674321_953c7497_6wUiipJQkZIe.jpeg",
+    "caption": "Form",
+    "alt": "Small form",
+    "bytes": 971369
+  },
+  {
+    "species": "amelanchier canadensis",
+    "path": "/workspace/scratch/plant-assets/amelanchier-canadensis.jpg",
+    "creator": "Cathy Dewitt",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "source_url": "https://plants.ces.ncsu.edu/plants/amelanchier-canadensis/",
+    "image_url": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Amelanchier-canadens_13pjiQK7MncE.jpeg",
+    "caption": "Flowers",
+    "alt": "Flowers",
+    "bytes": 799434
+  },
+  {
+    "species": "amelanchier canadensis",
+    "path": "/workspace/scratch/plant-assets/amelanchier-canadensis-winter.jpg",
+    "creator": "Daderot",
+    "license": "Public Domain Mark 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source_url": "https://plants.ces.ncsu.edu/plants/amelanchier-canadensis/",
+    "image_url": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Amelanchier_canadens_DMXKipvphKx7.jpg",
+    "caption": "Winter form",
+    "alt": "Winter form",
+    "bytes": 1083034
+  },
+  {
+    "species": "itea virginica",
+    "path": "/workspace/scratch/plant-assets/itea-virginica.jpg",
+    "creator": "Chris Alberti",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "source_url": "https://plants.ces.ncsu.edu/plants/itea-virginica/",
+    "image_url": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Itea_virginica_Littl_I8xqAbjwYWsQ.jpeg",
+    "caption": "Form - Planted on a slope among clover.",
+    "alt": "Form - Planted on a slope among clover May, Southern Wake County",
+    "bytes": 896690,
+    "taxon_note": "Source labels Itea virginica; image filename suggests Little Henry cultivar. Prefer itea-virginica-flowers.jpg for straight-species presentation."
+  },
+  {
+    "species": "itea virginica",
+    "path": "/workspace/scratch/plant-assets/itea-virginica-flowers.jpg",
+    "creator": "Cathy DeWitt",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "source_url": "https://plants.ces.ncsu.edu/plants/itea-virginica/",
+    "image_url": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Itea-virginica-Virgi_exQL7SKKWzJy.jpeg",
+    "caption": "Flowers - May - Halifax Co., NC",
+    "alt": "Flowers - May - Halifax Co., NC",
+    "bytes": 578531
+  },
+  {
+    "species": "panicum virgatum",
+    "path": "/workspace/scratch/plant-assets/panicum-virgatum.jpg",
+    "creator": "Forest and Kim Starr",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
+    "source_url": "https://plants.ces.ncsu.edu/plants/panicum-virgatum/",
+    "image_url": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Panicum-virgatum--Forest-and-Kim-Starr--CC-BY.jpg",
+    "caption": "Form",
+    "alt": "Panicum virgatum",
+    "bytes": 407556
+  },
+  {
+    "species": "osmundastrum cinnamomeum",
+    "path": "/workspace/scratch/plant-assets/osmundastrum-cinnamomeum.jpg",
+    "creator": "desultrix",
+    "license": "CC-BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source_url": "https://plants.ces.ncsu.edu/plants/osmundastrum-cinnamomeum/",
+    "image_url": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Osmunda-cinnamomea--desultrix--CC-BY-SA.jpg",
+    "caption": "Osmundastrum cinnamomeum. Form",
+    "alt": "Form",
+    "bytes": 388789
+  },
+  {
+    "species": "asclepias incarnata",
+    "path": "/workspace/scratch/plant-assets/asclepias-incarnata.jpg",
+    "creator": "Joshua Mayer",
+    "license": "CC-BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "source_url": "https://plants.ces.ncsu.edu/plants/asclepias-incarnata/",
+    "image_url": "https://eit-planttoolbox-prod.s3.amazonaws.com/media/images/Asclepias-incarnata--Joshua-Mayer--CC-BY-SA.jpg",
+    "caption": "Close up of flower",
+    "alt": "Close up of flower",
+    "bytes": 186850
+  }
+]

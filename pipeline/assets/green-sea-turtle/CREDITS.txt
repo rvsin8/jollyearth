@@ -1,0 +1,3 @@
+Original Earthbound green sea turtle (Chelonia mydas)
+CC0-1.0. Original geometry, UV textures, rig and animations.
+NOAA photographs and anatomical diagrams used only as visual morphology references. No external model or texture is included.

@@ -1,0 +1,269 @@
+{
+  "tomato-frog": {
+    "foods": [
+      "Invertebrates"
+    ],
+    "range": [
+      0,
+      200
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Dyscophus_antongilii/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "great-hornbill": {
+    "foods": [
+      "Fruit",
+      "Invertebrates"
+    ],
+    "range": [
+      600,
+      2000
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Buceros_bicornis/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "tamarin": {
+    "foods": [
+      "Fruit",
+      "Invertebrates"
+    ],
+    "range": null,
+    "habitat": "Forest canopy; 10–30 m above ground, not elevation",
+    "source": "https://animaldiversity.org/accounts/Leontopithecus_rosalia/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "gopher-tortoise": {
+    "foods": [
+      "Grasses",
+      "Leaves"
+    ],
+    "range": [
+      0,
+      200
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Gopherus_polyphemus/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "day-gecko": {
+    "foods": [
+      "Invertebrates",
+      "Fruit",
+      "Nectar"
+    ],
+    "range": [
+      40,
+      320
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Phelsuma_madagascariensis/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "chameleon": {
+    "foods": [
+      "Invertebrates"
+    ],
+    "range": null,
+    "habitat": "Lowland forest",
+    "source": "https://animaldiversity.org/accounts/Furcifer_pardalis/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "bee-eater": {
+    "foods": [
+      "Flying insects"
+    ],
+    "range": null,
+    "habitat": "Open habitats near water",
+    "source": "https://animaldiversity.org/accounts/Merops_apiaster/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "blue-and-yellow-macaw": {
+    "foods": [
+      "Fruit",
+      "Seeds and nuts"
+    ],
+    "range": null,
+    "habitat": "Riverine and swamp forests",
+    "source": "https://animaldiversity.org/accounts/Ara_ararauna/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "green-turtle": {
+    "foods": [
+      "Algae",
+      "Seagrasses"
+    ],
+    "range": null,
+    "habitat": "Shallow coastal sea; depth unquantified",
+    "source": "https://animaldiversity.org/accounts/Chelonia_mydas/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "golden-poison-frog": {
+    "foods": [
+      "Invertebrates"
+    ],
+    "range": [
+      100,
+      200
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Phyllobates_terribilis/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "orangutan": {
+    "foods": [
+      "Fruit",
+      "Leaves",
+      "Invertebrates"
+    ],
+    "range": [
+      0,
+      1000
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Pongo_pygmaeus/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "monarch-butterfly": {
+    "foods": [
+      "Milkweed leaves",
+      "Nectar"
+    ],
+    "range": null,
+    "habitat": "Open country and overwintering groves",
+    "source": "https://animaldiversity.org/accounts/Danaus_plexippus/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "red-cockaded-woodpecker": {
+    "foods": [
+      "Invertebrates",
+      "Fruit",
+      "Seeds and nuts"
+    ],
+    "range": [
+      0,
+      850
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Picoides_borealis/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "condor": {
+    "foods": [
+      "Carrion"
+    ],
+    "range": [
+      0,
+      5500
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Vultur_gryphus/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "mountain-gorilla": {
+    "foods": [
+      "Leaves",
+      "Stems and roots"
+    ],
+    "range": null,
+    "habitat": "Montane forest; records up to 4,000 m",
+    "source": "https://animaldiversity.org/accounts/Gorilla_beringei/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "diana-monkey": {
+    "foods": [
+      "Fruit",
+      "Invertebrates",
+      "Leaves"
+    ],
+    "range": null,
+    "habitat": "Upper forest canopy",
+    "source": "https://animaldiversity.org/accounts/Cercopithecus_diana/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "lemur": {
+    "foods": [
+      "Fruit",
+      "Leaves",
+      "Invertebrates"
+    ],
+    "range": null,
+    "habitat": "Forest and scrub; upper record 2,600 m",
+    "source": "https://animaldiversity.org/accounts/Lemur_catta/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "red-panda": {
+    "foods": [
+      "Bamboo leaves"
+    ],
+    "range": null,
+    "habitat": "Mountain forest with bamboo",
+    "source": "https://animaldiversity.org/accounts/Ailurus_fulgens/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "kākāpō": {
+    "foods": [
+      "Fruit",
+      "Leaves",
+      "Seeds and nuts"
+    ],
+    "range": null,
+    "habitat": "Habitat band not quantified in the cited record",
+    "source": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/kakapo/behaviour/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "regent-bowerbird": {
+    "foods": [
+      "Fruit",
+      "Invertebrates"
+    ],
+    "range": [
+      0,
+      900
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Sericulus_chrysocephalus/",
+    "note": "Species-wide ecological reference; not a measured distribution within this hotspot. Diet links are selected relationships, not a complete food web."
+  },
+  "carnaby’s-black-cockatoo": {
+    "foods": [
+      "Seeds and nuts"
+    ],
+    "range": null,
+    "habitat": "Woodland and shrubland; elevation unquantified",
+    "source": "https://birdlife.org.au/bird-profiles/carnabys-black-cockatoo/",
+    "note": "Food reference; no altitude assigned."
+  },
+  "snow-leopard": {
+    "foods": [
+      "Wild ungulates",
+      "Small mammals"
+    ],
+    "range": [
+      900,
+      5500
+    ],
+    "habitat": null,
+    "source": "https://animaldiversity.org/accounts/Uncia_uncia/",
+    "note": "Species-wide range. Typical habitat is 3,000–4,500 m; seasonal excursions extend lower."
+  },
+  "comet-moth": {
+    "foods": [
+      "Leaves (larvae)"
+    ],
+    "range": null,
+    "habitat": "Forest habitat; elevation unquantified",
+    "source": "https://www.wildlifemadagascar.org/animals/comet-moth/",
+    "note": "Larvae eat leaves. Adults rely on energy stored during larval development."
+  },
+  "beira-antelope": {
+    "foods": [
+      "Broadleaf plants"
+    ],
+    "range": null,
+    "habitat": "Elevation unquantified in the cited record",
+    "source": "https://www.jzar.org/jzar/article/view/194",
+    "note": "Digestive anatomy and a wild fecal sample support a browser diet; detailed wild diet proportions are not established."
+  }
+}

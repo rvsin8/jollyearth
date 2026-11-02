@@ -1,0 +1,24 @@
+{
+  "id": "passenger-pigeon",
+  "brief_number": 20,
+  "headline": "Passenger pigeon",
+  "biome": [
+    "Tropical forest"
+  ],
+  "hotspot": [],
+  "species": [],
+  "type": "setback",
+  "pullout_number": null,
+  "pullout_label": null,
+  "body": "",
+  "why_it_matters": "",
+  "sources": [],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "needs-research",
+  "review_notes": "Need museum/primary historical records. Verify start/end of decline rather than asserting a universal forty-year extinction interval.",
+  "read_alongside": [],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

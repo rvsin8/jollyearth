@@ -1,0 +1,346 @@
+{
+  "status": "technical-checks-passed",
+  "releaseStatus": "held-for-browser-QA",
+  "notReady": [],
+  "models": [
+    {
+      "species": "gopher-tortoise",
+      "releaseReady": true,
+      "variant": "desktop",
+      "bytes": 805528,
+      "triangles": 37278,
+      "dimensionsM": [
+        0.29821906399767184,
+        0.1513939099740458,
+        0.4000009884535389
+      ],
+      "cpuParseMs": 29,
+      "clips": [
+        {
+          "name": "Idle",
+          "durationSeconds": 6,
+          "maxSampleDisplacementM": 0.0032329864918080233,
+          "loopSeamM": 0
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 6,
+          "maxSampleDisplacementM": 0.018019965232432864,
+          "loopSeamM": 0
+        },
+        {
+          "name": "Turn",
+          "durationSeconds": 6,
+          "maxSampleDisplacementM": 0.09099577925588292,
+          "loopSeamM": 0
+        },
+        {
+          "name": "Dig",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.027668806834392573,
+          "loopSeamM": 0
+        }
+      ],
+      "resourcesDisposed": 23,
+      "glTFErrors": 0,
+      "glTFWarnings": 8
+    },
+    {
+      "species": "gopher-tortoise",
+      "releaseReady": true,
+      "variant": "mobile",
+      "bytes": 473268,
+      "triangles": 19911,
+      "dimensionsM": [
+        0.29821906399767184,
+        0.15140914034126354,
+        0.4000009884535389
+      ],
+      "cpuParseMs": 8,
+      "clips": [
+        {
+          "name": "Idle",
+          "durationSeconds": 6,
+          "maxSampleDisplacementM": 0.0032033539007514395,
+          "loopSeamM": 0
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 6,
+          "maxSampleDisplacementM": 0.018113872979957132,
+          "loopSeamM": 0
+        },
+        {
+          "name": "Turn",
+          "durationSeconds": 6,
+          "maxSampleDisplacementM": 0.09099577925588292,
+          "loopSeamM": 0
+        },
+        {
+          "name": "Dig",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.027668806834392573,
+          "loopSeamM": 0
+        }
+      ],
+      "resourcesDisposed": 23,
+      "glTFErrors": 0,
+      "glTFWarnings": 8
+    },
+    {
+      "species": "green-sea-turtle",
+      "releaseReady": true,
+      "variant": "desktop",
+      "bytes": 270060,
+      "triangles": 19812,
+      "dimensionsM": [
+        0.7360000429813688,
+        0.13365054653106878,
+        0.6200081756720368
+      ],
+      "cpuParseMs": 5,
+      "clips": [
+        {
+          "name": "Float",
+          "durationSeconds": 5,
+          "maxSampleDisplacementM": 0.01165188382921252,
+          "loopSeamM": 0.000004979596429238037
+        },
+        {
+          "name": "Swim",
+          "durationSeconds": 3,
+          "maxSampleDisplacementM": 0.12454546488686624,
+          "loopSeamM": 6.074136852940448e-7
+        },
+        {
+          "name": "Glide",
+          "durationSeconds": 5,
+          "maxSampleDisplacementM": 0.006271493168114012,
+          "loopSeamM": 0.000005005168052355652
+        },
+        {
+          "name": "Turn",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.22489176583100673,
+          "loopSeamM": 0.00001812990961091998
+        }
+      ],
+      "resourcesDisposed": 19,
+      "glTFErrors": 0,
+      "glTFWarnings": 0
+    },
+    {
+      "species": "green-sea-turtle",
+      "releaseReady": true,
+      "variant": "mobile",
+      "bytes": 253260,
+      "triangles": 18996,
+      "dimensionsM": [
+        0.7360000429813688,
+        0.13365054653106878,
+        0.6200081756720368
+      ],
+      "cpuParseMs": 6,
+      "clips": [
+        {
+          "name": "Float",
+          "durationSeconds": 5,
+          "maxSampleDisplacementM": 0.011652721672741097,
+          "loopSeamM": 0.0000049410183871716196
+        },
+        {
+          "name": "Swim",
+          "durationSeconds": 3,
+          "maxSampleDisplacementM": 0.12463623768996634,
+          "loopSeamM": 5.690059863283636e-7
+        },
+        {
+          "name": "Glide",
+          "durationSeconds": 5,
+          "maxSampleDisplacementM": 0.0057829557752389175,
+          "loopSeamM": 0.0000049665229391662735
+        },
+        {
+          "name": "Turn",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.2246917299520201,
+          "loopSeamM": 0.000018046006966809802
+        }
+      ],
+      "resourcesDisposed": 19,
+      "glTFErrors": 0,
+      "glTFWarnings": 0
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "releaseReady": true,
+      "variant": "desktop",
+      "bytes": 1878972,
+      "triangles": 55047,
+      "dimensionsM": [
+        0.21062511678988705,
+        0.8125709209433277,
+        0.9263886559099492
+      ],
+      "cpuParseMs": 19,
+      "clips": [
+        {
+          "name": "Climb",
+          "durationSeconds": 2.6666667461395264,
+          "maxSampleDisplacementM": 0.13053991761923245,
+          "loopSeamM": 0.000005099061670732485
+        },
+        {
+          "name": "Idle",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.08360365637154482,
+          "loopSeamM": 0.0000052419366265987755
+        },
+        {
+          "name": "Leap",
+          "durationSeconds": 2,
+          "maxSampleDisplacementM": 0.30451515916921057,
+          "loopSeamM": 0.0000052419366265987755
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 2,
+          "maxSampleDisplacementM": 0.08984891825918336,
+          "loopSeamM": 0.000012477631659488925
+        }
+      ],
+      "resourcesDisposed": 42,
+      "glTFErrors": 0,
+      "glTFWarnings": 0
+    },
+    {
+      "species": "ring-tailed-lemur",
+      "releaseReady": true,
+      "variant": "mobile",
+      "bytes": 561108,
+      "triangles": 19411,
+      "dimensionsM": [
+        0.2090942481015459,
+        0.8125709209433277,
+        0.9263957941768437
+      ],
+      "cpuParseMs": 14,
+      "clips": [
+        {
+          "name": "Climb",
+          "durationSeconds": 2.6666667461395264,
+          "maxSampleDisplacementM": 0.13057974983483633,
+          "loopSeamM": 0.000005099061670732485
+        },
+        {
+          "name": "Idle",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.08256339122411922,
+          "loopSeamM": 0.000005237095765719957
+        },
+        {
+          "name": "Leap",
+          "durationSeconds": 2,
+          "maxSampleDisplacementM": 0.3046037446487492,
+          "loopSeamM": 0.000005237095765719957
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 2,
+          "maxSampleDisplacementM": 0.08983384543190197,
+          "loopSeamM": 0.000012477631659488925
+        }
+      ],
+      "resourcesDisposed": 39,
+      "glTFErrors": 0,
+      "glTFWarnings": 0
+    },
+    {
+      "species": "bornean-orangutan",
+      "releaseReady": true,
+      "variant": "desktop",
+      "bytes": 1184096,
+      "triangles": 52664,
+      "dimensionsM": [
+        1.252867776290608,
+        1.4448538125594703,
+        0.41530392632326035
+      ],
+      "cpuParseMs": 17,
+      "clips": [
+        {
+          "name": "Climb",
+          "durationSeconds": 5,
+          "maxSampleDisplacementM": 0.174814786237109,
+          "loopSeamM": 0.000009672808570101998
+        },
+        {
+          "name": "Idle",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.008768275254240013,
+          "loopSeamM": 6.627919798621318e-7
+        },
+        {
+          "name": "Reach",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 1.5008363055145666,
+          "loopSeamM": 0.000018860207369658655
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.13509220873236305,
+          "loopSeamM": 0.000015051244261862773
+        }
+      ],
+      "resourcesDisposed": 50,
+      "glTFErrors": 0,
+      "glTFWarnings": 0
+    },
+    {
+      "species": "bornean-orangutan",
+      "releaseReady": true,
+      "variant": "mobile",
+      "bytes": 688588,
+      "triangles": 18128,
+      "dimensionsM": [
+        1.2528657015511622,
+        1.444586992637041,
+        0.41440955952482894
+      ],
+      "cpuParseMs": 11,
+      "clips": [
+        {
+          "name": "Climb",
+          "durationSeconds": 5,
+          "maxSampleDisplacementM": 0.17879230750140795,
+          "loopSeamM": 0.000009244729483756653
+        },
+        {
+          "name": "Idle",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.008794968147640018,
+          "loopSeamM": 6.408735915494623e-7
+        },
+        {
+          "name": "Reach",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 1.4685069836172384,
+          "loopSeamM": 0.000018611736401441537
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 4,
+          "maxSampleDisplacementM": 0.1331701217480231,
+          "loopSeamM": 0.000015051244261862773
+        }
+      ],
+      "resourcesDisposed": 50,
+      "glTFErrors": 0,
+      "glTFWarnings": 0
+    }
+  ],
+  "protectedAssetsUnchanged": 42,
+  "originalIllustrations": 39,
+  "verification": "Actual GLTFLoader and AnimationMixer CPU checks, technical GLB validation and resource-disposal events. No browser, touch, WebGL context, network loading or frame-rate result is implied."
+}

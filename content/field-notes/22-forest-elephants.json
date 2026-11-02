@@ -1,0 +1,38 @@
+{
+  "id": "forest-elephants",
+  "brief_number": 22,
+  "headline": "Forest elephants: the other story",
+  "biome": [
+    "Tropical forest"
+  ],
+  "hotspot": [
+    "guinean-forests-of-west-africa"
+  ],
+  "species": [
+    "forest-elephant"
+  ],
+  "type": "setback",
+  "pullout_number": "More than 86%",
+  "pullout_label": "Estimated forest-elephant decline across the 31-year assessment period reported in 2021",
+  "body": "In March 2021, IUCN assessed Africa’s forest and savanna elephants separately. Forest elephants were classified as Critically Endangered. The assessment reported an estimated decline of more than eighty-six percent across a thirty-one-year period. That is a dated assessment result, not a measurement of change since this guide was published.\n\nPoaching for ivory and conversion of habitat were central pressures. The same announcement also described places where protection had helped stabilize populations. These statements can both be true. Improvement in one protected area does not cancel losses across the wider range.\n\nThe distinction between species matters as well. A story about savanna elephants should not be treated as evidence that forest elephants have recovered. Their habitats, distributions, and population histories differ, even when public discussion places them under one familiar name.\n\nThis setback belongs beside success stories because it changes how we read them. Conservation can work locally while broader decline continues. The task is to identify which actions helped, which pressures remain, and whether gains can last. A hopeful example is useful evidence, but only when its limits are kept in view.",
+  "why_it_matters": "A local recovery and a wider decline can happen at the same time.",
+  "sources": [
+    {
+      "id": "elephants",
+      "title": "IUCN — African elephant assessments, 25 March 2021",
+      "url": "https://iucn.org/news/species/202103/african-elephant-species-now-endangered-and-critically-endangered-iucn-red-list",
+      "accessed": "2026-09-21"
+    }
+  ],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "draft",
+  "review_notes": "Historical 2021 assessment; no unsupported present-day 135,000 total. Do not imply this entire continental estimate belongs only to the Guinean hotspot. Human review required.",
+  "read_alongside": [
+    "stable-not-recovered",
+    "averages-hide-collapse"
+  ],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

@@ -1,0 +1,541 @@
+[
+  {
+    "slug": "switchgrass",
+    "commonName": "Switchgrass",
+    "scientificName": "Panicum virgatum",
+    "form": "grass",
+    "matureHeightM": 1.5,
+    "crownShape": "upright-vase",
+    "crownWidthRatio": 0.6,
+    "leafShape": "blade",
+    "leafSizeCm": 45,
+    "summerColor": "#7F9A6B",
+    "autumnColor": "#C9A86A",
+    "winterColor": "#B9A684",
+    "sun": "full",
+    "moisture": "dry-wet",
+    "saltTolerance": "high",
+    "wildlifeValue": "Seed for sparrows and finches; larval host for skippers",
+    "sites": [
+      "liberty-meadow"
+    ],
+    "hasFlowers": true,
+    "flowerColor": "#C4A7B5",
+    "flowerSeason": "late summer",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "panicum-virgatum",
+        "title": "NC State Extension \u00b7 Panicum virgatum",
+        "url": "https://plants.ces.ncsu.edu/plants/panicum-virgatum/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-panicum-virgatum",
+        "title": "Jersey-Friendly Yards \u00b7 Panicum virgatum",
+        "url": "https://jerseyyards.org/plant/panicum-virgatum/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements.",
+    "saltEvidence": "NC State describes slight salt tolerance; high-exposure suitability is uncertain despite the draft high rating."
+  },
+  {
+    "slug": "little-bluestem",
+    "commonName": "Little bluestem",
+    "scientificName": "Schizachyrium scoparium",
+    "form": "grass",
+    "matureHeightM": 1,
+    "crownShape": "tufted",
+    "crownWidthRatio": 0.5,
+    "leafShape": "blade",
+    "leafSizeCm": 30,
+    "summerColor": "#8FA088",
+    "autumnColor": "#B05E3B",
+    "winterColor": "#C08A5E",
+    "sun": "full",
+    "moisture": "dry",
+    "saltTolerance": "moderate",
+    "wildlifeValue": "Larval host for skipper butterflies; winter cover",
+    "sites": [
+      "liberty-meadow"
+    ],
+    "hasFlowers": true,
+    "flowerColor": "#E8E0D0",
+    "flowerSeason": "late summer",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "schizachyrium-scoparium",
+        "title": "NC State Extension \u00b7 Schizachyrium scoparium",
+        "url": "https://plants.ces.ncsu.edu/plants/schizachyrium-scoparium/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-schizachyrium-scoparium",
+        "title": "Jersey-Friendly Yards \u00b7 Schizachyrium scoparium",
+        "url": "https://jerseyyards.org/plant/schizachyrium-scoparium/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements."
+  },
+  {
+    "slug": "butterfly-weed",
+    "commonName": "Butterfly weed",
+    "scientificName": "Asclepias tuberosa",
+    "form": "wildflower",
+    "matureHeightM": 0.6,
+    "crownShape": "mounded",
+    "crownWidthRatio": 0.8,
+    "leafShape": "lance",
+    "leafSizeCm": 8,
+    "summerColor": "#5F7A4E",
+    "autumnColor": "#9A8A4E",
+    "winterColor": "#A68B68",
+    "sun": "full",
+    "moisture": "dry",
+    "saltTolerance": "moderate",
+    "wildlifeValue": "Monarch larval host; nectar for pollinators",
+    "sites": [
+      "liberty-meadow",
+      "schoolyard-strip"
+    ],
+    "hasFlowers": true,
+    "flowerColor": "#E08A28",
+    "flowerSeason": "summer",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "asclepias-tuberosa",
+        "title": "NC State Extension \u00b7 Asclepias tuberosa",
+        "url": "https://plants.ces.ncsu.edu/plants/asclepias-tuberosa/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-asclepias-tuberosa",
+        "title": "Jersey-Friendly Yards \u00b7 Asclepias tuberosa",
+        "url": "https://jerseyyards.org/plant/asclepias-tuberosa/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements.",
+    "saltEvidence": "Jersey-Friendly Yards lists low or no salt tolerance, lower than the draft moderate rating. Use caution where salt accumulates."
+  },
+  {
+    "slug": "new-england-aster",
+    "commonName": "New England aster",
+    "scientificName": "Symphyotrichum novae-angliae",
+    "form": "wildflower",
+    "matureHeightM": 1.2,
+    "crownShape": "upright-branching",
+    "crownWidthRatio": 0.7,
+    "leafShape": "lance",
+    "leafSizeCm": 9,
+    "summerColor": "#6B8257",
+    "autumnColor": "#8A8A5A",
+    "winterColor": "#9D8C71",
+    "sun": "full",
+    "moisture": "medium",
+    "saltTolerance": "low",
+    "wildlifeValue": "Late-season nectar for migrating butterflies",
+    "sites": [
+      "liberty-meadow",
+      "schoolyard-strip"
+    ],
+    "hasFlowers": true,
+    "flowerColor": "#8B6FB0",
+    "flowerSeason": "autumn",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "symphyotrichum-novae-angliae",
+        "title": "NC State Extension \u00b7 Symphyotrichum novae-angliae",
+        "url": "https://plants.ces.ncsu.edu/plants/symphyotrichum-novae-angliae/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-symphyotrichum-novae-angliae",
+        "title": "Jersey-Friendly Yards \u00b7 Symphyotrichum novae-angliae",
+        "url": "https://jerseyyards.org/plant/symphyotrichum-novae-angliae/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements."
+  },
+  {
+    "slug": "eastern-red-cedar",
+    "commonName": "Eastern red cedar",
+    "scientificName": "Juniperus virginiana",
+    "form": "canopy tree",
+    "matureHeightM": 12,
+    "crownShape": "narrow-conical",
+    "crownWidthRatio": 0.35,
+    "leafShape": "scale",
+    "leafSizeCm": 0.4,
+    "summerColor": "#4E6B55",
+    "autumnColor": "#4E6B55",
+    "winterColor": "#44614E",
+    "sun": "full",
+    "moisture": "dry",
+    "saltTolerance": "high",
+    "wildlifeValue": "Berry-like cones feed birds; dense winter shelter",
+    "sites": [
+      "liberty-meadow"
+    ],
+    "hasFlowers": false,
+    "flowerColor": null,
+    "flowerSeason": null,
+    "branchAngle": 35,
+    "branchTaper": 0.72,
+    "barkColor": "#8A6A54",
+    "evergreen": true,
+    "hasFruit": true,
+    "fruitColor": "#7B8FA8",
+    "fruitSeason": "autumn",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "juniperus-virginiana",
+        "title": "NC State Extension \u00b7 Juniperus virginiana",
+        "url": "https://plants.ces.ncsu.edu/plants/juniperus-virginiana/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-juniperus-virginiana",
+        "title": "Jersey-Friendly Yards \u00b7 Juniperus virginiana",
+        "url": "https://jerseyyards.org/plant/juniperus-virginiana/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements.",
+    "saltEvidence": "Jersey-Friendly Yards lists medium salt tolerance. Treat high-exposure suitability as uncertain despite the draft high rating."
+  },
+  {
+    "slug": "red-maple",
+    "commonName": "Red maple",
+    "scientificName": "Acer rubrum",
+    "form": "canopy tree",
+    "matureHeightM": 20,
+    "crownShape": "rounded-oval",
+    "crownWidthRatio": 0.65,
+    "leafShape": "palmate-lobed",
+    "leafSizeCm": 10,
+    "summerColor": "#4F7A42",
+    "autumnColor": "#C0392B",
+    "winterColor": "#786B59",
+    "sun": "full-part",
+    "moisture": "wet-medium",
+    "saltTolerance": "low",
+    "wildlifeValue": "Early pollen source; larval host for moths",
+    "sites": [
+      "berry-lane-rain-garden"
+    ],
+    "hasFlowers": true,
+    "flowerColor": "#B23A48",
+    "flowerSeason": "early spring",
+    "branchAngle": 45,
+    "branchTaper": 0.7,
+    "barkColor": "#6E6B66",
+    "springColor": "#C25A5A",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "acer-rubrum",
+        "title": "NC State Extension \u00b7 Acer rubrum",
+        "url": "https://plants.ces.ncsu.edu/plants/acer-rubrum/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-acer-rubrum",
+        "title": "Jersey-Friendly Yards \u00b7 Acer rubrum",
+        "url": "https://jerseyyards.org/plant/acer-rubrum/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements."
+  },
+  {
+    "slug": "swamp-milkweed",
+    "commonName": "Swamp milkweed",
+    "scientificName": "Asclepias incarnata",
+    "form": "wildflower",
+    "matureHeightM": 1.2,
+    "crownShape": "upright",
+    "crownWidthRatio": 0.5,
+    "leafShape": "lance",
+    "leafSizeCm": 12,
+    "summerColor": "#5A7A52",
+    "autumnColor": "#9A8F5E",
+    "winterColor": "#A28C6C",
+    "sun": "full-part",
+    "moisture": "wet",
+    "saltTolerance": "low",
+    "wildlifeValue": "Monarch larval host; grows in wet soils",
+    "sites": [
+      "berry-lane-rain-garden"
+    ],
+    "hasFlowers": true,
+    "flowerColor": "#DE8A9B",
+    "flowerSeason": "summer",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "asclepias-incarnata",
+        "title": "NC State Extension \u00b7 Asclepias incarnata",
+        "url": "https://plants.ces.ncsu.edu/plants/asclepias-incarnata/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-asclepias-incarnata",
+        "title": "Jersey-Friendly Yards \u00b7 Asclepias incarnata",
+        "url": "https://jerseyyards.org/plant/asclepias-incarnata/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements."
+  },
+  {
+    "slug": "buttonbush",
+    "commonName": "Buttonbush",
+    "scientificName": "Cephalanthus occidentalis",
+    "form": "shrub",
+    "matureHeightM": 3,
+    "crownShape": "irregular-rounded",
+    "crownWidthRatio": 0.9,
+    "leafShape": "ovate",
+    "leafSizeCm": 12,
+    "summerColor": "#4A6B45",
+    "autumnColor": "#A89B5A",
+    "winterColor": "#817361",
+    "sun": "full-part",
+    "moisture": "wet",
+    "saltTolerance": "low",
+    "wildlifeValue": "Round flower clusters feed bees and butterflies; seeds feed waterfowl",
+    "sites": [
+      "berry-lane-rain-garden"
+    ],
+    "hasFlowers": true,
+    "flowerColor": "#F0EDE4",
+    "flowerSeason": "summer",
+    "branchAngle": 50,
+    "branchTaper": 0.75,
+    "barkColor": "#6B5B4A",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "cephalanthus-occidentalis",
+        "title": "NC State Extension \u00b7 Cephalanthus occidentalis",
+        "url": "https://plants.ces.ncsu.edu/plants/cephalanthus-occidentalis/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-cephalanthus-occidentalis",
+        "title": "Jersey-Friendly Yards \u00b7 Cephalanthus occidentalis",
+        "url": "https://jerseyyards.org/plant/cephalanthus-occidentalis/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements."
+  },
+  {
+    "slug": "cinnamon-fern",
+    "commonName": "Cinnamon fern",
+    "scientificName": "Osmundastrum cinnamomeum",
+    "form": "fern",
+    "matureHeightM": 1,
+    "crownShape": "vase",
+    "crownWidthRatio": 0.9,
+    "leafShape": "pinnate-frond",
+    "leafSizeCm": 80,
+    "summerColor": "#53704A",
+    "autumnColor": "#A08A52",
+    "winterColor": "#9A8058",
+    "sun": "part-shade",
+    "moisture": "wet",
+    "saltTolerance": "low",
+    "wildlifeValue": "Nesting material and cover near wet woodland",
+    "sites": [
+      "berry-lane-rain-garden"
+    ],
+    "hasFlowers": false,
+    "flowerColor": null,
+    "flowerSeason": null,
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "osmundastrum-cinnamomeum",
+        "title": "NC State Extension \u00b7 Osmundastrum cinnamomeum",
+        "url": "https://plants.ces.ncsu.edu/plants/osmundastrum-cinnamomeum/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-osmundastrum-cinnamomeum",
+        "title": "Jersey-Friendly Yards \u00b7 Osmundastrum cinnamomeum",
+        "url": "https://jerseyyards.org/plant/osmunda-cinnamomea/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements."
+  },
+  {
+    "slug": "serviceberry",
+    "commonName": "Shadblow serviceberry",
+    "scientificName": "Amelanchier canadensis",
+    "form": "understory tree",
+    "matureHeightM": 6,
+    "crownShape": "upright-multistem",
+    "crownWidthRatio": 0.6,
+    "leafShape": "ovate",
+    "leafSizeCm": 6,
+    "summerColor": "#52704B",
+    "autumnColor": "#D2742E",
+    "winterColor": "#8F7B64",
+    "sun": "full-part",
+    "moisture": "medium",
+    "saltTolerance": "moderate",
+    "wildlifeValue": "Early blooms for native bees; summer fruit for birds",
+    "sites": [
+      "schoolyard-strip",
+      "berry-lane-rain-garden"
+    ],
+    "hasFlowers": true,
+    "flowerColor": "#F5F2EA",
+    "flowerSeason": "early spring",
+    "branchAngle": 30,
+    "branchTaper": 0.74,
+    "barkColor": "#7A7168",
+    "springColor": "#8FA37E",
+    "hasFruit": true,
+    "fruitColor": "#5B2B46",
+    "fruitSeason": "summer",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "amelanchier-canadensis",
+        "title": "NC State Extension \u00b7 Amelanchier canadensis",
+        "url": "https://plants.ces.ncsu.edu/plants/amelanchier-canadensis/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-amelanchier-canadensis",
+        "title": "Jersey-Friendly Yards \u00b7 Amelanchier canadensis",
+        "url": "https://jerseyyards.org/plant/amelanchier-canadensis/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements."
+  },
+  {
+    "slug": "spicebush",
+    "commonName": "Northern spicebush",
+    "scientificName": "Lindera benzoin",
+    "form": "shrub",
+    "matureHeightM": 3,
+    "crownShape": "rounded",
+    "crownWidthRatio": 1,
+    "leafShape": "obovate",
+    "leafSizeCm": 10,
+    "summerColor": "#4E6E48",
+    "autumnColor": "#E0C04A",
+    "winterColor": "#897D61",
+    "sun": "part-shade",
+    "moisture": "medium",
+    "saltTolerance": "low",
+    "wildlifeValue": "Spicebush swallowtail larval host; fruit feeds migrating birds",
+    "sites": [
+      "schoolyard-strip"
+    ],
+    "hasFlowers": true,
+    "flowerColor": "#D8D86A",
+    "flowerSeason": "early spring",
+    "branchAngle": 45,
+    "branchTaper": 0.76,
+    "barkColor": "#6A6358",
+    "springColor": "#9AAE74",
+    "hasFruit": true,
+    "fruitColor": "#C0392B",
+    "fruitSeason": "autumn",
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "lindera-benzoin",
+        "title": "NC State Extension \u00b7 Lindera benzoin",
+        "url": "https://plants.ces.ncsu.edu/plants/lindera-benzoin/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-lindera-benzoin",
+        "title": "Jersey-Friendly Yards \u00b7 Lindera benzoin",
+        "url": "https://jerseyyards.org/plant/lindera-benzoin/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements."
+  },
+  {
+    "slug": "christmas-fern",
+    "commonName": "Christmas fern",
+    "scientificName": "Polystichum acrostichoides",
+    "form": "fern",
+    "matureHeightM": 0.5,
+    "crownShape": "vase",
+    "crownWidthRatio": 1.1,
+    "leafShape": "pinnate-frond",
+    "leafSizeCm": 45,
+    "summerColor": "#3F5E42",
+    "autumnColor": "#3F5E42",
+    "winterColor": "#3A5640",
+    "sun": "shade",
+    "moisture": "medium",
+    "saltTolerance": "low",
+    "wildlifeValue": "Evergreen ground cover; helps cover woodland slopes",
+    "sites": [
+      "schoolyard-strip"
+    ],
+    "hasFlowers": false,
+    "flowerColor": null,
+    "flowerSeason": null,
+    "evergreen": true,
+    "native": "Native to New Jersey and the northeastern coastal region",
+    "sources": [
+      {
+        "id": "polystichum-acrostichoides",
+        "title": "NC State Extension \u00b7 Polystichum acrostichoides",
+        "url": "https://plants.ces.ncsu.edu/plants/polystichum-acrostichoides/",
+        "note": "Plant form, leaves, flowering, habitat and wildlife. Generator dimensions and crown ratios are illustrative parameters, not measurements of a specimen.",
+        "accessed": "4 October 2026"
+      },
+      {
+        "id": "nj-polystichum-acrostichoides",
+        "title": "Jersey-Friendly Yards \u00b7 Polystichum acrostichoides",
+        "url": "https://jerseyyards.org/plant/polystichum-acrostichoides/",
+        "note": "Regional native-plant and planting-condition reference.",
+        "accessed": "4 October 2026"
+      }
+    ],
+    "dataNote": "Heights represent a typical modeled mature individual. Leaf size, crown ratio, color, branching angle and taper guide an educational reconstruction; they are not diagnostic measurements."
+  }
+]

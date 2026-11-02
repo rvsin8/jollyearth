@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/scenario-labs/skills",
+  "revision": "dc592af7139ffacfe8fdae7dc7efa80f4dd09be3",
+  "guidance": [
+    "scenario-blender-expert",
+    "scenario-blender-sculpting",
+    "scenario-blender-rigging",
+    "scenario-blender-texturing-shading",
+    "scenario-blender-lighting-rendering",
+    "scenario-blender-hair"
+  ],
+  "execution": "Local Blender Python, Blender 4.2.0. Skill guidance targeting Blender 5.2 is adapted to the installed version.",
+  "scenarioMCPUsed": false,
+  "paidGenerationUsed": false,
+  "qualityProcess": "Reference anatomy, custom mesh authoring, UV textures, species rig, sampled poses, four-angle renders, export validation. A numerical pass does not replace visual review.",
+  "requiredViews": [
+    "front",
+    "side",
+    "rear",
+    "three-quarter"
+  ],
+  "reviewBinding": "pipeline/validate-collection.mjs requires a visual review matching the SHA256 of both optimized GLBs."
+}

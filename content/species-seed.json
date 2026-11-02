@@ -1,0 +1,343 @@
+[
+  {
+    "id": "gopher-tortoise",
+    "name": "Gopher tortoise",
+    "scientific": "Gopherus polyphemus",
+    "model": "turtle",
+    "color": "#a59c7e",
+    "role": "Native",
+    "image": "/images/gopher-tortoise.webp",
+    "alt": "Juvenile gopher tortoise eating greens in a care enclosure",
+    "biomes": [
+      "Grassland",
+      "Tropical forest",
+      "Mangrove"
+    ],
+    "hotspots": [
+      "north-american-coastal-plain"
+    ],
+    "range": "Southeastern United States",
+    "traits": "A terrestrial tortoise with strong digging forelimbs; its burrows shelter other wildlife.",
+    "threats": [
+      "Habitat conversion",
+      "Fire suppression"
+    ],
+    "action": "Ask a local nature centre about a supervised native-habitat volunteer day.",
+    "trend": "unknown",
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://www.fws.gov/project/gopher-tortoise",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-gopher-tortoise",
+        "title": "Gopher tortoise photograph \u00b7 Emmet Guy/USFWS",
+        "url": "https://www.fws.gov/media/gopher-tortoise-0",
+        "note": "Public Domain \u00b7 Cropped for display.",
+        "licenseUrl": "https://www.fws.gov/media/gopher-tortoise-0",
+        "accessed": "2026-09-21"
+      }
+    ]
+  },
+  {
+    "id": "lemur",
+    "name": "Ring-tailed lemur",
+    "scientific": "Lemur catta",
+    "model": "lemur",
+    "color": "#a3a391",
+    "role": "Endemic",
+    "image": "/images/lemur.webp",
+    "alt": "Ring-tailed lemur in its habitat",
+    "biomes": [
+      "Tropical forest",
+      "Mangrove",
+      "Coral reef",
+      "Grassland",
+      "Desert"
+    ],
+    "hotspots": [
+      "madagascar"
+    ],
+    "range": "Southern Madagascar",
+    "traits": "A social primate with a black-and-white ringed tail.",
+    "threats": [
+      "Habitat loss",
+      "Hunting"
+    ],
+    "action": "Make a classroom display explaining why wild lemurs should never be pets.",
+    "trend": "unknown",
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-lemur",
+        "title": "lemur photograph \u00b7 Francis C. Franklin",
+        "url": "https://commons.wikimedia.org/wiki/File:Ring_tailed_lemur_portrait.jpg",
+        "note": "CC BY-SA 3.0 \u00b7 Cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ]
+  },
+  {
+    "id": "orangutan",
+    "name": "Bornean orangutan",
+    "scientific": "Pongo pygmaeus",
+    "model": "ape",
+    "color": "#a88560",
+    "role": "Endemic",
+    "image": "/images/orangutan.webp",
+    "alt": "Bornean orangutan in its habitat",
+    "biomes": [
+      "Tropical forest",
+      "Mangrove",
+      "Coral reef"
+    ],
+    "hotspots": [
+      "sundaland"
+    ],
+    "range": "Borneo",
+    "traits": "A tree-dwelling great ape that disperses seeds.",
+    "threats": [
+      "Forest conversion",
+      "Hunting"
+    ],
+    "action": "Audit one classroom snack supply chain and ask its producer for evidence of deforestation-free sourcing.",
+    "trend": "unknown",
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://nationalzoo.si.edu/animals/orangutan",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-orangutan",
+        "title": "orangutan photograph \u00b7 Nanosanchez",
+        "url": "https://commons.wikimedia.org/wiki/File:Tanjung_Puting30477.jpg",
+        "note": "CC BY-SA 4.0 \u00b7 Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  },
+  {
+    "id": "green-turtle",
+    "name": "Green sea turtle",
+    "scientific": "Chelonia mydas",
+    "model": "turtle",
+    "color": "#8b9270",
+    "role": "Coastal",
+    "image": "/images/green-turtle.webp",
+    "alt": "Green sea turtle in its habitat",
+    "biomes": [
+      "Tropical forest",
+      "Mangrove",
+      "Coral reef",
+      "Grassland",
+      "Alpine"
+    ],
+    "hotspots": [
+      "sundaland",
+      "indo-burma",
+      "caribbean-islands",
+      "coastal-forests-of-eastern-africa",
+      "east-melanesian-islands",
+      "japan",
+      "mesoamerica",
+      "new-caledonia",
+      "philippines",
+      "polynesia-micronesia",
+      "wallacea"
+    ],
+    "range": "Tropical and subtropical seas worldwide",
+    "traits": "An air-breathing marine reptile; adults often feed in seagrass habitats.",
+    "threats": [
+      "Fishing bycatch",
+      "Habitat loss",
+      "Marine debris"
+    ],
+    "action": "Join a teacher-supervised beach or river clean-up and record the types of litter collected.",
+    "trend": "unknown",
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://www.fisheries.noaa.gov/species/green-turtle",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-green-turtle",
+        "title": "green turtle photograph \u00b7 Charles J. Sharp",
+        "url": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_%28Chelonia_mydas%29_Moorea.jpg",
+        "note": "CC BY-SA 4.0 \u00b7 Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  },
+  {
+    "id": "red-panda",
+    "name": "Red panda",
+    "scientific": "Ailurus fulgens",
+    "model": "panda",
+    "color": "#a67e5b",
+    "role": "Native",
+    "image": "/images/red-panda.webp",
+    "alt": "Red panda in its habitat",
+    "biomes": [
+      "Alpine",
+      "Tropical forest",
+      "Grassland"
+    ],
+    "hotspots": [
+      "himalaya",
+      "mountains-of-southwest-china"
+    ],
+    "range": "Forests of the eastern Himalaya and southwestern China",
+    "traits": "A forest mammal that feeds mainly on bamboo.",
+    "threats": [
+      "Habitat loss",
+      "Fragmentation"
+    ],
+    "action": "Create a school exhibit connecting paper use with responsible forest management.",
+    "trend": "unknown",
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://nationalzoo.si.edu/animals/red-panda",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-red-panda",
+        "title": "red panda photograph \u00b7 Sunuwargr",
+        "url": "https://commons.wikimedia.org/wiki/File:Red_Panda%2C_Gentle_Tree-Dweller_of_the_Himalayas.jpg",
+        "note": "CC BY-SA 4.0 \u00b7 Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  },
+  {
+    "id": "condor",
+    "name": "Andean condor",
+    "scientific": "Vultur gryphus",
+    "model": "bird",
+    "color": "#727665",
+    "role": "Native",
+    "image": "/images/condor.webp",
+    "alt": "Andean condor in its habitat",
+    "biomes": [
+      "Tropical forest",
+      "Alpine",
+      "Grassland"
+    ],
+    "hotspots": [
+      "tropical-andes",
+      "chilean-winter-rainfall-and-valdivian-forests"
+    ],
+    "range": "Andes and adjoining South American landscapes",
+    "traits": "A large soaring scavenger that feeds on carrion.",
+    "threats": [
+      "Poisoning",
+      "Persecution"
+    ],
+    "action": "Make an evidence-based poster about the ecological role of scavengers.",
+    "trend": "unknown",
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "Species ecology and conservation profile",
+        "url": "https://animals.sandiegozoo.org/animals/andean-condor",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-condor",
+        "title": "condor photograph \u00b7 Greg Hume",
+        "url": "https://commons.wikimedia.org/wiki/File:AndeanCondorMale.jpg",
+        "note": "CC BY-SA 3.0 \u00b7 Resized and cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    ]
+  },
+  {
+    "id": "red-cockaded-woodpecker",
+    "name": "Red-cockaded woodpecker",
+    "scientific": "Dryobates borealis",
+    "model": "bird",
+    "color": "#171821",
+    "role": "Native",
+    "image": "/images/red-cockaded-woodpecker.webp",
+    "alt": "Red-cockaded woodpecker clinging to a pine trunk",
+    "biomes": [
+      "Grassland"
+    ],
+    "hotspots": [
+      "north-american-coastal-plain"
+    ],
+    "range": "Pine forests of the southeastern United States",
+    "traits": "A social woodpecker associated with mature, fire-maintained pine forests.",
+    "threats": [
+      "Loss of mature pine forest",
+      "Fire suppression"
+    ],
+    "action": "Ask a local wildlife refuge how your class can support habitat stewardship without disturbing nesting birds.",
+    "trend": "unknown",
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "NFWF \u00b7 Red-cockaded woodpecker habitat",
+        "url": "https://www.nfwf.org/programs/longleaf-landscape-stewardship-fund",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-red-cockaded-woodpecker",
+        "title": "Red-cockaded woodpecker photograph \u00b7 Renee Bodine/USFWS",
+        "url": "https://www.fws.gov/media/red-cockaded-woodpecker-tree",
+        "note": "Public Domain \u00b7 Cropped for display.",
+        "licenseUrl": "https://www.fws.gov/media/red-cockaded-woodpecker-tree",
+        "accessed": "2026-09-21"
+      }
+    ]
+  },
+  {
+    "id": "longleaf-pine",
+    "name": "Longleaf pine",
+    "scientific": "Pinus palustris",
+    "image": "/images/longleaf-pine-habitat.webp",
+    "alt": "Longleaf pine habitat at Camp Blanding in Florida",
+    "biomes": [
+      "Grassland"
+    ],
+    "hotspots": [
+      "north-american-coastal-plain"
+    ],
+    "range": "Southeastern United States",
+    "traits": "A pine adapted to frequent low-intensity fires; thick bark protects mature trees.",
+    "threats": [
+      "Land conversion",
+      "Fire exclusion"
+    ],
+    "action": "Ask your teacher to arrange a ranger-led discussion about prescribed fire and native habitat restoration.",
+    "trend": "unknown",
+    "sources": [
+      {
+        "id": "species-profile",
+        "title": "The Longleaf Alliance \u00b7 Built by Fire",
+        "url": "https://longleafalliance.org/what-is-longleaf/the-ecosystem/built-by-fire/",
+        "accessed": "2026-09-21"
+      },
+      {
+        "id": "photo-longleaf-pine-habitat",
+        "title": "Longleaf pine habitat photograph \u00b7 Leo Miranda/USFWS",
+        "url": "https://commons.wikimedia.org/wiki/File:Longleaf_pine_habitat_(33748135511).jpg",
+        "note": "CC BY 2.0 (also marked US federal public domain) \u00b7 Cropped for display.",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+        "accessed": "2026-09-21"
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "title": "Original Earthbound green sea turtle",
+  "creator": "Earthbound",
+  "scientificName": "Chelonia mydas",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "source": "Original custom vertex-authored anatomical mesh, UV textures, skeleton and animation. No third-party geometry, texture or rig.",
+  "biologicalReferences": [
+    "https://www.fisheries.noaa.gov/species/green-turtle",
+    "https://www.aoml.noaa.gov/general/graphics/lib/turtles.htm"
+  ],
+  "referenceUse": "Anatomical observation only; no image incorporated into delivered textures.",
+  "archivedPredecessor": "archived-external-predecessor is provenance only and excluded from authored/exported assets.",
+  "creatorUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site",
+  "sourceUrl": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources",
+  "changes": "Original custom vertex-authored anatomical mesh, UV textures, skeleton and animation. No third-party geometry, texture or rig.",
+  "animationNote": "Original Float, Swim, Glide and Turn loops; shoulder-driven marine strokes and restrained distal flex. Educational authored interpretation, not motion capture."
+}

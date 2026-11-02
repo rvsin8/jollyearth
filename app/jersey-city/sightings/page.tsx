@@ -1,0 +1,2 @@
+import {PageIntro,Help} from '../shared';import {PublishedRecords} from '../field-form';
+export default function Page(){return <main className="jc-main" id="jersey-main"><PageIntro title="Recent sightings"><p>A monthly collection checked by an editor. Each record names a park or waterfront, a date, a species, and its source. We use Gotham Whale records, eBird checklists, research-grade iNaturalist observations, and teacher-reviewed class reports.</p></PageIntro><PublishedRecords kind="sighting" monthly/><Help/></main>}

@@ -1,0 +1,26 @@
+[
+  {
+    "clip": "Walk",
+    "frame": 20,
+    "lowest_mesh_z": -0.00046525150537490845,
+    "barefoot_z": -0.00046525150537490845,
+    "highest_mesh_z": 1.2154045104980469,
+    "below_ground": []
+  },
+  {
+    "clip": "Climb",
+    "frame": 25,
+    "lowest_mesh_z": 0.0006108619272708893,
+    "barefoot_z": 0.0006108619272708893,
+    "highest_mesh_z": 1.7782433032989502,
+    "below_ground": []
+  },
+  {
+    "clip": "Reach",
+    "frame": 50,
+    "lowest_mesh_z": 0.00026620563585311174,
+    "barefoot_z": 0.00026620563585311174,
+    "highest_mesh_z": 1.6097445487976074,
+    "below_ground": []
+  }
+]

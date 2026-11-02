@@ -1,0 +1,12 @@
+{
+  "triangles": 18128,
+  "bytes": 4292088,
+  "texture_max_dimension": 1024,
+  "groom_cards_retained_fraction": 0.5,
+  "ordinary_groom_triangles_per_card": 1,
+  "extreme_cards_retained": {
+    "Cranial russet draped hair locks": 8,
+    "Irregular gravity groom draped hair locks": 32
+  },
+  "status": "authored derivative; optimized consumer audit pending"
+}

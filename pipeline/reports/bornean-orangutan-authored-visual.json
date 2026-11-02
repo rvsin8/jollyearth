@@ -1,0 +1,124 @@
+{
+  "species": "Pongo pygmaeus",
+  "sex": "female",
+  "finish": "Original Blender-authored educational anatomical study. Not a scan, mocap, photorealism or expert-validated biomechanics.",
+  "authorship": {
+    "geometry": "Original custom anatomical lofts voxel-unified into the torso and limbs; continuous signed-distance craniofacial sculpt with shallow orbital recesses, flat nose, connected muzzle and lips. No third-party animal mesh.",
+    "materials": "Original russet directional texture and painted craniofacial coat/skin atlas; packed in editable source.",
+    "groom": "Area-random draped mesh cards with varying length and strand shades; anatomical weights inherited from final continuous body.",
+    "rig": "38-bone original skeletal rig. Continuous masked distance weights, normalized maximum4 influences."
+  },
+  "visual_review": {
+    "status": "Passed authored educational visual review; optimized Three.js consumer review belongs to integration audit.",
+    "neutral_views": [
+      "front-final.png",
+      "side-final.png",
+      "rear-final.png",
+      "three-quarter-final.png"
+    ],
+    "directory": "pipeline/reports/bornean-orangutan-render",
+    "pose_sheet": "pipeline/reports/bornean-orangutan-render/all-clips-contact-sheet.png",
+    "samples": [
+      {
+        "clip": "Idle",
+        "frame": 0
+      },
+      {
+        "clip": "Idle",
+        "frame": 30
+      },
+      {
+        "clip": "Idle",
+        "frame": 60
+      },
+      {
+        "clip": "Idle",
+        "frame": 90
+      },
+      {
+        "clip": "Walk",
+        "frame": 0
+      },
+      {
+        "clip": "Walk",
+        "frame": 20
+      },
+      {
+        "clip": "Walk",
+        "frame": 40
+      },
+      {
+        "clip": "Walk",
+        "frame": 60
+      },
+      {
+        "clip": "Climb",
+        "frame": 0
+      },
+      {
+        "clip": "Climb",
+        "frame": 25
+      },
+      {
+        "clip": "Climb",
+        "frame": 50
+      },
+      {
+        "clip": "Climb",
+        "frame": 75
+      },
+      {
+        "clip": "Reach",
+        "frame": 0
+      },
+      {
+        "clip": "Reach",
+        "frame": 25
+      },
+      {
+        "clip": "Reach",
+        "frame": 50
+      },
+      {
+        "clip": "Reach",
+        "frame": 75
+      }
+    ],
+    "findings": [
+      "Unflanged female head; no mature cheek pads. Bare gray-brown facial skin, small inset dark eyes and continuous muzzle.",
+      "Long arms, short bowed legs, curved long fingers and opposed grasping toes are readable.",
+      "Irregular russet coat and head silhouette read as coarse hair; mobile groom intentionally reduced.",
+      "No detached hands, floating facial masks, crossed limbs, shoulder spikes or visible floor penetration in reviewed samples."
+    ],
+    "weaknesses": [
+      "Hand-authored educational motion is simplified; Walk is a slow lowered fist-supported in-place illustration.",
+      "Climb is an alternating in-place canopy-grasp illustration without a modeled branch or traversal path.",
+      "Sparse mobile fur has a smoother silhouette than the desktop groom."
+    ]
+  },
+  "grounding": {
+    "origin": "Grounded at bare feet, floor Z=0. Low calf strand tips constrained.",
+    "sample_count": 16,
+    "minimum_mesh_z": -1.4901161193847656e-08,
+    "maximum_abs_barefoot_z": 2.60770320892334e-08,
+    "penetrations_over_5mm": []
+  },
+  "loop_seams": {
+    "Idle": 0.0,
+    "Walk": 0.0,
+    "Climb": 0.0,
+    "Reach": 0.0
+  },
+  "source_checks": "pipeline/reports/bornean-orangutan-authored-audit.json",
+  "source_files": [
+    "pipeline/assets/bornean-orangutan/bornean-orangutan.blend",
+    "pipeline/assets/bornean-orangutan/bornean-orangutan.glb",
+    "pipeline/assets/bornean-orangutan/bornean-orangutan.mobile.blend",
+    "pipeline/assets/bornean-orangutan/bornean-orangutan.mobile.raw.glb"
+  ],
+  "references": [
+    "https://animaldiversity.org/accounts/Pongo_pygmaeus/",
+    "https://animals.sandiegozoo.org/animals/orangutan"
+  ],
+  "scope": "Only orangutan assets, generator/rig/LOD/review scripts and orangutan reports modified. No app, registry, publishing or other species changes."
+}

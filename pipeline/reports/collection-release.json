@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-17T02:00:22.343Z",
+  "productionBuild": "passed",
+  "typecheck": "passed",
+  "registryAndURLChecks": "passed",
+  "modelTechnicalChecks": "technical-checks-passed",
+  "preservation": "42 files unchanged",
+  "visualModels": {
+    "gopher-tortoise": "reviewed",
+    "green-sea-turtle": "reviewed",
+    "ring-tailed-lemur": "reviewed",
+    "bornean-orangutan": "reviewed"
+  },
+  "browserInteractions": "not run — required control-browser capability unavailable",
+  "deployment": "held — user requires interaction verification before publishing"
+}

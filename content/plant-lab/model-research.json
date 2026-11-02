@@ -1,0 +1,54 @@
+{
+  "result": "No directly downloadable, verified openly licensed whole-plant GLB found for any of six exact taxa in bounded search. No GLB downloaded.",
+  "candidates": [
+    {
+      "taxon": "Quercus bicolor",
+      "source": "https://www.fab.com/listings/10d82431-92c7-44da-bf6d-6d1140ea6890",
+      "creator": "HKhalife",
+      "title": "North American Swamp White Oak",
+      "formats": [
+        "GLB",
+        "glTF",
+        "FBX",
+        "Blender"
+      ],
+      "status": "Buy now/Add to cart; open license not verified; not downloaded."
+    },
+    {
+      "taxon": "Amelanchier canadensis",
+      "source": "https://www.fab.com/listings/9e67cdd0-171b-4a6a-8795-c4fc9e6e9bb9",
+      "creator": "3DGardenPlants",
+      "formats": [
+        "GLB",
+        "glTF",
+        "FBX",
+        "Blender"
+      ],
+      "status": "Buy now/Add to cart; open license not verified; not downloaded."
+    },
+    {
+      "taxon": "Itea virginica",
+      "source": "https://3dgardenplants.com/product/itea-virginica-virginia-sweetspire-01-shrub-3d-model/",
+      "creator": "3DGardenPlants",
+      "status": "Paid proprietary royalty-free license; not an openly licensed GLB; not downloaded."
+    },
+    {
+      "taxon": "Panicum virgatum",
+      "source": "https://www.cgtrader.com/3d-models/plant/grass/panicum-virgatum-switchgrass",
+      "status": "Commercial candidate, open license not verified; not downloaded."
+    },
+    {
+      "taxon": "Osmundastrum cinnamomeum",
+      "source": "https://www.blendkit.com/asset-gallery-detail/2e82f0b0-a761-4632-b3cf-3fa3d1fa910e/",
+      "creator": "Amanpreet Bajwa",
+      "status": "Free price, but proprietary Royalty free license, not CC0. No public GLB offered. Not downloaded.",
+      "license_source": "https://www.blendkit.com/docs/licenses/",
+      "polygons": 1698
+    },
+    {
+      "taxon": "Asclepias incarnata",
+      "source": "https://www.whiteflowerfarm.com/3d-augmented-reality?p=1",
+      "status": "Retail AR listing for Cinderella cultivar; no open license verified. No suitable openly licensed whole-plant model found."
+    }
+  ]
+}

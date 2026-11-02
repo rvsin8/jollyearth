@@ -1,0 +1,49 @@
+{
+  "status": "reviewed",
+  "views": {
+    "front": "pipeline/reports/ring-tailed-lemur-render/front-refined.png",
+    "side": "pipeline/reports/ring-tailed-lemur-render/side-refined.png",
+    "rear": "pipeline/reports/ring-tailed-lemur-render/rear-refined.png",
+    "three-quarter": "pipeline/reports/ring-tailed-lemur-render/three-quarter-refined.png"
+  },
+  "renders": [
+    "pipeline/reports/ring-tailed-lemur-render/front-refined.png",
+    "pipeline/reports/ring-tailed-lemur-render/side-refined.png",
+    "pipeline/reports/ring-tailed-lemur-render/rear-refined.png",
+    "pipeline/reports/ring-tailed-lemur-render/three-quarter-refined.png",
+    "pipeline/reports/ring-tailed-lemur-render/idle-walk-review.jpg",
+    "pipeline/reports/ring-tailed-lemur-render/leap-review.jpg",
+    "pipeline/reports/ring-tailed-lemur-render/climb-review.jpg",
+    "pipeline/reports/ring-tailed-lemur-desktop-runtime.png",
+    "pipeline/reports/ring-tailed-lemur-mobile-runtime.png"
+  ],
+  "clipsReviewed": [
+    "Idle",
+    "Walk",
+    "Leap",
+    "Climb"
+  ],
+  "reviewMethod": "Root inspected four-angle anatomy, all four clip contact sheets, and optimized desktop and corrected mobile neutral renders. Source and actual Three.js GLTFLoader CPU audits cover both final exports. Browser interaction is not verified.",
+  "notes": [
+    "Original custom sculpted continuous head/torso/limb roots, surface-painted masks, inset amber eyes, black tail tip, gray short coat and original groom cards. No purchased or imported animal geometry or texture.",
+    "Four quarter-cycle render samples per clip were inspected for detached hands, crossing and ground penetration. Climb initially penetrated the floor; a 65mm constant height correction was applied to the source and both final exports, then rerendered. Final sampled minimum source Z stays positive.",
+    "The authored educational finish is simplified rather than photogrammetric or photorealistic. Animations are hand-authored in-place interpretations, not motion capture or a biomechanical simulation. Climb demonstrates unsupported climbing gestures without a contact-simulated branch.",
+    "CPU default camera projection was checked across narrow/square/wide stages; actual mobile layout and GPU behavior remain unverified.",
+    "Mobile UV corruption found during optimized-asset review was fixed by sampling coat pigment to vertex COLOR_0 before reduction and preserving tail geometry/material boundaries. Corrected optimized mobile render inspected: no triangle streaks; tail rings, face mask and coat color remain readable. Desktop files unchanged. Both exported variants match sampled source bounds within 1.497mm."
+  ],
+  "sourceSha256": "9ac9bd66c24f45e5e0e2fb73ae0cd5878dc06e319de57eb36f0daf3e4454d98b",
+  "blendSha256": "8b3fcd15335c74b4a033b055a3bf9e057fed564eabd0adfbbae10ebc177fe459",
+  "exportSha256": {
+    "desktop": "48fa62c1d4a6c9ff22e15edb1b8d570651e55f042699c1c576dda2849628c381",
+    "mobile": "62f4c605a531235684df6d6ce951d0b7752641cc5cf1274d0782d04eb1d07fe5"
+  },
+  "biologicalReferences": [
+    "https://lemur.duke.edu/discover/meet-the-lemurs/ring-tailed-lemur/"
+  ],
+  "evidence": [
+    "pipeline/reports/ring-tailed-lemur-source-audit.json",
+    "pipeline/reports/ring-tailed-lemur-roundtrip.json",
+    "pipeline/reports/ring-tailed-lemur-creation.json",
+    "pipeline/reports/ring-tailed-lemur-mobile-creation.json"
+  ]
+}

@@ -1,0 +1,4 @@
+import {generatePlant} from './core';
+import type {GenerationRequest,PlantGeometry} from './types';
+const cache=new Map<string,PlantGeometry>();
+self.onmessage=(event:MessageEvent<{id:number;key:string;request:GenerationRequest}>)=>{const {id,key,request}=event.data;try{let data=cache.get(key);if(data){cache.delete(key);cache.set(key,data)}else{data=generatePlant(request);cache.set(key,data);while(cache.size>24)cache.delete(cache.keys().next().value!)}const copy=structuredClone(data);const buffers:ArrayBuffer[]=[];for(const mesh of [copy.wood,copy.blades,copy.flowers,copy.fruit,copy.silhouette])buffers.push(mesh.positions.buffer as ArrayBuffer,mesh.normals.buffer as ArrayBuffer,mesh.uvs.buffer as ArrayBuffer,mesh.indices.buffer as ArrayBuffer);buffers.push(copy.leaves.buffer as ArrayBuffer);self.postMessage({id,data:copy}, {transfer:buffers})}catch(error){self.postMessage({id,error:error instanceof Error?error.message:'Plant generation failed'})}};

@@ -1,0 +1,34 @@
+{
+  "retrieved": "2026-09-21",
+  "matchUrl": "https://api.gbif.org/v1/species/match?name=Gopherus%20polyphemus",
+  "match": {
+    "usageKey": 2441812,
+    "scientificName": "Gopherus polyphemus (Daudin, 1801)",
+    "canonicalName": "Gopherus polyphemus",
+    "rank": "SPECIES",
+    "status": "ACCEPTED",
+    "confidence": 99,
+    "matchType": "EXACT",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "family": "Testudinidae",
+    "genus": "Gopherus",
+    "species": "Gopherus polyphemus",
+    "kingdomKey": 1,
+    "phylumKey": 44,
+    "classKey": 11418114,
+    "familyKey": 9618,
+    "genusKey": 2441807,
+    "speciesKey": 2441812,
+    "class": "Testudines"
+  },
+  "categoryUrl": "https://api.gbif.org/v1/species/2441812/iucnRedListCategory",
+  "category": {
+    "category": "CRITICALLY_ENDANGERED",
+    "usageKey": 176715507,
+    "scientificName": "Gopherus polyphemus (Daudin, 1801)",
+    "taxonomicStatus": "ACCEPTED",
+    "iucnTaxonID": "9403",
+    "code": "CR"
+  }
+}

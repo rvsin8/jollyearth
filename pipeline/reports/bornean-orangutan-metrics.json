@@ -1,0 +1,17 @@
+{
+  "species": "Pongo pygmaeus",
+  "sex": "female",
+  "origin": "Original custom contour mesh; no third-party geometry",
+  "triangles": 59598,
+  "vertices": 55919,
+  "bones": 38,
+  "clips": [
+    "Idle",
+    "Walk",
+    "Climb",
+    "Reach"
+  ],
+  "texture_max_dimension": 2048,
+  "quality": "Stylized anatomical study; visual review required",
+  "glb_bytes": 9214968
+}

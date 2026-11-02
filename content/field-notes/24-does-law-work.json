@@ -1,0 +1,24 @@
+{
+  "id": "does-law-work",
+  "brief_number": 24,
+  "headline": "Does the law work?",
+  "biome": [
+    "Grassland"
+  ],
+  "hotspot": [],
+  "species": [],
+  "type": "happening-now",
+  "pullout_number": null,
+  "pullout_label": null,
+  "body": "",
+  "why_it_matters": "",
+  "sources": [],
+  "last_reviewed": null,
+  "last_fact_checked": "2026-09-21",
+  "reviewer": null,
+  "editorial_status": "needs-research",
+  "review_notes": "Need USFWS bald-eagle estimates with dates and matching breeding-pair units, wolf survey geography and salmon study. Do not attribute every lower-48 wolf to Yellowstone reintroduction.",
+  "read_alongside": [],
+  "author": "Earthbound editorial draft",
+  "event_date": null
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "indexedSpecies": 38,
+  "indexedPlaces": 36,
+  "readyExhibits": 5,
+  "checks": [
+    "Scientific/common name matching",
+    "Case and accent normalization",
+    "Category isolation",
+    "Correct total vs limited results",
+    "Empty result",
+    "Null-model safety",
+    "Five canonical share links",
+    "All 50 SVG/GLB asset hashes preserved"
+  ],
+  "verification": "Pure search functions executed against actual data and exact asset hashes. No browser, layout or touch verification implied."
+}

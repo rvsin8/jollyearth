@@ -1,0 +1,3 @@
+import {getChatGPTUser,chatGPTSignInPath} from '@/app/chatgpt-auth';import {isReviewer} from '@/lib/field-station';import {PageIntro} from '../shared';import {ReviewQueue} from '../field-form';
+export const dynamic='force-dynamic';
+export default async function Page(){const user=await getChatGPTUser();return <main className="jc-main" id="jersey-main"><PageIntro title="Teacher review"/>{!user?<p><a className="action-button" href={chatGPTSignInPath('/jersey-city/review')} target="_top">Sign in to review</a></p>:!await isReviewer()?<p>This queue is available to the site owner. Viewing the atlas does not grant permission to publish student work.</p>:<ReviewQueue/>}</main>}

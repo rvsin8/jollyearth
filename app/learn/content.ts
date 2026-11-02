@@ -1,0 +1,8 @@
+export const evidence = [
+ {id:'tern',src:'/images/learning/common-tern.webp',name:'Common tern',alt:'A common tern in flight with a black cap, pointed orange-red bill and pale wings; Manhattan buildings in the background.',date:'14 Jun 2020',place:'Liberty State Park',credit:'Shantham11',license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',source:'https://commons.wikimedia.org/wiki/File:Common_tern_in_flight_with_Manhattan_in_the_background.jpg'},
+ {id:'rail',src:'/images/jersey-city/cnj-1969.webp',name:'Rail-yard locomotive',alt:'A dark locomotive beside parallel rails and a tall terminal building in Jersey City.',date:'8 Nov 1969',place:'Jersey City engine terminal',credit:'Roger Puta / Marty Bernard',license:'Public domain',licenseUrl:'https://creativecommons.org/publicdomain/mark/1.0/',source:'https://commons.wikimedia.org/wiki/File:Central_Railroad_of_New_Jersey_(CHJ)_Fairbankd_Morse_H15-44_1503_at_Commercial_Av._Engine_Terminal,_Jersey_City,_NJ_on_November_8,_1969_(24160281511).jpg'},
+] as const;
+export const example={noticed:'I can see a black cap and a pointed beak.',explanation:'This bird may find food near the water.',wonder:'Does it feed here, or is it passing through?'};
+export const rainSources=[{title:'Combined Sewer Overflow Basics',url:'https://www.epa.gov/npdes/combined-sewer-overflow-basics'},{title:'Types of Green Infrastructure',url:'https://www.epa.gov/green-infrastructure/types-green-infrastructure'}];
+export const observationChoices=['A black cap on its head','It is looking for food','It lives here all year'];
+export const transferChoices=['Parallel rails beneath the locomotive','The locomotive is carrying passengers','The yard is noisy'];

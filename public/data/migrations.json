@@ -1,0 +1,196 @@
+[
+  {
+    "slug": "monarch-butterfly",
+    "commonName": "Monarch butterfly",
+    "scientificName": "Danaus plexippus",
+    "localSite": "Liberty State Park meadow",
+    "localSeason": "Late summer and autumn",
+    "destinationHotspot": "madrean-pine-oak-woodlands",
+    "destinationName": "Central Mexico",
+    "destinationLatLng": [
+      19.6,
+      -100.2
+    ],
+    "routeType": "Representative overwintering connection",
+    "threat": "Loss of milkweed and nectar habitat along the journey, and forest loss and severe weather at Mexican wintering sites.",
+    "summary": "Late-summer monarchs belong to an eastern population that overwinters in central Mexico.",
+    "sources": [
+      {
+        "id": "monarch-local",
+        "title": "NJDEP — Monarch Magic at Liberty State Park",
+        "url": "https://dep.nj.gov/event/monarch-magic-2/",
+        "note": "Park program documents monarch observation in late summer; a sighting does not establish an individual migration route.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "monarch-meadow",
+        "title": "Journey North — Liberty State Park milkweed observations",
+        "url": "https://archive.journeynorth.org/monarchs/news/fall-2025/092425-roost-reports-reach-kansas-and-oklahoma-still-quiet-east-coast.html",
+        "note": "First-party citizen-science compilation records monarch eggs at Liberty State Park in September. Not an individual tracking record.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "monarch-range",
+        "title": "USFWS — Save the monarch",
+        "url": "https://www.fws.gov/our-work/pollinators/save-monarch",
+        "note": "Eastern monarchs migrate to forested overwintering grounds in central Mexico.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "monarch-threat",
+        "title": "USFWS — International collaboration",
+        "url": "https://www.fws.gov/initiative/pollinators/monarchs/international",
+        "note": "Threats at wintering grounds and cross-border conservation response.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "migration-method",
+        "title": "Earthbound — migration map methods",
+        "url": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources#migration-method",
+        "note": "Approximate park/region centers chosen for teaching, not sightings or tracking fixes. Distances use the great-circle angle between those centers, Earth radius 6,371 km, rounded to the nearest 100 km. They are straight-line separations, not distances flown. Hotspot membership checked against the local 2016.1 CI polygons.",
+        "accessed": "2026-10-13"
+      }
+    ],
+    "originLatLng": [
+      40.7,
+      -74.05
+    ],
+    "image": "/images/migrations/monarch-butterfly.svg",
+    "note": "This arc links documented seasonal ranges. It is not a tracked bird or butterfly, and does not show the actual flight path.",
+    "distanceKm": 3400
+  },
+  {
+    "slug": "semipalmated-sandpiper",
+    "commonName": "Semipalmated sandpiper",
+    "scientificName": "Calidris pusilla",
+    "localSite": "Hudson and Hackensack shorelines",
+    "localSeason": "Spring and autumn passage",
+    "destinationHotspot": null,
+    "destinationName": "Suriname coast",
+    "destinationLatLng": [
+      6,
+      -55
+    ],
+    "routeType": "Representative nonbreeding connection",
+    "threat": "Loss and alteration of coastal wetlands, pollution, and hunting on parts of the South American range.",
+    "summary": "Passage shorebirds depend on mudflats here and wintering coasts in northern South America.",
+    "sources": [
+      {
+        "id": "sandpiper-local",
+        "title": "USFWS / NOAA archive — New York–New Jersey Harbor",
+        "url": "https://www.nodc.noaa.gov/archive/arc0034/0071981/1.1/data/0-data/disc_contents/web_link/text/urb_core.htm",
+        "note": "Historical harbor habitat assessment records semipalmated sandpipers and spring/fall passage, including Hackensack staging habitat. This is occurrence evidence, not a recent sighting.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "sandpiper-caven",
+        "title": "Shayna Marchese — Caven Point field photographs",
+        "url": "https://www.shaynamarchese.com/caven-point-liberty-state-park/",
+        "note": "Firsthand 2018 photograph identifies a semipalmated sandpiper at Caven Point, Liberty State Park.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "sandpiper-range",
+        "title": "Canadian Wildlife Service / CWF — Semipalmated sandpiper",
+        "url": "https://www.hww.ca/wildlife/birds/semipalmated-sandpiper/",
+        "note": "Nonbreeding range in northern South America, especially Suriname and French Guiana.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "sandpiper-destination",
+        "title": "WHSRN — Wia Wia, Suriname",
+        "url": "https://whsrn.org/whsrn_sites/wia-wia/",
+        "note": "Conservation network documents use of Suriname mangroves and mudflats. The representative coastal endpoint is outside the terrestrial hotspot polygons.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "sandpiper-threat",
+        "title": "Cornell Lab — Semipalmated sandpiper life history",
+        "url": "https://www.allaboutbirds.org/guide/Semipalmated_Sandpiper/lifehistory",
+        "note": "Wetland alteration, environmental pollutants, and hunting are reported threats.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "migration-method",
+        "title": "Earthbound — migration map methods",
+        "url": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources#migration-method",
+        "note": "Approximate park/region centers chosen for teaching, not sightings or tracking fixes. Distances use the great-circle angle between those centers, Earth radius 6,371 km, rounded to the nearest 100 km. They are straight-line separations, not distances flown. Hotspot membership checked against the local 2016.1 CI polygons.",
+        "accessed": "2026-10-13"
+      }
+    ],
+    "originLatLng": [
+      40.7,
+      -74.05
+    ],
+    "image": "/images/migrations/semipalmated-sandpiper.svg",
+    "note": "This arc links documented seasonal ranges. It is not a tracked bird or butterfly, and does not show the actual flight path.",
+    "distanceKm": 4300
+  },
+  {
+    "slug": "osprey",
+    "commonName": "Osprey",
+    "scientificName": "Pandion haliaetus",
+    "localSite": "Upper New York Bay · Liberty State Park",
+    "localSeason": "Spring through autumn",
+    "destinationHotspot": "caribbean-islands",
+    "destinationName": "Caribbean · Cuba",
+    "destinationLatLng": [
+      22,
+      -80
+    ],
+    "routeType": "Representative passage / wintering-range connection",
+    "threat": "Shoreline development removes natural nest sites; discarded fishing line and other plastic can entangle birds.",
+    "summary": "East Coast ospreys cross the Caribbean; many continue to Central or South America for winter.",
+    "sources": [
+      {
+        "id": "osprey-local",
+        "title": "Cornell Macaulay Library — Liberty State Park observation",
+        "url": "https://macaulaylibrary.org/asset/369908751",
+        "note": "Documented osprey with fish at Liberty State Park, 12 September 2021, eBird checklist S94548070. Used as occurrence evidence only; photograph is not reproduced.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "osprey-season",
+        "title": "National Park Service — Gateway osprey",
+        "url": "https://www.nps.gov/gate/learn/nature/osprey.htm",
+        "note": "Ospreys return to the New York/New Jersey area in mid-March and spend winter farther south.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "osprey-route",
+        "title": "USGS — Satellite telemetry of migrating ospreys",
+        "url": "https://www.usgs.gov/publications/fall-migration-routes-timing-and-wintering-sites-north-american-ospreys-determined",
+        "note": "2001 study includes southern New Jersey; East Coast birds cross the Caribbean and winter from Florida to Brazil. These are population-level connections, not a tracked Jersey City bird.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "osprey-cuba",
+        "title": "Cornell Lab — Backpacking ospreys",
+        "url": "https://www.allaboutbirds.org/news/backpacking-ospreys-following-their-migration/?pid=1877",
+        "note": "Cuba and Hispaniola are documented passage hubs. Cuba is shown as a representative Caribbean connection, not the winter destination of every local osprey.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "osprey-threat",
+        "title": "Cornell Lab — Osprey life history",
+        "url": "https://www.allaboutbirds.org/guide/Osprey/lifehistory",
+        "note": "Shoreline development and entanglement threats; conservation recovery includes nest platforms.",
+        "accessed": "2026-10-13"
+      },
+      {
+        "id": "migration-method",
+        "title": "Earthbound — migration map methods",
+        "url": "https://earthbound-field-atlas.rvsin8.chatgpt.site/sources#migration-method",
+        "note": "Approximate park/region centers chosen for teaching, not sightings or tracking fixes. Distances use the great-circle angle between those centers, Earth radius 6,371 km, rounded to the nearest 100 km. They are straight-line separations, not distances flown. Hotspot membership checked against the local 2016.1 CI polygons.",
+        "accessed": "2026-10-13"
+      }
+    ],
+    "originLatLng": [
+      40.7,
+      -74.05
+    ],
+    "image": "/images/migrations/osprey.svg",
+    "note": "This arc links documented seasonal ranges. It is not a tracked bird or butterfly, and does not show the actual flight path.",
+    "distanceKm": 2200
+  }
+]

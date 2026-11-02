@@ -1,0 +1,173 @@
+{
+  "checked_on": "2026-09-21",
+  "notes": [
+    "Species photos are representative; only the harbor seal was photographed in New Jersey. Never label other photos as Jersey City sightings.",
+    "These historical and modern park images show different viewpoints; label dates and avoid implying an aligned same-place restoration comparison.",
+    "No design rendering is included.",
+    "Hudson River water nymph is Najas muenscheri, treated in Flora of North America as Najas guadalupensis subsp. muenscheri; not Vallisneria. No verified openly licensed photo found for this exact taxon. Do not substitute a different aquatic plant."
+  ],
+  "plant_sources": [
+    "https://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=222000262",
+    "https://www.nan.usace.army.mil/Portals/37/docs/Environmental/Hudson%20River%20Habitat%20Rest/HRHR%20Draft%20FREA_9Jul19.pdf"
+  ],
+  "assets": [
+    {
+      "file": "humpback-whale.jpg",
+      "subject": "Humpback whale",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Humpback_whale_noaa.jpg",
+      "license": "Public domain, NOAA",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Humpback_whale_noaa.jpg#Licensing",
+      "credit": "NOAA",
+      "date": "2002-03-24 (EXIF)",
+      "context": "Breaching humpback; location not specified in source. Not a local sighting.",
+      "downloaded": true
+    },
+    {
+      "file": "harbor-seal.jpg",
+      "subject": "Harbor seal",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Harbor_seal_Barnegat_Lighthouse_SP_3.5.22_DSC_6378.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Laura Wolf (lwolfartist)",
+      "date": "2022-03-05",
+      "context": "Harbor seal in water at Barnegat Lighthouse State Park, New Jersey. Animal is small in frame; use focused crop.",
+      "downloaded": true
+    },
+    {
+      "file": "gray-seal.jpg",
+      "subject": "Gray seal",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Halichoerus_grypus_June_2014_01.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "Arild Vågen",
+      "date": "2014-06-01",
+      "context": "Gray seal resting on rock in Stockholm archipelago, Sweden. Animal at 68% horizontal / 61% vertical. Not a local sighting.",
+      "downloaded": true
+    },
+    {
+      "file": "atlantic-sturgeon.jpg",
+      "subject": "Atlantic sturgeon",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Atlantic_Sturgeon_(5954411380).jpg",
+      "license": "Public domain USFWS; also CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "U.S. Fish and Wildlife Service Northeast Region",
+      "date": "2011-07-12",
+      "context": "Atlantic sturgeon held by researcher at Northeast Fishery Center, part of captive broodstock project.",
+      "downloaded": true
+    },
+    {
+      "file": "shortnose-sturgeon.jpg",
+      "subject": "Shortnose sturgeon",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shortnose_Sturgeon_(5543935423).jpg",
+      "license": "Public domain USFWS; also CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "Cody Meshes / U.S. Fish and Wildlife Service",
+      "date": "2010-10-13",
+      "context": "Multiple shortnose sturgeon viewed through water; location not specified.",
+      "downloaded": true
+    },
+    {
+      "file": "american-eel.jpg",
+      "subject": "American eel (illustration)",
+      "source_url": "https://commons.wikimedia.org/wiki/File:American_eel.jpg",
+      "license": "Public domain USFWS",
+      "license_url": "https://commons.wikimedia.org/wiki/File:American_eel.jpg#Licensing",
+      "credit": "U.S. Fish and Wildlife Service",
+      "date": "2016-01-01 (source metadata)",
+      "context": "Scientific illustration, not photograph. Do not represent as a photo.",
+      "downloaded": true
+    },
+    {
+      "file": "eastern-oyster.jpg",
+      "subject": "Eastern oyster reef and harvesting",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nerr0327_-_Flickr_-_NOAA_Photo_Library.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "NOAA Photo Library",
+      "date": "2010-10-25 (source metadata)",
+      "context": "Person harvesting American/eastern oysters in intertidal reef, North Inlet–Winyah Bay National Estuarine Research Reserve, South Carolina. Not New York Harbor.",
+      "downloaded": true
+    },
+    {
+      "file": "liberty-park-1973.jpg",
+      "subject": "Liberty State Park site before park creation",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_SETTING_FOR_THE_STATUE_OF_LIBERTY_NOT_OFTEN_SEEN_BY_TOURISTS._THIS_DUMPING_AND_LANDFILL_AREA_IS_THE_SITE_OF_THE..._-_NARA_-_549781.jpg",
+      "license": "Public domain EPA",
+      "license_url": "https://commons.wikimedia.org/wiki/File:A_SETTING_FOR_THE_STATUE_OF_LIBERTY_NOT_OFTEN_SEEN_BY_TOURISTS._THIS_DUMPING_AND_LANDFILL_AREA_IS_THE_SITE_OF_THE..._-_NARA_-_549781.jpg#Licensing",
+      "credit": "Gary Miller / EPA DOCUMERICA / National Archives, NAID 549781",
+      "date": "1973-03",
+      "context": "Dumping and landfill area at proposed Liberty State Park; Statue of Liberty visible. This is not an active rail yard.",
+      "downloaded": true
+    },
+    {
+      "file": "liberty-park-2016.jpg",
+      "subject": "Preserved CRRNJ terminal train shed",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Liberty_State_Park_14_Oct_2016.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "credit": "Mobilus In Mobili",
+      "date": "2016-10-14",
+      "context": "Historic station train shed interior at Liberty State Park. Not a landscape restoration image.",
+      "downloaded": true
+    },
+    {
+      "file": "cnj-1969.jpg",
+      "subject": "Central Railroad of New Jersey engine terminal",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Central_Railroad_of_New_Jersey_(CHJ)_Fairbankd_Morse_H15-44_1503_at_Commercial_Av._Engine_Terminal,_Jersey_City,_NJ_on_November_8,_1969_(24160281511).jpg",
+      "license": "Public domain released by heirs; verified Wikimedia VRT",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Central_Railroad_of_New_Jersey_(CHJ)_Fairbankd_Morse_H15-44_1503_at_Commercial_Av._Engine_Terminal,_Jersey_City,_NJ_on_November_8,_1969_(24160281511).jpg#Licensing",
+      "credit": "Roger Puta; scanned by Marty Bernard",
+      "date": "1969-11-08 (original title; upload date is 2016)",
+      "context": "Locomotive at CNJ Commercial/Communipaw Avenue Engine Terminal, Jersey City. Not same viewpoint as modern park photo.",
+      "downloaded": true
+    },
+    {
+      "file": "liberty-bridge-2025.jpg",
+      "subject": "Modern connection into Liberty State Park",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Liberty_State_Park_Bridge_over_the_Morris_Canal_Basin,_Jersey_City_NJ_20250511-jag9889.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "Jag9889",
+      "date": "2025-05-11",
+      "context": "Jersey Avenue Extension Bridge over Morris Canal Basin, connecting downtown Jersey City to Liberty State Park; bridge built 2019–2021.",
+      "downloaded": true
+    },
+    {
+      "file": "liberty-park-2013.jpg",
+      "subject": "Liberty State Park landscape",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Liberty_State_Park_Jersey_City_July_2013.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "credit": "King of Hearts",
+      "date": "2013-07-21",
+      "context": "View from northern end of Phillip Street, Jersey City; label date explicitly, not current restoration completion.",
+      "downloaded": true
+    },
+    {
+      "file": "american-eel-closeup.jpg",
+      "subject": "American eel",
+      "source_url": "https://commons.wikimedia.org/wiki/File:American_eel_close_up_(21699213640).jpg",
+      "license": "Public domain USFWS; also CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "credit": "U.S. Fish and Wildlife Service Northeast Region",
+      "date": "2013-08-21",
+      "context": "American eel closeup, source tagged Maryland. Not a Hudson River sighting.",
+      "downloaded": false,
+      "download_note": "Wikimedia returned HTTP 429; source and license verified, image not saved.",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/American_eel_close_up_%2821699213640%29.jpg"
+    },
+    {
+      "file": "liberty-park-2008.jpg",
+      "subject": "Liberty State Park landscape",
+      "source_url": "https://commons.wikimedia.org/wiki/File:LibertyStatePark_JC_NJ.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "credit": "GK tramrunner229",
+      "date": "2008-07-25",
+      "context": "Public park with Jersey City skyline; label 2008. Not newly completed restoration.",
+      "downloaded": false,
+      "download_note": "Wikimedia returned HTTP 429; source and license verified, image not saved.",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/65/LibertyStatePark_JC_NJ.JPG"
+    }
+  ]
+}

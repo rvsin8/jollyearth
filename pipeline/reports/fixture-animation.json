@@ -1,0 +1,13 @@
+{
+  "loader": "Three GLTFLoader",
+  "bones": 2,
+  "clips": [
+    "Idle",
+    "Walk"
+  ],
+  "rotationSamples": [
+    0.029995500717223598,
+    0.29552021622657776
+  ],
+  "result": "PASS"
+}
